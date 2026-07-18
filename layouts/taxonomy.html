@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ partial "main-nav.html" . }}
+  <header class="page-header">
+    <p class="eyebrow">EXPLORE</p>
+    <h1>{{ .Title }}</h1>
+    <p>共 {{ len .Data.Terms }} 个{{ if eq .Data.Plural "categories" }}分类{{ else }}标签{{ end }}，点击即可查看相关文章。</p>
+  </header>
+  <div class="term-grid">
+    {{ range .Data.Terms.ByCount }}
+      <a class="term-card" href="{{ .Page.RelPermalink }}">
+        <span>{{ .Page.LinkTitle }}</span><strong>{{ .Count }}</strong>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
+

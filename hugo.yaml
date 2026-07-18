@@ -1,0 +1,69 @@
+baseURL: "http://fwhyy.com/"
+locale: "zh-CN"
+title: "冯威的博客"
+timeZone: "Asia/Shanghai"
+enableRobotsTXT: true
+enableGitInfo: false
+summaryLength: 110
+
+pagination:
+  pagerSize: 10
+
+permalinks:
+  posts: "/:year/:month/:contentbasename/"
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputs:
+  home: [HTML, RSS, JSON]
+  section: [HTML, RSS]
+  taxonomy: [HTML, RSS]
+  term: [HTML, RSS]
+
+outputFormats:
+  RSS:
+    mediaType: "application/rss+xml"
+    baseName: "atom"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+    noClasses: false
+
+params:
+  author: "oec2003"
+  description: "持续关注 dotNET，同时对软件架构、AI、微服务、docker、分布式、团队管理等有浓厚兴趣，近几年一直从事零代码产品相关工作。"
+  keywords: "编程 跑步 健身 分布式 微服务 架构 C# .NET Core Golang Java AI RAG 智能体"
+  avatar: "https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161645155.webp"
+  subtitle: "公众号：不止dotNET"
+  motto: "临渊羡鱼不如退而结网"
+  sidebarImage: "https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502131803363.webp"
+  github: "https://github.com/oec2003"
+  beaudarRepo: "oec2003/hblog-comments"
+  mainSections: [posts]
+
+menus:
+  main:
+    - name: "近期发布"
+      pageRef: "/"
+      weight: 10
+    - name: "分类"
+      pageRef: "/categories"
+      weight: 20
+    - name: "标签"
+      pageRef: "/tags"
+      weight: 30
+    - name: "专栏"
+      pageRef: "/topic"
+      weight: 40
+    - name: "归档"
+      pageRef: "/archives"
+      weight: 50
+
+security:
+  enableInlineShortcodes: false

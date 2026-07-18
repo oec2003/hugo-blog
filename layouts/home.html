@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ partial "main-nav.html" . }}
+  <section class="page-intro home-intro">
+    <p class="eyebrow">RECENT WRITING</p>
+    <h1>持续记录，保持思考。</h1>
+    <p>{{ site.Params.description }}</p>
+  </section>
+  {{ $posts := where site.RegularPages.ByDate.Reverse "Section" "posts" }}
+  {{ $paginator := .Paginate $posts }}
+  <div class="post-list">
+    {{ range $paginator.Pages }}{{ partial "post-card.html" . }}{{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+{{ end }}
+

@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ partial "main-nav.html" . }}
+  <header class="page-header">
+    <p class="eyebrow">{{ upper .Kind }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  {{ $paginator := .Paginate .RegularPages.ByDate.Reverse }}
+  <div class="post-list">
+    {{ range $paginator.Pages }}{{ partial "post-card.html" . }}{{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+{{ end }}
+

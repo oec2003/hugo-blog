@@ -1,0 +1,8 @@
+<nav class="main-nav" aria-label="内容导航">
+  {{ $current := . }}
+  {{ range site.Menus.main }}
+    {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+    <a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</nav>
+

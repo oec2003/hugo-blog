@@ -1,0 +1,35 @@
+<aside class="leftbar">
+  <div class="leftbar-backdrop" style="background-image:url('{{ site.Params.sidebarImage }}')"></div>
+  <div class="leftbar-inner">
+    <header class="brand">
+      <a class="avatar" href="{{ "/about/" | relURL }}"><span aria-hidden="true">冯</span><img src="{{ site.Params.avatar }}" alt="" onerror="this.style.display='none'"></a>
+      <div>
+        <a class="brand-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+        <p>{{ site.Params.subtitle }}</p>
+      </div>
+    </header>
+
+    <button class="search-trigger" type="button" aria-haspopup="dialog">
+      <span aria-hidden="true">⌕</span><span>站内搜索</span><kbd>/</kbd>
+    </button>
+
+    <nav class="icon-nav" aria-label="主要入口">
+      <a class="{{ if eq .RelPermalink "/" }}active{{ end }}" href="{{ "/" | relURL }}"><span>▤</span>博客</a>
+      <a class="{{ if hasPrefix .RelPermalink "/topic/" }}active{{ end }}" href="{{ "/topic/" | relURL }}"><span>▣</span>专栏</a>
+      <a href="{{ site.Params.github }}" target="_blank" rel="noopener"><span>⌘</span>GitHub</a>
+      <a class="{{ if hasPrefix .RelPermalink "/about/" }}active{{ end }}" href="{{ "/about/" | relURL }}"><span>♥</span>关于</a>
+    </nav>
+
+    <section class="sidebar-card welcome">
+      <h2>遇见就是缘分</h2>
+      <p>读书、跑步、旅行、写代码，简单而持续地进行着。公众号：不止dotNET</p>
+    </section>
+
+    <section class="sidebar-card recent-posts">
+      <h2>最近更新</h2>
+      {{ range first 5 (where site.RegularPages.ByDate.Reverse "Section" "posts") }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </section>
+  </div>
+</aside>

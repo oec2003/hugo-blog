@@ -1,0 +1,43 @@
+{{ define "main" }}
+  {{ if eq .Section "posts" }}
+  <article class="article-card h-entry">
+    <header class="article-header">
+      <div class="article-kicker">ARTICLE</div>
+      <h1 class="p-name">{{ .Title }}</h1>
+      <div class="post-meta article-meta">
+        <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+        {{ with .GetTerms "categories" }}{{ range first 1 . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}
+        <span>约 {{ .ReadingTime }} 分钟阅读</span>
+      </div>
+    </header>
+    <div class="article-content e-content">{{ .Content }}</div>
+    <footer class="article-footer">
+      {{ with .GetTerms "tags" }}
+      <div class="article-tags"><span>标签</span>{{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}</div>
+      {{ end }}
+      <div class="license"><strong>本文作者：{{ site.Params.author }}</strong><br>本文链接：<a href="{{ .Permalink }}">{{ .Permalink }}</a><br>欢迎转载，请保留作者和原文链接。</div>
+    </footer>
+  </article>
+  <nav class="post-neighbors" aria-label="相邻文章">
+    {{ with .PrevInSection }}<a href="{{ .RelPermalink }}"><small>上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+    {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><small>下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+  </nav>
+  {{ if ne .Params.comments false }}
+  <section class="comments-card">
+    <h2>评论</h2>
+    <script src="https://beaudar.lipk.org/client.js"
+      repo="{{ site.Params.beaudarRepo }}"
+      issue-term="pathname"
+      theme="github-light"
+      crossorigin="anonymous"
+      async></script>
+  </section>
+  {{ end }}
+  {{ else }}
+  <article class="article-card page-card">
+    <header class="article-header"><h1>{{ .Title }}</h1></header>
+    <div class="article-content">{{ .Content }}</div>
+  </article>
+  {{ end }}
+{{ end }}
+
