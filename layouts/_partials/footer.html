@@ -4,6 +4,7 @@
     <span>读书、跑步、旅行、写代码</span>
   </div>
   <nav aria-label="页脚导航">
+    <a href="{{ "/topic/" | relURL }}">专栏</a>
     <a href="{{ "/categories/" | relURL }}">分类</a>
     <a href="{{ "/tags/" | relURL }}">标签</a>
     <a href="{{ "/archives/" | relURL }}">归档</a>
@@ -12,4 +13,3 @@
   </nav>
   <small>© {{ now.Year }} {{ site.Params.author }} · Powered by Hugo</small>
 </footer>
-

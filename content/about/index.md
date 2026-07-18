@@ -15,6 +15,7 @@ title: 关于
 ## 站点历程
 
 <div class="timeline">
+  <div class="timeline-item"><time>2026 年 07 月</time><p>博客从 Hexo 迁移到 Hugo</p></div>
   <div class="timeline-item"><time>2025 年 02 月</time><p>stellar 升级为 1.29.1</p></div>
   <div class="timeline-item"><time>2023 年 06 月</time><p>中间在折腾了一段时间的  NotionNext 后，又换回  hexo  的  stellar</p></div>
   <div class="timeline-item"><time>2022 年 02 月</time><p>重新开始维护博客，主题换为 Stellar</p></div>
@@ -27,7 +28,6 @@ title: 关于
   <div class="timeline-item"><time>2010 年 12 月</time><p>申请域名fwhyy.com</p></div>
   <div class="timeline-item"><time>2006 年 12 月</time><p>开始在博客园写第一篇博客</p></div>
 </div>
-
 
 
 

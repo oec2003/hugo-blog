@@ -1,0 +1,13 @@
+<header class="site-header">
+  <a class="site-brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+  <div class="header-actions">
+    <nav class="site-nav" aria-label="主要导航">
+      {{ $current := . }}
+      {{ range site.Menus.main }}
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+        <a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+    <button class="search-trigger header-search" type="button" aria-haspopup="dialog">搜索</button>
+  </div>
+</header>

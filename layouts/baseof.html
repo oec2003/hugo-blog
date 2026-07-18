@@ -21,18 +21,19 @@
 <body class="{{ if .IsHome }}is-home{{ else }}kind-{{ .Kind }}{{ end }}">
   <a class="skip-link" href="#main-content">跳到正文</a>
   <div class="site-shell">
-    {{ partial "sidebar.html" . }}
-    <div class="site-main">
-      {{ partial "mobile-header.html" . }}
-      <main id="main-content">
-        {{ block "main" . }}{{ end }}
-      </main>
-      {{ partial "footer.html" . }}
+    {{ partial "site-header.html" . }}
+    <div class="site-content{{ if and .IsPage (eq .Section "posts") }} has-toc{{ end }}">
+      <div class="site-main">
+        <main id="main-content">
+          {{ block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer.html" . }}
+      </div>
+      {{ partial "rightbar.html" . }}
     </div>
-    {{ partial "rightbar.html" . }}
   </div>
   {{ partial "search.html" . }}
-  <button class="back-to-top" type="button" aria-label="返回顶部" title="返回顶部">↑</button>
+  <button class="back-to-top" type="button" aria-label="返回顶部">顶部</button>
   {{ $script := resources.Get "js/main.js" | minify | fingerprint }}
   <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
 </body>

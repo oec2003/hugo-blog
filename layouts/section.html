@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ partial "main-nav.html" . }}
   <header class="page-header">
     <p class="eyebrow">{{ upper .Kind }}</p>
     <h1>{{ .Title }}</h1>
@@ -11,4 +10,3 @@
   </div>
   {{ partial "pagination.html" . }}
 {{ end }}
-

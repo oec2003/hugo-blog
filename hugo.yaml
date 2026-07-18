@@ -49,7 +49,7 @@ params:
 
 menus:
   main:
-    - name: "近期发布"
+    - name: "文章"
       pageRef: "/"
       weight: 10
     - name: "分类"
@@ -61,8 +61,8 @@ menus:
     - name: "专栏"
       pageRef: "/topic"
       weight: 40
-    - name: "归档"
-      pageRef: "/archives"
+    - name: "关于"
+      pageRef: "/about"
       weight: 50
 
 security:

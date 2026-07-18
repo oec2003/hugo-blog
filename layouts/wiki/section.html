@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ partial "main-nav.html" . }}
   <article class="article-card page-card">
     <header class="article-header">
       <p class="eyebrow">WIKI</p>
@@ -10,9 +9,8 @@
   {{ with .Pages }}
   <div class="wiki-list">
     {{ range .ByParam "order" }}
-      <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span><small>阅读 →</small></a>
+      <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span><small>阅读</small></a>
     {{ end }}
   </div>
   {{ end }}
 {{ end }}
-

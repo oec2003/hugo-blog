@@ -1,18 +1,10 @@
-<aside class="rightbar">
-  {{ if and .IsPage (eq .Section "posts") }}
+{{ if and .IsPage (eq .Section "posts") }}
+  <aside class="rightbar">
     <div class="rightbar-sticky">
       <div class="toc-card">
         <h2>本文目录</h2>
         {{ .TableOfContents }}
       </div>
     </div>
-  {{ else }}
-    <div class="rightbar-sticky">
-      <div class="quote-card">
-        <span>“</span>
-        <p>{{ site.Params.motto }}</p>
-      </div>
-    </div>
-  {{ end }}
-</aside>
-
+  </aside>
+{{ end }}

@@ -1,10 +1,9 @@
 {{ define "main" }}
-  {{ partial "main-nav.html" . }}
   {{ $key := .Params.topic }}
   {{ $data := index hugo.Data.topics $key }}
   {{ $posts := where (where site.RegularPages.ByDate.Reverse "Section" "posts") "Params.topic" $key }}
   <header class="page-header topic-header">
-    <a class="back-link" href="{{ "/topic/" | relURL }}">← 所有专栏</a>
+    <a class="back-link" href="{{ "/topic/" | relURL }}">所有专栏</a>
     <p class="eyebrow">COLLECTION</p>
     <h1>{{ .Title }}</h1>
     <p>{{ with $data }}{{ .description }}{{ else }}关于 {{ $.Title }} 的文章合集。{{ end }}</p>
