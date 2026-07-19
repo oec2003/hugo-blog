@@ -23,7 +23,7 @@ GPT-4 相较于 GPT-3.5 具有更多的参数，这使得 GPT-4 在处理复杂�
 
 而在 3.5 中的结果是这样的，差距还是挺大的：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128458.webp)
+![](https://img.fwhyy.com/2023/202306191128458.webp)
 
 2、多模态
 
@@ -35,11 +35,11 @@ GPT-4 相较于 GPT-3.5 具有更多的参数，这使得 GPT-4 在处理复杂�
 
 GPT-4能够处理超过25,000字的文本，允许用例如长形式的内容创建、扩展会话、文档搜索和分析。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128517.webp)
+![](https://img.fwhyy.com/2023/202306191128517.webp)
 
 甚至可以直接让他读取一个链接的内容，并对内容进行总结：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128758.webp)
+![](https://img.fwhyy.com/2023/202306191128758.webp)
 
 4、时效性
 
@@ -47,11 +47,11 @@ GPT-4 的最后训练时间为 2021 年 9 月，感觉和 GPT-3.5 差不多，�
 
 尽管如此，GPT-4 对自己更了解了，不知道的不会像 GPT-3.5 那样乱说，比如在 GPT-3 中我让评价下满江红这部电影：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128143.webp)
+![](https://img.fwhyy.com/2023/202306191128143.webp)
 
 而在 GPT-4 中，结果更加客观：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128555.webp)
+![](https://img.fwhyy.com/2023/202306191128555.webp)
 
 5、安全性
 
@@ -61,9 +61,9 @@ GPT-4 的最后训练时间为 2021 年 9 月，感觉和 GPT-3.5 差不多，�
 
 1、在 openai 的官网升级为 ChatGPT Plus ,有点小贵：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128080.webp)
+![](https://img.fwhyy.com/2023/202306191128080.webp)
 
 2、poe.com 已经集成了 GPT-4 ，不过有使用限制，用一次之后要等若干个小时：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191128641.webp)
+![](https://img.fwhyy.com/2023/202306191128641.webp)
 

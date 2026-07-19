@@ -1,0 +1,75 @@
+{{- $current := .current -}}
+{{- $pages := .pages.ByParam "series_order" -}}
+{{- $chapterStore := newScratch -}}
+{{- $chapterKeys := slice -}}
+{{- range $pages -}}
+  {{- $chapter := .Params.series_chapter -}}
+  {{- $storeKey := printf "chapter:%s" $chapter -}}
+  {{- if not ($chapterStore.Get $storeKey) -}}
+    {{- $chapterKeys = $chapterKeys | append $chapter -}}
+    {{- $chapterStore.Set $storeKey (slice .) -}}
+  {{- else -}}
+    {{- $chapterStore.Add $storeKey (slice .) -}}
+  {{- end -}}
+{{- end -}}
+<ul class="series-tree series-tree-level-1">
+  {{- range $chapterIndex, $chapter := $chapterKeys }}
+  {{- $chapterPages := $chapterStore.Get (printf "chapter:%s" $chapter) }}
+  {{- $directPages := where $chapterPages "Params.series_section" "" }}
+  {{- $sectionPages := where $chapterPages "Params.series_section" "ne" "" }}
+  <li class="series-tree-branch">
+    <details open>
+      <summary>{{ $chapter }}</summary>
+      {{- with $directPages }}
+      <ul class="series-tree-pages">
+        {{- range $pageIndex, $seriesPage := . }}
+          {{- $active := and $current (eq $seriesPage.RelPermalink $current.RelPermalink) }}
+          <li>
+            <a{{ if $active }} class="active" aria-current="page"{{ end }} href="{{ $seriesPage.RelPermalink }}">
+              <span class="series-index">{{ add $chapterIndex 1 }}.{{ add $pageIndex 1 }}</span>
+              <span>{{ $seriesPage.Title }}</span>
+            </a>
+          </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      {{- with $sectionPages }}
+        {{- $sectionStore := newScratch -}}
+        {{- $sectionKeys := slice -}}
+        {{- range . -}}
+          {{- $section := .Params.series_section -}}
+          {{- $sectionKey := printf "section:%s" $section -}}
+          {{- if not ($sectionStore.Get $sectionKey) -}}
+            {{- $sectionKeys = $sectionKeys | append $section -}}
+            {{- $sectionStore.Set $sectionKey (slice .) -}}
+          {{- else -}}
+            {{- $sectionStore.Add $sectionKey (slice .) -}}
+          {{- end -}}
+        {{- end -}}
+      <ul class="series-tree series-tree-level-2">
+        {{- range $sectionIndex, $section := $sectionKeys }}
+        {{- $sectionNumber := add (len $directPages) (add $sectionIndex 1) }}
+        {{- $pagesInSection := $sectionStore.Get (printf "section:%s" $section) }}
+        <li class="series-tree-branch">
+          <details open>
+            <summary><span class="series-index">{{ add $chapterIndex 1 }}.{{ $sectionNumber }}</span> {{ $section }}</summary>
+            <ul class="series-tree-pages">
+              {{- range $pageIndex, $seriesPage := $pagesInSection }}
+              {{- $active := and $current (eq $seriesPage.RelPermalink $current.RelPermalink) }}
+              <li>
+                <a{{ if $active }} class="active" aria-current="page"{{ end }} href="{{ $seriesPage.RelPermalink }}">
+                  <span class="series-index">{{ add $chapterIndex 1 }}.{{ $sectionNumber }}.{{ add $pageIndex 1 }}</span>
+                  <span>{{ $seriesPage.Title }}</span>
+                </a>
+              </li>
+              {{- end }}
+            </ul>
+          </details>
+        </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </details>
+  </li>
+  {{- end }}
+</ul>

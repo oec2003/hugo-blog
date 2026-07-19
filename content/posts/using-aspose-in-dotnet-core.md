@@ -60,7 +60,7 @@ ENTRYPOINT ["dotnet", "WebAPI.dll"]
 
 此问题的原因是因为`Docker`容器中没有`Windows`系统的字体，只需要将`Windows`系统中的字体文件拷贝到容器的相应目录即可解决。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270859428.jpg)
+![](https://img.fwhyy.com/2022/202201270859428.webp)
 
 ## 参考
 

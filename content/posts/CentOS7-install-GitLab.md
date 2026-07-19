@@ -21,10 +21,10 @@ tags: [CentOS, GitLab]
 2、在Windows Server 2012的Hypter-v中安装CentOS，参考[https://blog.csdn.net/chris_111x/article/details/52313797](https://blog.csdn.net/chris_111x/article/details/52313797)
 
 3、新安装好的系统是不能上网的，需要对/etc/sysconfig/network-scripts/目录下的相关文件进行配置：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260831421.jpg)
+![](https://img.fwhyy.com/2022/202201260831421.webp)
 
 4、执行`vi ifcfg-eth0`编辑该文件，如下图：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260831741.jpg)
+![](https://img.fwhyy.com/2022/202201260831741.webp)
 
 * BOOTPROTO的值由dhcp修改为static
 * ONBOOT如果为no，就修改为yes
@@ -36,7 +36,7 @@ tags: [CentOS, GitLab]
 
 5、修改完后执行`:wq`进行保存退出，执行`systemctl restart network`重新启动网络服务，这时再ping下百度，如果出现下图内容表示网络已经通了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260831119.jpg)
+![](https://img.fwhyy.com/2022/202201260831119.webp)
 
 6、如果是初次接触Linux，可能会出现各种状况，根据提示信息进行Google，总会找到答案。
 
@@ -47,7 +47,7 @@ tags: [CentOS, GitLab]
 
 1、根据GitLab官网提供的步骤一步一步执行命令即可，[https://www.gitlab.com.cn/installation/#centos-7](https://www.gitlab.com.cn/installation/#centos-7)
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260831375.jpg)
+![](https://img.fwhyy.com/2022/202201260831375.webp)
 
 2、上图中红框部分是一个指定的是gitlab-ee的版本，gitlab有两个版本：gitlab-ce和gitlab-ee，分别是社区版和企业版，企业版是收费的，社区版是开源的，通常我们安装社区版就可以，所以此处需要将gitlab-ee修改为gitlab-ce。
 
@@ -72,7 +72,7 @@ yum install gitlab-ce    # 自动安装最新版本
 
 4、安装完成后修改`/etc/gitlab/gitlab.rb`文件进行域名绑定
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260832305.jpg)
+![](https://img.fwhyy.com/2022/202201260832305.webp)
 
 5、重新配置GitLab使之生效
 

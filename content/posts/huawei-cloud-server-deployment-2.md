@@ -18,7 +18,7 @@ tags: [华为云,部署,运维]
 
 首先更正上一篇中的一个错误，在运行参数中进行密码设置，是不能生效的，而且还会导致配置文件加载出错：
 
-![iShot2022-02-04 17.42.04](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041742324.jpg)
+![iShot2022-02-04 17.42.04](https://img.fwhyy.com/2022/202202041742324.webp)
 
 在日志中可以看到下面的错误：
 
@@ -32,7 +32,7 @@ Bad directive or wrong number of arguments
 
 如果想要给 Redis 设置密码，只需要修改 Redis 的配置文件即可，将 requirepass 的注释放开：
 
-![iShot2022-02-04 17.42.35](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041742688.jpg)
+![iShot2022-02-04 17.42.35](https://img.fwhyy.com/2022/202202041742688.webp)
 
 都设置好了，Redis 的工作负载运行状态是正常的，但使用客户端工具连接时不能正常连接，继续查看日志发现：
 
@@ -45,7 +45,7 @@ Warning: Could not create server TCP listening socket ::1:6379: bind: Cannot ass
 - 注释掉 bind 所在行
 - protected-moe 由 yes 修改为 no
 
-![iShot2022-02-04 17.47.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041747669.jpg)
+![iShot2022-02-04 17.47.14](https://img.fwhyy.com/2022/202202041747669.webp)
 
 ## RabbitMQ
 
@@ -58,7 +58,7 @@ rabbitmq-plugins enable rabbitmq_management
 
 出现下图，说明开启成功：
 
-![iShot2022-02-04 17.47.59](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041748663.jpg)
+![iShot2022-02-04 17.47.59](https://img.fwhyy.com/2022/202202041748663.webp)
 
 现在的问题是如果 RabbitMQ 的配置升级重新构建后，需要重新进入容器进行开启。
 
@@ -70,17 +70,17 @@ rabbitmq-plugins enable rabbitmq_management
 
 2、在 NAT 网关中添加 SNAT 规则，规则中绑定公网 IP：
 
-![iShot2022-02-04 17.48.37](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041748644.jpg)
+![iShot2022-02-04 17.48.37](https://img.fwhyy.com/2022/202202041748644.webp)
 
 3、添加 DNAT 规则，将数据库映射到外网访问：
 
-![iShot2022-02-04 17.49.37](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041749689.jpg)
+![iShot2022-02-04 17.49.37](https://img.fwhyy.com/2022/202202041749689.webp)
 
 4、这样数据库就既能内网访问也能外网访问了，如果想要远程连接服务器，也是同样的设置，添加 DNAT 规则，将自定义的端口映射到某台 ECS 服务器的 22 端口即可；
 
 5、将公网 IP 和 ECS 服务器解绑后，CCE 中的工作负载便不能进行访问了，外部访问地址一列也被清空，需要重新在访问方式中添加 Service，访问类型选择 DNAT 网关：
 
-![iShot2022-02-04 17.50.11](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041750720.jpg)
+![iShot2022-02-04 17.50.11](https://img.fwhyy.com/2022/202202041750720.webp)
 
 ## dotNET Core 程序的构建
 
@@ -129,18 +129,18 @@ ENTRYPOINT ["dotnet", "test.dll"]
 
 4、华为云的编译构建中创建 netcore-test 的构建任务，基本信息中的主机类型选择鲲鹏：
 
-![iShot2022-02-04 17.50.53](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041751232.jpg)
+![iShot2022-02-04 17.50.53](https://img.fwhyy.com/2022/202202041751232.webp)
 
 5、构建步骤中添加两个步骤：mono 和制作镜像并推送到 SWR 仓库：
 
-![iShot2022-02-04 17.51.40](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041751771.jpg)
+![iShot2022-02-04 17.51.40](https://img.fwhyy.com/2022/202202041751771.webp)
 
 6、制作镜像并推送到 SWR 仓库的配置如下：
 
-![iShot2022-02-04 17.52.19](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041752925.jpg)
+![iShot2022-02-04 17.52.19](https://img.fwhyy.com/2022/202202041752925.webp)
 
 7、创建无状态工作负载，选择构建好的镜像，运行成功如下图：
 
-![iShot2022-02-04 17.52.49](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041753052.jpg)
+![iShot2022-02-04 17.52.49](https://img.fwhyy.com/2022/202202041753052.webp)
 
 希望对您有所帮助！

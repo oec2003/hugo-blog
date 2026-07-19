@@ -31,7 +31,7 @@ https://ripperhe.gitee.io/bob/#/service/translate/baidu
 
 不管是在网页还是在英文电子书，或其他任何地方，选择需要翻译的文字后，按下 option + D ，就会弹出翻译窗口，这个快捷键也可以自己定义：
 
-![image-20220423111508443](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204242053525.png)
+![image-20220423111508443](https://img.fwhyy.com/2022/202204242053525.webp)
 
 
 
@@ -43,13 +43,13 @@ https://github.com/clubxdev/bob-plugin-deeplx
 
 安装插件也很简单，按照插件页面的 Readme ，几个步骤就能安装好，下面看看对同样的一段文字 deepl 和百度翻译的对比：
 
-![image-20220423113730846](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204242053733.png)
+![image-20220423113730846](https://img.fwhyy.com/2022/202204242053733.webp)
 
 这就是好玩的地方，如果具有一定开发能力，也能自己写插件来进行功能的扩展。
 
 上面提到的都是划词翻译，有时候阅读的 PDF 文件是扫描版，没法复制，这时就可以使用截图翻译的功能了，按下 option + S 键，就会出现截图选择框，对需要翻译的区域进行选择即可，如下图：
 
-![Apr-24-2022 08-44-46](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204242053588.gif)
+![Apr-24-2022 08-44-46](https://img.fwhyy.com/2022/202204242053588.webp)
 
 
 

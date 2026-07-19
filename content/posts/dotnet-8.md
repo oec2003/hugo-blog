@@ -65,7 +65,7 @@ public class DerivedImplement : IDerived
 
 下图是 8  中序列化时对命名策略的支持：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311161902851.webp)
+![](https://img.fwhyy.com/2023/202311161902851.webp)
 
 在之前的版本：3.1、6、7  中都只支持 CamelCase 。在  8  中新增的策略如下：
 
@@ -104,13 +104,13 @@ public class UserInfo
 
 结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311161902664.webp)
+![](https://img.fwhyy.com/2023/202311161902664.webp)
 
 ### 调用 API 直接获取到对象
 
 现在有一个接口返回如下图中的数据：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311161905910.webp)
+![](https://img.fwhyy.com/2023/202311161905910.webp)
 
 如果是在 8 以前的版本中获取该接口的数据，需要先获取到接口内容，然后进行反序列化，代码如下：
 
@@ -147,7 +147,7 @@ public record UserInfo(string userName);
 
 上面两种代码的结果一样，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311161902548.webp)
+![](https://img.fwhyy.com/2023/202311161902548.webp)
 
 ## 随机数增强
 
@@ -218,7 +218,7 @@ public class FrozenDicTest
 
 从测试结果看，效果还是很明显的：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311161902374.webp)
+![](https://img.fwhyy.com/2023/202311161902374.webp)
 
 2、新增的 System.Buffers.SearchValues<T> 类，可以用来进行字符串的查找和匹配，相比较  string  类型的操作，性能有大幅提升，下面还是用 BenchmarkDotNet 进行测试：
 
@@ -254,7 +254,7 @@ public class SearchValuesTest
 
 从运行结果看，有大约 5 倍的的提升：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311161902368.webp)
+![](https://img.fwhyy.com/2023/202311161902368.webp)
 
 ## 依赖注入增强
 

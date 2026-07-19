@@ -154,7 +154,7 @@ public class App
 
 上面的代码主要是在GetFont方法中进行了判断，如果对象不存在才创建新的实例，否则直接返回存储在HashTable中的对象。下面来看下享元模式的结构图：
 
-![2010-12-29_124714](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290618198.png)
+![2010-12-29_124714](https://img.fwhyy.com/2022/202201290618198.webp)
 
 针对上面结构的完整代码：
 

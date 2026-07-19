@@ -19,7 +19,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 ## 海拔
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232040588.webp)
+![](https://img.fwhyy.com/2024/202407232040588.webp)
 
 崇礼的海拔平均 1000 多，70 公里赛道的最低海拔 1200 ，起点 1600 多，最高有 2000 多。记得之前听到有人分享跑兰州马拉松，因为海拔原因，和平原上相比，心率更高、体感更累。
 
@@ -35,7 +35,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 13 号下午达到崇礼后又是艳阳高照，领物时衣服都全汗湿了，幸运的是这种好天气一直持续到了比赛结束。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232001206.webp)
+![](https://img.fwhyy.com/2024/202407232001206.webp)
 
 ## 赛前准备
 
@@ -45,7 +45,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 3、准备了足够多的补给、12 根能量胶、将近 30 颗盐丸、3 颗醒力速、3 条能量棒，另外强制装备也是只多不少，足足有十来斤重，跑完腿还行，肩膀特别酸痛。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232003111.webp)
+![](https://img.fwhyy.com/2024/202407232003111.webp)
 
 ## 群友见面
 
@@ -55,7 +55,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 作为超级 I 人的我，平时跑步都是一个人，很少经历这种场面，这么多人，除了 Chris ，其他都是初次见面，但却是十分熟悉的感觉。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232010140.webp)
+![](https://img.fwhyy.com/2024/202407232010140.webp)
 
 ## 星光之旅，准备出发
 
@@ -63,13 +63,13 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 将近 9 点，从酒店出发，去庆典广场坐摆渡车，还和公司跑 ETC 组别的同事叮叮在广场见了个面，最后很幸运赶上了最后一班摆渡车。半个多小时就到了雪如意。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232012799.webp)
+![](https://img.fwhyy.com/2024/202407232012799.webp)
 
 这时离 11 点半起跑还有两个多小时，正好有时间拍照、合影，期间还接受了佳凝和南哥的采访。后来还意外发现了很早关注的跑步博主：陈刚和高哈哈，也实现了第一次和名人合影。
 
 很快，主持人就开始指导大家打开 GPS、做热身运动，因为马上就要鸣枪起跑了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232018471.webp)
+![](https://img.fwhyy.com/2024/202407232018471.webp)
 
 ## 初次夜跑
 
@@ -87,7 +87,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 4 点多，天空渐渐泛白，仍然没有一丝困意，收起头灯，继续前行。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232024386.webp)
+![](https://img.fwhyy.com/2024/202407232024386.webp)
 
 ## 阿那亚的私补
 
@@ -99,7 +99,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 哎，这也太严格了，内心其实想再歇十分钟的，但还是起身和累累一起出发了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232030517.webp)
+![](https://img.fwhyy.com/2024/202407232030517.webp)
 
 ## 永远到不了的星芒
 
@@ -113,7 +113,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 最后花了两个多小时才到达星芒餐厅，星芒餐厅的西瓜和可乐让人记忆深刻。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232033977.webp)
+![](https://img.fwhyy.com/2024/202407232033977.webp)
 
 ## 遗憾
 
@@ -121,7 +121,7 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 2、终点前碰到了车老板，合影时手机没电关机了，要知道作为一个 I 人，主动去合影是非常不容易的。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232034275.webp)
+![](https://img.fwhyy.com/2024/202407232034275.webp)
 
 ## 最后
 
@@ -137,6 +137,6 @@ tags: [崇礼,越野跑,MTC,70公里,跑步]
 
 6、对大自然要充满敬畏，不行就退，站在起跑线上的那一刻就已经很牛逼了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407232037321.webp)
+![](https://img.fwhyy.com/2024/202407232037321.webp)
 
 

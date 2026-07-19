@@ -45,11 +45,11 @@ topic: year-summary
 
 除了跳操，课外班还报了跳舞和画画，而她愿意早上 6 点多起床画画，看来是真的喜欢，没准专攻画画，也能有所作为。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162114446.webp)
+![](https://img.fwhyy.com/2023/202306162114446.webp)
 
 作为一个外行来看，她画的一些作品我觉得还是不错的，但真要吃这碗饭，还要很长的路要走，有很多东西需要学习。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162114784.webp)
+![](https://img.fwhyy.com/2023/202306162114784.webp)
 
 最近看到一个视频谈小孩教育，提到几个观点，我觉得还挺有道理：
 
@@ -70,7 +70,7 @@ topic: year-summary
 * 七月有半个月自驾在 318 上；
 * 十二月中旬开始发烧，跑步便停止了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162114815.webp)
+![](https://img.fwhyy.com/2023/202306162114815.webp)
 
 
 从统计可以看出跑量、时长、天数相比 2021 都有提升，说明匀速地坚持比打鸡血的短期冲击更有效。个人成长、学习、工作也是同样的道理。
@@ -79,7 +79,7 @@ topic: year-summary
 
 2022 跑步不再孤单，因为女儿加入了跑步的队伍，还一起跑过几次 5 公里。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162115570.webp)
+![](https://img.fwhyy.com/2023/202306162115570.webp)
 
 12 月中旬开始发烧了，跑步也就随之停止，对病毒还是要有敬畏之心，准备休息一个月再继续，跑步是一个长期的事情，也不差这几天。
 
@@ -97,7 +97,7 @@ topic: year-summary
 
 想做什么事情，立马去做，人生总是充满很多不确定性，抓住当下的每一个机会，但行好事莫问前程。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162115119.webp)
+![](https://img.fwhyy.com/2023/202306162115119.webp)
 
 ## 公众号
 
@@ -125,7 +125,7 @@ topic: year-summary
 
 2023 希望和更多好的节目相遇。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162115565.webp)
+![](https://img.fwhyy.com/2023/202306162115565.webp)
 
 ## 成长
 

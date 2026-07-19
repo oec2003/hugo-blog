@@ -69,7 +69,7 @@ public class App
 
 这就要使用Composite模式了，先看下Composite模式的结构图：
 
-![image-20220128185053657](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281850646.png)
+![image-20220128185053657](https://img.fwhyy.com/2022/202201281850646.webp)
 
 * Component：定义了Leaf和Composite的一些共有特性。
 * Composite：有容器特征的类型。
@@ -152,7 +152,7 @@ public class Composite : Component
 
 Leaf类为叶子节点类，它的实例是没有子节点的，但是在抽象类中的方法Add和Remove方法必须要实现，按理说这样的实现是没有意义的，所以在此处抛出了NotSupportedException 异常，在客户端调用捕获到再做相应的处理，这种模式称之为“透明足组合模式”，这样做的好处是叶子（Leaf）和容器（Composite）对于外界没有分别，它们具有一致的接口行为。还有一种情况叫“安全组合模式”，在抽象类（Component）中不定义Add Remove方法，而是在容器的实现类中去定义，这样就各司其职了，看下面结构图：
 
-![image-20220128185143180](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281851257.png)
+![image-20220128185143180](https://img.fwhyy.com/2022/202201281851257.webp)
 
 
 代码实现

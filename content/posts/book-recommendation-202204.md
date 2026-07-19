@@ -22,7 +22,7 @@ topic: readbook
 
 ## Microsoft .NET企业级应用架构设计
 
-![image-20220429080519309](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810475.png)
+![image-20220429080519309](https://img.fwhyy.com/2022/202204300810475.webp)
 
 本书的前三章介绍了什么是架构和一些面向对象原则，这些在 Bob 大叔的书中中有更深入的讲解。
 
@@ -32,7 +32,7 @@ topic: readbook
 
 ## 架构师修炼之道
 
-![image-20220429220632740](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810910.png)
+![image-20220429220632740](https://img.fwhyy.com/2022/202204300810910.webp)
 
 上面一本更多的是在代码架构层面，而架构师修炼之道从思维模式、架构设计的原理和常用的架构工具的角色来告诉我们要想成为一个架构师，需要掌握哪些知识。
 
@@ -42,7 +42,7 @@ topic: readbook
 
 ## 漫画算法
 
-![image-20220429080936892](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810529.png)
+![image-20220429080936892](https://img.fwhyy.com/2022/202204300810529.webp)
 
 这本书还没有出版的时候，就关注了作者的公众号「程序员小灰」。文章用漫画的形式讲解知识，生动又形象。
 
@@ -52,7 +52,7 @@ topic: readbook
 
 ## 白帽子讲 Web 安全
 
-![image-20220429081417828](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810534.png)
+![image-20220429081417828](https://img.fwhyy.com/2022/202204300810534.webp)
 
 这本书的作者是吴翰清，江湖人称道哥。很多年前就在网上看过道哥面试阿里的传奇经历。
 
@@ -64,7 +64,7 @@ topic: readbook
 
 ## 领导梯队
 
-![image-20220429222941859](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810635.png)
+![image-20220429222941859](https://img.fwhyy.com/2022/202204300810635.webp)
 
 很多技术人员最终会走上管理岗位，这其中有不少是“被提升”，在平时的工作中还是一种技术人员思维，会感觉管理做不好，技术也没能精进。
 
@@ -74,7 +74,7 @@ topic: readbook
 
 ## 大教堂与集市
 
-![image-20220429081506371](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810266.png)
+![image-20220429081506371](https://img.fwhyy.com/2022/202204300810266.webp)
 
 这本书和《黑客与画家》一样都是文章集锦。
 
@@ -90,7 +90,7 @@ topic: readbook
 
 ## 人类群星闪耀时
 
-![image-20220429082019740](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300813690.png)
+![image-20220429082019740](https://img.fwhyy.com/2022/202204300813690.webp)
 
 这本书有好多个翻译的版本，我和老婆读的是不同的版本，但各自都认为是自己读的版本最好，可能是先入为主的原因。
 
@@ -102,7 +102,7 @@ topic: readbook
 
 ## 硅谷钢铁侠
 
-![image-20220429085416058](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300812868.png)
+![image-20220429085416058](https://img.fwhyy.com/2022/202204300812868.webp)
 
 在这本书中，作者以全面的视角为我们展现了一个新时代美国硅谷商业巨头的成长。
 
@@ -120,7 +120,7 @@ topic: readbook
 
 ## 禅与摩托车维修艺术
 
-![image-20220430074147583](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204300810453.png)
+![image-20220430074147583](https://img.fwhyy.com/2022/202204300810453.webp)
 
 这是一本很神奇的书。
 

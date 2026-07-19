@@ -27,7 +27,7 @@ Literal：
 
 上面两段程序运行的结果都如下图：
 
-![2010-12-29_1138351](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302120262.png)
+![2010-12-29_1138351](https://img.fwhyy.com/2022/202201302120262.webp)
 
 再来看看上面的代码生成的源码：
 

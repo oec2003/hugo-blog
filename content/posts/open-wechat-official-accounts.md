@@ -24,4 +24,4 @@ tags: [微信公众号]
 
 扫码关注：
 
-![iShot2022-01-30 16.05.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301605715.jpg)
+![iShot2022-01-30 16.05.14](https://img.fwhyy.com/2022/202201301605715.webp)

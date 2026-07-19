@@ -42,7 +42,7 @@ topic: year-summary
 
 看到不少同学的小孩都在卷学习，如果兴趣爱好能发展发展是不是也不错呢？
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202402251155643.webp)
+![](https://img.fwhyy.com/2024/202402251155643.webp)
 
 ## 跑步
 
@@ -74,7 +74,7 @@ topic: year-summary
 * 全马突破 330
 * 跑一次 70 公里的越野（目标赛事：崇礼168）
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202402251155868.webp)
+![](https://img.fwhyy.com/2024/202402251155868.webp)
 
 ## 旅行
 
@@ -88,7 +88,7 @@ topic: year-summary
 
 2024 又会去哪里呢？现在还不知道，有点期待呢。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202402251155143.webp)
+![](https://img.fwhyy.com/2024/202402251155143.webp)
 
 ## 公众号
 
@@ -114,7 +114,7 @@ topic: year-summary
 
 除了之前喜欢的一些节目，2023 年又解锁了不少跑步类的播客：《装备说》、《跑者日历》、《PB计划》等，也是因为听了这些内容，才萌生了报一个线上训练营的想法。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202402251155285.webp)
+![](https://img.fwhyy.com/2024/202402251155285.webp)
 
 ## 工作
 

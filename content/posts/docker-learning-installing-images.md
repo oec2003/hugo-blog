@@ -45,7 +45,7 @@ docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Aa123456' -p 192.168.16.90:1433:14
 2. 使用docker run 命令运行一个docker容器
 3. -e 后面的设置sa密码，网上查到的示例命令如下图：
 
-![](http://fwhyy.com/img/post/15041945829250.jpg)
+![](https://img.fwhyy.com/15041945829250.webp)
 
 请注意：红框部分的左右尖括号也是属于密码的一部分
 
@@ -78,11 +78,11 @@ docker run -d --name myrabbitmq -p 192.168.16.90:5673:5672 -p 192.168.16.90:1567
 1. pull时加上`:management` 是拉取带管理界面的镜像
 2. 默认会创建用户名和密码都为guest的账号，登录后如下图：
 
-![](http://fwhyy.com/img/post/15041946022264.jpg)
+![](https://img.fwhyy.com/15041946022264.webp)
 
 所有容器都安装完成后，可以执行`docker ps -a` 来查看容器列表，如下图：
 
-![](http://fwhyy.com/img/post/15041946165209.jpg)
+![](https://img.fwhyy.com/15041946165209.webp)
 
 ## 常见问题解决
 

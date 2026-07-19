@@ -36,43 +36,43 @@ tags: [ Github]
 
 1、点击「头像」->「Feature preview」->「Passkeys」，将 Passkeys  功能开启，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655666.webp)
+![](https://img.fwhyy.com/2023/202307221655666.webp)
 
 2、点击「头像」->「Settings」，进行设置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655807.webp)
+![](https://img.fwhyy.com/2023/202307221655807.webp)
 
 3、开启了  Passkeys  功能后，在「Password and authentication」设置中就可以看到  Passkeys  的设置，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655985.webp)
+![](https://img.fwhyy.com/2023/202307221655985.webp)
 
 4、点击「Add a passkey」后会出现  Github  的登录确认：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655819.webp)
+![](https://img.fwhyy.com/2023/202307221655819.webp)
 
 5、确认后点击「Add passkey」按钮：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221656679.webp)
+![](https://img.fwhyy.com/2023/202307221656679.webp)
 
 6、因为我的使用场景是  Mac  上的  Chrome  浏览器，我选择的是「此设备」：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655038.webp)
+![](https://img.fwhyy.com/2023/202307221655038.webp)
 
 7、根据向导继续，会弹出指纹校验的界面，在电脑上进行指纹识别就可以了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655571.webp)
+![](https://img.fwhyy.com/2023/202307221655571.webp)
 
 8、指纹识别成功后，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655331.webp)
+![](https://img.fwhyy.com/2023/202307221655331.webp)
 
 9、可以看到在  Passkeys  中成功加入了我的身份信息：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221655885.webp)
+![](https://img.fwhyy.com/2023/202307221655885.webp)
 
 10、现在可以退出  Github  来试试新的登录方式了，点击使用  Passkey  方式，进行指纹识别就可以成功登录了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202307221656776.webp)
+![](https://img.fwhyy.com/2023/202307221656776.webp)
 
 ## 最后
 

@@ -63,11 +63,11 @@ Console.WriteLine(Add(1.2,2.3));
 
 这是如果想要用一个方法来实现两种不同类型就需要使用泛型方法，如下：
 
-![iShot_2023-01-17_21.53.49](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161845209.webp)
+![iShot_2023-01-17_21.53.49](https://img.fwhyy.com/2023/202306161845209.webp)
 
 但直接让两个泛型的参数进行相加，会出现上面的错误。在 .NET 7 中提供了一个 IAdditionOperators 接口，改接口中使用静态抽象方法重载了加号操作符：
 
-![iShot_2023-01-17_21.54.26](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161846996.webp)
+![iShot_2023-01-17_21.54.26](https://img.fwhyy.com/2023/202306161846996.webp)
 
 我们使用 IAdditionOperators 接口就很容易实现一个方法，可以让不同类型的数字进行相加：
 

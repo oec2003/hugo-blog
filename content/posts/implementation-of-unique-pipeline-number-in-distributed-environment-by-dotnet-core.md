@@ -65,7 +65,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 4、在 VS2019 中创建两个控制台项目和一个类库项目，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280636323.jpg)
+![](https://img.fwhyy.com/2022/202201280636323.webp)
 
 ## 单机测试
 
@@ -114,7 +114,7 @@ class Program
 
 3、测试结果如下，可以看出在多线程情况下会出现重复的编号
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280636693.jpg)
+![](https://img.fwhyy.com/2022/202201280636693.webp)
 
 ## 单机环境加锁测试
 
@@ -147,7 +147,7 @@ public static string GetSeqNoByLock()
 
 运行结果如下，可以看出已经没有出现重复的流水号了
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280636458.jpg)
+![](https://img.fwhyy.com/2022/202201280636458.webp)
 
 ## 多机环境测试
 
@@ -178,7 +178,7 @@ static void Main(string[] args)
 
 同时运行两个控制台程序，测试结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280636532.jpg)
+![](https://img.fwhyy.com/2022/202201280636532.webp)
 
 可以看出在每一个控制台程序内没有重复流水号，但两个控制台还是会间歇性地出现重复流水号。
 
@@ -190,7 +190,7 @@ static void Main(string[] args)
 
 1、在 RedisLockLib 项目中添加 CSRedisCore 包的引用
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280636490.jpg)
+![](https://img.fwhyy.com/2022/202201280636490.webp)
 
 2、在 SeqNo 类中添加 GetSeqNoByRedisLock 方法
 
@@ -214,7 +214,7 @@ public static string GetSeqNoByRedisLock()
 
 3、测试结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280637529.jpg)
+![](https://img.fwhyy.com/2022/202201280637529.webp)
 
 ## 总结
 

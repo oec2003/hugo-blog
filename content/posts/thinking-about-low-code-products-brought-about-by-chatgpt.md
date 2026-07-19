@@ -63,7 +63,7 @@ Salesforce 将其应用在业务能力上，微软则在平台能力上进行了
 
 针对这个问题，我在知识星球问过张善友大佬，下面的图就是张善友提供的：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191143766.webp)
+![](https://img.fwhyy.com/2023/202306191143766.webp)
 
 宝玉在推上也回答过类似的问题：
 
@@ -73,6 +73,6 @@ https://twitter-thread.com/t/1641656561650249730
 
 最近看到 Supabase 产品的文档就提供了 AI 问答（https://supabase.com/docs），这个效果就是我想要达到的，总结下就是根据自然语言的输入，给一个精准的答案。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191143053.webp)
+![](https://img.fwhyy.com/2023/202306191143053.webp)
 
 未来已经到来，不管是产品还是个人，都需要持续不断地学习和进化，才能不被淘汰。

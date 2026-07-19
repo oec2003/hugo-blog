@@ -31,7 +31,7 @@ tags: [软件推荐,Notion]
 
 使用 Notion ，首先需要创建一个工作空间，这个和 OneNote 中的分区有点类似，创建一个工作空间后，系统会提供很多默认的模板来帮助我们使用，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292113450.jpg)
+![](https://img.fwhyy.com/2022/202201292113450.webp)
 
 在工作空间中，有三个重要的元素：
 
@@ -49,19 +49,19 @@ tags: [软件推荐,Notion]
 * 导入
 * 基于数据库
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292115017.jpg)
+![](https://img.fwhyy.com/2022/202201292115017.webp)
 
 #### 基于模板
 
 Notion 提供的很多常用的模板给我们使用，当然也可以发挥自己的想象力和使用场景构建自己想要的 Page 内容，下图是选择模板的界面：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292115592.jpg)
+![](https://img.fwhyy.com/2022/202201292115592.webp)
 
 #### 导入
 
 因为 Notion 是国外的产品，所以国内的有道云笔记、为知等并没有支持。导入可以让我们快速从其他平台迁移到 Notion 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292115990.jpg)
+![](https://img.fwhyy.com/2022/202201292115990.webp)
 
 #### 数据库
 
@@ -74,7 +74,7 @@ Notion 提供的很多常用的模板给我们使用，当然也可以发挥自�
 块（Block）是 Notion 的最小元素，文字、图片、视频、网页等是最基本的 Block。数据库类型可以是一个独立的页面，也可以以一个块的形式内嵌在页面中。
 
 在页面中输入「/」,就可以调用出来所有类型的块,如下图：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292116492.jpg)
+![](https://img.fwhyy.com/2022/202201292116492.webp)
 
 可以看出，块中不仅包含基本元素，还包含了数据库的类型。每一个块可以任意切换成其他的类型，也可以移动到其他的页面中。
 
@@ -92,22 +92,22 @@ Notion 提供的很多常用的模板给我们使用，当然也可以发挥自�
 
 比如现在我正在做招聘相关的工作，需要记录每个面试人员的基本信息，就可以使用 Table 来实现，在 Table 的属性中添加相关的属性，如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292116160.jpg)
+![](https://img.fwhyy.com/2022/202201292116160.webp)
 
 #### Board
 
 敏捷开发中的看板管理，可以使用 Board 的视图模式来构建， Notion 可以支持团队协作，这样进行简单的配置，一个任务管理系统就做出来了。
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292116613.jpg)
+![](https://img.fwhyy.com/2022/202201292116613.webp)
 
 #### Calendar
 
 Calendar 可以取代其他的一些日历类的工具，也可以添加标签、提醒等，因为属性要加什么内容，是根据需要自己来创建的。
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292117857.jpg)
+![](https://img.fwhyy.com/2022/202201292117857.webp)
 
 #### Gallery
 
 卡片类型的列表，平时的技术学习，读书笔记、总结思考都可以以这种形式进行展现。
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292117074.jpg)
+![](https://img.fwhyy.com/2022/202201292117074.webp)
 
 
 ## 带来的思考

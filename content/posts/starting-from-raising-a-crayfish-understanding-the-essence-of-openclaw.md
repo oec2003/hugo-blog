@@ -28,7 +28,7 @@ Token 就是饲料，饲料分好坏，进口厂家有 OpenAI、Anthropic、Goog
 
 OpenClaw 的发展非常快。从 25 年 11 月到现在，短短几个月的时间，现在 GitHub 上的 Star 数已经 32 万了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603191718298.webp)
+![](https://img.fwhyy.com/2026/202603191718298.webp)
 
 OpenClaw 是奥地利开发者 Peter Steinberger 利用周末时间搞出来的，估计他当时也没想到会这么火爆。
 
@@ -76,11 +76,11 @@ OpenClaw 是奥地利开发者 Peter Steinberger 利用周末时间搞出来的�
 - 子智能体（SubAgent）：这是数字员工的“影分身”。比如让他写一份深度行业报告，他会立刻在后台分出三个小助手：一个查竞品、一个查政策、一个查数据。最后汇总给主脑，并行干活，效率极高。
 - 计划机制 ：为了防止数字员工做一个长任务时突然“断片”，他会给自己建一个带打勾框的“任务清单文件”。每做完一步就打个勾，哪怕中间被其他事情打断，看着清单也能接着干。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603191719963.webp)
+![](https://img.fwhyy.com/2026/202603191719963.webp)
 
 ## 五、国内类似产品
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603191719735.webp)
+![](https://img.fwhyy.com/2026/202603191719735.webp)
 
 上图是 AI 搜索进行整理，不一定准确。但能看出 OpenClaw 确实火出圈了，不然也不会有这么多厂商纷纷跟进。
 

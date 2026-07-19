@@ -1,5 +1,9 @@
 <header class="site-header">
-  <a class="site-brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+  {{ if .IsHome }}
+    <h1 class="site-brand"><a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a></h1>
+  {{ else }}
+    <a class="site-brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+  {{ end }}
   <div class="header-actions">
     <nav class="site-nav" aria-label="主要导航">
       {{ $current := . }}
@@ -8,6 +12,6 @@
         <a class="{{ if $active }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
       {{ end }}
     </nav>
-    <button class="search-trigger header-search" type="button" aria-haspopup="dialog">搜索</button>
+    <button class="search-trigger header-search" type="button" aria-haspopup="dialog" aria-keyshortcuts="Meta+K Control+K">搜索</button>
   </div>
 </header>

@@ -121,7 +121,7 @@ vi hosts
 
 4、在 traefik-demo 目中中执行 docker-compose up -d traefik 来构建 Traefik 服务，执行成功后，在浏览器中访问：traefik.fw.com ，可以看到如下界面：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403281711102.webp)
+![](https://img.fwhyy.com/2024/202403281711102.webp)
 
 可以看到 Services 有 10 个，其中包含了我本机上部署的其他的 docker 容器。
 
@@ -140,11 +140,11 @@ vi hosts
 
 6、执行 docker-compose up -d whoami 进行构建，构建成功后，命令行执行：curl -H Host:whoami.fw.com http://127.0.0.1
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403281711020.webp)
+![](https://img.fwhyy.com/2024/202403281711020.webp)
 
 7、现在使用命令：docker-compose up -d --scale whoami=2 对 whoami 服务进行扩容，创建成功后，再使用：curl -H Host:whoami.fw.com http://127.0.0.1 进行测试，会发现已经在两个容器间进行负载了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403281711861.webp)
+![](https://img.fwhyy.com/2024/202403281711861.webp)
 
 ## 使用 WebAPI 示例进行验证
 
@@ -238,8 +238,8 @@ docker-compose up -d apidemo-1
 
 7、使用 Postman 进行测试：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403281711073.webp)
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403281710943.webp)
+![](https://img.fwhyy.com/2024/202403281711073.webp)
+![](https://img.fwhyy.com/2024/202403281710943.webp)
 
 * 当访问 workflow 路由时，返回的容器 IP 一直都是 172.18.0.2
 * 当访问 interfacecenter 路由时，返回的容器 IP 一直都是 172.18.0.4

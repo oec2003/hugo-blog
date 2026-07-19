@@ -9,7 +9,7 @@ tags: [Hexo,博客]
 
 升级完`hexo`，将所有的博客迁移过来，执行`hexo g`，`hexo s`，很顺利，没有任何问题，马上执行`hexo d`发布到服务器，发现页面显示如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301949948.jpg)
+![](https://img.fwhyy.com/2022/202201301949948.webp)
 
 
 查看本地环境的`public`目录，发现生成的`html`页面的代码就如上图，但本地运行又是正常的。一个直接的反应就是，上面的代码是在运行时依赖`node`解析成`html`页面的。

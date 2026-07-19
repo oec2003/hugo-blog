@@ -135,7 +135,7 @@ npm install hexo-deployer-git --save
 
 3. Hexo根目录下的_config.yml文件的配置如下：
 
-![](http://blog.fwhyy.com/img/post/14727700421219.jpg)
+![](https://img.fwhyy.com/14727700421219.webp)
 
 repo格式：git@服务器IP:服务器git库地址
 

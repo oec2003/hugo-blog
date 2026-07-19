@@ -29,7 +29,7 @@ Swagger 是一个 API 文档生成框架，在非 Core 时代就一直在使用�
 
 在 VS For Mac 中创建 API 项目 DotNetCoreApiSample ，在依赖项中的 NuGet 上点击右键，选择添加包，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280622650.jpg)
+![](https://img.fwhyy.com/2022/202201280622650.webp)
 
 搜索 `Swashbuckle.AspNetCore`，选中搜索结果的第一条，点击「添加包」按钮进行添加。
 
@@ -63,7 +63,7 @@ app.UseSwaggerUI(c =>
 
 运行 WepAPI 项目，在浏览器中输入 `http://localhost:5000/swagger` ，效果如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280622006.jpg)
+![](https://img.fwhyy.com/2022/202201280622006.webp)
 
 ## 参数验证
 
@@ -171,7 +171,7 @@ services.AddMvc(options =>
 
 使用 Postman 调用结果如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280622800.jpg)
+![](https://img.fwhyy.com/2022/202201280622800.webp)
 
 
 ## 返回值
@@ -268,7 +268,7 @@ public IActionResult GetUserCode()
 
 使用 Postman 调用该接口方法，返回结果如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280623599.jpg)
+![](https://img.fwhyy.com/2022/202201280623599.webp)
 
 ### 继续重构参数验证
 
@@ -368,7 +368,7 @@ public override void OnResultExecuting(ResultExecutingContext context)
 
 4、调用参数验证接口结果如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280623944.jpg)
+![](https://img.fwhyy.com/2022/202201280623944.webp)
 
 ## 异常处理
 

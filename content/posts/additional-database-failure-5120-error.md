@@ -14,7 +14,7 @@ tags:  [SqlServer,sqlserver2008,错误解决]
 
 ## 出错截图
 
-![2011-05-22_101011](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292118500.png)
+![2011-05-22_101011](https://img.fwhyy.com/2022/202201292118500.webp)
 
 ## 解决方法
 

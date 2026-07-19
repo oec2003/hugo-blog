@@ -15,7 +15,7 @@ tags: [C#,设计模式]
 
 模板方法模式结构图：
 
-![2010-12-29_122541](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290615923.png)
+![2010-12-29_122541](https://img.fwhyy.com/2022/202201290615923.webp)
 
 AbstractClass类：这个抽象类中定义了一个模板方法TemplateMethod，该方法通常为一个具体方法，将抽象类中的一些抽象的操作组合在其中，推迟到子类实现。
 

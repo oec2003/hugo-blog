@@ -112,7 +112,7 @@ tags: [AI,提示词,Windsurf]
 
 先看下效果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503151550439.webp)
+![](https://img.fwhyy.com/2025/202503151550439.webp)
 
 这个提示词在 Claude 3.5 sonnet 或 Claude 3.7 Sonnet 中的效果是最好的。任何能使用这两个模型的地方都可以使用。
 
@@ -122,15 +122,15 @@ tags: [AI,提示词,Windsurf]
 
 在 Windsurf 的设置中有 Memories and Rules 配置，点击 Manage 按钮。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503151551194.webp)
+![](https://img.fwhyy.com/2025/202503151551194.webp)
 
 只用设置工作空间的 Rules 就可以，如下图。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503151551242.webp)
+![](https://img.fwhyy.com/2025/202503151551242.webp)
 
 这个操作会在目录中创建一个 .windsurfrules 文件，将提示词全部粘贴在这个文件中即可。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503151551506.webp)
+![](https://img.fwhyy.com/2025/202503151551506.webp)
 
 ## 提示词解读
 
@@ -329,4 +329,4 @@ tags: [AI,提示词,Windsurf]
 
 下图是使用整理后的提示词生成的效果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503151556828.webp)
+![](https://img.fwhyy.com/2025/202503151556828.webp)

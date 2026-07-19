@@ -33,13 +33,13 @@ topic: run
 
 4、赛前多跑马配，找到比赛的配速感觉。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202411250758162.webp)
+![](https://img.fwhyy.com/2024/202411250758162.webp)
 
 ## 赛前准备
 
 赛前准备有：装备、补给、饮食、天气
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202411250758117.webp)
+![](https://img.fwhyy.com/2024/202411250758117.webp)
 
 ### 装备
 
@@ -65,7 +65,7 @@ topic: run
 
 心态也就释然了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202411250758327.webp)
+![](https://img.fwhyy.com/2024/202411250758327.webp)
 
 ## 比赛过程
 
@@ -75,7 +75,7 @@ topic: run
 
 光马的起点安排很合理，安检完进入等待区后，厕所和存包车在等待区路的两侧。我可以不用那么着急就存包，因为气温较低，身上的外套可以多穿会。之前参加过的不少比赛厕所和存包车都在检录区的外面，有的还离的比较远，非常不方便。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202411250759458.webp)
+![](https://img.fwhyy.com/2024/202411250759458.webp)
 
 出发前的 15 分钟，吃了一根康比特的胶，就等候发枪了。因站的比较靠前，第一次仅用十几秒就过了拱门。这次的策略是先追上 330 的兔子，然后就紧跟在兔子方队的后面，这样的好处是可以有稳定的配速，还可以让前面的人挡风。
 

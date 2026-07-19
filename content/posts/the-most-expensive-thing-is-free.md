@@ -7,7 +7,7 @@ tags: [Hexo,七牛]
 
 国庆期间，收到七牛的测试域名回收邮件，没细看也没怎么在意，因为我仅仅只是拿七牛的对象存储作为我博客的图床而已，但这两天发现我博客中的图片地址全部失效了，进入到七牛的管理后台，在对应的`bucket`中图片已经不能预览和下载了。
 <!--more-->
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270856944.jpg)
+![](https://img.fwhyy.com/2022/202201270856944.webp)
 
 既然七牛不能再用，就要想办法换地方了，一时没找到合适的图床，那就还是将图片放在自己的站点中吧。思路如下：
 
@@ -19,7 +19,7 @@ tags: [Hexo,七牛]
 
 因为七牛已过期的存储空间`oec2003`中的图片已经不能预览和下载，所以需要新建一个新的存储空间来做中转，如下图，我创建了一个`oec2003bak`的存储空间：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270856697.jpg)
+![](https://img.fwhyy.com/2022/202201270856697.webp)
 
 将原存储空间`oec2003`的图片迁移到新的`oec2003bak`中需要用到七牛的qshell工具，可以在[https://developer.qiniu.com/kodo/tools/1302/qshell](https://developer.qiniu.com/kodo/tools/1302/qshell)进行下载。
 
@@ -39,7 +39,7 @@ cat list.txt | awk -F '\t' '{print $1}' > myfile_name.txt
 
 AK和SK的查找方式如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270857762.jpg)
+![](https://img.fwhyy.com/2022/202201270857762.webp)
 
 命令执行完成后，等待几分钟，去看新建的存储空间，会发现图片已经全部迁移过来了，新的域名有一个月的有效期，所以这些图片在一个月内是有效的。
 

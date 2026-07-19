@@ -40,7 +40,7 @@ public class Graphics
 
 要满足上面提的那些要求就需要用命令模式，命令模式结构图如下：
 
-![2010-12-29_121609](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290617303.png)
+![2010-12-29_121609](https://img.fwhyy.com/2022/202201290617303.webp)
 
 改进后的代码（版本2），将ShowText Draw这种行为抽象起来放到一个接口中，接口命名为ICommand，并且在该接口中还有一个方法签名Undo，用来做撤销处理，当然根据需要还可以加其他的操作。ICommand代码如下：
 
@@ -125,7 +125,7 @@ static void Main(string[] args)
 
 上面的代码运行结果如下：
 
-![2010-12-29_121646](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290617602.png)
+![2010-12-29_121646](https://img.fwhyy.com/2022/202201290617602.webp)
 
 从结果中可以看出，最后执行的画图2 被撤销了。
 

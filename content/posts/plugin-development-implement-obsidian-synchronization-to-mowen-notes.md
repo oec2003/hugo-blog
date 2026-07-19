@@ -16,7 +16,7 @@ tags: [插件,obsidian,墨问]
 
 3、点击发布后会弹出界面输入标题和标签。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202505301748099.webp)
+![](https://img.fwhyy.com/2025/202505301748099.webp)
 
 插件开发的步骤如下：
 
@@ -24,11 +24,11 @@ tags: [插件,obsidian,墨问]
 
 2、在墨问后台获取 API Key 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202505301749670.webp)
+![](https://img.fwhyy.com/2025/202505301749670.webp)
 
 点击获取 API Key ，留着备用。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202505301749534.webp)
+![](https://img.fwhyy.com/2025/202505301749534.webp)
 
 3、在 Trae 中选择 Builder 模式，一定得是 Builder 模式，否则不会自动创建文件，对话框中输入下面内容。
 
@@ -43,18 +43,18 @@ npm run build
 
 5、执行过 `npm run build` 后会产生打包后的文件，最终将下面红框中的三个文件复制到 Obsidian 的插件目录中。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202505301749642.webp)
+![](https://img.fwhyy.com/2025/202505301749642.webp)
 
 6、在 Obsidian 中，进入插件的设置界面，将获取的 API Key 输入到对应的文本框中。API URL 检查是否正确。正确应该为：https://open.mowen.cn/api/open/api/v1/note/create
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202505301749200.webp)
+![](https://img.fwhyy.com/2025/202505301749200.webp)
 
 7、需要注意的是，如果重新覆盖了 main.js 文件后，需要重新加载插件（禁用后重新启用）才能生效。
 
 8、现在可以验证下功能是否正常，选择一段文本点击右键，在弹出的菜单中选择“
 publish to mowen” 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202505301749244.webp)
+![](https://img.fwhyy.com/2025/202505301749244.webp)
 
 9、点击 “Publish” 按钮进行发布，如果出现成功提示，就去墨问笔记中查看是否创建了新的笔记。如果出现错误，将错误提示反馈给 Trae，Trae 会分析错误进行代码修复。
 

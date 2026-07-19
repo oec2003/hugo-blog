@@ -54,7 +54,7 @@ git clone https://github.com/ryanoasis/nerd-fonts.git --depth 1
 
 进入 nerd-fonts 目录，执行 `./install.sh` 进行安装，安装完后，可以在 iTerm2 的设置中进行字体设置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407040818604.webp)
+![](https://img.fwhyy.com/2024/202407040818604.webp)
 
 ### 3、安装 NvChad
 
@@ -66,7 +66,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
 参考：https://nvchad.com/docs/quickstart/install
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407040818919.webp)
+![](https://img.fwhyy.com/2024/202407040818919.webp)
 
 ## NvChad 配置和使用
 
@@ -80,19 +80,19 @@ alias vi=nvim
 
 保存后，执行 `source  ~/.zshrc` 生效。设置后，直接输入 vi filename 就是直接使用 Neovim 打开。效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407040822102.webp)
+![](https://img.fwhyy.com/2024/202407040822102.webp)
 
 ### 2、主题切换
 
 首先切换到 vi 的普通模式，然后输入 `空格+th` 就会出现下图界面，可以鼠标上下移动看预览效果，选择喜欢的回车确认即可。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407040819367.webp)
+![](https://img.fwhyy.com/2024/202407040819367.webp)
 
 ### 3、呼出左侧文件树
 
 切换到 vi 的普通模式，输入 `ctrl+n` ，就可以打开文件树，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202407040819763.webp)
+![](https://img.fwhyy.com/2024/202407040819763.webp)
 
 ## vi 基本知识
 

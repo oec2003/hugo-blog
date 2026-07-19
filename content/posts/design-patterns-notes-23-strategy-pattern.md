@@ -15,7 +15,7 @@ tags: [C#,设计模式]
 
 策略者模式结构图：
 
-![image-20220129061002254](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290610502.png)
+![image-20220129061002254](https://img.fwhyy.com/2022/202201290610502.webp)
 
 基本实现代码：
 
@@ -93,7 +93,7 @@ class Program
 
 运行结果如下：
 
-![image-20220129061018029](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290610808.png)
+![image-20220129061018029](https://img.fwhyy.com/2022/202201290610808.webp)
 
 当有新的算法需求时，只需要添加一个具体的算法类继承抽象算法类即可，如下：
 
@@ -135,7 +135,7 @@ class Program
 
 运行结果如下：
 
-![image-20220129061030878](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290610303.png)
+![image-20220129061030878](https://img.fwhyy.com/2022/202201290610303.webp)
 
 ## Strategy模式的几个要点
 

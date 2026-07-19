@@ -51,7 +51,7 @@ MySQL MGR 集群是多个 MysQL Server 节点共同组成的分布式集群，�
 
 1、采用 docker-compose 的方式进行部署，部署目录 mysql-mgr 的文件结构如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202507221805817.webp)
+![](https://img.fwhyy.com/2025/202507221805817.webp)
 
 - docker-compose.yml：容器编排文件，配置一个主和两个从的 mysql 节点。
 - mysql-config：此目录中是主和从的 mysql 配置文件
@@ -62,11 +62,11 @@ MySQL MGR 集群是多个 MysQL Server 节点共同组成的分布式集群，�
 
 3、等三个 mysql 节点的状态正常，执行 `./start-mgr.sh` ,成功执行如下图所示。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202507221806726.webp)
+![](https://img.fwhyy.com/2025/202507221806726.webp)
 
 4、进入任意一个 mysql 中，执行 `SELECT * FROM performance_schema.replication_group_members;` ,三个节点的 MEMBER_STATE 为 ONLINE 说明部署成功。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202507221806010.webp)
+![](https://img.fwhyy.com/2025/202507221806010.webp)
 
 5、现在可以连上主节点，进行库表和数据的创建，来验证是否正常同步到从节点。
 
@@ -308,7 +308,7 @@ docker exec mysql-master mysql -uroot -prootpassword -e "SELECT * FROM performan
 
 我部署过程中就遇到执行 `./start-mgr.sh` 后，查询状态如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202507221806174.webp)
+![](https://img.fwhyy.com/2025/202507221806174.webp)
 
 只有主节点是 ONLINE。我对主从节尝试手动停止和启用组复制后解决。
 

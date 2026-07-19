@@ -4,6 +4,9 @@ date: 2022-08-01T08:20:20+08:00
 categories: [技术]
 tags: [架构,微服务]
 topic: arch
+series_chapter: 第三章 微服务设计
+series_section: 第一小节 服务拆分与协作
+series_order: 330
 ---
 
 几乎所有的信息管理系统都会涉及到事务，事务的目的是为了保证数据的一致性，这里说的一致性是数据库状态的一致性。

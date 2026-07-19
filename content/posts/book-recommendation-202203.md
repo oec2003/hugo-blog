@@ -14,7 +14,7 @@ topic: readbook
 
 ## C# 本质论
 
-![iShot2022-03-30 07.52.00](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310616842.jpg)这本书目前最新中文版是 7.0 。
+![iShot2022-03-30 07.52.00](https://img.fwhyy.com/2022/202203310616842.webp)这本书目前最新中文版是 7.0 。
 
 这本书适合入门，也有进阶部分的内容，总的来看下面一些特点：
 
@@ -32,7 +32,7 @@ topic: readbook
 
 ## C# in Depth
 
-![iShot2022-03-30 08.01.45](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310616013.jpg)
+![iShot2022-03-30 08.01.45](https://img.fwhyy.com/2022/202203310616013.webp)
 
 这本书英文最新是第四版，中文是第三版。
 
@@ -44,7 +44,7 @@ topic: readbook
 
 ## CLR via C#
 
-![iShot2022-03-30 14.57.48](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310616041.jpg)
+![iShot2022-03-30 14.57.48](https://img.fwhyy.com/2022/202203310616041.webp)
 
 熟悉 .NET 的同学应该都知道这本书，经典必读书籍，现在最新是第四版。
 
@@ -56,7 +56,7 @@ topic: readbook
 
 ## 编码
 
-![iShot2022-03-30 20.49.49](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310620515.jpg)
+![iShot2022-03-30 20.49.49](https://img.fwhyy.com/2022/202203310620515.webp)
 
 作者在序中写道：“这本书其实是讲计算机是如何工作的。”，我们上大学都学过计算机组成原理或微机原理，非常的枯燥。但这本书的作者用简单、通俗易懂、深入浅出的语言解释着复杂的知识，读者很容易跟着作者的思路去探寻计算机的奥秘。
 
@@ -66,7 +66,7 @@ topic: readbook
 
 ## 重构（第二版）
 
-![iShot2022-03-30 08.39.29](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310620143.jpg)
+![iShot2022-03-30 08.39.29](https://img.fwhyy.com/2022/202203310620143.webp)
 
 本书是经典书籍《重构》20 年后的第二版。
 
@@ -80,7 +80,7 @@ topic: readbook
 
 ## 持续交付2.0（增订版）
 
-![图片](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310620722.jpeg)
+![图片](https://img.fwhyy.com/2022/202203310620722.webp)
 
 两年前看了乔梁编写的《持续交付2.0》，收获颇多，还写了一篇读书笔记，今年 2 月，该书出了增订本，增加了一个章节的内容，其他的一些章节内容也有局部的优化。
 
@@ -90,7 +90,7 @@ topic: readbook
 
 ## 黑客与画家
 
-![iShot2022-03-30 08.45.26](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310644923.jpg)
+![iShot2022-03-30 08.45.26](https://img.fwhyy.com/2022/202203310644923.webp)
 
 这本书是硅谷创业之父，Y Combinator 创始人 Paul Graham 的文集。之所以叫这个名字，是因为作者认为黑客与画家有着极大的相似性，他们都是在创造，而不是完成某个任务。
 
@@ -102,7 +102,7 @@ topic: readbook
 
 ## 失落的卫星
 
-![iShot2022-02-27 09.01.02](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203310644850.jpg)
+![iShot2022-02-27 09.01.02](https://img.fwhyy.com/2022/202203310644850.webp)
 
 去年看圆桌派，其中有一期的嘉宾是刘子超，讲了中亚这个神秘的地方，以及他在中亚旅行的各种见闻。这本书是刘子超的旅行游记。
 

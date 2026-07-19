@@ -13,7 +13,7 @@ tags: [dotNetCore,Jwt]
 
 Jwt 的全称是 JSON Web Token，是目前比较流行的接口认证解决方案。有了 Jwt 后，从客户端请求接口的流程如下图：
 
-![-w578](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290655098.jpg)
+![-w578](https://img.fwhyy.com/2022/202201290655098.webp)
 
 * 客户端发送用户名密码信息到认证服务器获取 token；
 * 客户端请求 API 获取数据时带上 token；
@@ -21,7 +21,7 @@ Jwt 的全称是 JSON Web Token，是目前比较流行的接口认证解决方�
 
 有一个网站叫：https://jwt.io/ ，我们在这个站点上对 Jwt 产生的 token 做验证：
 
-![-w611](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290655845.jpg)
+![-w611](https://img.fwhyy.com/2022/202201290655845.webp)
 
 从上图可以看出 Jwt 生产的 token 由三个部分组成：
 
@@ -65,7 +65,7 @@ Verify Sigantuer 是对前面两个部分的签名，防止数据篡改。
 
 在 Web API 项目中添加对 `Microsoft.AspNetCore.Authentication.JwtBearer` 包的引用
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290655237.jpg)
+![](https://img.fwhyy.com/2022/202201290655237.webp)
 
 ### 修改 Starup
 
@@ -95,7 +95,7 @@ services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 JwtSettings 的配置设置在 appsettings.json 配置文件中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290656576.jpg)
+![](https://img.fwhyy.com/2022/202201290656576.webp)
 
 2、在 Configure 方法中添加对中间件的使用。
 
@@ -160,15 +160,15 @@ public class AuthorizeController: BaseController
 
 1、在需要进行认证的控制器或接口方法上添加 `[Authorize] ` 标记。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290656234.jpg)
+![](https://img.fwhyy.com/2022/202201290656234.webp)
 
 2、调用接口 `http://localhost:5000/api/Authorize/token` 获取 token。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290656952.jpg)
+![](https://img.fwhyy.com/2022/202201290656952.webp)
 
 3、在请求接口时使用 Authorization 的方式使用 token，token 的类型为 Bearer Token ，可以看到带上 token 后，数据正常返回。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290657807.jpg)
+![](https://img.fwhyy.com/2022/202201290657807.webp)
 
 ## 在 Vue 中调用
 

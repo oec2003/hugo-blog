@@ -209,8 +209,8 @@ namespace Autocomplete2
 
 运行结果如下图：
 
-![2010-12-29_170842](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292118239.gif)
-![2010-12-29_170928](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292118226.gif)
+![2010-12-29_170842](https://img.fwhyy.com/2022/202201292118239.webp)
+![2010-12-29_170928](https://img.fwhyy.com/2022/202201292118226.webp)
 
 注：Ajax.net有Ajaxpro.dll和Ajax.dll两个版本，这两个版本在使用时有些区别。
 

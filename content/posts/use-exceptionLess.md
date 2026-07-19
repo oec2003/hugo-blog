@@ -35,11 +35,11 @@ ExceptionLess的装分为两种：
 
 首先尝试第一种，按照文章中的步骤很顺利的将前台门户和后台API部署成功。注册账号进入控制面板后，新建项目总是不能成功，常见提示成功，先还是显示无项目，如下图：
 
-![iShot2022-01-30 21.48.11](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302152947.jpg)
+![iShot2022-01-30 21.48.11](https://img.fwhyy.com/2022/202201302152947.webp)
 
 后来F12调试发现提示APIKey没设置，如下图：
 
-![iShot2022-01-30 21.48.42](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151498.jpg)
+![iShot2022-01-30 21.48.42](https://img.fwhyy.com/2022/202201302151498.webp)
 
 这个脚本错误导致很多的操作都无效，网上找了很多的资料，也在群里问过安装成功的朋友，也都没能解决此问题，最终不得不放弃编译的方式部署。
 
@@ -48,28 +48,28 @@ ExceptionLess的装分为两种：
 1、 下载release包[Exceptionless.3.4.2523.zip](https://github.com/exceptionless/Exceptionless/releases/download/v3.4.1/Exceptionless.3.4.2523.zip)，该包包含前端UI和后端API；
 2、解压zip包，包含文件如下图：
 
-![iShot2022-01-30 21.49.00](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151748.jpg)
+![iShot2022-01-30 21.49.00](https://img.fwhyy.com/2022/202201302151748.webp)
 
 3、在IIS中创建站点指向wwwroot目录，站点端口号9001；
 4、右键“Start-ElasticSearch.ps1“，选择"使用powershell运行“，第一次执行会从网上下载
 ElasticSearch，这个过程可能会花几分钟时间，执行完后如下图：
 
-![iShot2022-01-30 21.49.18](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151316.jpg)
+![iShot2022-01-30 21.49.18](https://img.fwhyy.com/2022/202201302151316.webp)
 
 5、ElasticSearch的默认端口为9200，在浏览器中访问http://localhost:9200 ，出现如下图界面说明安装成功：
 
-![iShot2022-01-30 21.49.37](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151174.jpg)
+![iShot2022-01-30 21.49.37](https://img.fwhyy.com/2022/202201302151174.webp)
 
 6、修改`wwwroot`目录下的web.config文件：
 
-![iShot2022-01-30 21.49.54](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151944.jpg)
+![iShot2022-01-30 21.49.54](https://img.fwhyy.com/2022/202201302151944.webp)
 
 * ElasticSearchConnectionString:http://localhost:9200
 * BaseURL:http://localhost:9001/#
 
 7、修改`wwwroot`下的app.config文件：
 
-![iShot2022-01-30 21.50.09](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151415.jpg)
+![iShot2022-01-30 21.50.09](https://img.fwhyy.com/2022/202201302151415.webp)
 
 8、在浏览器中输入 http://localhost:9001 就可以进行访问了。
 
@@ -78,9 +78,9 @@ ElasticSearch，这个过程可能会花几分钟时间，执行完后如下图�
 1、详细的使用方法在上面的链接[文章](http://www.cnblogs.com/savorboard/p/exceptionless.html)以及官方文档中有详细介绍；
 2、当使用NuGet安装了ExceptionLess后会在Web.config文件中创建exceptionless节点，除了apikey需要添加serverUrl属性，该属性配置ExceptionLess的WebAPI的地址，因为本例中UI和API都在9011端口下，所以配置为:http://localhost:9001 ，如下图：
 
-![iShot2022-01-30 21.50.27](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151208.jpg)
+![iShot2022-01-30 21.50.27](https://img.fwhyy.com/2022/202201302151208.webp)
 
 3、在JS中使用也是一样，需要配置serverUrl地址，否则就会推送到默认地址了：
 
-![iShot2022-01-30 21.50.44](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302151414.jpg)
+![iShot2022-01-30 21.50.44](https://img.fwhyy.com/2022/202201302151414.webp)
 

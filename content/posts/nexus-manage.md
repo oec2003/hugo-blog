@@ -43,7 +43,7 @@ firewall-cmd --reload
 
 3、构建完后，需要等几十秒到几分钟不等，程序有一个初始化的过程，然后访问 http://ip:8081 ，可以出现下图界面：
 
-![iShot2022-02-01 21.35.47](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012144643.jpg)
+![iShot2022-02-01 21.35.47](https://img.fwhyy.com/2022/202202012144643.webp)
 
 4、根据弹窗的提示在映射的目录 /root/data/nexus 中找到 admin.password 中的内容就可以正常登录了。
 
@@ -51,13 +51,13 @@ firewall-cmd --reload
 
 1、在 Repositories 功能中创建 NuGet 的私有仓库 NuGetTest ,仓库模板选择 nuget(hosted) 。
 
-![iShot2022-02-01 21.36.44](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012144144.jpg)
+![iShot2022-02-01 21.36.44](https://img.fwhyy.com/2022/202202012144144.webp)
 
 2、在 VS2019 中创建一个 NugetTest 的类库项目，在项目上点击右键→打包，在项目的 bin/Debug 目录中会生成 NugetTest.1.0.0.nupkg 文件。
 
 3、点击「admin」→「NuGet API Key」，在该功能界面获取 key ，这个 key 在推送 NuGet 包时需要用到。
 
-![iShot2022-02-01 21.37.05](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143464.jpg)
+![iShot2022-02-01 21.37.05](https://img.fwhyy.com/2022/202202012143464.webp)
 
 4、将 nuget.exe 程序文件也放到 bin/Debug 目录中，然后打开命令行进入到该目录，执行下面命令进行包的推送。
 
@@ -67,21 +67,21 @@ nuget.exe push NugetTest.1.0.0.nupkg dab3d4df-1eec-36e0-9b75-09b5b4b0ac41 -sourc
 
 推送成功如下图：
 
-![iShot2022-02-01 21.37.31](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143175.jpg)
+![iShot2022-02-01 21.37.31](https://img.fwhyy.com/2022/202202012143175.webp)
 
 5、在 VS2019 中的 NuGet 包管理器中添加源。
 
-![iShot2022-02-01 21.37.52](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143998.jpg)
+![iShot2022-02-01 21.37.52](https://img.fwhyy.com/2022/202202012143998.webp)
 
 6、在引用时选择添加的 NuGetTest 源，如下图：
 
-![iShot2022-02-01 21.38.41](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143287.jpg)
+![iShot2022-02-01 21.38.41](https://img.fwhyy.com/2022/202202012143287.webp)
 
 ## Maven
 
 1、在 Repositories 功能中创建 Maven 的私有仓库 MavenTest ,仓库模板选择 maven(hosted)，Deployment policy 需要设置为 Allow redeply，否则在推送时会报 400 的错误。
 
-![iShot2022-02-01 21.39.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143103.jpg)
+![iShot2022-02-01 21.39.14](https://img.fwhyy.com/2022/202202012143103.webp)
 
 2、在 Maven 的配置文件 /apache-maven-3.6.3/conf/settings.xml 中的 Servers 节点添加 Server 配置，如下：
 
@@ -113,15 +113,15 @@ nuget.exe push NugetTest.1.0.0.nupkg dab3d4df-1eec-36e0-9b75-09b5b4b0ac41 -sourc
 
 4、因为仓库创建的是 Release 版本的，如果 pom.xml 文件的 version 中包含 SNAPSHOT ，需要删除，否则在推送时会报 400 的错误。
 
-![iShot2022-02-01 21.39.46](/Users/fengwei/Documents/my/typora-img/nexus-manage/iShot2022-02-01 21.39.46.jpg)
+![iShot2022-02-01 21.39.46](https://img.fwhyy.com/2022/20220201213946.webp)
 
 5、在 IDEA 工具的 Maven 模块中进行 depoly 。
 
-![iShot2022-02-01 21.40.08](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143763.jpg)
+![iShot2022-02-01 21.40.08](https://img.fwhyy.com/2022/202202012143763.webp)
 
 6、推送成功后，在 Nexus 中可以看到如下内容：
 
-![iShot2022-02-01 21.40.29](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143798.jpg)
+![iShot2022-02-01 21.40.29](https://img.fwhyy.com/2022/202202012143798.webp)
 
 7、创建一个 spring boot 的项目，并修改 pom.xml 文件，在 dependencies 节点添加依赖，并添加 repositories 配置，如下：
 
@@ -150,7 +150,7 @@ nuget.exe push NugetTest.1.0.0.nupkg dab3d4df-1eec-36e0-9b75-09b5b4b0ac41 -sourc
 
 8、在 IDEA 中的 build 模块中进行同步就可以将 maven 包拉取到项目中。
 
-![iShot2022-02-01 21.40.55](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143407.jpg)
+![iShot2022-02-01 21.40.55](https://img.fwhyy.com/2022/202202012143407.webp)
 
 ## NPM
 
@@ -174,7 +174,7 @@ npm login –registry=http://10.211.55.6:8081/repository/NpmTest/
 
 6、在 Nexus 的 Realms 模块进行设置，将 npm Bearer Token Realm 选到右边的 Active 栏中，此处不设置，在推送时会出现 401 的错误。
 
-![iShot2022-02-01 21.41.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143061.jpg)
+![iShot2022-02-01 21.41.14](https://img.fwhyy.com/2022/202202012143061.webp)
 
 7、执行下面命令进行包的推送：
 
@@ -190,13 +190,13 @@ npm config set registry http://10.211.55.6:8081/repository/NpmTest/
 
 9、执行 `npm install nexus-test` 进行包的安装，安装成功如下图：
 
-![iShot2022-02-01 21.41.41](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143091.jpg)
+![iShot2022-02-01 21.41.41](https://img.fwhyy.com/2022/202202012143091.webp)
 
 ## Docker
 
 1、在 Repositories 功能中创建 docker 的私有仓库 DockerTest ,仓库模板选择 docker(hosted) 。
 
-![iShot2022-02-01 21.42.13](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143442.jpg)
+![iShot2022-02-01 21.42.13](https://img.fwhyy.com/2022/202202012143442.webp)
 
 - 勾选 http，设置端口为 8082 ，此处的端口为创建 Nexus 容器时设置的 8082 端口 ；
 - 勾选允许匿名拉取镜像；
@@ -204,7 +204,7 @@ npm config set registry http://10.211.55.6:8081/repository/NpmTest/
 
 2、在 Nexus 的 Realms 模块进行设置，将 Docker Bearer Token Realm 选到右边的 Active 栏中。
 
-![iShot2022-02-01 21.42.38](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143232.jpg)
+![iShot2022-02-01 21.42.38](https://img.fwhyy.com/2022/202202012143232.webp)
 
 3、在 CentOS 7 系统中安装 Docker ，然后再 /etc/docker/ 目录中创建 daemon.json 文件，内容如下：
 
@@ -245,7 +245,7 @@ docker push 10.211.55.6:8082/nexus-docker-test:latest
 
 操作成功如下图所示：
 
-![iShot2022-02-01 21.43.00](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012143410.jpg)
+![iShot2022-02-01 21.43.00](https://img.fwhyy.com/2022/202202012143410.webp)
 
 7、使用镜像的时候，只要服务器进行了第三步中的地址注册，就可以使用 `docker pull 10.211.55.6:8082/nexus-docker-test:latest` 进行镜像拉取。
 

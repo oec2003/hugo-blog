@@ -40,37 +40,37 @@ tags: [GitLab,Jenkins,Docker]
 
 在`Jenkins`的官网[https://jenkins.io/download/](https://jenkins.io/download/)进行`Jenkins`的下载，如使用`Windows`，下载`Windows`版本即可
 
-![-w415](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262131794.jpg)
+![-w415](https://img.fwhyy.com/2022/202201262131794.webp)
 
 因为`Jenkins`是基于`Java`的，所以在`Windows`上先安装好`JDK`的最新版本。然后根据安装向导进行安装，安装成功后会出现下面界面：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262132348.jpg)
+![](https://img.fwhyy.com/2022/202201262132348.webp)
 
 根据向导安装所有的默认插件，这个步骤也可以手动根据需要来安装相应的插件
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262132933.jpg)
+![](https://img.fwhyy.com/2022/202201262132933.webp)
 
 ## 安装插件
 
 因为构建时需要通过`SSH`连接到`CentOS`，所以需要安装`SSH`的`publish over ssh`插件
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262132525.jpg)
+![](https://img.fwhyy.com/2022/202201262132525.webp)
 
 添加了`publish over ssh`插件后,在「系统管理/系统设置」中可以看到`Publish over SSH`的设置区域,将需要构建发布的`ContOS`的服务器信息添加进去
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262132121.jpg)
+![](https://img.fwhyy.com/2022/202201262132121.webp)
 
 ## 设置Git路径
 
 在「系统管理/全局工具配置」中设置`Git`路径`C:\Program Files (x86)\Git\bin\git.exe`，在构建时拉取代码需要用到`Git`工具
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262133119.jpg)
+![](https://img.fwhyy.com/2022/202201262133119.webp)
 
 ## 配置Jenkins
 
 首先需要创建一个任务，选择构建一个自由风格的软件项目
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262133709.jpg)
+![](https://img.fwhyy.com/2022/202201262133709.webp)
 
 配置分为五个步骤：
 
@@ -82,7 +82,7 @@ tags: [GitLab,Jenkins,Docker]
 
 ### 源码管理
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262133686.jpg)
+![](https://img.fwhyy.com/2022/202201262133686.webp)
 
 * **Repositroy URL**：源码仓库地址
 * **Credentials**：`GitLab`的账户密码设置
@@ -93,11 +93,11 @@ tags: [GitLab,Jenkins,Docker]
 
 代码拉到本地需要进行存储，在`General`中进行路径的设置
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262133442.jpg)
+![](https://img.fwhyy.com/2022/202201262133442.webp)
 
 ### 构建触发器
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262134557.jpg)
+![](https://img.fwhyy.com/2022/202201262134557.webp)
 
 构建触发器有很多中，这里我们选择轮询`SCM`，意思是定时检查源码变更（根据SCM软件的版本号），如果有更新就`pull`最新`code`下来，然后执行构建动作。
 
@@ -116,21 +116,21 @@ tags: [GitLab,Jenkins,Docker]
 
 ### 构建环境
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262135458.jpg)
+![](https://img.fwhyy.com/2022/202201262135458.webp)
 
 ### 构建
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262136693.jpg)
+![](https://img.fwhyy.com/2022/202201262136693.webp)
 
 ### 构建后操作
 
 构建后的操作选择`Send build artifacts over SSH`
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262136696.jpg)
+![](https://img.fwhyy.com/2022/202201262136696.webp)
 
 进行SSH的相关配置
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262136130.jpg)
+![](https://img.fwhyy.com/2022/202201262136130.webp)
 
 * **SSH Server**：可以选择在「系统管理/系统设置」中全局设置的`SSH`服务器
 * **Source files**：`dotNET Core`程序的发布目录

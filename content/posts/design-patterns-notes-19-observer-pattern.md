@@ -121,7 +121,7 @@ class Program
 
 运行结果如下：
 
-![2010-12-29_112052](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290614237.png)
+![2010-12-29_112052](https://img.fwhyy.com/2022/202201290614237.webp)
 
 上面的改进代码只是对Emailer和Mobile进行了抽象看，其实BankAccount也可能是不稳定的，所以也需要对BankAccount进行抽象，改进后的代码如下：
 
@@ -210,7 +210,7 @@ class Program
 
 观察者模式的结构图：
 
-![2010-12-29_112122](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290614079.png)
+![2010-12-29_112122](https://img.fwhyy.com/2022/202201290614079.webp)
 
 对比上图和上面的代码有以下的对应关系
 

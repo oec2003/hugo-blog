@@ -11,7 +11,7 @@ tags: [中间件,国产化]
 
 下图是银河麒麟服务器的信息：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191424224.webp)
+![](https://img.fwhyy.com/2023/202306191424224.webp)
 
 想要顺利安装需要确保：
 
@@ -89,7 +89,7 @@ make -j2 && make install
 
 执行`ps -ef | grep nginx` 查看 nginx 进程：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191424692.webp)
+![](https://img.fwhyy.com/2023/202306191424692.webp)
 
 ## redis
 

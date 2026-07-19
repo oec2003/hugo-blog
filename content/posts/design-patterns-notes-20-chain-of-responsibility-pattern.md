@@ -15,7 +15,7 @@ tags: [C#,设计模式]
 
 职责链模式结构图如下：
 
-![2010-12-29_111712](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290613054.png)
+![2010-12-29_111712](https://img.fwhyy.com/2022/202201290613054.webp)
 
 代码实现：
 

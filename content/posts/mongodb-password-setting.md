@@ -15,13 +15,13 @@ tags: [MongoDB]
 
 <!--more-->
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406051625025.webp)
+![](https://img.fwhyy.com/2024/202406051625025.webp)
 
 ## 新创建容器设置密码
 
 1、在 CentOS 服务器中创建目录 mongodb_pwd ，目录结构如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406051625451.webp)
+![](https://img.fwhyy.com/2024/202406051625451.webp)
 
 2、使用下面命令给 mongo-init.js 文件添加执行权限：
 
@@ -82,7 +82,7 @@ volumes:
 * environment 环境变量设置根账户的用户名和密码，可以理解为超级管理员账号
 * volumes 中映射的 mongo-init.js 文件在 MongoDB 容器第一次运行的时候会被执行，是否被执行可以通过执行 `docker logs -f mongodb` 命令查看日志：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406051625831.webp)
+![](https://img.fwhyy.com/2024/202406051625831.webp)
 
 如果没有出现上图中的日志，需要检查下 mongo-init.js 文件是否有执行权限。
 
@@ -95,7 +95,7 @@ mongo
 > db.getUsers()
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406051625837.webp)
+![](https://img.fwhyy.com/2024/202406051625837.webp)
 
 所以，在加了密码的 MongoDB 中需要使用下面命令进行登录：
 
@@ -114,7 +114,7 @@ mongo -u root -p Aa123456 --authenticationDatabase "admin"
 > db.getUsers()
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406051625948.webp)
+![](https://img.fwhyy.com/2024/202406051625948.webp)
 
 ## 给现有容器进行密码设置
 
@@ -178,7 +178,7 @@ volumes:
 
 重新构建容器，这时用客户端访问数据库，或者 collection 就会出现如下提示：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406051626019.webp)
+![](https://img.fwhyy.com/2024/202406051626019.webp)
 
 ## 最后
 

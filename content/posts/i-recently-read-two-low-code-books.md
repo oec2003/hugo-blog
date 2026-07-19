@@ -33,15 +33,15 @@ topic: readbook
 
 通过访问 https://powerapps.microsoft.com/en-us/  这个地址可以注册账号进行体验，需要注意的是，注册的邮箱需要使用企业邮箱，登录后如下图，非常熟悉的微软风格：
 
-![iShot2022-02-02 08.16.33](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020816619.jpg)
+![iShot2022-02-02 08.16.33](https://img.fwhyy.com/2022/202202020816619.webp)
 
 表单的设计界面长这样，有点像在开发 WebForm
 
-![iShot2022-02-02 08.17.08](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020817535.jpg)
+![iShot2022-02-02 08.17.08](https://img.fwhyy.com/2022/202202020817535.webp)
 
 数据是一切的基础，Power Platform 中 Dataverse 是一个 SaaS 数据库，有着丰富的数据源：
 
-![iShot2022-02-02 08.17.36](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020817358.jpg)
+![iShot2022-02-02 08.17.36](https://img.fwhyy.com/2022/202202020817358.webp)
 
 可能是因为设计理念不太一样，在看书之前上去操作了下，没完全整明白，上手难度还是挺大的，我想这可能也是微软低代码平台在国内没有大火的原因。
 
@@ -65,7 +65,7 @@ topic: readbook
 
 如果你是管理员，在列表中做了拖动列宽之类的操作，最左侧的列会出现保存按钮，保存后，所做的列宽设置就会生效。
 
-![iShot2022-02-02 08.18.06](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020818305.jpg)
+![iShot2022-02-02 08.18.06](https://img.fwhyy.com/2022/202202020818305.webp)
 
 列表的展现形式也很丰富：表格、看板、日历、画廊、层级，有点 Notion 的感觉了。
 

@@ -21,7 +21,7 @@ tags: [DIKW,信息收集,flomo,logseq,Obsidian]
 
 这个步骤和 DIKW 模型比较吻合，DIKW 模型是一个可以很好的帮助我们理解数据（Data）、信息（Information）、知识（Knowledge）和智慧（Wisdom）之间的关系的模型，可以参考下面这个图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202211081647596.png)
+![](https://img.fwhyy.com/2022/202211081647596.webp)
 
 简单说就是从输入到输出，在这个过程中产生的价值就会留存在我们大脑中，让我们的认知得到提升，认知不断提升，人就变得智慧了，我大致是这么理解的。
 
@@ -60,7 +60,7 @@ tags: [DIKW,信息收集,flomo,logseq,Obsidian]
 
 inoreader、rsshub、flomo、Obsidian、logseq、readwise、readwise reader 、IFTTT、instapaper、devonthink3、heptabase、cubox、icubox、hazel、Matter、简悦，收趣、notion、我来、Pinbox、feed43、Hypothesis、Roam Search、Typora、Pocket、Feedly、greasyfork 等等。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202211081647915.png)
+![](https://img.fwhyy.com/2022/202211081647915.webp)
 
 上面有笔记类的、rss 订阅类的、剪藏类的，而且很多工具功能上有很多重叠，比如：flomo 可以回顾、logseq 也可以回顾、readwise 也行。虽说差生工具多，但可千万不要成为一个工具党。具体怎样来使用，我还在摸索之中，但遵循一个原则，使用流程不要太复杂，互相之间的配合最好能自动化。
 

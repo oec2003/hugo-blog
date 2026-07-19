@@ -118,20 +118,20 @@ tags: [低代码]
 
 整体架构图：
 
-![iShot2022-02-02 08.07.19](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020807912.jpg)
+![iShot2022-02-02 08.07.19](https://img.fwhyy.com/2022/202202020807912.webp)
 
 表单设计：
 
-![iShot2022-02-02 08.07.45](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020807033.jpg)
+![iShot2022-02-02 08.07.45](https://img.fwhyy.com/2022/202202020807033.webp)
 
 按钮设置：
 
-![iShot2022-02-02 08.08.18](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020808141.jpg)
+![iShot2022-02-02 08.08.18](https://img.fwhyy.com/2022/202202020808141.webp)
 
 业务编排：
 
-![iShot2022-02-02 08.08.45](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020808886.jpg)
+![iShot2022-02-02 08.08.45](https://img.fwhyy.com/2022/202202020808886.webp)
 
 最后，我们有一个群，也欢迎大家加入进行低代码平台的学习和讨论。
 
-![iShot2022-02-02 08.09.26](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020809296.jpg)
+![iShot2022-02-02 08.09.26](https://img.fwhyy.com/2022/202202020809296.webp)

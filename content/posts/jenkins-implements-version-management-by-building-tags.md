@@ -38,7 +38,7 @@ tags: [Jenkins]
 
 流程图如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300717594.jpg)
+![](https://img.fwhyy.com/2022/202201300717594.webp)
 
 ## 实际操作
 
@@ -50,24 +50,24 @@ jenkins 的参数化需要用到 Git Parameter 插件，可以在 jenkins 的插
 
 1、在 General 下面勾选 This project is parameterized 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300718777.jpg)
+![](https://img.fwhyy.com/2022/202201300718777.webp)
 
 * Name：参数名称，可以随便填写，在后面配置分支名称时会用到；
 * Parameter Type：这里我选择 Tag，你也可以根据需要选择 Branch 或者其他类型。
 
 2、在 Source Code Management 选择 git 进行设置 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300718458.jpg)
+![](https://img.fwhyy.com/2022/202201300718458.webp)
 
 * Branch Specifier：${tag}, tag 为第一步中输入的参数名称。
 
 设置完成后，可以看到在构建界面中由原来的 Build Now 变成了 Build with Parameters 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300718477.jpg)
+![](https://img.fwhyy.com/2022/202201300718477.webp)
 
 3、点击 Build with Parameters 选择需要构建的 tag 就可以了 。
 
-![](/Users/fengwei/Documents/my/typora-img/jenkins-implements-version-management-by-building-tags/15878109099199.jpg)
+![](https://img.fwhyy.com/15878109099199.webp)
 
 按照 tag 进行构建搞定后，剩下就是需要在构建脚本中获取到最新的 tag 名称，并作为参数设置到容器的环境变量和镜像的 tag 中：
 

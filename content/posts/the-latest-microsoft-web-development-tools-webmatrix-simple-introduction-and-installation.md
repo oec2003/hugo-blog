@@ -25,29 +25,29 @@ tags: [DotNet, WebMatrix]
 
 [WebMatrix](http://www.microsoft.com/web/webmatrix/)的安装需要连接到网络，进入到官方网站，下载下exe的安装文件，双击进入安装。
 
-![2011-01-14_125505](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105019.gif)
-![2011-01-14_125530](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105421.gif)
-![2011-01-14_125600](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105543.gif)
+![2011-01-14_125505](https://img.fwhyy.com/2022/202201302105019.webp)
+![2011-01-14_125530](https://img.fwhyy.com/2022/202201302105421.webp)
+![2011-01-14_125600](https://img.fwhyy.com/2022/202201302105543.webp)
 
 点击“安装”
 
-![2011-01-14_125634](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105185.gif)
+![2011-01-14_125634](https://img.fwhyy.com/2022/202201302105185.webp)
 
 点击“我接受”
 
-![2011-01-14_125655](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105768.gif)
+![2011-01-14_125655](https://img.fwhyy.com/2022/202201302105768.webp)
 
 等待下载完成，自动进行安装
 
-![2011-01-14_130224](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105713.gif)
+![2011-01-14_130224](https://img.fwhyy.com/2022/202201302105713.webp)
 
 再稍等几分钟
 
-![2011-01-14_131824](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105235.gif)
+![2011-01-14_131824](https://img.fwhyy.com/2022/202201302105235.webp)
 
 点击“完成”，就安装完成了，Web平台安装程序3.0  的界面如下，我们可以自行添加需要的项目进行安装
 
-![2011-01-14_133049](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302105836.gif)
+![2011-01-14_133049](https://img.fwhyy.com/2022/202201302105836.webp)
 
 刚刚接触[WebMatrix](http://www.microsoft.com/web/webmatrix/)，会尽快抽时间好好体验一下，然后写成博文与大家分享。
 

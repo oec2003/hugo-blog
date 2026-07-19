@@ -15,7 +15,7 @@ tags: [C#,设计模式]
 
 下面看下解释器模式的结构图：
 
-![2010-12-29_115427](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290616838.png)
+![2010-12-29_115427](https://img.fwhyy.com/2022/202201290616838.webp)
 
 基本代码：
 
@@ -226,7 +226,7 @@ class Program
 
 运行结果
 
-![2010-12-29_115512](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290616749.png)
+![2010-12-29_115512](https://img.fwhyy.com/2022/202201290616749.webp)
 
 ## Interpreter模式的几个要点
 

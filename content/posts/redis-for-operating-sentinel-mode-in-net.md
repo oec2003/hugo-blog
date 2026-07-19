@@ -64,7 +64,7 @@ daemonize yes #修改配置文件中的daemonize为yes，为后台启动
 ps -ef | grep redis #检查是否启动成功
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312241956024.webp)
+![](https://img.fwhyy.com/2023/202312241956024.webp)
 
 6、设置密码：
 
@@ -118,7 +118,7 @@ cp -r sentinel-26379/ sentinel-26380
 
 创建完成后目录结构如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312241956329.webp)
+![](https://img.fwhyy.com/2023/202312241956329.webp)
 
 2、配置 master 的 redis.conf 文件：
 
@@ -200,7 +200,7 @@ redis-cli -h 10.211.55.14 -p 6380 #连接到主库
 >info  #使用info命令查看信息，如下图
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312241956692.webp)
+![](https://img.fwhyy.com/2023/202312241956692.webp)
 
 9、测试哨兵是否正常工作：
 
@@ -215,11 +215,11 @@ redis-cli -h 10.211.55.14 -p 6383 #连接到其中一个从库
 >info  #查看状态，如下图：
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312241956833.webp)
+![](https://img.fwhyy.com/2023/202312241956833.webp)
 
 可以看出 6383 的从库已经升级为主库，这时将 6380 启动起来，查看服务器状态,可以发现 6380 已经变成从库，说明哨兵在正常工作。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312241956813.webp)
+![](https://img.fwhyy.com/2023/202312241956813.webp)
 
 ## .NET Core 中连接 Redis
 

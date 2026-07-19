@@ -15,11 +15,11 @@ topic: readbook
 - 自我提升：思维、认知
 - 闲书
 
-![image-20220123150853533](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240900911.png)
+![image-20220123150853533](https://img.fwhyy.com/2022/202201240900911.webp)
 
 ## 数据密集型应用系统设计
 
-![image-20220123110203213](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240901987.png)
+![image-20220123110203213](https://img.fwhyy.com/2022/202201240901987.webp)
 
 最早知道这本书是因为左耳朵耗子的推荐，当天就下单了，挑着看的，现在还没完全看完。
 
@@ -35,7 +35,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 凤凰架构
 
-![image-20220123130220802](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240901061.png)
+![image-20220123130220802](https://img.fwhyy.com/2022/202201240901061.webp)
 
 本书的作者是周志明，他还写过一本大家耳熟能详的书《深入理解 Java 虚拟机》。2020 年 11 月周志明在极客时间推出了公开课《周志明的软件架构课》，《凤凰架构》这本书应该是这个课程的升级版。
 
@@ -45,7 +45,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 微服务架构设计模式
 
-![image-20220123131853401](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240902943.png)
+![image-20220123131853401](https://img.fwhyy.com/2022/202201240902943.webp)
 
 如果说学习微服务只看一本书，那我会推荐这本。
 
@@ -53,7 +53,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 敏捷软件开发：原则、模式与实践
 
-![image-20220123132811183](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240902255.png)
+![image-20220123132811183](https://img.fwhyy.com/2022/202201240902255.webp)
 
 这本书的作者是 Robert C·Martin ，江湖人称 Bob 大叔，世界级的软件开发大师。我看的是这本书的 C# 版本。
 
@@ -61,7 +61,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 架构整洁之道
 
-![image-20220123133742526](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240902605.png)
+![image-20220123133742526](https://img.fwhyy.com/2022/202201240902605.webp)
 
 本书作者也是 Robert C·Martin ，相比较《敏捷软件开发：原则、模式与实践》，晚了十年（2018 年）跟读者见面。
 
@@ -69,7 +69,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 卓有成效的敏捷
 
-![image-20220123134916657](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240902559.png)
+![image-20220123134916657](https://img.fwhyy.com/2022/202201240902559.webp)
 
 这是一本比较新的书，2021 年 10 月出版，作者是史蒂夫·迈克康奈尔，大名鼎鼎的《代码大全》也是他的作品。
 
@@ -77,7 +77,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 绝非偶然
 
-![image-20220123140356427](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240902493.png)
+![image-20220123140356427](https://img.fwhyy.com/2022/202201240902493.webp)
 
 最早是看到公众号小众消息的作者 Fenng 的推荐才知道这本书的，Fenng 也是作者之一。这本书可以算是互联网自媒体成功人士的小传记合集。
 
@@ -87,7 +87,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 底层逻辑
 
-![image-20220123141941524](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240903755.png)
+![image-20220123141941524](https://img.fwhyy.com/2022/202201240903755.webp)
 
 本书作者是刘润，在得到上有课程《5 分钟商学院》。也是在得到上知道的这本书，这本书在豆瓣上的评分不是很高，褒贬不一，不过我看着觉得挺好。
 
@@ -99,7 +99,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 好好学习
 
-![image-20220123143414067](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240903325.png)
+![image-20220123143414067](https://img.fwhyy.com/2022/202201240903325.webp)
 
 学习好的学习方法可以让我们事半功倍，全书围绕一个概念展开：临界知识，临界知识是指随着时间的积累，我们学习的知识会变得越来越多，那么这些知识有没有共同的规律呢？找到这些规律并掌握就能四两拨千斤，触类旁通。这种更底层的规律被称为临界知识。感觉和底层逻辑有异曲同工之妙。
 
@@ -109,7 +109,7 @@ https://www.bilibili.com/video/BV1x7411M7Sf?p=1
 
 ## 王羲之放鹅记
 
-![image-20220123144223996](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201240903628.png)
+![image-20220123144223996](https://img.fwhyy.com/2022/202201240903628.webp)
 
 在朋友圈看到一篇文章中推荐了这本书，因为对书法还有点兴趣，便买了。
 

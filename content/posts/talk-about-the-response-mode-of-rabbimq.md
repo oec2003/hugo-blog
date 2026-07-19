@@ -125,7 +125,7 @@ static void Main(string[] args)
 
 在手动模式下，生产者发送消息后消息会从 Ready 进入到 Unacked 中，当消费者进行应答之后消息从 Unacked 中删除。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302004116.png)
+![](https://img.fwhyy.com/2022/202201302004116.webp)
 
 如果消息的产生速度远远大于消费者的处理速度，这时消息就会都在消费者处进行积压了。我们会看到 Unacked 中的数量会越来越大，这样消费者的压力就会越来越大，这时就需要使用 Qos 来进行限流。
 
@@ -133,7 +133,7 @@ static void Main(string[] args)
 
 在消费者中使用 `channel.BasicQos(0, 2, false);` 来进行 Qos 的设置，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302005355.png)
+![](https://img.fwhyy.com/2022/202201302005355.webp)
 
 BasicQos 方法有三个参数：
 

@@ -17,7 +17,7 @@ https://dotnet.microsoft.com/zh-cn/platform/upgrade-assistant/tutorial/intro
 
 先确保  VS2022  已经升级到了 17.8 。然后在 VS2022 的扩展管理中安装扩展：.NET Upgrade Assistant ，需要特别注意的是，如果之前安装过升级工具扩展，需要卸载重新安装。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071829082.webp)
+![](https://img.fwhyy.com/2023/202312071829082.webp)
 
 ## 升级项目
 
@@ -25,23 +25,23 @@ https://dotnet.microsoft.com/zh-cn/platform/upgrade-assistant/tutorial/intro
 
 1、安装完升级工具后，在项目上点击右键就会出现 Upgrade 按钮：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071830854.webp)
+![](https://img.fwhyy.com/2023/202312071830854.webp)
 
 2、在弹窗中选择升级方式：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071830864.webp)
+![](https://img.fwhyy.com/2023/202312071830864.webp)
 
 3、选择升级的目标版本，这里我选择 .NET 8 ,这是一个长线支持版本，最新版本的升级工具只支持升级到 7 和 8 了，如果有升级到 .NET 6 的需求，就需要使用老版本了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071836291.webp)
+![](https://img.fwhyy.com/2023/202312071836291.webp)
 
 4、选择需要更新的内容，默认全选，点击「Upgrade selection」进行升级：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071831666.webp)
+![](https://img.fwhyy.com/2023/202312071831666.webp)
 
  5、很快就可以看到升级成功的提示：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071831691.webp)
+![](https://img.fwhyy.com/2023/202312071831691.webp)
 
 ## 编译
 
@@ -51,7 +51,7 @@ https://dotnet.microsoft.com/zh-cn/platform/upgrade-assistant/tutorial/intro
 
 在原来的版本中，项目中的 zip 压缩用到了 Ionic.zip ,现在 .NET8 已经不支持了，需要换成 DotNetZip :
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071831975.webp)
+![](https://img.fwhyy.com/2023/202312071831975.webp)
 
 ### 问题2：BinaryFormatter 已经过时
 
@@ -76,7 +76,7 @@ https://dotnet.microsoft.com/zh-cn/platform/upgrade-assistant/tutorial/intro
 
 项目中对 Office 文件的处理，使用了 Aspose 套件，升级后版本有兼容性问题，升级到对应的版本就行。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071832621.webp)
+![](https://img.fwhyy.com/2023/202312071832621.webp)
 
 ### 问题 4：方法二义性
 
@@ -105,7 +105,7 @@ public class UserInfo
 
 上面代码中的 DistinctBy 方法在 .NET Core 3.1 中是没有的，所以我们扩展了一个 DistinctBy 方法，没想到 .NET8 中已经默认提供了，会导致方法冲突，只需要将我们的扩展方法去掉，使用默认就好。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202312071836488.webp)
+![](https://img.fwhyy.com/2023/202312071836488.webp)
 
 ## 运行
 

@@ -116,15 +116,15 @@ for (let page of pages) {
 
 注意代码块需要加上 dataviewjs 
 
-![Pasted image 20260303111158](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603092154743.webp)
+![Pasted image 20260303111158](https://img.fwhyy.com/2026/202603092154743.webp)
 
 除此之外，还需要对 Dataview 插件进行配置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603091042405.webp)
+![](https://img.fwhyy.com/2026/202603091042405.webp)
 
 最后的效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603091042483.webp)
+![](https://img.fwhyy.com/2026/202603091042483.webp)
 
 ## Templater
 
@@ -152,7 +152,7 @@ topic:
 
 这个内容就可以放到一个模板文件中。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603091042616.webp)
+![](https://img.fwhyy.com/2026/202603091042616.webp)
 
 除此之外，还有一些常用的如下：
 
@@ -197,9 +197,9 @@ new Notification("No Daily Note Found!")
 
 2、添加一个快捷方式
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603091043761.webp)
+![](https://img.fwhyy.com/2026/202603091043761.webp)
 
 3、在任意页面，输入快捷键就会弹出一个对话框，输入内容想法就会被记录，然后可以继续做自己的事了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202603091044559.webp)
+![](https://img.fwhyy.com/2026/202603091044559.webp)
 

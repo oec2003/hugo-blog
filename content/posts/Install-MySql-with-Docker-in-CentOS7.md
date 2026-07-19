@@ -17,7 +17,7 @@ tags: [MySql, Docker]
 
 在[https://hub.docker.com](https://hub.docker.com)，搜索mysql，结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260656388.jpg)
+![](https://img.fwhyy.com/2022/202201260656388.webp)
 
 选择上图红框的镜像，执行下面命令进行镜像的安装
 
@@ -45,7 +45,7 @@ docker logs mysqltest
 
 找到下图红框部分就是root账户的密码
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260656301.jpg)
+![](https://img.fwhyy.com/2022/202201260656301.webp)
 
 执行下面命令进入到容器中，进入容器又很多中方法，参考[https://www.cnblogs.com/xhyan/p/6593075.html
 ](https://www.cnblogs.com/xhyan/p/6593075.html)
@@ -61,7 +61,7 @@ mysql -uroot -p
 ```
 
 会提示输入密码，密码为上图中的红框部分的密码，如果看到下图欢迎界面表示密码正确，已经进入到MySql的环境中了
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260656930.jpg)
+![](https://img.fwhyy.com/2022/202201260656930.webp)
 
 修改root账户密码，网上有不少修改密码的Sql语句如下
 
@@ -71,7 +71,7 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password123');
 
 但上面的语句在MySql8.0.11版本中会报错
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260657966.jpg)
+![](https://img.fwhyy.com/2022/202201260657966.webp)
 
 如果您的版本和我一样，请执行下面代码来修改root密码
 
@@ -91,7 +91,7 @@ use mysql
 select user,host from user
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260657312.jpg)
+![](https://img.fwhyy.com/2022/202201260657312.webp)
 
 可以看到root的host为localhost，说明root账户不能被外部连接，现在来创建一个新的用户，并赋相关的权限让外部可以连接，一次执行下面语句
 
@@ -110,7 +110,7 @@ docker restart mysqltest
 
 此刻我们使用Sqlyog来连接该容器了测试下，发现会报如下错误
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260657671.jpg)
+![](https://img.fwhyy.com/2022/202201260657671.webp)
 
 执行命令进入到容器中的MySql中，执行下面的Sql语句
 
@@ -120,7 +120,7 @@ ALTER USER 'fengwei'@'localhost' IDENTIFIED WITH mysql_native_password BY 'passw
 
 再用SQLyog测试下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260657774.jpg)
+![](https://img.fwhyy.com/2022/202201260657774.webp)
 
 ## 总结
 

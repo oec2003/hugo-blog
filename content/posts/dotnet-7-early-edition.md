@@ -21,11 +21,11 @@ https://dotnet.microsoft.com/zh-cn/download
 
 在帮助中点击检查更新就可以启动更新，需要等待更新的下载：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841864.webp)
+![](https://img.fwhyy.com/2023/202306161841864.webp)
 
 更新完成后重启电脑，再打开 Visual Studio ，就可以看到框架选择中有 .NET 7.0 了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841474.webp)
+![](https://img.fwhyy.com/2023/202306161841474.webp)
 
 ## Visual Studio 的改进
 
@@ -33,11 +33,11 @@ https://dotnet.microsoft.com/zh-cn/download
 
 在「工具->选项->文本编辑器->常规」界面可以开启「显示 selection 匹配项」。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841559.webp)
+![](https://img.fwhyy.com/2023/202306161841559.webp)
 
 勾选此项后，在编辑器中选择某个文本，编辑器其他有选择文本的地方会进行高亮显示，滚动条中也显示了标记来指示哪些位置有和选择文本相同的文本。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841588.webp)
+![](https://img.fwhyy.com/2023/202306161841588.webp)
 
 目前，它只适用于长度小于 200 个字符的字符串，并且所有字符都在一行上。
 
@@ -45,7 +45,7 @@ https://dotnet.microsoft.com/zh-cn/download
 
 在「工具->选项->文本编辑器->常规」界面可以开启启用音频提示，需要重新启动 VisualStudio 生效。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841263.webp)
+![](https://img.fwhyy.com/2023/202306161841263.webp)
 
 启用后，编辑器中某一个行设置了断点，或者这一行的代码有警告或者错误，光标移动到这一行时，Visual Studio 会播放一个声音。
 
@@ -55,7 +55,7 @@ https://dotnet.microsoft.com/zh-cn/download
 
 在调试时，DataTable 可以直接打开成一个列表，在这个列表界面中可以进行搜索和导出成 Excel 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841407.webp)
+![](https://img.fwhyy.com/2023/202306161841407.webp)
 
 当然，Visual Studio 17.4 还有更多的新增特性，可以参考下面地址：
 
@@ -79,7 +79,7 @@ public string Get()
 
 运行结果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161841680.webp)
+![](https://img.fwhyy.com/2023/202306161841680.webp)
 
 ### 自动默认结构
 
@@ -87,7 +87,7 @@ public string Get()
 
 比如在 C# 10 中，会出现这样的错误：
 
-![](../../attachmenent/202211100546836.webp)
+![](https://img.fwhyy.com/2022/202211100546836.webp)
 
 C# 11 中这段代码是可以正常执行，Age 会被初始化为 0 。
 
@@ -105,7 +105,7 @@ public class User
 
 在创建 User 对象时，如果没有初始化 UserName 和 Age 就会出现错误，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161842248.webp)
+![](https://img.fwhyy.com/2023/202306161842248.webp)
 
 ### 列表模式
 

@@ -18,17 +18,17 @@ Foxit 下面有很多产品，只有Foixt Reader是免费的，不过这已经�
 
 2 选择“Edit-》Add BookMark”
 
-![2011-07-10_101549](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300656974.png)
+![2011-07-10_101549](https://img.fwhyy.com/2022/202201300656974.webp)
 
 3 在新加的书签项中填写章节的名称，如下：
 
-![2011-07-10_102226](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300656903.png)
+![2011-07-10_102226](https://img.fwhyy.com/2022/202201300656903.webp)
 
 4 将PDF文档滚动到相应的位置，然后在新加的书签项上点击右键，选择“设置目的”，这样就将书签和PDF中的页面关联起来了。
 
-![2011-07-10_1024031](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300656834.png)
+![2011-07-10_1024031](https://img.fwhyy.com/2022/202201300656834.webp)
 
 5 按照上面的方法就可以按照书籍的目录来将所有的书签都制作好，做好后只需要拖动书签就可以改变书签的层级，使之显示为树状结构。如果想将A书签放在B书签下，点击A不放拖动到B上，当出现虚线时放开鼠标即可。
 
-![2011-07-10_102544](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300656446.png)
+![2011-07-10_102544](https://img.fwhyy.com/2022/202201300656446.webp)
 

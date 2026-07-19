@@ -15,7 +15,7 @@ tags: [C#,设计模式]
 
 备忘录模式结构图：
 
-![2010-12-29_111357](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290613625.png)
+![2010-12-29_111357](https://img.fwhyy.com/2022/202201290613625.webp)
 
 上图中Originator为原发器，也可以讲发起者，可以创建一个备忘录（CreateMemento），Memento为备忘录，负责存储原发器中的内部状态。Caretaker主要负责存储备忘录。代码如下：
 

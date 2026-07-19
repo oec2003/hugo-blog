@@ -31,33 +31,33 @@ Notion 虽然功能强大，但在写文章，然后发布到公众号和博客�
 
 这是我最喜欢的一个功能，也是我决定使用 Typora 的主要原因。可以直接截图在 Typora 中进行粘贴，粘贴后的图片会保存到设置的目录中，目录可以在偏好设置中进行修改：
 
-![iShot2022-02-12 09.48.05](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202120948404.jpg)
+![iShot2022-02-12 09.48.05](https://img.fwhyy.com/2022/202202120948404.webp)
 
 我设置的是在插入图片时复制到指定路径中，目的是文章中的图片可以在本地有一个备份。当然也可以设置为其他的形式，比如一粘贴图片就直接进行上传：
 
-![iShot2022-02-13 10.09.53](/Users/fengwei/Documents/my/typora-img/使用 Typora 进行写作/iShot2022-02-13 10.09.53.jpg)
+![iShot2022-02-13 10.09.53](https://img.fwhyy.com/2022/20220213100953.webp)
 
 Typora 还支持图床的功能，在偏好设置中可以设置不同的上传服务，方便地将图片存储到网络中，发布博客的时候就无须再进行图片地址的更改了：
 
-![iShot2022-02-13 10.24.44](/Users/fengwei/Documents/my/typora-img/使用 Typora 进行写作/iShot2022-02-13 10.24.44.jpg)
+![iShot2022-02-13 10.24.44](https://img.fwhyy.com/2022/20220213102444.webp)
 
 ## 专注写作
 
 在 Typora 的显示菜单中可以设置专注模式和打字机模式，可以让我们进行沉浸式地写作：
 
-![iShot2022-02-13 10.37.32](/Users/fengwei/Documents/my/typora-img/使用 Typora 进行写作/iShot2022-02-13 10.37.32.jpg)
+![iShot2022-02-13 10.37.32](https://img.fwhyy.com/2022/20220213103732.webp)
 
 专注模式：勾选了专注模式后，只有当前编辑的行是高亮显示，其他部分都是灰色；
 
 打字机模式：当前编辑行永远位于屏幕的中间。
 
-![iShot2022-02-13 10.45.19](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202131115073.jpg)
+![iShot2022-02-13 10.45.19](https://img.fwhyy.com/2022/202202131115073.webp)
 
 ## 丰富的导出格式
 
 Typora 支持丰富的导出格式，在偏好设置中可以进行相关设置：
 
-![iShot2022-02-13 12.31.54](/Users/fengwei/Documents/my/typora-img/使用 Typora 进行写作/iShot2022-02-13 12.31.54.jpg)
+![iShot2022-02-13 12.31.54](https://img.fwhyy.com/2022/20220213123154.webp)
 
 Typora 几乎支持所有主流格式的导出，像图片、PDF 可以直接导出，如果要导出 Word、Epub 等格式需要安装 pandoc、可以参考文档：https://pandoc.org/installing.html 。一些常见格式我都进行了导出测试，效果挺不错。
 
@@ -67,7 +67,7 @@ Typora 几乎支持所有主流格式的导出，像图片、PDF 可以直接导
 
 Typora 的编辑区域是由 CSS 样式来控制的，我使用的是 GitHub 主题，样式文件为：/Users/fengwei/Library/Application Support/abnerworks.Typora/themes/github.css ，在该文件中搜索 #write ，下图红框的三处修改为想要的宽度即可：
 
-![image-20220123102408216](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202131841313.png)
+![image-20220123102408216](https://img.fwhyy.com/2022/202202131841313.webp)
 
 ## 总结
 

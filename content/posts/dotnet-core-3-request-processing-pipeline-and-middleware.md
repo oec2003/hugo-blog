@@ -20,7 +20,7 @@ tags: [dotNetCore,中间件]
 
 我们知道，在 Web 应用中，无论使用什么技术，都是客户端发送一个请求，服务器端经过一系列的处理后返回结果给客户端。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292125708.jpg)
+![](https://img.fwhyy.com/2022/202201292125708.webp)
 （图1)
 
 在服务器端返回响应前我们的请求都会经过一些列的处理才会产生最终的结果，不管是之前的 dotNET Frameowrk 程序还是现在的 dotNET Core，中间的处理都采用了管道的设计。
@@ -39,19 +39,19 @@ tags: [dotNetCore,中间件]
 
 具体的处理流程图如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292126332.jpg)
+![](https://img.fwhyy.com/2022/202201292126332.webp)
 （图2)
 
 HttpModule 和 HttpHandler 的细化图如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292126700.jpg)
+![](https://img.fwhyy.com/2022/202201292126700.webp)
 （图3)
 
 ### dotNET Core 管道
 
 在 dotNET Core 中，HttpModule 和 HttpHandler 已经消失了。取而代之的是 MiddleWare（中间件） 。在 Core 中请求处理管道由一个服务器和一组中间件来组成，服务器默认就是内置的 Kestrel ，官方经典的流程图如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292126431.jpg)
+![](https://img.fwhyy.com/2022/202201292126431.webp)
 （图4)
 
 请求经过中间件处理完后，进入下一个中间件，然后按照顺序依次返回。相比较原来的 HttpModule ，更简单和轻量级，而且即便是系统级别的中间件，也是可以由用户自己选择使用的，更加灵活，同时也有更好的性能。更多中间件和 HttpModule 的对比可以参考：[https://docs.microsoft.com/zh-cn/aspnet/core/migration/http-modules?view=aspnetcore-3.1](https://docs.microsoft.com/zh-cn/aspnet/core/migration/http-modules?view=aspnetcore-3.1)
@@ -94,7 +94,7 @@ Host.CreateDefaultBuilder()
 
 运行程序，可以看到浏览器会显示 hello world
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292127598.jpg)
+![](https://img.fwhyy.com/2022/202201292127598.webp)
 （图5)
 
 Main 函数中的​代码调用步骤如下：​
@@ -171,15 +171,15 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 先来看运行结果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292127058.jpg)
+![](https://img.fwhyy.com/2022/202201292127058.webp)
 （图6)
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292127639.jpg)
+![](https://img.fwhyy.com/2022/202201292127639.webp)
 （图7)
 
 从图6 可以看出注册中间件的顺序和我们代码的顺序是相反的，这个可以看看 ApplicationBuilder 的源码就清楚，在 Build 方法中执行时将收集到的所有中间件进行了反转
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292128822.jpg)
+![](https://img.fwhyy.com/2022/202201292128822.webp)
 （图8)
 
 从图7 可以看出，中间件的执行顺序是按照注册的顺序一个一个进入，然后传递到后面一个中间件，最后一个执行完后原路返回。
@@ -257,7 +257,7 @@ app.UseRequestSourceCheck();
 
 4、调用结果如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292129964.jpg)
+![](https://img.fwhyy.com/2022/202201292129964.webp)
 
 
 实现中间件，我们也可以不继承 IMiddleware 接口，按照约束去定义中间件的类一样可以实现功能，在 dotNET Core 还有很多的地方使用着固有的约定，比如 Starup 类也没有实现 IStarup 接口，也是一样的道理。按照约定的方式实现代码如下：

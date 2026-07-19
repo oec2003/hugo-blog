@@ -19,11 +19,11 @@ tags: [Arc,Ventura,macOS]
 
 https://support.apple.com/zh-cn/HT210898
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302038462.png)
+![](https://img.fwhyy.com/2022/202210302038462.webp)
 
 在 Ventura 系统中最重要的更新就是「台前调度」，在系统右上角的控制中心中开启台前调度，开启后屏幕的左边会出现 APP 切换的卡片，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302039289.png)
+![](https://img.fwhyy.com/2022/202210302039289.webp)
 
 这个功能初玩感觉很新鲜，但发现这跟三指上划的作用相同，仅仅少了一次滑动的操作而已，而且 APP 如果是全屏显示，还需要将鼠标划入左侧才能唤初切换的卡片，感觉和三指上划也差不多。
 
@@ -37,11 +37,11 @@ https://support.apple.com/zh-cn/HT210898
 
 Ventura 系统只是玩了下「台前调度」，就开始安装 Arc 浏览器了，安装后需要使用邮箱进行注册，创建账号时提示 Unknown server error ：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302052484.jpg)
+![](https://img.fwhyy.com/2022/202210302052484.webp)
 
 经过一番折腾（不同的上网方式），终于是注册成功了，初次看见 Arc ，最大的感觉就是颜值很高，交互体验也特别好。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302056707.jpg)
+![](https://img.fwhyy.com/2022/202210302056707.webp)
 
 好了，现在来看看 Arc 都有什么特别的功能。
 
@@ -56,7 +56,7 @@ Arc 打破了这种传统思维：
 - 临时 Tab 会在闲置 12 小时后自动关闭；
 - 常用的站点可以固定在顶部，不受 Space 切换的影响。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202211081644251.png)
+![](https://img.fwhyy.com/2022/202211081644251.webp)
 
 2、网页全屏展示
 
@@ -64,13 +64,13 @@ Arc 打破了这种传统思维：
 
 把左边的 Sidebar 隐藏后，右边感觉上就像是一个独立 APP 了，特别适合一些单页应用，比如：inoreader、readwise reader 等，看下面我的 inoreader ，是不是很像一个独立的 APP 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202211081644181.png)
+![](https://img.fwhyy.com/2022/202211081644181.webp)
 
 3、酷炫的颜色设置
 
 每个 Space 都可以设置不同的主题色，在底部的 Space 上点击右键，点击 Theme... 
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302052953.png)
+![](https://img.fwhyy.com/2022/202210302052953.webp)
 
 * 可以添加多个颜色设置渐变；
 * 可以设置暗色主题、亮色主题或随系统；
@@ -83,7 +83,7 @@ Arc 打破了这种传统思维：
 
 在 Tab 上点开扩展按钮，点击 Open in Split View ，可以在右边区域扩展一个页面，这个功能在大屏显示器中就比较舒服了，比如左边可以开一个微信读书，右边放一个 flomo 来记笔记。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302057577.png)
+![](https://img.fwhyy.com/2022/202210302057577.webp)
 
 这个功能在之前只能在 macOS 中开一个新的全屏桌面，将两个浏览器页签并排放入这个桌面。操作上比较复杂一点，而且不能保持，电脑重启就没了。
 
@@ -91,7 +91,7 @@ Arc 打破了这种传统思维：
 
 这是在 Obsidian 中添加网页链接后无意间发现的，当我在 Obsidian 中输入了一个链接并点击这个链接的时候，Arc 会启动一个小的浏览器窗口，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202210302057573.png)
+![](https://img.fwhyy.com/2022/202210302057573.webp)
 
 除了上面提到的，Arc 还有 Easel、Note、Boost、网页内截图等功能，有兴趣的可以自己去研究下。
 

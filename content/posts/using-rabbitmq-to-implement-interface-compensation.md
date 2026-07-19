@@ -18,13 +18,13 @@ tags: [RabbitMQ,接口补偿]
 
 本文采用的方式是第二种，接口调用流程如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280641806.jpg)
+![](https://img.fwhyy.com/2022/202201280641806.webp)
 
 ## RabbitMQ
 
 RabbitMQ 可以通过 TTL(Time To Live)、DLX(Dead Letter Exchanges) 特性实现延迟队列。其原理是给消息设置过期时间，在消息队列上为过期消息指定转发器，这样消息过期后会转发到与指定转发器匹配的队列上，就实现了延时队列。消息流转如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280642093.jpg)
+![](https://img.fwhyy.com/2022/202201280642093.webp)
 
 ### 生产者代码
 
@@ -92,7 +92,7 @@ static void Main(string[] args)
 * 记录失败次数，作为消息发送时的依据
 * 超过最大的重试次数，需要人工来进行手动重新调用
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280642350.jpg)
+![](https://img.fwhyy.com/2022/202201280642350.webp)
 
 上面表中只是基础的一些字段，在真实业务中可以根据实际情况进行字段的增加。
 

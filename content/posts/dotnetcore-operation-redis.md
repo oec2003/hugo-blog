@@ -69,7 +69,7 @@ redis-server redis.conf #根据修改后到配置文件启动redis
 ps -ef | grep redis #检查是否启动成功
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292136152.jpg)
+![](https://img.fwhyy.com/2022/202201292136152.webp)
 
 ```
 redis-cli #连接到redis，默认会连接6379的默认端口
@@ -121,7 +121,7 @@ cp -r sentinel-26379/ sentinel-26380
 
 创建完成后目录结构如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292137176.jpg)
+![](https://img.fwhyy.com/2022/202201292137176.webp)
 
 2、配置 master 的 redis.conf 文件
 
@@ -193,7 +193,7 @@ redis-cli -h 172.16.0.13 -p 6380 #连接到主库
 >info  #使用info命令查看信息，如下图
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292137025.jpg)
+![](https://img.fwhyy.com/2022/202201292137025.webp)
 
 9、测试哨兵是否正常工作
 
@@ -206,17 +206,17 @@ redis-cli -h 172.16.0.13 -p 6381 #连接到其中一个从库
 >info  #查看状态，如下图：
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292137738.jpg)
+![](https://img.fwhyy.com/2022/202201292137738.webp)
 
 可以看出 6381 的从库已经升级为主库，这时将 6380 启动起来，查看服务器状态,可以发现 6380 已经变成从库，说明哨兵在正常工作。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292138334.jpg)
+![](https://img.fwhyy.com/2022/202201292138334.webp)
 
 ## dotNET Core 中连接 Redis
 
 1、在 VS 中创建示例项目，引用 CSRedisCore 的 NuGet 包，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292138027.jpg)
+![](https://img.fwhyy.com/2022/202201292138027.webp)
 
 2、具体代码如下：
 

@@ -11,7 +11,7 @@ tags: [Everything, 软件推荐]
 
 运行后界面
 
-![2010-12-30_215838](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281845926.gif)
+![2010-12-30_215838](https://img.fwhyy.com/2022/202201281845926.webp)
 
 感兴趣的朋友就下载试用吧！
 

@@ -33,7 +33,7 @@ topic: travel
 
 恰恰是临时决定去的度假酒店，是女儿最喜欢的。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082202992.webp)
+![](https://img.fwhyy.com/2023/202310082202992.webp)
 
 ## 行程
 
@@ -49,11 +49,11 @@ topic: travel
 
 3、适合拍照。
 
-![陶溪川](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082203208.webp)
+![陶溪川](https://img.fwhyy.com/2023/202310082203208.webp)
 
 网上查当地的美食，有一家叫「樊记牛骨粉」，看到的所有店子都叫「樊记牛骨粉」，倒也不用挑了，随便进一个即可。牛骨粉、冷粉、饺子粑、油条包糯米，一个店子搞定，油条包糯米挺不错，第二天去抚州弄，又买了一次。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082203020.webp)
+![](https://img.fwhyy.com/2023/202310082203020.webp)
 
 ### Day2（9 月 30）
 
@@ -61,17 +61,17 @@ topic: travel
 
 这个地方没有商业化，可以看到村民在河里钓鱼、洗衣服。尽管是在国庆期间，也只能看见很少的几个游客。
 
-![东埠古街古码头](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082203056.webp)
+![东埠古街古码头](https://img.fwhyy.com/2023/202310082203056.webp)
 
 离开东埠古街，继续驱车前往瑶里，果然商业化重的地方人就多，没能找到停车位，然后又临时找到了一个寒溪村。
 
 寒溪村后面的山上是一片茶园，茶园最高处矗立着一座大型艺术品「大地之灯」，是著名建筑师马岩松的作品。
 
-![寒溪村](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082203882.webp)
+![寒溪村](https://img.fwhyy.com/2023/202310082203882.webp)
 
 回到市区后，又去了九集小镇（规模巨大的一个夜市）、雕塑瓷厂、、御窑博物馆（需要提前预约）、抚州弄，基本上该去的地方都去了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082203980.webp)
+![](https://img.fwhyy.com/2023/202310082203980.webp)
 
 Day3（10 月 1）
 
@@ -79,7 +79,7 @@ Day3（10 月 1）
 
 晚上步行去了三坊七巷，途中经过了几个居民区，在大榕树的映衬下，非常的静谧，等到了三坊七巷，又人山人海，形成了鲜明的对比。
 
-![三坊七巷](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310090613273.webp)
+![三坊七巷](https://img.fwhyy.com/2023/202310090613273.webp)
 
 Day4（10 月 2）
 
@@ -87,7 +87,7 @@ Day4（10 月 2）
 
 晚上老婆提议去了福州大学附近的永嘉夜市，依然是乘坐免费的地铁。永嘉夜市的人刚刚好，不多不少，在国庆期间，只要人不多，体验就会很好。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082204183.webp)
+![](https://img.fwhyy.com/2023/202310082204183.webp)
 
 Day5（10 月 3）
 
@@ -99,7 +99,7 @@ Day5（10 月 3）
 
 在平潭，我们只去了五星海滩和看了海上风车，想想没有排队、没有拥堵，也就很知足了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310082204243.webp)
+![](https://img.fwhyy.com/2023/202310082204243.webp)
 
 Day6（10 月 4）
 
@@ -107,7 +107,7 @@ Day6（10 月 4）
 
 女儿在酒店的儿童游乐场玩的很嗨。
 
-![资溪](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310090613489.webp)
+![资溪](https://img.fwhyy.com/2023/202310090613489.webp)
 
 Day7（10 月 5）
 
@@ -121,7 +121,7 @@ Day7（10 月 5）
 
 10 月 1 号在景德镇跑了 10.01  公里来庆祝国庆。景德镇市区不大，酒店的正前方是陶溪川，我特意从反方向跑，最后还是绕到了陶溪川。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310090612933.webp)
+![](https://img.fwhyy.com/2023/202310090612933.webp)
 
 ### 福州
 
@@ -131,7 +131,7 @@ Day7（10 月 5）
 
 福州真的是一个非常适合跑步的城市。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310090612099.webp)
+![](https://img.fwhyy.com/2023/202310090612099.webp)
 
 ### 资溪
 
@@ -139,7 +139,7 @@ Day7（10 月 5）
 
 可能是因为山里氧气很足，523 的配速，心率只有 138。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310090612738.webp)
+![](https://img.fwhyy.com/2023/202310090612738.webp)
 
 ## 最后
 

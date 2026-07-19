@@ -31,7 +31,7 @@ hexo d
 
 2、遵循一次性对话尽可能只让 AI 完成一件事的原则，我先让生成一个 Obsidian 插件的基础文件，核心逻辑在 main.ts 文件中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502121650565.webp)
+![](https://img.fwhyy.com/2025/202502121650565.webp)
 
 3、接着就按照我上面提到的步骤一步一步引导 Windsurf 来完成开发。
 
@@ -41,21 +41,21 @@ hexo d
 
 4、代码写完，执行 `npm run build` 进行构建，构建完成后，会生成一个新的 main.js 文件，Obsidian 插件需要的是包含 main.js 在内的三个文件，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502121651563.webp)
+![](https://img.fwhyy.com/2025/202502121651563.webp)
 
 5、怎么安装到 Obsidian，具体步骤也可以在 Windsurf 中询问：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502121651705.webp)
+![](https://img.fwhyy.com/2025/202502121651705.webp)
 
 - 需要注意的是重新覆盖了 main.js 文件后，需要重新加载插件（禁用后重新启用）才能生效。
 
 6、首次安装后，在 Obsidian 的第三方插件中就可以看到自己开发的插件了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502121651842.webp)
+![](https://img.fwhyy.com/2025/202502121651842.webp)
 
 7、因为使用了百度的翻译、又要将文章内容同步到 hexo 中，所以需要在插件的设置中配置相关参数：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502121651187.webp)
+![](https://img.fwhyy.com/2025/202502121651187.webp)
 
 8、在文档中点击右键，菜单中选择「Publish to Hexo」就可以完成发布了。发布按钮可以放在以下位置，可以让 Windsurf 根据需要自行选择：
 
@@ -64,7 +64,7 @@ hexo d
 - 编辑器菜单项（Editor Menu，右键菜单）
 - 命令面板（原有的位置，可以通过 Ctrl/Cmd + P 调出）
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502121651893.webp)
+![](https://img.fwhyy.com/2025/202502121651893.webp)
 
 9、文章内容同步到 hexo 后，在 hexo 的根目录执行 `hexo g hexo d` 便可发布了。
 

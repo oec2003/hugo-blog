@@ -4,6 +4,9 @@ date: 2021-12-13T08:05:00+08:00
 categories: [技术]
 tags: [设计模式]
 topic: arch
+series_chapter: 第二章 设计原则与模式
+series_section: ""
+series_order: 230
 ---
 
 本文继续来介绍接口隔离原则（ISP）和依赖倒置原则（DIP），这两个原则都和接口和继承有关。文章最后会简单介绍几个除了 SOLID 原则之外的原则。

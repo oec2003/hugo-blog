@@ -22,7 +22,7 @@ C:\Documents and Settings\username\My Documents\My Weblog Posts
 
 My Weblog Posts目录中有两个文件夹Drafts 和 Recent Posts，Drafts 目录中存放的就是草稿，而Recent Posts目录中存放的是最近发布的日志。
 
-![2010-12-31_112146](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290755981.gif)
+![2010-12-31_112146](https://img.fwhyy.com/2022/202201290755981.webp)
 
 我们可以对这两个目录做备份就ok了。
 

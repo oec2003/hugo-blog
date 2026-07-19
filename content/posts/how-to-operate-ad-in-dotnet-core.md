@@ -25,7 +25,7 @@ tags: [dotNET Core,AD]
 
 在 VS2019 中添加 NuGet 包引用，如下图：
 
-![](http://fwhyy.com/img/post/2019/15775248319643.jpg)
+![](https://img.fwhyy.com/15775248319643.webp)
 
 安装完成后，在类中添加`using Novell.Directory.Ldap;`引用便可使用相关的 API 方法了。
 

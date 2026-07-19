@@ -19,21 +19,21 @@ tags: [dotNetCore]
 
 如果是 Windows 操作系统当然是首选 VS2019 ，在 Mac 中虽然也有 VS2019 For Mac，但还是感觉 Rider 比较好用（调试和智能提示），在 Rider 中创建 Web API 项目：
 
-![iShot2022-01-30 21.23.09](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135152.jpg)
+![iShot2022-01-30 21.23.09](https://img.fwhyy.com/2022/202201302135152.webp)
 
 ## 3.x 和 2.x 区别
 
 1、Program 类的 IWebHostBuilder 修改为了 IHostBuilder，这一块的改动如果是直接使用3.x可以不用过于关心，如果是从 2.x升级到3.x，就要注意了，对比结果如下图：
 
-![iShot2022-01-30 21.25.02](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135694.jpg)
+![iShot2022-01-30 21.25.02](https://img.fwhyy.com/2022/202201302135694.webp)
 
 2、Startup 类的区别如下图：
 
-![iShot2022-01-30 21.25.32](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135068.jpg)
+![iShot2022-01-30 21.25.32](https://img.fwhyy.com/2022/202201302135068.webp)
 
 最重要的还是在 3.x 中使用的是 services.AddControllers(); 来注册服务，相比较 2.x 中的 services.AddMvc() 更加轻量级，因为在 AddMvc 方法中添加了很多 WebAPI 不需要的功能，如下图：
 
-![iShot2022-01-30 21.26.13](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135487.jpg)
+![iShot2022-01-30 21.26.13](https://img.fwhyy.com/2022/202201302135487.webp)
 
 3、3.x 引入了新的JSON API,新的JSON API使用更少的内存，拥有更快的执行速度,引用 `using System.Text.Json;` 就可以使用，如果需要使用原来的功能，需要引入 Nuget包：`Microsoft.AspNetCore.Mvc.NewtonsoftJson`
 
@@ -48,7 +48,7 @@ tags: [dotNetCore]
 
 在 3.x 中默认项目模板中会创建的一个名为 WeatherForecastController 的控制器，按照约束控制器类以 Controller 结尾。
 
-![iShot2022-01-30 21.26.31](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135419.jpg)
+![iShot2022-01-30 21.26.31](https://img.fwhyy.com/2022/202201302135419.webp)
 
 可以看到在 WeatherForecastController 类的上面自动添加了 [ApiController] 特性，添加此特性后，会对 Api 功能有所加持，比如：
 
@@ -80,7 +80,7 @@ public ActionResult AddUser(User user)
 
 4、使用 Postman 调用，没有添加任何参数，返回的结果为 200
 
-![iShot2022-01-30 21.27.00](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135285.jpg)
+![iShot2022-01-30 21.27.00](https://img.fwhyy.com/2022/202201302135285.webp)
 
 这个结果不是我们所期望的，之前没有 [ApiController] 特性的时候，需要在接口方法中处理，如下：
 
@@ -99,11 +99,11 @@ public ActionResult AddUser(User user)
 
 5、再用 Postman 调用，结果如下：
 
-![iShot2022-01-30 21.27.22](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135553.jpg)
+![iShot2022-01-30 21.27.22](https://img.fwhyy.com/2022/202201302135553.webp)
 
 6、现在添加上 [ApiController] 特性，并将 AddUser 中的校验逻辑去掉，再次使用 Postman，结果如下：
 
-![iShot2022-01-30 21.27.43](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302135830.jpg)
+![iShot2022-01-30 21.27.43](https://img.fwhyy.com/2022/202201302135830.webp)
 
 ### 推断参数绑定源
 
@@ -113,11 +113,11 @@ public ActionResult AddUser(User user)
 
 之前的版本中，如果接口返回一个 BadRequest，是没有内容的，只有状态码，如下：
 
-![iShot2022-01-30 21.28.05](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136771.jpg)
+![iShot2022-01-30 21.28.05](https://img.fwhyy.com/2022/202201302136771.webp)
 
 加上 [ApiController] 特性后，结果如下：
 
-![iShot2022-01-30 21.28.30](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136511.jpg)
+![iShot2022-01-30 21.28.30](https://img.fwhyy.com/2022/202201302136511.webp)
 
 ## 基类
 
@@ -142,7 +142,7 @@ public class BaseController: ControllerBase
 
 先看下面这张图
 
-![iShot2022-01-30 21.28.59](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136111.jpg)
+![iShot2022-01-30 21.28.59](https://img.fwhyy.com/2022/202201302136111.webp)
 
 按照标准的 RESTful Web API 风格，不同的请求动作需要使用相对应的方法，但实际我们最常用的是 GET 和 POST，查询使用 GET，其他的操作都是使用 POST。
 
@@ -150,7 +150,7 @@ public class BaseController: ControllerBase
 
 正确的返回状态码有助于客户端分析请求返回结果和问题排查，常用的状态码如下：
 
-![iShot2022-01-30 21.29.20](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136739.jpg)
+![iShot2022-01-30 21.29.20](https://img.fwhyy.com/2022/202201302136739.webp)
 
 常见的一个问题：由于客户端参数的问题，导致接口代码中执行异常了，最终返回了 500，导致排查问题非常复杂，还需要还原问题场景下的数据和入参。正确的做法应该是对参数做相关校验最终返回相应的 4XX 的状态码。
 
@@ -204,7 +204,7 @@ public ActionResult<string> GetUserName(string userId, 						[FromServices]IUser
 
 4、执行结果如下：
 
-![iShot2022-01-30 21.29.41](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136167.jpg)
+![iShot2022-01-30 21.29.41](https://img.fwhyy.com/2022/202201302136167.webp)
 
 
 ### 参数验证
@@ -233,7 +233,7 @@ public class User
 
 2、调用结果如下：
 
-![iShot2022-01-30 21.30.44](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136159.jpg)
+![iShot2022-01-30 21.30.44](https://img.fwhyy.com/2022/202201302136159.webp)
 
 有关更多的 Data Annotations 特性的使用，可以参考官方文档：[https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=netcore-3.1](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=netcore-3.1)
 
@@ -263,7 +263,7 @@ public class User: IValidatableObject
 
 2、调用结果如下：
 
-![iShot2022-01-30 21.32.01](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136176.jpg)
+![iShot2022-01-30 21.32.01](https://img.fwhyy.com/2022/202201302136176.webp)
 
 #### 自定义 Attribute
 
@@ -305,7 +305,7 @@ public class User
 
 3、调用结果如下：
 
-![iShot2022-01-30 21.32.20](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136609.jpg)
+![iShot2022-01-30 21.32.20](https://img.fwhyy.com/2022/202201302136609.webp)
 
 #### FluentValidation
 
@@ -371,7 +371,7 @@ public ActionResult<List<User>> GetUsersByIds(
 
 3、调用结果
 
-![iShot2022-01-30 21.32.42](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302136740.jpg)
+![iShot2022-01-30 21.32.42](https://img.fwhyy.com/2022/202201302136740.webp)
 
 
 ## 返回值
@@ -386,7 +386,7 @@ services.AddControllers().AddXmlDataContractSerializerFormatters();
 
 结果如下：
 
-![iShot2022-01-30 21.33.12](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302137439.jpg)
+![iShot2022-01-30 21.33.12](https://img.fwhyy.com/2022/202201302137439.webp)
 
 ### 错误信息统一返回
 
@@ -419,7 +419,7 @@ services.AddControllers()
 
 当出现验证问题时，结果如下：
 
-![iShot2022-01-30 21.33.33](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302137273.jpg)
+![iShot2022-01-30 21.33.33](https://img.fwhyy.com/2022/202201302137273.webp)
 
 更多详细信息可以看文档：[https://docs.microsoft.com/zh-cn/aspnet/core/web-api/handle-errors?view=aspnetcore-3.1](https://docs.microsoft.com/zh-cn/aspnet/core/web-api/handle-errors?view=aspnetcore-3.1)
 
@@ -468,7 +468,7 @@ public ActionResult<UserDto> GetUserById(string userId)
 
 请求结果如下
 
-![iShot2022-01-30 21.33.56](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302137436.jpg)
+![iShot2022-01-30 21.33.56](https://img.fwhyy.com/2022/202201302137436.webp)
 
 同样的接口在前端不同的场景下需要返回不一样的字段数据，一种方式是创建很多不同的接口，返回不同的 Dto 的结果，但这样做非常繁琐，可以通过 ExpandoObject 来实现按客户端的需要进行返回结果，具体步骤如下：
 
@@ -548,11 +548,11 @@ public ActionResult GetUsers([FromBody]string fields)
 
 返回一个属性 Name
 
-![iShot2022-01-30 21.34.19](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302137830.jpg)
+![iShot2022-01-30 21.34.19](https://img.fwhyy.com/2022/202201302137830.webp)
 
 返回所有
 
-![iShot2022-01-30 21.34.37](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302137999.jpg)
+![iShot2022-01-30 21.34.37](https://img.fwhyy.com/2022/202201302137999.webp)
 
 ## 最后
 

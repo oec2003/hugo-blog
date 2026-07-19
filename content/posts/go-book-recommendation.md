@@ -18,7 +18,7 @@ Go 目前最新的版本到了 1.19 ，出版的书籍肯定是更不上版本�
 
 在出版这本书之前，Tony Bai 还在极客时间开设了一个关于 Go 的入门级专栏 《Tony Bai · Go 语言第一课》，有兴趣可以去看看：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202211081627274.png)
+![](https://img.fwhyy.com/2022/202211081627274.webp)
 
 再来说说《Go 语言精进之路》这本书吧。
 

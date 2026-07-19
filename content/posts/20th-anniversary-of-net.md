@@ -13,19 +13,19 @@ tags: [.NET ]
 
 04 年学校开设了 VB 的课程，目的是为了让我们能快速上手做些可用的软件。后来一次逛书店，发现有 Visual Basic.NET 的书，当时还不懂 .NET ，也没细看，还以为就是我们学习的 VB ，便买了一本：
 
-![iShot2022-02-20 05.34.09](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070542196.jpg)
+![iShot2022-02-20 05.34.09](https://img.fwhyy.com/2022/202203070542196.webp)
 
 回宿舍细看才发现跟我们学习的 VB 不一样，书中的示例的工具也不一样。也就是这个时候才知道 .NET 的存在 ，知道了 .NET 中除了能用 VB.NET ，还能使用 C# ，而我最先学的是 VB 6、就顺理成章地先学了 VB.NET，最后才学习的 C#。
 
 有了书籍，还需要有编程工具才能动手写代码。当时的网络资源和网速都极其的差，便约同学去电脑城买 VS 的安装光盘，老板忽悠我们说现在有最新的 VS 2005 ，买回去安装后才发现是 Visual Studio 2003，阴差阳错地正好和书中的内容匹配了。就这么一路从 Visual Studio 2003 用到了现在的 Visual Studio 2022 。
 
-![iShot2022-02-19 21.36.16](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070542500.jpg)
+![iShot2022-02-19 21.36.16](https://img.fwhyy.com/2022/202203070542500.webp)
 
 因为有 VB 的基础，所以学习 VB.NET 还比较快，开始都是做的一些 WinForm 程序，像计算器、记事本、抽奖工具等。后来因毕业设计选题是《基于 .NET 的 BBS 设计与实现》，就开始学习 C# 和 Web 编程方面的知识。
 
 带着目的去学习，成长速度非常快，整个毕业设计的系统从 UI 界面、数据库设计、逻辑编写都是独立完成，所以很轻松就通过了答辩。那段时光非常难忘，每天晚上都去图书馆、去自习室，别人复习应对考研，我敲着键盘，学习编程。
 
-![iShot2022-02-17 14.25.56](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070543208.jpg)
+![iShot2022-02-17 14.25.56](https://img.fwhyy.com/2022/202203070543208.webp)
 
 ------
 
@@ -39,7 +39,7 @@ https://www.cnblogs.com/oec2003/category/92712.html
 
 后来参加博客园的一个活动，收到了 dflying 签名的译著：
 
-![f0c141e0c36cce12743533622ed3260a](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070543895.jpg)
+![f0c141e0c36cce12743533622ed3260a](https://img.fwhyy.com/2022/202203070543895.webp)
 
 ------
 
@@ -51,7 +51,7 @@ https://www.cnblogs.com/oec2003/category/92713.html
 
 从 C# 2.0、C# 3.0、到 ASP.NET 4、WCF 等，WebCast 给我了很大的帮助，下图是之前下载的部分系列教程：
 
-![iShot2022-02-20 16.35.18](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070543567.jpg)
+![iShot2022-02-20 16.35.18](https://img.fwhyy.com/2022/202203070543567.webp)
 
 ------
 

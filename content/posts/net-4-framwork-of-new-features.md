@@ -28,7 +28,7 @@ public static int Fibonacci(int x)
 
 上面的代码当x的值为47的时候就会出现溢出，结果如下图：
 
-![2010-05-26_105558](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300729455.png)
+![2010-05-26_105558](https://img.fwhyy.com/2022/202201300729455.webp)
 
 现在修改代码，使用BigInteger，代码如下：
 
@@ -49,7 +49,7 @@ public static BigInteger Fibonacci(int x)
 
 再次将x赋值为47，运行结果如下图：
 
-![2010-05-26_111127](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300729877.png)
+![2010-05-26_111127](https://img.fwhyy.com/2022/202201300729877.webp)
 
 ## 2 Complex
 
@@ -75,7 +75,7 @@ private static void ComplexDemo()
 
 运行结果如下图：
 
-![2010-05-26_104753](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300730444.png)
+![2010-05-26_104753](https://img.fwhyy.com/2022/202201300730444.webp)
 
 ## 3 Tuple
 
@@ -116,7 +116,7 @@ public static void SortedSetDemo()
 }
 ```
 
-![2010-05-26_115923](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300730256.png)
+![2010-05-26_115923](https://img.fwhyy.com/2022/202201300730256.webp)
 
 除了自排序外，还可以求出集合的最大值、最小值和制定范围的集合，看下面例子：
 
@@ -138,5 +138,5 @@ public static void SortedSetDemo()
 }
 ```
 
-![2010-05-26_140505](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300730804.png)
+![2010-05-26_140505](https://img.fwhyy.com/2022/202201300730804.webp)
 

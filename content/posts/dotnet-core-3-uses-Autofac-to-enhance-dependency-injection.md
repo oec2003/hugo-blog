@@ -60,7 +60,7 @@ public class UserController: ControllerBase
 }
 ```
 4、添加 Autofac.Extensions.DependencyInjection 的 NuGet 引用
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292135859.jpg)
+![](https://img.fwhyy.com/2022/202201292135859.webp)
 
 5、修改 Startup 类的 ConfigureServices 方法
 
@@ -211,7 +211,7 @@ public void ConfigureContainer(ContainerBuilder builder)
 ### 动态代理的 AOP 功能
 
 使用动态代理的功能，需要引用 NuGet 包：Autofac.Extras.DynamicProxy，如下图：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292136022.jpg)
+![](https://img.fwhyy.com/2022/202201292136022.webp)
 
 AOP 的概念这里就不在赘述，和 dotNET Core 内置的拦截器（Filter、中间件）的区别是 Autofac 的 AOP 基于业务方法而不是 HTTP。
 
@@ -261,7 +261,7 @@ public class UserService: IUserService
 ```
 
 4、调用结果如下：
-![](/Users/fengwei/Documents/my/typora-img/dotnet-core-3-uses-Autofac-to-enhance-dependency-injection/15915031606736.jpg)
+![](https://img.fwhyy.com/15915031606736.webp)
 
 ## 总结
 

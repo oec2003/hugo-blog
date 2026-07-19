@@ -51,7 +51,7 @@ tags: [golang]
 
 1、在 https://go.dev/dl 页面下载 Mac 版本的 pkg 安装文件：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252138347.png)
+![](https://img.fwhyy.com/2022/202209252138347.webp)
 
 2、根据向导进行 Go 的安装，程序会安装到 /usr/local/go 目录中；
 
@@ -59,15 +59,15 @@ tags: [golang]
 
 4、在 VS Code 中安装 go 扩展：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252138983.png)
+![](https://img.fwhyy.com/2022/202209252138983.webp)
 
 5、在 VS Code 中敲 cmd+shift+p ，然后输入 Go:Install ，选择下图红框部分进行扩展工具的安装；
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252138893.png)
+![](https://img.fwhyy.com/2022/202209252138893.webp)
 
 6、全选所有的扩展工具，点击确定，但这时通常会出现错误，不能正常安装，采用下面第七步的方式可以解决这个问题：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252139757.png)
+![](https://img.fwhyy.com/2022/202209252139757.webp)
 
 7、在 ~/.bash_profile 文件中添加：
 
@@ -102,7 +102,7 @@ func main() {
 
 3、使用 `go run main.go` 运行程序：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252139306.png)
+![](https://img.fwhyy.com/2022/202209252139306.webp)
 
 ### 一个 web 服务
 
@@ -218,23 +218,23 @@ func getLocalIP() (ip string, err error) {
 
 3、使用 `go run main.go` 运行看看效果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252140037.png)
+![](https://img.fwhyy.com/2022/202209252140037.webp)
 
 在浏览器中使用 http://192.168.1.7:10002 进行访问，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252140450.png)
+![](https://img.fwhyy.com/2022/202209252140450.webp)
 
 4、使用命令 `GOOS=linux GOARCH=amd64 go build main.go ` 进行编译构建，构建完成后会在 deploy-app 目录中生成一个名为 main 的二进制文件，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252140700.png)
+![](https://img.fwhyy.com/2022/202209252140700.webp)
 
 5、将 main 文件拷贝到 CentOS 虚拟机中，使用 `./main` 命令运行，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252140905.png)
+![](https://img.fwhyy.com/2022/202209252140905.webp)
 
 可以看到运行效果和本机运行的效果相同：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252140135.png)
+![](https://img.fwhyy.com/2022/202209252140135.webp)
 
 ## 总结
 

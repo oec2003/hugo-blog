@@ -9,7 +9,7 @@ tags: [AspNet, Discuz, 单点登录]
 
 Discuz是以虚拟目录的方式加载网站中，整合Discuz到网站中进行安装要注意一下几个问题：
 
-![2011-04-01_163915](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292105539.png)
+![2011-04-01_163915](https://img.fwhyy.com/2022/202201292105539.webp)
 
 * Discuz所在的目录需要添加NETWORK SERVICE 和IIS_User这两个账户的权限。
 * Discuz根目录下的DNT.config文件需要修改，将<Forumpath>/</Forumpath>修改为<Forumpath>/BBS/</Forumpath>，BBS为虚拟目录的名称。
@@ -27,11 +27,11 @@ Discuz是以虚拟目录的方式加载网站中，整合Discuz到网站中进�
 
 2 记下生成的APIKey和密匙，在后面的代码编写中会用到
 
-![2011-04-01_164204](http://fwhyy.com/img/post/2011-04-01_164204.png)
+![2011-04-01_164204](https://img.fwhyy.com/2011/2011-04-01_164204.webp)
 
 3 我将APIKey，密匙都配置在了webconfig文件中
 
-![2011-04-01_164509](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292106145.png)
+![2011-04-01_164509](https://img.fwhyy.com/2022/202201292106145.webp)
 
 * APIKey：value值为后台生成的APIKey
 * Secret：value值为后台生成的密匙

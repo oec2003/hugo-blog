@@ -12,7 +12,7 @@ Minimal APIs 并不是在 .NET 7 中才加入的，记得应该是在 .NET 6 中
 
 在 VS 2002 中创建 WebAPI 项目，不勾选使用控制器，创建出来的就是最小 API ：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161855969.webp)
+![](https://img.fwhyy.com/2023/202306161855969.webp)
 
 - 不勾选使用控制器，就会创建最小 API 模板；
 - 启用 OpenAPI ，默认会添加 Swagger；
@@ -20,7 +20,7 @@ Minimal APIs 并不是在 .NET 7 中才加入的，记得应该是在 .NET 6 中
 
 创建出来的工程只有两个文件，重大的改变就是，没有之前的 Startup 类了，只有一个 Program 和一个配置文件 appsetting.json：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161855812.webp)
+![](https://img.fwhyy.com/2023/202306161855812.webp)
 
 Program 类的全部代码如下：
 
@@ -67,7 +67,7 @@ app.MapGet 方法接受两个参数，第一个参数是一个字符串，为接
 
 添加一个接口方法非常简单，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161856473.webp)
+![](https://img.fwhyy.com/2023/202306161856473.webp)
 
 ## 使用 Serilog 日志框架
 

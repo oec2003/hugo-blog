@@ -13,17 +13,17 @@ tags: [AspNet, vs2010, 部署]
 
 2 安装Visual Studio® 2010 Web Deployment Projects插件，然后再网站项目上点击右键，可以看到多了一项Add Web Deployment Project
 
-![2011-04-06_113023](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290807175.png)
+![2011-04-06_113023](https://img.fwhyy.com/2022/202201290807175.webp)
 
 3 点击Add Web Deployment Project，弹出如下对话框
 
-![2011-04-06_113422](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290807160.png)
+![2011-04-06_113422](https://img.fwhyy.com/2022/202201290807160.webp)
 
 4 名称和路径可以修改，一般默认就好，点击OK，在解决方案中会生成一个部署项目
 
 5 在部署项目点击右键，点击“生成”
 
-![2011-04-06_113814](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290807093.png)
+![2011-04-06_113814](https://img.fwhyy.com/2022/202201290807093.webp)
 
 6 生成成功后，在部署项目的目录中会产生一个Release目录，Release目录中就是项目发布的所有文件，在bin目录中可以看到并没有之前那样有很多不规则命名的dll，生成的dll的名称和前面添加部署项目时所填写的名称相同，为EduAppWeb_deploy
 

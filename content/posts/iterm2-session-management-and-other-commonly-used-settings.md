@@ -45,11 +45,11 @@ interact
 
 2、输入 `Command+,` 打开 iTerm2 的设置界面，如下图，点击加号添加一个新的 Profile ：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191534177.webp)
+![](https://img.fwhyy.com/2024/202406191534177.webp)
 
 3、进行配置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191534240.webp)
+![](https://img.fwhyy.com/2024/202406191534240.webp)
 
 * Shortcut key 配置，可以配置一个快捷键，在需要的时候直接输入快捷键就能进入远程服务器
 * Command 选择 Login Shell
@@ -99,7 +99,7 @@ interact
 
 2、profile 的配置如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191534028.webp)
+![](https://img.fwhyy.com/2024/202406191534028.webp)
 
 * 在文件名后按照参数的顺序分别填 ip、username、password，以空格隔开
 * 密码中如果有 $ 符号，需要进行转义
@@ -133,17 +133,17 @@ source ~/.zshrc
 
 ### 语法高亮
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191534621.webp)
+![](https://img.fwhyy.com/2024/202406191534621.webp)
 
 ### git 集成
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191534303.webp)
+![](https://img.fwhyy.com/2024/202406191534303.webp)
 
 ### 输出看不见的符号
 
 使用命令 `cat main.js -A`就可以看到，空格、换行等都能显示，如果有中文还会转为 Unicode 编码：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191535964.webp)
+![](https://img.fwhyy.com/2024/202406191535964.webp)
 
 ## 开启滚轮
 
@@ -151,11 +151,11 @@ source ~/.zshrc
 
 1、打开设置界面，切换到 Advanced 页签，然后在搜索框中输入 mouse 进行过滤：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191535307.webp)
+![](https://img.fwhyy.com/2024/202406191535307.webp)
 
 2、找到下图红框位置的配置项，分别配置为`/j` 和 `/k`
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202406191535709.webp)
+![](https://img.fwhyy.com/2024/202406191535709.webp)
 
 ## 常用快捷键
 

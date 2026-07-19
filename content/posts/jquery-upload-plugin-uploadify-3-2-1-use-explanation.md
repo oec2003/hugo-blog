@@ -11,19 +11,19 @@ Uploadify 的使用分为属性配置，事件和方法三大块，根据[官方
 
 ## 示例
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300720149.jpg)
+![](https://img.fwhyy.com/2022/202201300720149.webp)
 
 ## Option
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300721579.jpg)
+![](https://img.fwhyy.com/2022/202201300721579.webp)
 
 ## Event
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300721125.jpg)
+![](https://img.fwhyy.com/2022/202201300721125.webp)
 
 ## Method
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300721967.jpg)
+![](https://img.fwhyy.com/2022/202201300721967.webp)
 
 好吧，我承认上面几张图就是凑篇幅的，大家可以 clone 或 fork 我 Github 上的项目，自行运行调试。
 

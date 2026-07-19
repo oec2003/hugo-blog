@@ -22,12 +22,12 @@ tags: [mac, nodejs, nwjs]
 
 首先在[http://nwjs.io/](http://nwjs.io/) 上下载相应的Windows版本，解压到C盘根目录中，在该目录中添加Test目录，如下图：
 
-![Snip20151021_4 -1-](media/Snip20151021_4%20-1-.png)
+![Snip20151021_4 -1-](https://img.fwhyy.com/Snip20151021_4%20-1-.webp)
 
 
 在Test目录中添加如下文件：
 
-![Snip20151021_5 -1-](media/Snip20151021_5%20-1-.png)
+![Snip20151021_5 -1-](https://img.fwhyy.com/Snip20151021_5%20-1-.webp)
 
 
 * link.png：程序到图标文件
@@ -65,12 +65,12 @@ package.json的代码如下，详细配置信息参考[配置](https://github.co
 
 现在拖动Test目录到nw.exe文件上，程序就可以运行起来了：
 
-![Snip20151021_6 -1-](media/Snip20151021_6%20-1-.png)
+![Snip20151021_6 -1-](https://img.fwhyy.com/Snip20151021_6%20-1-.webp)
 
 
 效果如下：
 
-![Snip20151021_7 -1-](media/Snip20151021_7%20-1-.png)
+![Snip20151021_7 -1-](https://img.fwhyy.com/Snip20151021_7%20-1-.webp)
 
 
 接下来就要将程序打包成一个可以执行到exe文件了，进入到Test目录中，将目录中的所有文件压缩成Test.zip，将Test.zip移动到nw.exe的同级目录，打开命令行进入到该目录中，执行下面命令：
@@ -101,7 +101,7 @@ copy /b nw.exe+Test.zip Test.exe
 
 在http://nwjs.io/上下载合适的Mac版本，解压后放到根目录下，修改目录名称为nwjs-osx-32，如下图：
 
-![Snip20151022_8 -1-](media/Snip20151022_8%20-1-.png)
+![Snip20151022_8 -1-](https://img.fwhyy.com/Snip20151022_8%20-1-.webp)
 
 
 在终端中执行下面命令：
@@ -111,7 +111,7 @@ cd ~
 cd ls -a 
 ```
 
-![Snip20151022_9 -1-](media/Snip20151022_9%20-1-.png)
+![Snip20151022_9 -1-](https://img.fwhyy.com/Snip20151022_9%20-1-.webp)
 
 
 如果发现有.bash_profile文件，输入vim .bash_profile命令对该文件进行编辑，添加如下代码后保存退出，关于vim命令的使用本文就不介绍了：
@@ -120,7 +120,7 @@ cd ls -a
 alias nw="~/nwjs-osx-32/nwjs.app/Contents/MacOS/nwjs"
 ```
 
-![Snip20151022_10 -1-](media/Snip20151022_10%20-1-.png)
+![Snip20151022_10 -1-](https://img.fwhyy.com/Snip20151022_10%20-1-.webp)
 
 
 修改完.bash_profile文件后，执行下面命令使修改能即时生效：
@@ -131,7 +131,7 @@ source ~/.bash_profile
 
 现在在终端中输入nw，如果出现下图界面说明配置成功：
 
-![Snip20151022_13](media/Snip20151022_13.png)
+![Snip20151022_13](https://img.fwhyy.com/Snip20151022_13.webp)
 
 
 利用下面的命令在根目录中创建Test目录，并在Test目录中创建package.json文件：
@@ -175,7 +175,7 @@ package.json文件的内容如下：
 
 在根目录中输入命令nw Test ，如果出现下面截图说明运行成功：
 
-![Snip20151022_14](media/Snip20151022_14.png)
+![Snip20151022_14](https://img.fwhyy.com/Snip20151022_14.webp)
 
 
 程序运行没有问题，接下来就要开始打包了，将~/nwjs-osx-32/nwjs.app 目录拷贝到根目录，并修改名字为test.app，可以在根目录下输入下面命令：

@@ -16,16 +16,16 @@ tags: [AspNet, ZedGraph, 报表统计]
 
 在工具栏下方的空白处点击右键—>添加选项卡,命名为ZedGraph
 
-![2010-12-30_101747](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290709681.gif)
-![2010-12-30_101836](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290709929.gif)
+![2010-12-30_101747](https://img.fwhyy.com/2022/202201290709681.webp)
+![2010-12-30_101836](https://img.fwhyy.com/2022/202201290709929.webp)
 
 在ZedGraph选项卡点右键—>选择项…,在弹出窗口中选择下载下来的ZedGraph.Web.dll文件。
 
-![14712687428710.jpg](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290709682.jpg)
+![https://img.fwhyy.com/14712687428710.webp](https://img.fwhyy.com/2022/202201290709682.webp)
 
 2 在项目中新建一aspx页面，命名为Year.aspx,将刚添加的ZedGraph控件拖到页面中，并在页面中添加一个文本框和一个按钮，文本框用来选择年份。
 
-![2010-12-30_102641](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290710090.gif)
+![2010-12-30_102641](https://img.fwhyy.com/2022/202201290710090.webp)
 
 3 切换到代码视图，添加如下代码：
 

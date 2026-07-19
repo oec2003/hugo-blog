@@ -36,7 +36,7 @@ topic: year-summary
 
 2024 年总跑量 3000 整，虽然这个数字是凑出来的（最后几公里），但也体现了坚持的成果。11 月 17 日的光谷马拉松官方成绩是 3 小时 30 分 51 秒，算是勉强达成了目标。7 月去崇礼跑了 MTC 组别（70 公里），安全完赛，这是一个重要的突破。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501311215712.webp)
+![](https://img.fwhyy.com/2025/202501311215712.webp)
 
 2024 年的跑步历程：
 
@@ -52,11 +52,11 @@ topic: year-summary
 
 24 年的国庆长假依旧选择了自驾出行，不过这次多了些不一样的体验。以前的老同事一家和我们一起同行，女儿也多了一个玩伴，使整个旅途充满了更多的乐趣。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501311215832.webp)
+![](https://img.fwhyy.com/2025/202501311215832.webp)
 
 行程从武汉出发，途经池州、宣城、泾县、徽州、安庆，最后回到武汉。值得一提的是，出行的这些天，每天都坚持跑步，将运动和旅行完美结合。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501311216148.webp)
+![](https://img.fwhyy.com/2025/202501311216148.webp)
 
 ## 公众号
 

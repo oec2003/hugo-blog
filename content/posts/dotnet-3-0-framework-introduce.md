@@ -14,7 +14,7 @@ tags: [DotNet,DotNet3.0]
 
 自从微软推出第一个版本的.NET Framework，已经过去差不多6年了。3.0 是第一个随操作系统发布的框架，它附带在每个Windows Vista中，也可以支持Windows XP SP2 和 Windows Server 2003。直到.NET 3.0，以前的每个版本的.NET Framework都会伴随着一个新的通用语言运行时(Common Language Runtime)，后面将简称为CLR。但这次，微软没有修改.NET Framework 3.0 版本中的CLR(译者注：而是基于.NET 2.0的CLR)，这一点需要重点注意。
 
-![2010-12-30_191941](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292138871.gif)
+![2010-12-30_191941](https://img.fwhyy.com/2022/202201292138871.webp)
 
 由于.NET 2.0和3.0共享同样的CLR，在.NET 2.0中编写的任何程序都可以运行于.NET 3.0中，这是和以前版本的一个重要而显著的区别。以改变来看，对于那些喜欢代数方程的人来说，它们之间的关系可以总结为下面的公式：
 
@@ -28,7 +28,7 @@ tags: [DotNet,DotNet3.0]
 
 WCF允许你通过提供一个基于标准的框架和一个组合的架构来构建服务。WCF的3个关键设计理念是互操作性、生产力和面向服务的开发。
 
-![2010-12-30_192023](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292138304.gif)
+![2010-12-30_192023](https://img.fwhyy.com/2022/202201292138304.webp)
 
 微软提供了若干个可以轻易添加和删除的消息层通道和服务模型层行为。你也可以定义自己的自定义实例，比如你能编写或者购买一个自定义ASCII编码器，把它作为可重用通道插入到消息层中，让多个系统都能使用。WCF可以和现有的投资互操作，并结合和扩展现存的微软分布式系统技术，如：Enterprise Services、System.Messaging、Microsoft .NET Remoting、ASMX和Web Services Extensions (WSE)。这样的改变预示着，你能使用单一的模型来处理不同类型的应用程序行为，这将显著降低应用程序开发的复杂性。通过支持WS-I 基本概要(WS-I Basic Profile)和大量的额外WS-*标准，WCF也提供和非微软应用程序的互操作能力。
 
@@ -36,7 +36,7 @@ WCF允许你通过提供一个基于标准的框架和一个组合的架构来�
 
 ## Windows Workflow (WF)
 
-![2010-12-30_192056](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292139068.gif)
+![2010-12-30_192056](https://img.fwhyy.com/2022/202201292139068.webp)
 
 Workflow Foundation是一个企业级工作流开发框架和引擎，它首次把声明性工作流引向主流。WF支持有人参与的(Human)、系统的(System)、连续的(Sequential )和状态机(State-Machine)工作流。它提供了运行时基础、灵活的工作流控制机制、长时间运行和状态化工作流、对用户而言运行时和设计时的透明性，以及用于规则遵从和记录管理过程的审核能力。
 
@@ -44,7 +44,7 @@ Workflow Foundation允许你把一个工作流定义为一系列的活动。活�
 
 在创建方式的选择方面，你可以用纯XAML标记、标记加代码或者纯代码。Visual Studio 2005 Designer for Workflow Foundation作为一个插件程序已经可以下载了，它提供了一个拖拽方式(drag-and-drop )的设计界面、直观的图形工具、并集成了属性(Properties)窗口、调试和图形注释功能。
 
-![2010-12-30_192132](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292139117.gif)
+![2010-12-30_192132](https://img.fwhyy.com/2022/202201292139117.webp)
 
 许多构架师曾向我询问关于Workflow Foundation、Biztalk、Microsoft Office SharePoint Server 2007(MOSS 2007)和Windows SharePoint Services (WSS)之间关系的问题。
 
@@ -54,7 +54,7 @@ WF提供了一个基础，用于实现在一个应用程序和在特定的情况
 
 对于MOSS 2007和WSS，MOSS 2007构建于WF之上并使用WF作为基础功能提供了额外的功能和特性。Windows SharePoint Services作为Windows Server的添加项提供了一个MOSS 2007的功能子集。简言之，WSS提供了简单的文档管理和工作流能力。
 
-![2010-12-30_192205](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292139235.gif)
+![2010-12-30_192205](https://img.fwhyy.com/2022/202201292139235.webp)
 
 ## Windows Presentation Foundation (WPF)
 
@@ -78,7 +78,7 @@ Windows Presentation Foundation试图弥合在游戏和娱乐产业中常见的�
 
 WCS为不同的身份标识管理技术实现提供了一个总体的框架，以让它们共同工作。在Java One(世界上最大的Java会议)上，Sun和微软做了一个联合主题，演示了基于WS-*标准的互操作机制。我会把这个演示的链接和工具包贴到我在此文结束时提到的博客中。
 
-![2010-12-30_192236](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292139927.gif)
+![2010-12-30_192236](https://img.fwhyy.com/2022/202201292139927.webp)
 
 ## 结论
 

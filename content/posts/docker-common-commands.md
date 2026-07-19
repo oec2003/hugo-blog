@@ -35,7 +35,7 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 ```
 
 如果是国内网络，在这一步可能会出现下图中的错误：
-![](http://fwhyy.com/img/post/15282084065440.jpg)
+![](https://img.fwhyy.com/15282084065440.webp)
 
 将镜像地址修改为阿里云解决此问题
 
@@ -133,7 +133,7 @@ docker rmi $(docker images -q redis)
 docker run hello-world
 ```
 
-![-w576](http://fwhyy.com/img/post/15284961225360.jpg)
+![-w576](https://img.fwhyy.com/15284961225360.webp)
 
 通常我们启动容器时会添加一些常用参数
 

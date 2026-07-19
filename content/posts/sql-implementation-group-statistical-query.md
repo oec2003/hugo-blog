@@ -44,7 +44,7 @@ group by
 
 像这样分组后没有记录的月份不会显示，如下：
 
-![2010-12-30_103754](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301950583.gif)
+![2010-12-30_103754](https://img.fwhyy.com/2022/202201301950583.webp)
 
 这当然不是我们想要的，所以得换一种思路来实现，如下：
 
@@ -81,7 +81,7 @@ group by
 
 查询结果如下：
 
-![2010-12-30_104014](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301950245.gif)
+![2010-12-30_104014](https://img.fwhyy.com/2022/202201301950245.webp)
 
 ## 根据天来查询，以小时为单位。
 
@@ -129,5 +129,5 @@ group by right(100+a,2)+ ':00 ->  '+right(100+b,2)+ ':00 '
 
 查询结果如下图：
 
-![2010-12-30_104151](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301951487.gif)
+![2010-12-30_104151](https://img.fwhyy.com/2022/202201301951487.webp)
 

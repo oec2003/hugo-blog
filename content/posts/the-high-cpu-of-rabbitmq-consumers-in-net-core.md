@@ -105,7 +105,7 @@ public void Subscribe(MQConfig engineConfig)
 
 3、上面代码创建了 200 个 vhost ，每个 vhost 中 1 个队列，程序运行后观察 cpu 如下图：
 
-![image-20220604073115855](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206040731318.png)
+![image-20220604073115855](https://img.fwhyy.com/2022/202206040731318.webp)
 
 4、在 Subscribe 方法中有创建 Connection 和 CreateModel 方法，如果使用 using 或在方法最后对其进行释放，CPU 会是一个正常的状态，但消息也就接收不到了。
 
@@ -135,13 +135,13 @@ public void Subscribe(MQConfig engineConfig)
 * RequestedHeartbeat 类型变成了 TimeSpan；
 * 接收的消息由 byte[] 变成了 ReadOnlyMemory<byte> 类型。
 
-![image-20220604140600798](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206041406417.png)
+![image-20220604140600798](https://img.fwhyy.com/2022/202206041406417.webp)
 
 修改这两处后，赶紧运行进行测试，CPU 终于正常了。
 
 查看了下 RabbitMQ 客户端在 GitHub 上的更新记录，发现在版本 6.2.4 中有修复一个关于连接的 Bug：
 
-![image-20220604142157185](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206041422540.png)
+![image-20220604142157185](https://img.fwhyy.com/2022/202206041422540.webp)
 
 又继续将版本回退到 6.2.3 进行测试，问题又能重现了，就更加确定了这个问题是在 6.2.4 中解决了。
 

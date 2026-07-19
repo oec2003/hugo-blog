@@ -15,15 +15,15 @@ tags: [WordPress, 插件,博客]
 
 2 进入WordPress后台，在“设置”选项卡中点击讨论，在右边的界面中配置何时发送电子邮件。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302117565.jpg)
+![](https://img.fwhyy.com/2022/202201302117565.webp)
 
 3 进入到插件管理中，启用 [WordPress Thread Comment](http://wordpress.org/extend/plugins/wordpress-thread-comment/) 插件。
 
-![2011-01-07_122446](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302118052.gif)
+![2011-01-07_122446](https://img.fwhyy.com/2022/202201302118052.webp)
 
 4 启用插件后在“设置”下面会多出[WordPress Thread Comment](http://wordpress.org/extend/plugins/wordpress-thread-comment/) 选项，点击该项在右边的界面中就可以进行相关设置。
 
-![2011-01-07_122651](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302118810.gif)
+![2011-01-07_122651](https://img.fwhyy.com/2022/202201302118810.webp)
 
 使用代码
 
@@ -31,11 +31,11 @@ tags: [WordPress, 插件,博客]
 
 1 点击“外观”下的编辑。
 
-![2011-01-07_123309](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302118932.gif)
+![2011-01-07_123309](https://img.fwhyy.com/2022/202201302118932.webp)
 
 2 在右侧的文件列表中找到functions.php。
 
-![2011-01-07_123455](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302119677.gif)
+![2011-01-07_123455](https://img.fwhyy.com/2022/202201302119677.webp)
 
 3 点击该文件，在中间的编辑区域添加如下代码。
 
@@ -91,11 +91,11 @@ add_action('comment_form', 'add_checkbox');
 
 如果使用的是Gmail的邮箱就更方便了，只需选中“Send e-mail via GMail?   ”就都配置好了。
 
-![2011-01-07_124700](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302118913.gif)
+![2011-01-07_124700](https://img.fwhyy.com/2022/202201302118913.webp)
 
 如果是其他的邮箱可以在网上搜下相关的配置方法，下面是我配置好的截图。
 
-![2011-01-07_125144](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302120820.gif)
+![2011-01-07_125144](https://img.fwhyy.com/2022/202201302120820.webp)
 
 经过上面的步骤后当有人在你的博客中留言评论时，应该就可以及时收到邮件了。
 

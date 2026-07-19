@@ -31,7 +31,7 @@ Skills 最早由 Anthropic 在 2025 年 10 月中旬随 Claude Code 推出。两
 
 https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills?utm_source=chatgpt.com
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230643573.webp)
+![](https://img.fwhyy.com/2026/202601230643573.webp)
 
 ## 二、Skills、MCP、Agent、Function Calling 的关系
 之前写过 MCP 和 Function Calling 相关的文章：
@@ -49,7 +49,7 @@ https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-a
 
 可以这么理解，不一定准确：Agent 是工人、Function Calling 是工人具备使用工具的能力，比如会用锤子等、 MCP 是一个多功能腰带，有各种标准的卡口用来放不同类型的工具、Skills 可以是这些工具的使用说明书，也可以是怎么用工具造房子的施工图纸。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230655772.webp)
+![](https://img.fwhyy.com/2026/202601230655772.webp)
 
 ## 三、核心机制
 
@@ -112,7 +112,7 @@ description: 把会议录音转写/速记整理成可发的会议纪要，包含
 *   **`assets/`（可选）**：静态资源。
     *   *样例*：如果需要转 PPT ，可以提供 PPT 模板文件。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230656902.webp)
+![](https://img.fwhyy.com/2026/202601230656902.webp)
 
 ## 五、怎么使用 Skills？
 
@@ -124,29 +124,29 @@ Trae 最近也支持了 Skills，下面就以 Trae 为例来说说怎么使用  
 
 https://github.com/anthropics/skills/tree/main/skills
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230656881.webp)
+![](https://img.fwhyy.com/2026/202601230656881.webp)
 
 将代码拉取到本地。
 
 2、打开 Trae，在设置中打开规则和技能，在技能区域点击创建。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230656234.webp)
+![](https://img.fwhyy.com/2026/202601230656234.webp)
 
 3、可以自己写，也可以导入现有的 Skills，在拉取的 Skills 源码中找到 docx 的 Skills ，压缩成 zip 文件，上传到 Trae 的技能中。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230656025.webp)
+![](https://img.fwhyy.com/2026/202601230656025.webp)
 
 4、上传成功后，Skills 会被安装到当前项目的 .trae/skills 目录。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230656158.webp)
+![](https://img.fwhyy.com/2026/202601230656158.webp)
 
 5、可以看出，对话中涉及到 word 文档的操作时，就会调用 docx 的 Skills 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230657090.webp)
+![](https://img.fwhyy.com/2026/202601230657090.webp)
 
 6、效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230657910.webp)
+![](https://img.fwhyy.com/2026/202601230657910.webp)
 
 ## 六、哪些场景适合封装自己的 Skills ？
 
@@ -180,13 +180,13 @@ SOLO 模式下，输入下面内容让 skill-creator 这个技能来帮我创建
 
 最后 skill-creator 帮我创建了三个 Skills：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230657964.webp)
+![](https://img.fwhyy.com/2026/202601230657964.webp)
 
 - lowcode-architect：接收任务的主 Skills
 - lowcode-requirement-parser：分析文档的 Skills
 - lowcode-app-builder：应用创建的 Skills
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601230657280.webp)
+![](https://img.fwhyy.com/2026/202601230657280.webp)
 
 ## 总结
 

@@ -23,48 +23,48 @@ tags: [Git, Github, vs2010, 源码管理]
 
 使用VS2010创建一个名为GitHelloWorld的项目，在解决方案上点击右键，点击“Git –New Repository”：
 
-![20130513_210905](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290706491.jpg)
+![20130513_210905](https://img.fwhyy.com/2022/202201290706491.webp)
 
 这时看项目所在的目录，会添加一个名为.git的隐藏目录和一个名为.gitignore的文件，除此外不会有任何多余的文件，相比VSS和SVN等源码管理工具要“干净”很多：
 
-![20130513_212332](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290706471.jpg)
+![20130513_212332](https://img.fwhyy.com/2022/202201290706471.webp)
 
 这时会发现解决方案中的文件上并没有出现源码管理的图标，在解决方案上右击，点击Git菜单中的Refresh就OK了：
 
-![20130513_214629](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290706765.jpg)
-![20130513_215023_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290706673.jpg)
+![20130513_214629](https://img.fwhyy.com/2022/202201290706765.webp)
+![20130513_215023_thumb](https://img.fwhyy.com/2022/202201290706673.webp)
 
 上面右图中的文件前的图标为加号，表示文件还没有被添加到版本库中，可以使用Git菜单中的Commit来进行提交：
 
-![20130513_221212](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290706012.jpg)
+![20130513_221212](https://img.fwhyy.com/2022/202201290706012.webp)
 
 现在就可以对代码进行编辑了，当我们在文件中添加自己的代码后，文件的状态并不会改变，当保存文件后，文件就显示为签出状态。通常第一次通过Commit将代码加入到源码库后，建议重启VS，否则有时文件的签入签出状态得不到及时更新，如果发现状态没有及时更新也可以用Git菜单下的Refresh来进行更新。
 
 Git菜单上的Browse命令可以查看各个提交版本的信息：
 
-![20130513_230857](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290707331.jpg)
+![20130513_230857](https://img.fwhyy.com/2022/202201290707331.webp)
 
 或是在解决方案上右击，选择“Git -History”也可以查看版本信息，是在VS中的标签页中以图形化展示：
 
-![20130514_064929](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290707672.jpg)
+![20130514_064929](https://img.fwhyy.com/2022/202201290707672.webp)
 
 通过上面的介绍我们可以简单的使用Git来管理代码了，下面接着来说怎样将代码推送到Github中
 
 首先需要在Github中创建一个新的repository，命名为GitHelloWorld，创建完成后如下图所示：
 
-![20130514_065931](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290707307.jpg)
+![20130514_065931](https://img.fwhyy.com/2022/202201290707307.webp)
 
 上图中红色框中的就是新建的GitHelloWorld的地址，通过这个地址我们就可以将本地代码推送到GitHub中，在VS中点击Git菜单下的Push命令：
 
-![20130514_073305](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290707811.jpg)
+![20130514_073305](https://img.fwhyy.com/2022/202201290707811.webp)
 
 如果推送成功会看到如下提示框：
 
-![20130514_073354_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290707684.jpg)
+![20130514_073354_thumb](https://img.fwhyy.com/2022/202201290707684.webp)
 
 这时刷新GitHub中的页面可以看到项目已经添加到GitHub中了：
 
-![20130514_194240_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290708761.jpg)
+![20130514_194240_thumb](https://img.fwhyy.com/2022/202201290708761.webp)
 
 到这儿就介绍完怎样在VS中将代码放入到Git库，并将代码推送到GitHub。下面介绍下已知一个GitHub的源码地址，怎样把代码拉到本地，比如刚刚推送到GitHub中的GtiHelloWorld的地址是`git://github.com/oec2003/GitHelloWorld.git`，现在使用这个地址将代码拉到本地。
 
@@ -72,15 +72,15 @@ Git菜单上的Browse命令可以查看各个提交版本的信息：
 
 打开VS2010，点击Git菜单的Clone repository：
 
-![20130515_212658_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290708283.jpg)
+![20130515_212658_thumb](https://img.fwhyy.com/2022/202201290708283.webp)
 
 在弹出的克隆对话框中输入相应的信息：
 
-![20130515_214044](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290708972.jpg)
+![20130515_214044](https://img.fwhyy.com/2022/202201290708972.webp)
 
 点击“克隆”按钮，如果成功克隆的话会弹出如下信息框：
 
-![20130515_214127_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290708621.jpg)
+![20130515_214127_thumb](https://img.fwhyy.com/2022/202201290708621.webp)
 
 就这么简单，现在代码已经被拉到E盘的GitHelloWorld目录中了。还有一种方法就是直接打开Git Extensions，点击“克隆档案库”可以达到同样的效果。现在就可以使用VS2010开始我们的Git之旅了，关于分支、标签等深入一点的内容在后面的博文中会介绍。
 

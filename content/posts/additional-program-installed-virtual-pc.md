@@ -10,19 +10,19 @@ tags:  [虚拟机]
 
 1 附加文件在Virtual PC安装目录下的Virtual Machine Additions目录中，如下图：
 
-![2010-12-30_222033](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290837917.gif)
+![2010-12-30_222033](https://img.fwhyy.com/2022/202201290837917.webp)
 
 2 点击虚机的菜单“CD”，选择Capture ISO Image项，将附加文件的ISO文件装载。
 
-![2010-12-30_222107](/Users/fengwei/Documents/my/typora-img/additional-program-installed-virtual-pc/2010-12-30_222107.gif)
+![2010-12-30_222107](https://img.fwhyy.com/2010/2010-12-30_222107.webp)
 
 3 点击Action菜单下的倒数第二项，进行安装，如果不能顺利安装，看下面步骤。
 
-![2010-12-30_222146](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290837902.gif)
+![2010-12-30_222146](https://img.fwhyy.com/2022/202201290837902.webp)
 
 4 如果上面操作不能顺利安装，就需要手动进行安装，进入到虚机的光驱里，找到Setup文件双击即可。
 
-![2010-12-30_222222](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290837921.gif)
+![2010-12-30_222222](https://img.fwhyy.com/2022/202201290837921.webp)
 
 5 安装成功后，可以发现虚机可以和物理机共享文件了，并且鼠标也不会像没安装附件程序前一点击虚机就进入了，需要按右边的alt才能出来。
 

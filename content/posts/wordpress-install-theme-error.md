@@ -7,7 +7,7 @@ tags: [WordPress, 主题, 错误解决]
 
 将空间转移到美国空间后发现在WordPress后台安装主题时需要输入FTP地址和账号密码，如下：
 
-![image-20220129064719906](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290647006.png)
+![image-20220129064719906](https://img.fwhyy.com/2022/202201290647006.webp)
 
 输入地址和账号密码后，点击继续报如下错误：
 

@@ -5,7 +5,7 @@ title: 关于
 
 ## 公众号
 
-![不止dotNET 公众号](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306161650627.webp)
+![不止dotNET 公众号](https://img.fwhyy.com/2023/202306161650627.webp)
 
 
 ## 爱好

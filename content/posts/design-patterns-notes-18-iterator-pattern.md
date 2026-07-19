@@ -16,7 +16,7 @@ tags:  [C#,设计模式]
 
 迭代器模式结构图：
 
-![2010-12-29_113434](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290615826.png)
+![2010-12-29_113434](https://img.fwhyy.com/2022/202201290615826.webp)
 
 * Aggregate:集合结构接口
 * Iterator:迭代器接口

@@ -1,8 +1,38 @@
 {{ define "main" }}
   {{ if eq .Section "posts" }}
+  {{ $page := . }}
+  {{ $topicData := false }}
+  {{ $seriesPages := slice }}
+  {{ $seriesPath := slice }}
+  {{ $seriesPosition := 0 }}
+  {{ $isSeries := false }}
+  {{ with .Params.topic }}{{ $topicData = index hugo.Data.topics . }}{{ end }}
+  {{ if and .Params.topic .Params.series_chapter }}
+    {{ $isSeries = true }}
+    {{ $topicPosts := where (where site.RegularPages "Section" "posts") "Params.topic" .Params.topic }}
+    {{ $seriesPages = (where $topicPosts "Params.series_order" "gt" 0).ByParam "series_order" }}
+    {{ $seriesPath = $seriesPath | append .Params.series_chapter }}
+    {{ with .Params.series_section }}{{ $seriesPath = $seriesPath | append . }}{{ end }}
+  {{ end }}
+  {{ if $isSeries }}
+    {{ range $index, $seriesPage := $seriesPages }}
+      {{ if eq $seriesPage.RelPermalink $page.RelPermalink }}{{ $seriesPosition = $index }}{{ end }}
+    {{ end }}
+  {{ end }}
   <article class="article-card h-entry">
     <header class="article-header">
-      <div class="article-kicker">ARTICLE</div>
+      {{ if $isSeries }}
+      {{ $progressPercent := div (mul (add $seriesPosition 1) 100) (len $seriesPages) }}
+      <div class="series-reading-progress">
+        <span>阅读进度 {{ $progressPercent }}%</span>
+        <progress value="{{ add $seriesPosition 1 }}" max="{{ len $seriesPages }}">{{ $progressPercent }}%</progress>
+      </div>
+      <div class="series-breadcrumb">
+        <a href="{{ printf "/topic/%s/" .Params.topic | relURL }}">{{ $topicData.title }}</a>
+        {{ range $seriesPath }}<span>/</span><span>{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+      {{ if not $isSeries }}<div class="article-kicker">ARTICLE</div>{{ end }}
       <h1 class="p-name">{{ .Title }}</h1>
       <div class="post-meta article-meta">
         <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
@@ -10,6 +40,12 @@
         <span>约 {{ .ReadingTime }} 分钟阅读</span>
       </div>
     </header>
+    {{ if $isSeries }}
+    <details class="article-inline-toc">
+      <summary>本文目录</summary>
+      <div>{{ .TableOfContents }}</div>
+    </details>
+    {{ end }}
     <div class="article-content e-content">{{ .Content }}</div>
     <footer class="article-footer">
       {{ with .GetTerms "tags" }}
@@ -18,19 +54,41 @@
       <div class="license"><strong>本文作者：{{ site.Params.author }}</strong><br>本文链接：<a href="{{ .Permalink }}">{{ .Permalink }}</a><br>欢迎转载，请保留作者和原文链接。</div>
     </footer>
   </article>
-  <nav class="post-neighbors" aria-label="相邻文章">
-    {{ with .PrevInSection }}<a href="{{ .RelPermalink }}"><small>上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
-    {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><small>下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
-  </nav>
+  <div class="image-lightbox" role="dialog" aria-modal="true" aria-label="文章图片预览" hidden>
+    <button class="image-lightbox-close" type="button" aria-label="关闭图片预览">&times;</button>
+    <button class="image-lightbox-nav image-lightbox-prev" type="button" aria-label="上一张图片">&#8249;</button>
+    <figure class="image-lightbox-stage">
+      <img class="image-lightbox-image" alt="">
+      <figcaption class="image-lightbox-caption"></figcaption>
+    </figure>
+    <button class="image-lightbox-nav image-lightbox-next" type="button" aria-label="下一张图片">&#8250;</button>
+    <div class="image-lightbox-count" aria-live="polite"></div>
+  </div>
+  {{ if $isSeries }}
+    {{ $previousSeriesPage := false }}
+    {{ $nextSeriesPage := false }}
+    {{ if gt $seriesPosition 0 }}{{ $previousSeriesPage = index $seriesPages (sub $seriesPosition 1) }}{{ end }}
+    {{ if lt (add $seriesPosition 1) (len $seriesPages) }}{{ $nextSeriesPage = index $seriesPages (add $seriesPosition 1) }}{{ end }}
+    <nav class="post-neighbors series-neighbors" aria-label="专栏相邻文章">
+      {{ with $previousSeriesPage }}<a href="{{ .RelPermalink }}"><small>专栏上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+      {{ with $nextSeriesPage }}<a class="next" href="{{ .RelPermalink }}"><small>专栏下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+    </nav>
+  {{ else }}
+    <nav class="post-neighbors" aria-label="相邻文章">
+      {{ with .PrevInSection }}<a href="{{ .RelPermalink }}"><small>上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+      {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><small>下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+    </nav>
+  {{ end }}
   {{ if ne .Params.comments false }}
-  <section class="comments-card">
+  <section class="comments-card" data-comments-repo="{{ site.Params.beaudarRepo }}" data-comments-theme="github-light">
     <h2>评论</h2>
-    <script src="https://beaudar.lipk.org/client.js"
-      repo="{{ site.Params.beaudarRepo }}"
-      issue-term="pathname"
-      theme="github-light"
-      crossorigin="anonymous"
-      async></script>
+    <div class="comments-placeholder">
+      <p>评论组件按需加载，不影响文章阅读速度。</p>
+      <button class="comments-load" type="button">加载评论</button>
+      <span class="comments-status" aria-live="polite"></span>
+    </div>
+    <div class="comments-host"></div>
+    <noscript><p>请启用 JavaScript 后加载评论。</p></noscript>
   </section>
   {{ end }}
   {{ else }}
@@ -40,4 +98,3 @@
   </article>
   {{ end }}
 {{ end }}
-

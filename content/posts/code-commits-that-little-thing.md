@@ -67,11 +67,11 @@ body 部分是对本次  commit 的详细描述，可以分成多行，**body �
 
 3、分三次修改 README.md 文件，进行三次 commit ，使用 git log 查看看提交记录如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306180834558.webp)
+![](https://img.fwhyy.com/2023/202306180834558.webp)
 
 4、将提交 push 到 gitlab ，在 gtilab 中显示如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306180834721.webp)
+![](https://img.fwhyy.com/2023/202306180834721.webp)
 
 5、现在要将这三次提交合并为一次，在 git 命令行执行：
 
@@ -84,15 +84,15 @@ git rebase -i 740aa70a
 
 6、按下图红框部分进行内容的修改，然后保存：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306180834859.webp)
+![](https://img.fwhyy.com/2023/202306180834859.webp)
 
 7、将三次修改的提交信息进行合并：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306180834219.webp)
+![](https://img.fwhyy.com/2023/202306180834219.webp)
 
 8、使用 git log 看提交信息的记录，会发现已经进行了合并：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306180834772.webp)
+![](https://img.fwhyy.com/2023/202306180834772.webp)
 
 ## 和任务关联
 
@@ -118,6 +118,6 @@ https://apps.pingcode.com/gitlab/configuration
 
 最终任务关联后的效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306180834357.webp)
+![](https://img.fwhyy.com/2023/202306180834357.webp)
 
 在 pingcode 的任务界面中可以看到代码的分支、提交记录和 pull reqeust 记录，点击提交记录可以直接跳转到 Gitlab 中对应的页面。

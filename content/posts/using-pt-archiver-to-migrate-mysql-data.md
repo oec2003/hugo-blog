@@ -71,7 +71,7 @@ docker run -it --rm --network test_net percona/percona-toolkit:latest   pt-archi
 
 执行效果如下：
 
-![Pasted image 20260112145815](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202601121643946.webp)
+![Pasted image 20260112145815](https://img.fwhyy.com/2026/202601121643946.webp)
 
 上面的命令可以达到目的，但执行有点麻烦，可以写个 shell 脚本封装下来提升易用性。
 

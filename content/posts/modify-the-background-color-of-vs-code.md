@@ -13,7 +13,7 @@ tags: [经验总结]
 
 1、打开VS Code的「首选项/设置」
 
-![首选项/设置](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262140886.jpg)
+![首选项/设置](https://img.fwhyy.com/2022/202201262140886.webp)
 
 
 2、在用户设置中添加如下配置代码
@@ -37,5 +37,5 @@ tags: [经验总结]
 
 2、在`VS For Mac`上打开「首选项/颜色主题」，点击添加选择导出的`vssettings`文件
 
-![首选项/颜色主题](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201262141815.jpg)
+![首选项/颜色主题](https://img.fwhyy.com/2022/202201262141815.webp)
 

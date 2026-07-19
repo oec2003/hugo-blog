@@ -11,7 +11,7 @@ tags: [WCF]
 
 ## 绑定的种类介绍
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302117082.jpg)
+![](https://img.fwhyy.com/2022/202201302117082.webp)
 
 ## 两种方式来配置端点以及相关联的绑定
 

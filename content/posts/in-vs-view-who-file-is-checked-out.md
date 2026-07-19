@@ -9,15 +9,15 @@ tags: [AspNet, VSS]
 
 1 在VS中的菜单上单击鼠标右键，然后选择显示“源代码管理”
 
-![2011-08-13_160609](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300706197.png)
+![2011-08-13_160609](https://img.fwhyy.com/2022/202201300706197.webp)
 
 2 选中要查看的文件后，在源代码管理中单击“属性”
 
-![2011-08-13_160643](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300706261.png)
+![2011-08-13_160643](https://img.fwhyy.com/2022/202201300706261.webp)
 
 3 打开第2个标签页“Check Out Status”，可以看到签出人等信息。
 
-![2011-08-13_160833](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300706850.png)
+![2011-08-13_160833](https://img.fwhyy.com/2022/202201300706850.webp)
 
 
 

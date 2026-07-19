@@ -36,15 +36,15 @@ public static class License
 
 使用ILSpy进行反编译看到的代码如下:
 
-![wpid-14574474852300](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290621267.jpg)
+![wpid-14574474852300](https://img.fwhyy.com/2022/202201290621267.webp)
 
 现在使用ildasm.exe对该dll文件进行导出成il文本文件:
 
-![wpid-14574476388347](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290621868.jpg)
+![wpid-14574476388347](https://img.fwhyy.com/2022/202201290621868.webp)
 
 使用文本编辑器打开il文件，找到校验对相关代码：
 
-![wpid-14574478634829](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290621309.jpg)
+![wpid-14574478634829](https://img.fwhyy.com/2022/202201290621309.webp)
 
 1. 上图中的红框部分代码对应的就是License.licenseExpired = true;这行代码；
 2. 第97行代码IL_0004:ldc.i4.1代表的就是true，等待着赋值给下面的licenseExpired；
@@ -56,15 +56,15 @@ public static class License
 c:\windows\microsoft.net\framework\v4.0.30319\ilasm.exe /dll/resource=ClassLibrary1.res ClassLibrary1.il
 ```
 
-![wpid-14574490215799](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290621142.jpg)
+![wpid-14574490215799](https://img.fwhyy.com/2022/202201290621142.webp)
 
 现在在il文件的目录中可以看到生成的dll文件：
 
-![wpid-14574491293072](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290621585.jpg)
+![wpid-14574491293072](https://img.fwhyy.com/2022/202201290621585.webp)
 
 反编译生成的dll文件，可以看出代码已经被修改，如下图：
 
-![wpid-14574491097269](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290621613.jpg)
+![wpid-14574491097269](https://img.fwhyy.com/2022/202201290621613.webp)
 
 ## 带签名dll的破解
 
@@ -74,7 +74,7 @@ c:\windows\microsoft.net\framework\v4.0.30319\ilasm.exe /dll/resource=ClassLibra
 
 经过对比发现经过签名的dll文件和未签名的dll文件的区别在于签名的dll文件生成的il代码中会多处如下的代码：
 
-![wpid-14574511220078](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290622206.jpg)
+![wpid-14574511220078](https://img.fwhyy.com/2022/202201290622206.webp)
 
 将il代码中上面红框部分代码删除，重新生成的dll文件就是去掉了签名的dll文件。不出什么意外的话此时的dll文件可以正常使用了，但有时又会出现如下的错误：
 
@@ -86,7 +86,7 @@ c:\windows\microsoft.net\framework\v4.0.30319\ilasm.exe /dll/resource=ClassLibra
 [assembly: System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
 ```
 
-![wpid-14574514129726](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290623267.jpg)
+![wpid-14574514129726](https://img.fwhyy.com/2022/202201290623267.webp)
 
 上面添加的代码对应的il代码为：
 

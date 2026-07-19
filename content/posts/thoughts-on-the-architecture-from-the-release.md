@@ -4,6 +4,9 @@ date: 2022-04-18T09:53:44+08:00
 categories: [技术]
 tags: [架构,API,华为云]
 topic: arch
+series_chapter: 第四章 架构实践
+series_section: ""
+series_order: 400
 ---
 
 在 SaaS 版本的零代码平台中，高级用户希望能上传自己编写的 WebAPI ，来实现一些复杂场景下的业务。就需要添加可以通过上传程序包进行发布部署的功能。
@@ -216,11 +219,11 @@ public String createService() {
 
 依次进行镜像构建、创建 Deploment 和 Service 后，在华为云的 cce 无状态负载中就可以看到 deploy-test 了：
 
-![image-20220417080731704](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202205190755029.png)
+![image-20220417080731704](https://img.fwhyy.com/2022/202205190755029.webp)
 
 查看详情的访问方式：
 
-![image-20220417080943533](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202205190755012.png)
+![image-20220417080943533](https://img.fwhyy.com/2022/202205190755012.webp)
 
 到这，依次调用三个接口就能进行自定义 API 到华为云 cce 的部署。
 
@@ -233,7 +236,7 @@ public String createService() {
 
 通过上面的场景，可以将三个简单接口的发布流程演进为一个发布部署平台，架构图如下：
 
-![image-20220417103759820](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202204172341843.png)
+![image-20220417103759820](https://img.fwhyy.com/2022/202204172341843.webp)
 
 1、将上面发布华为云 cce 的核心功能抽象到发布平台中；
 

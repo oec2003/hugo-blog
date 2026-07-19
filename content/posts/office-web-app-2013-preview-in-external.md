@@ -45,7 +45,7 @@ New-OfficeWebAppsFarm -InternalUrl "http://10.15.3.180" -AllowHttp -EditingEnabl
 
 2.命令成功执行后，会在IIS中创建两个站点，如下图：
 
-![3cefded1gw1etayjjaz24j20ea0530ta](media/3cefded1gw1etayjjaz24j20ea0530ta.jpg)
+![3cefded1gw1etayjjaz24j20ea0530ta](https://img.fwhyy.com/3cefded1gw1etayjjaz24j20ea0530ta.webp)
 
 
 3.在浏览器中输入：[http://owa.fwhyy.com/hosting/discovery](http://owa.fwhyy.com/hosting/discovery)会得到一个放回xml结果的页面，**该xml文件中显示的地址为内网IP，需要将内网IP换成域名：owa.fwhyy.com**。保存该页面为discovery.xml文件留作备用。不同类型的文档会指向不同的页面来做预览，生成预览链接时会用到discovery.xml文件。
@@ -58,7 +58,7 @@ New-OfficeWebAppsFarm -InternalUrl "http://10.15.3.180" -AllowHttp -EditingEnabl
 
 具体请求流程参见下图：
 
-![3cefded1gw1etazsxxv5aj20dl0e1t96](media/3cefded1gw1etazsxxv5aj20dl0e1t96.jpg)
+![3cefded1gw1etazsxxv5aj20dl0e1t96](https://img.fwhyy.com/3cefded1gw1etazsxxv5aj20dl0e1t96.webp)
 
 
 5.除了discovery.xml中的地址需要修改为域名，其他所有涉及到有请求的地方全部使用内网IP。

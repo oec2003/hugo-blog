@@ -19,7 +19,7 @@ tags: [C#,设计模式]
 
 对象适配器
 
-![2010-12-29_140647](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281852658.png)
+![2010-12-29_140647](https://img.fwhyy.com/2022/202201281852658.webp)
 
 上图中的Target是客户所期待的，希望去使用的类或接口。Adaptee是被适配的对象。Adapter为适配的对象。首先将上图中的结构还原成代码，如下：
 
@@ -140,7 +140,7 @@ Adapter模式理解起来也非常简单，IStact中的Push和Pop方法就是添
 
 类适配器
 
-![2009-11-19_215214](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281853997.png)
+![2009-11-19_215214](https://img.fwhyy.com/2022/202201281853997.webp)
 
 类适配器中使用到了剁成继承，从图中可以看出Adapter继承了Target和Adaptee，而在C#语言中不支持多继承，如果一定要在C#中使用类适配器，那么Target和Adapter其中之一一定要为接口，这样就有了一定的局限性。再者Adapter继承了Target和Adapter后就拥有了这两个的职责，这也违反了单一职责原则，所以通常我们使用对象适配器，下面还是给出配合上图的代码，Target设计成了接口。
 

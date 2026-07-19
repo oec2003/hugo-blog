@@ -28,7 +28,7 @@ git clone https://github.com/maguowei/k8s-docker-for-mac
 ```
 
 在`Docker`中修改镜像地址为国内，如下图：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280603450.jpg)
+![](https://img.fwhyy.com/2022/202201280603450.webp)
 
 在命令行进入到`k8s-docker-for-mac`目录，执行`sh load_images.sh`就可以拉去镜像了。
 
@@ -38,7 +38,7 @@ git clone https://github.com/maguowei/k8s-docker-for-mac
 
 镜像拉取完成后，勾选`Enable Kubernetes`，点击`Apply`按钮，等待几分钟，出现下图的状态表示启用成功。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280604592.jpg)
+![](https://img.fwhyy.com/2022/202201280604592.webp)
 
 ## 运行dashboard
 
@@ -53,7 +53,7 @@ kubectl proxy --port=8080
 
 执行上面命令后，会监听本机的`8001`的端口，这时访问[http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login](http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login)，可以进入登录界面，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280604959.jpg)
+![](https://img.fwhyy.com/2022/202201280604959.webp)
 
 我们采用令牌的方式进行登录，首先创建管理员角色，新建一个名为`k8s-admin.yaml`的文件，内容如下：
 
@@ -90,7 +90,7 @@ kubectl create -f k8s-admin.yaml
 kubectl get secret -n kube-system
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280604367.jpg)
+![](https://img.fwhyy.com/2022/202201280604367.webp)
 
 获取`token`值
 
@@ -100,11 +100,11 @@ kubectl describe secret dashboard-admin-token-tc5wk -n kube-system
 
 `secret`后面名称就是上图中红框的名称
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280604005.jpg)
+![](https://img.fwhyy.com/2022/202201280604005.webp)
 
 将登陆界面切换到令牌的模式，上图中的`token`值粘贴到令牌输入框中，点击登录可以进入到管理界面，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280605591.jpg)
+![](https://img.fwhyy.com/2022/202201280605591.webp)
 
 ## 总结
 

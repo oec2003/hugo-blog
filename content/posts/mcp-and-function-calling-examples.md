@@ -216,11 +216,11 @@ pip install -U "qwen-agent[gui,rag,code_interpreter,mcp]"
 
 4、执行 `python qwen_client.py` 运行程序。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161734636.webp)
+![](https://img.fwhyy.com/2025/202504161734636.webp)
 
 5、检查 flomo 客户端，可以看到内容已经存储进来了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161734341.webp)
+![](https://img.fwhyy.com/2025/202504161734341.webp)
 
 ## MCP 
 
@@ -230,23 +230,23 @@ MCP 的使用，可以自己开发服务端，也可以使用 MCP 服务站的�
 
 1、先在 mcp.so 中找到 flomo 的 Server 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161737621.webp)
+![](https://img.fwhyy.com/2025/202504161737621.webp)
 
 2、连接 Server 的方式选择了 Original 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161737161.webp)
+![](https://img.fwhyy.com/2025/202504161737161.webp)
 
 3、在 Windsurf 中的 MCP 设置中添加 flomo 的 Server 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161737518.webp)
+![](https://img.fwhyy.com/2025/202504161737518.webp)
 
 4、配置好后，在 chat 模式下进行提问：根据最新的内容对比下mcp和A2A，将结果存储到笔记中。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161739600.webp)
+![](https://img.fwhyy.com/2025/202504161739600.webp)
 
 Windsurf 一通查询资料，整理后，就调用 MCP 工具，将结果存到我的 flomo 中了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161739084.webp)
+![](https://img.fwhyy.com/2025/202504161739084.webp)
 
 ### 代码示例
 
@@ -348,7 +348,7 @@ foreach (var tool in tools)
 
 上面例子中使用的是本地 Stdio 的模式。通过 client.ListToolsAsync(); 获取 MCP 服务中的所有工具，并打印出来。执行效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161740840.webp)
+![](https://img.fwhyy.com/2025/202504161740840.webp)
 
 4、client 的 Program 中继续添加下面代码进行直接的 Server 端方法调用，来测试下 client 和 server 是否是连通的。
 
@@ -360,7 +360,7 @@ var result = await client.CallToolAsync("WriteNote", new Dictionary<string, obje
 Console.WriteLine($"Result: {result}");
 ```
 
-![](../../attachmenent/Pasted%20image%2020250415181626.png)
+![](https://img.fwhyy.com/Pasted%20image%2020250415181626.webp)
 
 执行完后，如果 flomo 中笔记插入正常，说明调用成功。
 
@@ -447,7 +447,7 @@ while (true)
 
 输入 `dotnet run` 运行程序，结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202504161740697.webp)
+![](https://img.fwhyy.com/2025/202504161740697.webp)
 
 ## 参考
 

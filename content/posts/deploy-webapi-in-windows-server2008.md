@@ -7,17 +7,17 @@ tags: [AspNet, MVC, Web API]
 
 一直以来都是在win8或windows server2012中进行asp.net mvc或webapi程序的部署，没有发现任何问题。今天在win2008中进行asp.net webapi的部署，访问api的时候页面显示404错误。下面步骤将解决asp.net webapi在win2008中的部署问题。
 <!--more-->
-![3cefded1gw1ew4lvjcckcj20fh066dgx](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290624314.jpg)
+![3cefded1gw1ew4lvjcckcj20fh066dgx](https://img.fwhyy.com/2022/202201290624314.webp)
 
 ## 添加映射
 
 在iis中选中需要设置的webapi站点，双击“处理程序映射”，如下图：
 
-![3cefded1gw1ew4lvk40lvj20et06w75a](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290625810.jpg)
+![3cefded1gw1ew4lvk40lvj20et06w75a](https://img.fwhyy.com/2022/202201290625810.webp)
 
 在弹出框中添加对webapi的请求映射：
 
-![3cefded1gw1ew4lvjpyltj20av07u74](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290625173.jpg)
+![3cefded1gw1ew4lvjpyltj20av07u74](https://img.fwhyy.com/2022/202201290625173.webp)
 
 请求路径：api /*
 

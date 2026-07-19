@@ -23,7 +23,7 @@ CREATE TABLE [dbo].[UserInfo]
 
 2 打开vs2008，创建web application 命名为Web，解决方案的名称设为NHibernateDemo，然后在此解决方案下添加两个类库项目BLL和Model。
 
-![2010-12-30_115417](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290825628.gif)
+![2010-12-30_115417](https://img.fwhyy.com/2022/202201290825628.webp)
 
 3 解压下载的NHibernate包，将NHibernate-2.0.1.GA-bin\bin\net-2.0目录下的dll文件复制到web项目中的DLL文件夹中。DLL文件夹用来存放一些公用的dll文件。
 
@@ -61,11 +61,11 @@ public class UserInfo
 
 映射文件创建好后，要修改该文件的输入操作为“嵌入式资源”，默认情况下为内容，在映射文件上右击属性,修改如下：
 
-![2010-12-30_115523](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290825765.gif)
+![2010-12-30_115523](https://img.fwhyy.com/2022/202201290825765.webp)
 
 5 在BLL项目中创建类UserInfoBLL.cs 用来实现对UserInfo表的增删改操作。在BLL项目中添加对Model和NHibernate的引用
 
-![2010-12-30_115603](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290826138.gif)
+![2010-12-30_115603](https://img.fwhyy.com/2022/202201290826138.webp)
 
 UserInfoBLL.csl类的代码如下：
 
@@ -252,7 +252,7 @@ private void BindInfo()
 
 最后的运行结果
 
-![2010-12-30_115714](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290826327.gif)
+![2010-12-30_115714](https://img.fwhyy.com/2022/202201290826327.webp)
 
 需要注意的地方：
 

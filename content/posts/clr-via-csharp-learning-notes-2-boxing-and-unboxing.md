@@ -103,7 +103,7 @@ static void Main(string[] args)
 
 上面的代码中有多少次装箱呢？乍一看好像就一次（Object o=x；），其实一共有三次装箱，看看IL代码就一目了然了。
 
-![2010-12-29_183611](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290812484.gif)
+![2010-12-29_183611](https://img.fwhyy.com/2022/202201290812484.webp)
 
 程序的执行步骤：
 
@@ -117,7 +117,7 @@ static void Main(string[] args)
 
 5 调用String对象的静态方法Concat，Concat方法有9个重载，根据那三个数据项会选择下面方法执行。
 
-![2010-12-29_183654](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290812137.gif)
+![2010-12-29_183654](https://img.fwhyy.com/2022/202201290812137.webp)
 
 6 第一个参数arg0传入的是x ，参数类型为object，所以要对x进行装箱（第二次装箱），将引用地址传给arg0，arg1传入的是字符串“，”，字符串就是引用类型，直接传引用地址，arg2传入的是将o拆箱然后再装箱（第三次装箱）的引用地址传入。
 

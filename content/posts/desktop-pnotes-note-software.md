@@ -13,23 +13,23 @@ PNotes下载：[http://pnotes.sourceforge.net/index.php?page=5](http://pnotes.so
 
 安装完成运行PNotes后会在右下角出现一个小图标
 
-![2010-12-30_222647](http://fwhyy.com/img/post/2010-12-30_222647.gif)
+![2010-12-30_222647](https://img.fwhyy.com/2010/2010-12-30_222647.webp)
 
 双击该图标就会在桌面上出现一个便签，黄底黑字的
 
-![2010-12-30_222723](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281846632.gif)
+![2010-12-30_222723](https://img.fwhyy.com/2022/202201281846632.webp)
 
 在里面填写内容后，按Ctrl+S就可以保存便签了，在这之前需要在弹出的提示框中输入名称。
 
-![2010-12-30_222755](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281846586.gif)
+![2010-12-30_222755](https://img.fwhyy.com/2022/202201281846586.webp)
 
 便签的右上方有两个小按钮“向下的箭头”和“叉”，前者是隐藏当前便签，后者为将便笺删除到回收站中。
 
-![2010-12-30_222825](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281846786.gif)
+![2010-12-30_222825](https://img.fwhyy.com/2022/202201281846786.webp)
 
 当隐藏了当前便签后，再次单击任务栏的小图标，并不会让隐藏的出现。任务栏的小图标每一次点击都会在桌面创建一个新的便签。如果想看以前隐藏的便签，右击任务栏小图标选择管理器…
 
-![2010-12-30_222908](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201281846135.gif)
+![2010-12-30_222908](https://img.fwhyy.com/2022/202201281846135.webp)
 
 管理器的功能很强大，可以对便签进行分组、修改、查找等操作。
 

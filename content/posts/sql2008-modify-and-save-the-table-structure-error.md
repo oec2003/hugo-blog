@@ -7,7 +7,7 @@ tags: [SqlServer, 错误解决]
 
 今天在SqlServer2008中修改表结构时，弹出下面对话框阻止我保存
 
-![20100304002](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301954622.png)
+![20100304002](https://img.fwhyy.com/2022/202201301954622.webp)
 
 解决此问题方法为：
 
@@ -15,5 +15,5 @@ tags: [SqlServer, 错误解决]
 
 2 在弹出的对话框中去掉“阻止保存要求重新创建表的更改”，如下图
 
-![2011-03-09_161021](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301954844.png)
+![2011-03-09_161021](https://img.fwhyy.com/2022/202201301954844.webp)
 

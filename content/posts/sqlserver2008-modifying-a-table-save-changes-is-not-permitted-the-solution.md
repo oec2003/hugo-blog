@@ -11,15 +11,15 @@ tags: [sqlserver2008, 错误解决]
 
 如下图：
 
-![2010-06-03_094326](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302001803.png)
+![2010-06-03_094326](https://img.fwhyy.com/2022/202201302001803.webp)
 
 如果点击 Save Text File ，会保存一个文本文件，感觉没什么作用，内容如下图：
 
-![2010-06-03_095158](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302001334.png)
+![2010-06-03_095158](https://img.fwhyy.com/2022/202201302001334.webp)
 
 点击 Cancel 后会弹出另一个对话框，如下图：
 
-![2010-06-03_095243](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302001972.png)
+![2010-06-03_095243](https://img.fwhyy.com/2022/202201302001972.webp)
 
 点击OK就关闭了对话框，当然我们的修改肯定也没有保存上。
 
@@ -27,11 +27,11 @@ tags: [sqlserver2008, 错误解决]
 
 打开工具-选项，如下图：
 
-![2010-06-03_100942](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302001623.png)
+![2010-06-03_100942](https://img.fwhyy.com/2022/202201302001623.webp)
 
 在选项对话框中选择：Designers—Table and DataBase Designers ，将右边的Prevent saving changes that require table re-creation 前的勾选去掉，如下图：
 
-![2010-06-03_101349](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302001244.png)
+![2010-06-03_101349](https://img.fwhyy.com/2022/202201302001244.webp)
 
 点击OK后，表的结构就可以随意修改保存了
 

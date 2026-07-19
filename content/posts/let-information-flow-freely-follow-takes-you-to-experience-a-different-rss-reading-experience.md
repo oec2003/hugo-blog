@@ -8,7 +8,7 @@ tags: [Follow,RSS]
 
 <!-- more -->
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409301724196.webp)
+![](https://img.fwhyy.com/2024/202409301724196.webp)
 
 现在每天都会接收到大量的信息，比如我的信息源有：微信公众号、得到、Twitter、YouTube、B 站、小宇宙、newsletter、技术博客、小红书等。
 
@@ -48,15 +48,15 @@ Follow 有以下特点：
 
 1、**多元化内容聚合**：Follow 支持订阅各种类型的内容，包括文章（博客）、社交媒体（微博、Twitter、即刻）、视频（B 站、YouTube）、播客（小宇宙）等。这使得用户不仅可以阅读博客和新闻，还可以在一个平台上获取社交媒体的动态、观看视频，甚至收听播客，后续应该还会添加邮件（订阅 newsletter）。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409301724112.webp)
+![](https://img.fwhyy.com/2024/202409301724112.webp)
 
 2、**AI 赋能**：Follow 还引入了 AI 功能，文章和社交媒体页签中可以使用 AI 进行总结，对于订阅数量比较多的用户来说，可以快速了解更新的内容。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409301725338.webp)
+![](https://img.fwhyy.com/2024/202409301725338.webp)
 
 3、**社交与互动**：Follow 的另一个创新在于其轻社交功能，用户可以查看其他用户的订阅内容，并通过分享和发现建立联系。这种功能使得 RSS 阅读不再孤立，用户之间能够互相发现有趣的订阅源，从而形成社区化的阅读体验。这非常像在博客时代上面挂的外链，通过外链点击进去，又可以发现一些其他感兴趣的博客。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409301725915.webp)
+![](https://img.fwhyy.com/2024/202409301725915.webp)
 
 4、**激励机制**：Follow 还引入了区块链激励机制，用户可以通过代币奖励自己喜欢的内容创作者。这种机制让优质内容的生产者获得了更多的认可和鼓励，推动了社区的良性循环。
 
@@ -74,7 +74,7 @@ Follow 有以下特点：
 
 1、社交媒体中内容显示不完整，只能跳转到原始链接中查看。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409301725571.webp)
+![](https://img.fwhyy.com/2024/202409301725571.webp)
 
 2、消息显示不同步，比如在 APP 图标上显示了更新到数字，进去后，发现各个页签都是 0，随便点击一个后就会显示正确的更新数字。
 
@@ -86,7 +86,7 @@ Follow 有以下特点：
 
 6、部分内容地址解析有误导致内容出不来。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409301725994.webp)
+![](https://img.fwhyy.com/2024/202409301725994.webp)
 
 ## 最后
 

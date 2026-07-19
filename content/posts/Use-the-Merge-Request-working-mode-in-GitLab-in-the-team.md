@@ -51,7 +51,7 @@ tags: [Git, MergeRequest]
 
 一直以来，都觉得`Merge Request`模式遥不可及，只有做开源软件才会采用这种模式，没想到这么快就已经在团队中开始推行使用了，先看一张图来了解下`Merge Request`的开发流程：
 
-![-w485](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260833619.jpg)
+![-w485](https://img.fwhyy.com/2022/202201260833619.webp)
 
 1. 需求或是`Bug`都是用`Issue`来表示；
 
@@ -77,17 +77,17 @@ tags: [Git, MergeRequest]
 
 1、设置重要分支受保护
 
-![-w614](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260833102.jpg)
+![-w614](https://img.fwhyy.com/2022/202201260833102.webp)
 
 在上图中的位置可以将所有的重要分支设置为受保护，重要的分支通常是`master`、`release`、`test`等。
 
 2、创建`Issue`
 
-![-w616](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260834222.jpg)
+![-w616](https://img.fwhyy.com/2022/202201260834222.webp)
 
 任务创建后，开发人员就可以对该任务创建`Merge Request`了，如下图：
 
-![-w604](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260834936.jpg)
+![-w604](https://img.fwhyy.com/2022/202201260834936.webp)
 
 * 创建`Merge Request`时会创建针对这个任务对一个分支；
 * 分支名称的格式为：任务编号-[任务标题中出现的英文和数字]，当然分支名称也可以自行修改；
@@ -95,15 +95,15 @@ tags: [Git, MergeRequest]
 
 3、使用你熟悉的工具拉取`Merge Request`对应的分支到本地进行代码修改，修改完成后，`Push`代码到服务器，代码推送后，管理员在`Merge Request`页面可以看到`Merge`按钮，如下图：
 
-![-w645](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260834375.jpg)
+![-w645](https://img.fwhyy.com/2022/202201260834375.webp)
 
 点击右边的`Resole WIP status`后，`Merge`按钮就可以使用
 
-![-w625](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260834501.jpg)
+![-w625](https://img.fwhyy.com/2022/202201260834501.webp)
 
 如果勾选`Remove source brance`，当`Merge`后，服务器端会删除创建的分支。`Merge`完成，会关闭关联的任务，但并不是每一次推送都可以非常顺利，有时会有冲突，当本地代码和服务器代码不一致时，会出现解决冲突的按钮，解决冲突后才能进行`Merge`
 
-![-w636](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260835126.jpg)
+![-w636](https://img.fwhyy.com/2022/202201260835126.webp)
 
 代码`Merge`后，开发人员就可以按照同样的流程做下一个任务了。
 

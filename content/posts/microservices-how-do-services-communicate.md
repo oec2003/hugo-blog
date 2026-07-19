@@ -4,6 +4,9 @@ date: 2022-05-16T08:10:55+08:00
 categories: [技术]
 tags: [微服务,架构]
 topic: arch
+series_chapter: 第三章 微服务设计
+series_section: 第一小节 服务拆分与协作
+series_order: 320
 ---
 
 在微服务架构中，会将一个完整的应用程序拆分成一组服务。这些服务之间需要经过协作，通过接口调用，才能组成一个完整的应用。

@@ -40,7 +40,7 @@ public classUserBeforeFieldInit
 
 通过IL代码可以看出在UserBeforeFieldInit 的元数据上有BeforeFieldInit的标记，如下图：
 
-![2010-12-29_173428](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290802573.gif)
+![2010-12-29_173428](https://img.fwhyy.com/2022/202201290802573.webp)
 
 既然上面提到BeforeFieldInit方式CLR可以选择调用构造函数的次数从而来生成执行更快的代码，下面就写一段测试代码来看看究竟怎样。
 
@@ -107,7 +107,7 @@ public class UserPrecise
 
 测试结果如下：
 
-![2010-12-29_173503](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290802240.gif)
+![2010-12-29_173503](https://img.fwhyy.com/2022/202201290802240.webp)
 
 从上面结果来看，BeforeFieldInit方式的执行速度还是要快很多，但为什么第二次执行时，两种方式的速度差不多呢?因为经过第一次执行后JIT编译器知道类型的构造器已经被调用了，所以第二次执行时不会显示对构造函数进行调用。
 

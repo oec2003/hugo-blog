@@ -52,7 +52,7 @@ BSONObj size: 945160192 (0x38560000) is invalid. Size must be between 0 and 1679
 
 对原数据进行了备份之后，使用`mongod --repair`来修复数据，最终没有执行成功，错误信息和之前启动服务时一样，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302006150.jpg)
+![](https://img.fwhyy.com/2022/202201302006150.webp)
 
 幸好数据有做备份，就只剩下还原这一条路了。
 
@@ -66,7 +66,7 @@ mongorestore -h 10.10.10.10 --port 20720 -d DB --dir Z:\Backup\2017-10-20\DB
 
 命令执行了十几分钟，进度一直卡着不动，也没有提示错误信息，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302006972.jpg)
+![](https://img.fwhyy.com/2022/202201302006972.webp)
 
 时间不等人，果断启了一个新的单台的MongoDB实例，在执行还原，进度终于正常了，剩下的就是漫长的等待。五六个小时之后，终于成功还原。
 

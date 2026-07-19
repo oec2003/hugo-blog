@@ -13,7 +13,7 @@ tags: [C#,设计模式]
 
 访问者模式结构图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290611525.jpg)
+![](https://img.fwhyy.com/2022/202201290611525.webp)
 
 基本代码如下：
 

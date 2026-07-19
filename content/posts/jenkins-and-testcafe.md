@@ -29,15 +29,15 @@ TestCafe：1.3.0
 
 1、在Jenkins中新创建一个新的项目
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280613334.jpg)
+![](https://img.fwhyy.com/2022/202201280613334.webp)
 
 Git中配置的测试的代码地址`https://github.com/oec2003/testcafe-ci-demo.git`是我fork的官网的一个例子,原项目地址为：`https://github.com/DevExpress-Examples/testcafe-ci-demo.git`
 
 2、增加构建步骤，选择执行Windows批处理命令
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280614319.jpg)
+![](https://img.fwhyy.com/2022/202201280614319.webp)
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280614096.jpg)
+![](https://img.fwhyy.com/2022/202201280614096.webp)
 
 ```
 D:\Jenkins\Testcafe\node_modules\.bin\testcafe path:C:\Users\oec2003\AppData\Local\Google\Chrome\Application\chrome.exe tests/**/* -r xunit:res.xml
@@ -57,18 +57,18 @@ npm install testcafe testcafe-reporter-xunit
 
 3、添加构建后操作，选择Publish JUnit test result report
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280614661.jpg)
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280614568.jpg)
+![](https://img.fwhyy.com/2022/202201280614661.webp)
+![](https://img.fwhyy.com/2022/202201280614568.webp)
 
 4、修改Jenkins中现有的前端项目的配置，增加构建后操作步骤，选择构建起他工程
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280615176.jpg)
+![](https://img.fwhyy.com/2022/202201280615176.webp)
 
 选择第一步创建的测试项目即可。
 
 5、实际测试结果如下，所有测试用例的通过情况以列表形式展现，点击可以看详细信息
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280615015.jpg)
+![](https://img.fwhyy.com/2022/202201280615015.webp)
 
 ## 总结
 

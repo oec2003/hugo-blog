@@ -12,15 +12,15 @@ tags:  [WMS,发布点]
 
 1 创建一个点播发布点，名称可以随便取，路径一般指向C:\WMPub\WMRoot。如下图：
 
-![2010-05-19_105210](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292105226.png)
+![2010-05-19_105210](https://img.fwhyy.com/2022/202201292105226.webp)
 
 2 将新建的发布点改名为“/” ，本例中新建的发布点名称为“默认”，如下图：
 
-![2010-05-19_105229](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292105727.png)
+![2010-05-19_105229](https://img.fwhyy.com/2022/202201292105727.webp)
 
 3 改完名称后“默认”发布点就变成真正的默认发布点了，如下图：
 
-![2010-05-19_105305](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292105695.png)
+![2010-05-19_105305](https://img.fwhyy.com/2022/202201292105695.webp)
 
 
 

@@ -7,7 +7,7 @@ tags: [AspNet, Excel, 错误解决]
 
 最近在做一个导入Excel数据到数据库的程序出现了如下错误：
 
-![2011-06-15_1552061](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301558041.png)
+![2011-06-15_1552061](https://img.fwhyy.com/2022/202201301558041.webp)
 
 ## 运行环境
 
@@ -19,5 +19,5 @@ tags: [AspNet, Excel, 错误解决]
 
 在应用程序对用的应用程序池的高级设置中设置“启用32位应用程序”为“True”
 
-![2011-06-15_155851](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301558286.png)
+![2011-06-15_155851](https://img.fwhyy.com/2022/202201301558286.webp)
 

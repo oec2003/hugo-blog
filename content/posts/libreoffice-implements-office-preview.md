@@ -29,7 +29,7 @@ tags: [.NET,LibreOffice,预览]
 
 2、下载 Libreoffice 安装包、Libreoffice 中文语言包、jdk1.8 安装包 、中文字体包，这些文件我放在云盘了，可以访问这个链接下载：https://pan.baidu.com/s/131lLewbCvGDGLlZzYdSYNA 提取码: 5aas
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208281754206.png)
+![](https://img.fwhyy.com/2022/202208281754206.webp)
 
 3、搭建一台 centos 虚拟机，并准备好 docker 环境；
 

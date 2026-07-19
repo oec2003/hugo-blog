@@ -27,7 +27,7 @@ https://csdiy.wiki/
 
 https://learnxinyminutes.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162037276.webp)
+![](https://img.fwhyy.com/2023/202306162037276.webp)
 
 基本涵盖了从 a 到 z 的所有语言，大部分都有中文版本，特点就是非常的极简，没有任何的废话，每种语言的介绍都在一个文件中，以 code 后注释相结合的方式呈现。
 
@@ -37,7 +37,7 @@ https://learnxinyminutes.com/
 
 https://icongo.github.io
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038134.webp)
+![](https://img.fwhyy.com/2023/202306162038134.webp)
 
 一个开源的图标库。
 
@@ -47,7 +47,7 @@ https://icongo.github.io
 
 https://icon.ray.so/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038492.webp)
+![](https://img.fwhyy.com/2023/202306162038492.webp)
 
 选择库里的图标（暂不支持上传自己的图标），可以方便地添加背景颜色、渐变和纹理，可导出 png 格式。
 
@@ -55,7 +55,7 @@ https://icon.ray.so/
 
 https://greasyfork.org/en
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038235.webp)
+![](https://img.fwhyy.com/2023/202306162038235.webp)
 
 先在 Chrome 中安装 Tampermonkey 插件，然后在网站中搜索相关的脚本进行安装，比如  安装 RSS+ : Show Site All RSS ，就可以在 Chrome 浏览网页的时候，检测出是否有 RSS 源。
 
@@ -70,13 +70,13 @@ https://app.brandmark.io/
 
 出来的结果之一如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038684.webp)
+![](https://img.fwhyy.com/2023/202306162038684.webp)
 
 ## 快速参考
 
 https://wangchujiang.com/reference/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038135.webp)
+![](https://img.fwhyy.com/2023/202306162038135.webp)
 
 >为开发人员分享快速参考备忘清单【速查表】。这是英文版 [Reference](https://github.com/Randy8080/reference) 的中文版本，目的是为了方便自己的技术栈查阅，如果您提供一个清单，我将抽空搬运，立即撸起来 :)。如果您发现此处的备忘单不合适，您可以通过提交 [PR](https://github.com/jaywcjlove/reference/blob/main/CONTRIBUTING.md) 来修复它或提供更好的备忘清单，只针对【中文】用户。以下是开源天使提供的一些备忘清单和快速参考 :)。
 
@@ -86,7 +86,7 @@ https://wangchujiang.com/reference/
 
 https://lex.page
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038570.webp)
+![](https://img.fwhyy.com/2023/202306162038570.webp)
 
 第一段是写的，后面两段是自动生成的，效果有点差强人意，不过据说英文的效果不错，基本能达到可用的程度，有兴趣的朋友可以去试试。
 
@@ -94,7 +94,7 @@ https://lex.page
 
 https://knb.im/mp/
 
-![iShot_2023-01-17_17.17.37](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162038457.webp)
+![iShot_2023-01-17_17.17.37](https://img.fwhyy.com/2023/202306162038457.webp)
 
 很早就收藏了这个地址，什么时候想换换风格了，可以试试。
 
@@ -102,7 +102,7 @@ https://knb.im/mp/
 
 https://macosicons.com/#/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039320.webp)
+![](https://img.fwhyy.com/2023/202306162039320.webp)
 
 这个站点是在使用开源工具 https://github.com/tw93/Pake 时所查询到的，Pake 是使用 Rust 语言编写的可以用来将网页生成桌面 App 的开源项目。
 
@@ -114,7 +114,7 @@ https://endoflife.date/
 
 这个网站统计了所有开发语言，软件的申明周期，比如查看 .NET 会出现如下结果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039854.webp)
+![](https://img.fwhyy.com/2023/202306162039854.webp)
 
 ## 设计师导航网站
 
@@ -122,7 +122,7 @@ http://webstack.cc/cn/index.html
 
 这是一个导航类站点，收录了非常多的设计师相关的各类网站。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039409.webp)
+![](https://img.fwhyy.com/2023/202306162039409.webp)
 
 ## 搜索相关软件
 
@@ -130,7 +130,7 @@ https://alternativeto.net/
 
 Parallels Desktop 是 mac 上一款优秀的虚拟机管理工具，但价格也比较高，我在这个网站中搜索 Parallels Desktop ，再通过 Mac + Free 进行过滤，会出现下面结果：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039921.webp)
+![](https://img.fwhyy.com/2023/202306162039921.webp)
 
 除了 VirtualBox ，还有：
 
@@ -148,16 +148,16 @@ https://www.similarsites.com/
 
 比如在搜索框中输入：cnblogs.com ,结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039656.webp)
+![](https://img.fwhyy.com/2023/202306162039656.webp)
 
 ## 查看代码片段
 
 https://www.dotnetperls.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039491.webp)
+![](https://img.fwhyy.com/2023/202306162039491.webp)
 
 在网站中可以搜索各种语言的关键语法的代码片段，比如搜索 C# Array ：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162039957.webp)
+![](https://img.fwhyy.com/2023/202306162039957.webp)
 
 这只是其中一小段，还有对数组取值、循环等等。

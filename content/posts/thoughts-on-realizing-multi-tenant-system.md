@@ -19,11 +19,11 @@ tags: [多租户]
 
 1、每个租户部署一套 WebAPI、上层通过域名或 Url 地址的解析进行路由，当有新租户注册的时候就动态进行对应的 WebAPI 的部署，这种方式改造成本低，但运维成本高，不建议使用，如果时间紧，可以当过度阶段的临时方案。
 
-![iShot2022-02-02 07.35.55](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020736143.jpg)
+![iShot2022-02-02 07.35.55](https://img.fwhyy.com/2022/202202020736143.webp)
 
 2、所有的租户共用一套 WebAPI ，在 WebAPI 中需要获取到租户信息（域名、Url参数、请求头信息、Cookie 等），然后进行租户信息配置的切换。有新租户创建的时候无需进行新的 WebAPI 的创建，只需要初始化租户基本信息即可。
 
-![iShot2022-02-02 07.36.31](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020736943.jpg)
+![iShot2022-02-02 07.36.31](https://img.fwhyy.com/2022/202202020736943.webp)
 
 在这种方式下，如果 Cluster1 的负载超过限度了，也要能够进行动态切换，将其中的某些租户切换到其他的 Cluester 中，如上图。
 

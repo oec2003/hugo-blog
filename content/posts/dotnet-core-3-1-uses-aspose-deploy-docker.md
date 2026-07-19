@@ -74,7 +74,7 @@ dotNet Core 框架升级到了 3.1，其他很多中间件也做了同步升级�
 
 一开始，按照相同的方式在 3.1 的镜像中安装依赖，安装完成创建容器后，进入容器，使用 ldd libSkiaSharp.so 可以看看依赖是否安装完整，正常情况如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300631451.jpg)
+![](https://img.fwhyy.com/2022/202201300631451.webp)
 
 libSkiaSharp.so 文件可以在这个地址中找到： https://github.com/mono/SkiaSharp/releases/tag/v1.60.3 
 

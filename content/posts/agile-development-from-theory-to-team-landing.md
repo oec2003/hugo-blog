@@ -98,7 +98,7 @@ Sprint Backlog
 
 整个过程就是按照 Scrum 的五大会议进行，其中有一些小的调整，如下图：
 
-![iShot2022-02-02 08.53.43](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020853579.jpg)
+![iShot2022-02-02 08.53.43](https://img.fwhyy.com/2022/202202020853579.webp)
 
 1、最开始的待办事项梳理会，建议是每周都能进行，因为待办事项的优先级会受到很多因素的干扰，每周进行能够及时调整；
 

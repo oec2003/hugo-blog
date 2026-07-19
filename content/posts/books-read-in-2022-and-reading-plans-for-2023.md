@@ -17,7 +17,7 @@ topic: readbook
 
 #### 好好学习
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222831.webp)
+![](https://img.fwhyy.com/2023/202306162222831.webp)
 
 学习好的学习方法可以让我们事半功倍，全书围绕一个概念展开：临界知识，临界知识是指随着时间的积累，我们学习的知识会变得越来越多，那么这些知识有没有共同的规律呢？找到这些规律并掌握就能四两拨千斤，触类旁通。这种更底层的规律被称为临界知识。感觉和底层逻辑有异曲同工之妙。
 
@@ -25,7 +25,7 @@ topic: readbook
 
 #### 底层逻辑
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222984.webp)
+![](https://img.fwhyy.com/2023/202306162222984.webp)
 
 本书作者是刘润，在得到上有课程《5 分钟商学院》。也是在得到上知道的这本书，这本书在豆瓣上的评分不是很高，褒贬不一，不过我看着觉得挺好。
 
@@ -35,7 +35,7 @@ topic: readbook
 
 #### 认知觉醒
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222898.webp)
+![](https://img.fwhyy.com/2023/202306162222898.webp)
 
 作者 36 岁才开始探索，从混沌到警醒，从迷茫到清晰，知道了如何激发和保持自我提升的内在动力。所以，什么时候都不会晚，改变自己最好的时机，一个是十年前，另一个就是现在。
 
@@ -45,7 +45,7 @@ topic: readbook
 
 #### 纳瓦尔宝典
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222507.webp)
+![](https://img.fwhyy.com/2023/202306162222507.webp)
 
 最早在量贩冰糖的播客听到介绍《纳瓦尔宝典》这本书，播主写了这本书的推荐序，另一篇推荐序的作者是樊登。这本书在豆瓣的 2022 年读书榜单的商业经管板块排名第一。
 
@@ -55,7 +55,7 @@ topic: readbook
 
 #### 阅读的方法
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222569.webp)
+![](https://img.fwhyy.com/2023/202306162222569.webp)
 
 关于阅读的方法，有一本著名的书《如何阅读一本书》，从阅读的层次、书籍的分类、不同类型书籍的阅读方法讲的非常清楚了。
 
@@ -65,7 +65,7 @@ topic: readbook
 
 #### 软技能第二版
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222015.webp)
+![](https://img.fwhyy.com/2023/202306162222015.webp)
 
 《软技能》的第一版是 2016 年出版，当时读完这本书有种相见恨晚的感觉。
 
@@ -79,7 +79,7 @@ topic: readbook
 
 #### 华为数字化转型之道
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222380.webp)
+![](https://img.fwhyy.com/2023/202306162222380.webp)
 
 互联网企业已经从增量进入到了存量阶段，需要找到新的突破；传统企业在后疫情时代想要能很好地存活，也需要寻找新的方向，或许进行数字化转型是一条不错的出路。
 
@@ -87,7 +87,7 @@ topic: readbook
 
 #### Go 语言精进之路
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162222514.webp)
+![](https://img.fwhyy.com/2023/202306162222514.webp)
 
 想要更系统地学习编程语言，看书是比较有效的途径之一。2022 年又学习了下 Go 语言，为什么是又，因为 2013 年买过许式伟大佬翻译的一本 Go 语言书籍，但没有系统学下去，现在想想原因可能是这本书过于严肃，没那么有趣。
 
@@ -97,7 +97,7 @@ topic: readbook
 
 #### 卓有成效的敏捷
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162221848.webp)
+![](https://img.fwhyy.com/2023/202306162221848.webp)
 
 这本书的作者是史蒂夫·迈克康奈尔，大名鼎鼎的《代码大全》也是他的作品。
 
@@ -105,7 +105,7 @@ topic: readbook
 
 #### 软件研发效能提升之美
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162221615.webp)
+![](https://img.fwhyy.com/2023/202306162221615.webp)
 
 之前看过作者之一的茹炳晟的一场直播讲座，提到了这本书，而且他在极客时间中的专栏也有看，质量还不错。
 
@@ -115,7 +115,7 @@ topic: readbook
 
 #### 王羲之放鹅记
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162221704.webp)
+![](https://img.fwhyy.com/2023/202306162221704.webp)
 
 在朋友圈看到一篇文章中推荐了这本书，因为对书法有点兴趣，便买了。
 
@@ -131,7 +131,7 @@ topic: readbook
 
 #### 失落的卫星
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162221304.webp)
+![](https://img.fwhyy.com/2023/202306162221304.webp)
 
 
 圆桌派有一期的嘉宾是刘子超，讲了中亚这个神秘的地方，以及他在中亚旅行的各种见闻。这本书是刘子超的旅行游记。
@@ -144,7 +144,7 @@ topic: readbook
 
 #### 人类群星闪耀时
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162221382.webp)
+![](https://img.fwhyy.com/2023/202306162221382.webp)
 
 这本书有好多个翻译的版本，我和老婆读的是不同的版本，但各自都认为是自己读的版本最好，可能是先入为主的原因。
 

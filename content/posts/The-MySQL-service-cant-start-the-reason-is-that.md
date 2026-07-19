@@ -38,7 +38,7 @@ InnoDB: Last MySQL binlog file position 0 210522228, file name ./mysql-bin.00004
 
 根据错误信息在Google搜索，所有方法尝试一遍，依然不能正常启动MySql服务
 
-![](http://fwhyy.com/img/post/15181064653071.jpg)
+![](https://img.fwhyy.com/15181064653071.webp)
 
 忽然发现在MySql的目录中有很多文件名类似`mysql-bin.000001`的文件，这些文件是MySql的事物日志文件，极有可能是这些文件占满了磁盘空间，马上用`df -h`命令查看磁盘空间，果然，磁盘空间已满。删掉这些事物日志文件，重启MySql服务，一切正常。
 

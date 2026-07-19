@@ -17,7 +17,7 @@ tags: [装修]
 
 5月1日，原计划趁五一活动把家电给买了，无奈郎中羞涩，只好在家里宅了一天。
 
-![all-300x300](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302101820.jpg)
+![all-300x300](https://img.fwhyy.com/2022/202201302101820.webp)
 
 
 

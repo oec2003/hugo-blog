@@ -11,7 +11,7 @@ tags: [AspNet, DotNet4]
 
 controlRenderingCompatibilityVersion需要在Webconfig文件中设置，配置在Pages节点中，可以设置使用3.5还是4.0的引擎来渲染HTML，默认是使用4.0。
 
-![2010-07-28_143021](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300730129.png)
+![2010-07-28_143021](https://img.fwhyy.com/2022/202201300730129.webp)
 
 在VS2010中创建一个AspNet项目，在项目中的site.master中会有一个Menu控件来显示导航，代码如下：
 
@@ -29,11 +29,11 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 
 4.0
 
-![2010-07-28_150119](http://fwhyy.com/img/post/2010-07-28_150119.png)
+![2010-07-28_150119](https://img.fwhyy.com/2010/2010-07-28_150119.webp)
 
 3.5
 
-![2010-07-28_150528](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300730347.png)
+![2010-07-28_150528](https://img.fwhyy.com/2022/202201300730347.webp)
 
 可以看出使用4.0的引擎是将Menu控件生成的Ul 标签，而3.5中是生成的table，代码的复杂度明显大了很多。当然并不只是对Menu控件进行了优化，还有其他一些方面如：
 
@@ -45,7 +45,7 @@ EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
 
 在继承了masterpage页的页面中添加其他的服务器控件，最终呈现的HTML的的ID都会改变，如下：
 
-![2010-07-28_152923](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300731072.png)
+![2010-07-28_152923](https://img.fwhyy.com/2022/202201300731072.webp)
 
 AspNet4中可以使用ClientIDMode来改变这一局面，ClientIDMode在页面的Page指令中设置，如下：
 
@@ -56,7 +56,7 @@ CodeBehind="test.aspx.cs" Inherits="UrlRewriterDemo.test" ClientIDMode="Static" 
 
 将ClientIDMode设置为Static后，刷新页面查看源代码，控件的ID变成本来面目了，如下：
 
-![2010-07-28_154000](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300731621.png)
+![2010-07-28_154000](https://img.fwhyy.com/2022/202201300731621.webp)
 
 ClientIDMode有四个属性值：AutoID、Inherit、Predictable和Static，下面以上面的按钮为例，列出分别在这四种属性值下呈现的ID值：
 

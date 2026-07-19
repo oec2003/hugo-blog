@@ -49,7 +49,7 @@ FilterTextBox控件是一种文本框的过滤控件，可以阻止用户进行�
 
 2 在UpdatePanel控件中添加一个GridView控件，并配置数据源，按照向导进行，当出现下图时，点击高级按钮;
 
-![2010-12-30_191105](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290818572.gif)
+![2010-12-30_191105](https://img.fwhyy.com/2022/202201290818572.webp)
 
 3 在高级对话框中钩选[生成insert update delete语句] 项只有选了此项，GridView才能实现编辑功能;
 

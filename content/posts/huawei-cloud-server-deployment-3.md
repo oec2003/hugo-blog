@@ -11,7 +11,7 @@ tags: [华为云,部署,运维]
 
 现象是 CCE 中的工作负载提示异常，应用不能正常访问，查看了容器日志，如下图：
 
-![iShot2022-02-04 18.08.34](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041809012.jpg)
+![iShot2022-02-04 18.08.34](https://img.fwhyy.com/2022/202202041809012.webp)
 
 最终查出的原因是基础镜像使用错误，因之前跟华为技术人员沟通得知鲲鹏服务器只支持 openjdk ，并且鲲鹏服务器是 arm 芯片，所以就找到了 arm64v8/openjdk 的基础镜像， arm64v8 下只有一个 openjdk 的镜像，这个镜像中的 Java version 是 17 ，我们使用的 Java 的版本是 8 ，就导致了不兼容。
 
@@ -29,7 +29,7 @@ docker push swr.cn-north-5.myhuaweicloud.com/xxx/openjdk:latest
 
 注意：docker pull 的镜像为 adoptopenjdk/openjdk8 ，这是 Java 8 的 openjdk 版本。值得一提的是这个镜像并非是 arm 的镜像，但依然可以用，只需要在创建构建任务的时候，指定是鲲鹏服务器就可以。
 
-![iShot2022-02-04 18.11.56](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041814320.jpg)
+![iShot2022-02-04 18.11.56](https://img.fwhyy.com/2022/202202041814320.webp)
 
 2、创建一个 Spring Boot 项目，根目录下创建 Dcokerfile 文件，内容如下：
 
@@ -49,7 +49,7 @@ ENTRYPOINT ["sh","-c","java -jar /Java-Test-SNAPSHOT.jar  $PARAMS"]
 
 4、在 CCE 中创建无状态负载，需要手动添加环境变量 PARAMS ，如下图：
 
-![iShot2022-02-04 18.14.20](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202041814591.jpg)
+![iShot2022-02-04 18.14.20](https://img.fwhyy.com/2022/202202041814591.webp)
 
 如果直接使用 docker run 命令创建容器，命令如下：
 

@@ -9,7 +9,7 @@ tags: [C#, MIPush]
 
 遗憾的是小米推送官方并不支持C#，所以需要很对Java版本的实现用IKVM来做一些转化。转换后在Net程序中一共需要引用7个Dll文件，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300725027.jpg)
+![](https://img.fwhyy.com/2022/202201300725027.webp)
 
 相关Dll文件和示例代码已经放在Github上了
 
@@ -21,11 +21,11 @@ tags: [C#, MIPush]
 
 在测试阶段，推送一直没什么问题，当部署到客户服务器上后，就推送失败，错误日志如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300725876.jpg)
+![](https://img.fwhyy.com/2022/202201300725876.webp)
 
 从错误信息可以得知是在验证证书时出的问题，网上查到很多都是Java版本的解决方式，思路就是忽略SSL的验证，找了下C#的相关代码，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300725838.jpg)
+![](https://img.fwhyy.com/2022/202201300725838.webp)
 
 上面代码加上后，发现推送就正常了。上面红框代码如下：
 

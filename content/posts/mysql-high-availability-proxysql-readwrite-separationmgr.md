@@ -8,7 +8,7 @@ MGR 解决了高可用的问题，但如果数据库访问量大，特别是读�
 
 <!-- more -->
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030651178.webp)
+![](https://img.fwhyy.com/2025/202509030651178.webp)
 
 - 应用程序只和 ProxySQL 打交道
 - ProxySQL 做为应用和 MGR 集群中间的一个桥梁，让应用对 MGR 的变化没有感知
@@ -72,7 +72,7 @@ proxysql:
 docker exec -it proxysql bash
 mysql -h127.0.0.1 -P6032 -uradmin -pradmin < /etc/proxysql/init-proxysql.sql
 ```
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030651027.webp)
+![](https://img.fwhyy.com/2025/202509030651027.webp)
 
 4、配置 ProxySQL MGR 监控，依然是在 proxysql 容器内，执行下面命令：
 
@@ -88,7 +88,7 @@ mysql -h127.0.0.1 -P6032 -uradmin -pradmin < /etc/proxysql/setup-mgr-monitoring.
 docker exec mysql-master mysql -uroot -prootpassword -e "SELECT member_id, member_host, member_port, member_state, member_role FROM performance_schema.replication_group_members;"
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030651656.webp)
+![](https://img.fwhyy.com/2025/202509030651656.webp)
 
 2、检查 ProxySQL 的状态。
 
@@ -96,7 +96,7 @@ docker exec mysql-master mysql -uroot -prootpassword -e "SELECT member_id, membe
 docker exec proxysql mysql -h127.0.0.1 -P6032 -uradmin -pradmin -e "SELECT hostgroup_id, hostname, port, status, weight FROM mysql_servers ORDER BY hostgroup_id, hostname;"
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030652835.webp)
+![](https://img.fwhyy.com/2025/202509030652835.webp)
 
 3、检查 ProxySQL 连接池状态。
 
@@ -104,7 +104,7 @@ docker exec proxysql mysql -h127.0.0.1 -P6032 -uradmin -pradmin -e "SELECT hostg
 docker exec proxysql mysql -h127.0.0.1 -P6032 -uradmin -pradmin -e "SELECT * FROM stats_mysql_connection_pool ORDER BY hostgroup, srv_host;"
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030652304.webp)
+![](https://img.fwhyy.com/2025/202509030652304.webp)
 
 4、通过 ProxySQL 创建测试数据库和表。
 
@@ -125,7 +125,7 @@ INSERT INTO test_table (name, operation_type) VALUES ('Test Record 2', 'INSERT v
 
 也可以使用 navicat 等客户端工具连接进行测试，连接配置如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030652783.webp)
+![](https://img.fwhyy.com/2025/202509030652783.webp)
 
 5、测试读操作路由。
 
@@ -229,7 +229,7 @@ docker exec proxysql mysql -h127.0.0.1 -P6032 -uradmin -pradmin -e "
 SELECT rule_id, hits FROM stats_mysql_query_rules WHERE hits > 0;"
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509030652974.webp)
+![](https://img.fwhyy.com/2025/202509030652974.webp)
 
 - SELECT 命中 42 次 (路由到读节点)
 - INSERT/UPDATE/DELETE 命中 5 次

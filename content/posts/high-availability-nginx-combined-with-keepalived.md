@@ -7,7 +7,7 @@ tags: [Nginx,keepalived,运维]
 
 如果在谷歌中搜索 「Nginx 高可用」，搜索出来的大多都是 Nginx + keepalived 的使用。
 <!--more-->
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191209195.webp)
+![](https://img.fwhyy.com/2023/202306191209195.webp)
 
 所以，本文就介绍下怎样用 Nginx 和 keepalived 来实现应用的高可用。
 
@@ -24,7 +24,7 @@ tags: [Nginx,keepalived,运维]
 
 本次测试使用两台测试虚拟机，IP 分别为 10.211.55.3 和 10.211.55.14 ，Nginx 使用 Docker 进行部署，keepalived 直接在服务器部署。架构图如下：
 
-![](../../attachmenent/202306191208889.webp)
+![](https://img.fwhyy.com/2023/202306191208889.webp)
 
 具体部署和配置步骤如下：
 
@@ -32,7 +32,7 @@ tags: [Nginx,keepalived,运维]
 
 2、在 10.211.55.3 服务器的 /root 目录中创建 nginx-ha 目录，目录内容如下图：
 
-![image-20230511110208516](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191209234.webp)
+![image-20230511110208516](https://img.fwhyy.com/2023/202306191209234.webp)
 
 3、docker-compose.yml 文件内容如下：
 
@@ -139,11 +139,11 @@ server {
 
 7、在 nginx -ha 目录中，执行 `docker-compose up -d` 命令进行容器的构建，构建成功后，使用 docker ps 查看如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191208464.webp)
+![](https://img.fwhyy.com/2023/202306191208464.webp)
 
 这时使用 http://10.211.55.3:10000 或者 http://10.211.55.3:9000 应该都能访问：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191208190.webp)
+![](https://img.fwhyy.com/2023/202306191208190.webp)
 
 8、在 10.211.55.14 服务器上重复第二步到第七步的步骤，部署 web 服务和 nginx 负载，**需要注意的是 nginx 负载的配置文件 config/nginx-proxy/conf.d/default.conf 的内容有所不同，upstream 中的 IP 地址需要修改**，如下所示：
 
@@ -253,7 +253,7 @@ chmod +x check-nginx.sh
 
 14、配置文件修改好后，执行 `systemctl start keepalived` 启动 keepalived 服务，使用命令 `systemctl status keepalived` 可以查看状态，如下图为正常：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191207160.webp)
+![](https://img.fwhyy.com/2023/202306191207160.webp)
 
 ## 验证
 

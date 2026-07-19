@@ -147,7 +147,7 @@ tags: [Redis]
 - 缓存的淘汰就是根据一定的策略，将不太重要的数据从缓存中进行删除；
 - Redis 一共有 8 种淘汰策略，在 Redis 4.0 之前有 6 种，4.0 之后又增加了 2 种，如下图：
 
-![iShot2022-02-02 08.28.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020828684.jpg)
+![iShot2022-02-02 08.28.14](https://img.fwhyy.com/2022/202202020828684.webp)
 
 - 缓存策略的解释：
 

@@ -7,7 +7,7 @@ tags: [工具,AI,OpenAI]
 
 1、OpenAI 在 9 月 13 日发布了 o1 的预览版。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409241751659.webp)
+![](https://img.fwhyy.com/2024/202409241751659.webp)
 
 2、o1 全称叫 OpenAI o1, 没有延续之前 GPT 系列，可见足够强大，当然也有一种说法是 o1 作为一个垂直基础模型为未来 GPT5 赋能。
 
@@ -17,11 +17,11 @@ tags: [工具,AI,OpenAI]
 
 4、o1 分为两个版本：o1-preview 和 o1-mini，可能因为训练成本巨大或是其他原因（比如收集更高质量的问题），发布时 o1-preview 每周只能使用 30 次查询，o1-mini 是 50 次。GPT Plus 的付费用户才能使用。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409241751431.webp)
+![](https://img.fwhyy.com/2024/202409241751431.webp)
 
 5、9 月 17 号，OpenAI 发布消息，放宽了限额，o1-preview 现在为每周 50 次查询，o1-mini 改为每天 50 次查询。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409241752377.webp)
+![](https://img.fwhyy.com/2024/202409241752377.webp)
 
 6、o1 最特别的地方是能「思考」了，之前的版本都强调能快速给出结果，对 o1 来说「慢」是一种特点，当我们对 o1 提出问题时，内部会生成一个思维链来逐步推理问题，类似于人类解题时的思考过程，尝试不同的策略，并能认识到自己的错误。所以时间花的更长，通常几秒到几十秒不等。
 

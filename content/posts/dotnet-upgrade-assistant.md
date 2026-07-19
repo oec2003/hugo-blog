@@ -15,31 +15,31 @@ tags: [dotNET,工具]
 
 1、在 VS 2022 中进行 .NET Upgrade Assistant 的安装。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191131168.webp)
+![](https://img.fwhyy.com/2023/202306191131168.webp)
 
 按照提示一路下一步即可：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191131132.webp)
+![](https://img.fwhyy.com/2023/202306191131132.webp)
 
 2、创建一个 .NET Core 3.1 的 WebAPI 项目，在项目上点击右键就会出现 Upgrade 按钮：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191131938.webp)
+![](https://img.fwhyy.com/2023/202306191131938.webp)
 
 3、在弹窗中选择升级方式，但也只有这一个选项啊：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191134375.webp)
+![](https://img.fwhyy.com/2023/202306191134375.webp)
 
 4、选择升级的目标版本，这里我选择 .NET 6 ,这是一个长线支持版本：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191134478.webp)
+![](https://img.fwhyy.com/2023/202306191134478.webp)
 
 5、选择需要更新的内容，默认全选，点击「Upgrade selection」进行升级：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191134726.webp)
+![](https://img.fwhyy.com/2023/202306191134726.webp)
 
 6、瞬间，升级就完成了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191132693.webp)
+![](https://img.fwhyy.com/2023/202306191132693.webp)
 
 7、上面的示例升级非常简单，我便马上尝试了产品的代码，多年的积累，产品的代码还是比较复杂的，引用的第三方库也比较多。我是按照项目的依赖关系，从最下层依次到上次进行升级，升级的过程很顺利，没有出现错误，但在编译时出现了两个错误：
 
@@ -48,13 +48,13 @@ tags: [dotNET,工具]
 
 Ionic.zip的问题是因为这个软件包已经被弃用，换成了 DotNet.zip 就可以了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191132795.webp)
+![](https://img.fwhyy.com/2023/202306191132795.webp)
 
 重新安装 Swashbuckle.AspNetCore 最新的包，并按照 .NET 6 的方式注册，就可以解决了。
 
 8、编译终于没问题了，程序启动的时候又报错了，原因是 BinaryFormatter 有安全漏洞过，已经不再支持：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191132237.webp)
+![](https://img.fwhyy.com/2023/202306191132237.webp)
 
 有两种方式可以解决这个问题，第一种是直接停止在代码中使用 BinaryFormatter。可以使用 JsonSerializer 或 XmlSerializer  进行替代，具体可以参考：
 
@@ -68,7 +68,7 @@ https://learn.microsoft.com/zh-cn/dotnet/core/compatibility/core-libraries/5.0/b
 <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191132611.webp)
+![](https://img.fwhyy.com/2023/202306191132611.webp)
 
 上面代码添加后，便可忽略掉 BinaryFormatter 的安全性，让程序可以正常运行。
 

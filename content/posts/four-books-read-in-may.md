@@ -25,7 +25,7 @@ topic: readbook
 
 ## 你的懒惰让我愁肠百结
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191422616.webp)
+![](https://img.fwhyy.com/2023/202306191422616.webp)
 
 如果你不知道菲茨杰拉德，但一定听过他写的《了不起的盖茨比》。你的懒惰让我愁肠百结是作者在女儿的成长期写给女儿信的合集。
 
@@ -53,7 +53,7 @@ topic: readbook
 
 ## 夜晚的潜水艇
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191422075.webp)
+![](https://img.fwhyy.com/2023/202306191422075.webp)
 
 90 后作家陈春成的首部短篇小说集，一共九篇。
 
@@ -65,7 +65,7 @@ topic: readbook
 
 ## 局外人
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191422364.webp)
+![](https://img.fwhyy.com/2023/202306191422364.webp)
 
 主人公莫尔索被认为是一个很冷漠的人，在母亲的葬礼上没有掉眼泪，甚至第二天还去看电影，以至于杀人后没有因为杀人本身，而是因为冷漠被定罪，荒诞而讽刺。
 
@@ -79,7 +79,7 @@ topic: readbook
 
 ## 秋园
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191422849.webp)
+![](https://img.fwhyy.com/2023/202306191422849.webp)
 
 《秋园》是一本个人传记，作者杨本芬就是书中的人物之骅。秋园是之骅的妈妈，作者讲述了妈妈艰辛的一生，语言平实而生动。
 

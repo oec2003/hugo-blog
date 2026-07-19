@@ -9,24 +9,24 @@ tags: [AspNet, DotNet, 小技巧, 调试]
 
 首先打开MicroSoft CLR Debug
 
-![2011-07-18_164829](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290710632.png)
+![2011-07-18_164829](https://img.fwhyy.com/2022/202201290710632.webp)
 
 打开后界面如下
 
-![2011-07-18_164908](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290710108.png)
+![2011-07-18_164908](https://img.fwhyy.com/2022/202201290710108.webp)
 
 从项目中选择一个需要调试的文件，并在需要调试的地方设置断点
 
-![2011-07-18_165017](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290710393.png)
+![2011-07-18_165017](https://img.fwhyy.com/2022/202201290710393.webp)
 
 选择“调试”-“附加到进程”
 
-![2011-07-18_165041](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290710454.png)
+![2011-07-18_165041](https://img.fwhyy.com/2022/202201290710454.webp)
 
 
 附加进程前确保你的项目已经运行，如果是Win2003系统，会有一个w3wp.exe的进程存在,如果是xp系统，该进程名是aspnet_wp.exe。
 
-![2011-07-18_165126](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290710503.png)
+![2011-07-18_165126](https://img.fwhyy.com/2022/202201290710503.webp)
 
 此时运行程序就会命中断点，个人认为此方法比较适用于将项目部署到IIS中进行调试，此方法的几个优点：
 

@@ -25,7 +25,7 @@ tags: [工具,博客,Notion]
 
 Notion 是我一直在使用的一款强大的笔记工具，NotionNext 将 Notion 笔记实时渲染成静态博客网站，就像下面这样，在 Notion 中维护笔记，稍等片刻，网站的内容就自动更新了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171745119.webp)
+![](https://img.fwhyy.com/2023/202306171745119.webp)
 
 下面介绍我是怎样迁移到 NotionNext 的，大体有三个步骤：
 
@@ -49,7 +49,7 @@ vercel 是一个用来部署前端应用的云平台，我们使用 vercel 来�
 
 Notion 的 Page ID 在 Notion 的页面点击 Share 后的地址中获取：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744983.webp)
+![](https://img.fwhyy.com/2023/202306171744983.webp)
 
 5、vercel 默认会提供域名供我们访问，当然我们也能绑定自己的域名。
 
@@ -63,23 +63,23 @@ Notion 的 Page ID 在 Notion 的页面点击 Share 后的地址中获取：
 
 3、在 Cloudflare 的 DNS 模块设置 A 记录和 CNAME，地址为 vercel 中的地址：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744380.webp)
+![](https://img.fwhyy.com/2023/202306171744380.webp)
 
 4、在 godaddy 中将域名的 DNS 设置为 Cloudflare 的 DNS 服务器：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744868.webp)
+![](https://img.fwhyy.com/2023/202306171744868.webp)
 
 5、在 vercel 中进行域名的添加，解析正常如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744146.webp)
+![](https://img.fwhyy.com/2023/202306171744146.webp)
 
 6、如果发现解析不正常，可以检查下 Cloudflare 中的配置，ssl 中是否设置的是完全：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744347.webp)
+![](https://img.fwhyy.com/2023/202306171744347.webp)
 
 并且在「缓存/配置」中清除所有内容：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744861.webp)
+![](https://img.fwhyy.com/2023/202306171744861.webp)
 
 ## 配置
 
@@ -87,12 +87,12 @@ Notion 的 Page ID 在 Notion 的页面点击 Share 后的地址中获取：
 
 将 fork 的项目下载到本地，主要修改根目录下的 blog.config.js 文件：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744046.webp)
+![](https://img.fwhyy.com/2023/202306171744046.webp)
 
 配置中的项都有注释说明，也可以自行修改，然后执行 `yarn dev` 在本地运行看效果。调整完成后，将代码 push 到 Github 后，vercel 会自动进行编译和发布：
 
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306171744716.webp)
+![](https://img.fwhyy.com/2023/202306171744716.webp)
 
 ## 最后
 

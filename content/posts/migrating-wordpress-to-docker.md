@@ -21,7 +21,7 @@ tags: [Docker, WordPress]
 
 1、将服务器 wwwroot 目录中的文件拷贝到本地。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405131556894.webp)
+![](https://img.fwhyy.com/2024/202405131556894.webp)
 
 2、将 mysql 数据库进行备份。
 
@@ -84,11 +84,11 @@ volumes:
 
 在 docker-compose.yml 所在目录执行 `docker-compose up -d ` 进行容器构建，构建完成后，就可以在浏览器输入 http://localhost:12000 进行访问：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405131556737.webp)
+![](https://img.fwhyy.com/2024/202405131556737.webp)
 
 按照向导进行博客的初始化：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405131556583.webp)
+![](https://img.fwhyy.com/2024/202405131556583.webp)
 
 ## 还原
 
@@ -111,7 +111,7 @@ DELETE from wp_terms
 
 3、备份 wordpress_bak 库中的 wp_posts 表，发现备份时提示错误：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405131556515.webp)
+![](https://img.fwhyy.com/2024/202405131556515.webp)
 
 原因是还原的数据库日期类型的字段有不符合要求的默认值，将 wp_posts 表中的日期字段的默认值去掉即可。
 

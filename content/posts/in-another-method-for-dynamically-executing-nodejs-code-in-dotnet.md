@@ -11,7 +11,7 @@ tags: [.NET,Nodejs]
 
 代码块节点可以使用 Node.js、Python 等解释型语言来处理逻辑，在《dotNet 5 中执行 Node.js》一文中，介绍了在 .NET 中通过 NodeServices 包来动态执行 Node.js 代码。但会有些局限。比如用户想要使用更多的 Node.js 包，就不太容易做到。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403102016732.webp)
+![](https://img.fwhyy.com/2024/202403102016732.webp)
 
 所以本文介绍另一种思路了，其实非常简单，主要分三步：
 
@@ -41,7 +41,7 @@ tags: [.NET,Nodejs]
 
 2、使用命令 `npm i express` 安装 express ，安装时可以会出现下面错误，这时可以切换不同的镜像源进行尝试：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403102016213.webp)
+![](https://img.fwhyy.com/2024/202403102016213.webp)
 
 使用下面命令可以切换镜像源：
 
@@ -158,7 +158,7 @@ output={'生日':birthday,'性别':sex}
 
 4、运行 .NET 程序，使用 Postman 进行测试，上面的代码就是入参：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403102016851.webp)
+![](https://img.fwhyy.com/2024/202403102016851.webp)
 
 ## 部署
 
@@ -261,6 +261,6 @@ services:
 
 3、命令执行 `docker-compose up -d` 进行容器的构建，构建完成可以使用 `docker-compose ps` 来查看容器是否正常：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202403102016692.webp)
+![](https://img.fwhyy.com/2024/202403102016692.webp)
 
 

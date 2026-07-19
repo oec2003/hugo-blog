@@ -59,11 +59,11 @@ gitlab-rake gitlab:backup:restore BACKUP=文件编号
 
 中间会有两次这种交互式的提示，输入 yes 让其继续执行就可以还原成功。
 
-![iShot2022-02-01 22.07.41](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012208870.jpg)
+![iShot2022-02-01 22.07.41](https://img.fwhyy.com/2022/202202012208870.webp)
 
 如果您的迁移和我一样是由外网服务器迁移到内网服务器，如下图：
 
-![iShot2022-02-01 22.08.28](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012208731.jpg)
+![iShot2022-02-01 22.08.28](https://img.fwhyy.com/2022/202202012208731.webp)
 
 有两个地方需要注意：
 
@@ -93,7 +93,7 @@ server {
 
 2、默认情况下，内网部署的 GitLab 初始化的访问地址也是内网的地址，在界面中看到仓库地址也是内网地址，如下图：
 
-![iShot2022-02-01 22.09.03](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012209164.jpg)
+![iShot2022-02-01 22.09.03](https://img.fwhyy.com/2022/202202012209164.webp)
 
 需要修改 GitLab 的配置文件来进行解决，进入到内网的 GitLab 服务器，执行下面命令编辑配置文件:
 
@@ -103,7 +103,7 @@ vi /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml
 
 修改 host 和 port ，如下图：
 
-![iShot2022-02-01 22.09.46](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202012210740.jpg)
+![iShot2022-02-01 22.09.46](https://img.fwhyy.com/2022/202202012210740.webp)
 
 执行 `gitlab-ctl restart` 重启 GitLab 服务生效。
 

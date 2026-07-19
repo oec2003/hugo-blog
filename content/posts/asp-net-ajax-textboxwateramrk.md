@@ -21,7 +21,7 @@ WatermarkCssClass:水印效果所采用的CSS样式
 2 打开默认的Default.aspx页,切换到设计视图
 3 添加两个文本框和两个TextBoxWatermark控件,如下图
 
-![2010-12-30_185000](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290827506.gif)
+![2010-12-30_185000](https://img.fwhyy.com/2022/202201290827506.webp)
 
 4 切换到代码视图,设置TextBoxWatermark控件的属性,代码如下
 

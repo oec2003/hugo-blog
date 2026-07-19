@@ -47,7 +47,7 @@ docker run -d --name myes -p 9200:9200 -p 9300:9300 -e "discovery.type=single-no
 
 安装成功后的如下图所示：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300637152.png)
+![](https://img.fwhyy.com/2022/202201300637152.webp)
 
 ## Docker 安装 Kibana
 
@@ -79,7 +79,7 @@ docker run -d --restart=always --log-driver json-file --log-opt max-size=100m --
 
 创建成功后，访问 5601 端口，出现如下界面说明创建成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300637797.png)
+![](https://img.fwhyy.com/2022/202201300637797.webp)
 
 ## Elasticsearch 的 API
 
@@ -93,7 +93,7 @@ Elasticsearch 提供 API 的方式来进行数据操作，非常方便，常用�
 
 [http://10.211.55.6:9200/index/oec2003/1](http://10.211.55.6/index/oec2003/1)  
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300638858.png)
+![](https://img.fwhyy.com/2022/202201300638858.webp)
 
 - index：我的理解是相当于数据库表的概念；
 - oec2003：在 Elasticsearch 的 index 中有个 Type 的概念，相当于分组，当目前的 7.6.1 版本中一个 index  中只能有一个 Type ,所以相当于可以忽略；
@@ -104,13 +104,13 @@ Elasticsearch 提供 API 的方式来进行数据操作，非常方便，常用�
 
 [http://10.211.55.6:9200/index/oec2003/1](http://10.211.55.6/index/oec2003/1)  
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300638510.png)
+![](https://img.fwhyy.com/2022/202201300638510.webp)
 
 ### 搜索数据
 
 [http://10.211.55.6:9200/index/oec2003/](http://10.211.55.6/index/oec2003/1)_search
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300639271.png)
+![](https://img.fwhyy.com/2022/202201300639271.webp)
 
 - 查询接口为 Post 方式；
 - 查询表达式也是 Json 格式，如果熟悉 MongoDB 的 Document ，应该会感觉很熟悉。
@@ -282,19 +282,19 @@ Kibana 容器运行起来后，可以通过端口 5601 进行访问，进行简�
 
 1、进入 Management→ Index Management ，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300639769.png)
+![](https://img.fwhyy.com/2022/202201300639769.webp)
 
 在改功能中可以维护所有的 idnex ，也可以看看我们创建的 index 有没有在里面显示：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300640024.png)
+![](https://img.fwhyy.com/2022/202201300640024.webp)
 
 2、在 Index Patterns 中进行 index pattern 的添加，名字可以进行模糊匹配
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300640279.png)
+![](https://img.fwhyy.com/2022/202201300640279.webp)
 
 3、在 Discover 菜单中进行数据查看，在这里可以选择之前创建的 index pattern 
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300640522.png)
+![](https://img.fwhyy.com/2022/202201300640522.webp)
 
 ## 总结
 

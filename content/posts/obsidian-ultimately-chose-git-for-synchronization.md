@@ -60,7 +60,7 @@ node_modules/
 
 4、将笔记仓库推送到 Gitee，并在 Obsidian 中安装 Git 插件并进行配置，主要设置了打开仓库时自动拉取（pull）最新的笔记。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202602111746650.webp)
+![](https://img.fwhyy.com/2026/202602111746650.webp)
 
 ## 移动端配置步骤
 
@@ -99,7 +99,7 @@ git clone https://oauth2:令牌@gitee.com/xxxx/obsidian-sync.git
 
 4、尽量不要在没有提交推送的情况下同时在 PC 端和移动端修改同一个文件，否则会出现冲突。解决冲突的方式和写代码时完全一致。比如下图就是出现冲突时的显示，将冲突部分修改为最终版本提交推送即可。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202602121110236.webp)
+![](https://img.fwhyy.com/2026/202602121110236.webp)
 
 5、之所以最终还是选择了使用 Git 的方式，主要还是因为它熟悉且可控。
 

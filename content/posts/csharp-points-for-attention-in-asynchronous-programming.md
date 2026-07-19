@@ -50,7 +50,7 @@ class Program
 
 运行上面代码，控制台会输出几次 MethodAsync End 后就会停止，这时死锁已经发生。可以观察到控制台程序使用的线程数会不断增加：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290754760.png)
+![](https://img.fwhyy.com/2022/202201290754760.webp)
 
 发生死锁的原因是：
 

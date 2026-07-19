@@ -13,7 +13,7 @@ tags: [分享,网站]
 
 https://workout.lol
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050626666.webp)
+![](https://img.fwhyy.com/2023/202309050626666.webp)
 
 这个一个辅助锻炼的网站，选择锻炼器械，也包括自重，然后选择需要锻炼的部位，就会给出一些列的视频教程。
 
@@ -23,11 +23,11 @@ https://workout.lol
 
 https://roadmap.sh/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050626549.webp)
+![](https://img.fwhyy.com/2023/202309050626549.webp)
 
 一个技术学习路线图的网站，提供前端、后端、全栈等，还有各种具体的技术，如：Python、.NET Core、Vue 等。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050626921.webp)
+![](https://img.fwhyy.com/2023/202309050626921.webp)
 
 每一个知识点的详情页面中会提供相关的学习资源。
 
@@ -35,11 +35,11 @@ https://roadmap.sh/
 
 https://www.youtube-dubbing.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050627656.webp)
+![](https://img.fwhyy.com/2023/202309050627656.webp)
 
 这是一款 Chrome 浏览器插件，安装插件后，在 YouTube 视频的下方会出现「开始翻译播放」，点击此按钮，稍等片刻，视频语音会变成 AI 的翻译后的中文语音：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050627765.webp)
+![](https://img.fwhyy.com/2023/202309050627765.webp)
 
 ## TypeScript 开源教程
 
@@ -47,7 +47,7 @@ https://github.com/wangdoc/typescript-tutorial
 
 https://wangdoc.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050627590.webp)
+![](https://img.fwhyy.com/2023/202309050627590.webp)
 
 TypeScript 是由 Microsoft 开发和维护的编程语言，它是 JavaScript 的超集，它在 JavaScript 的基础上添加了一些新的特性和语法，使开发者能够更容易编写可靠、可维护的代码。
 
@@ -57,7 +57,7 @@ TypeScript 是由 Microsoft 开发和维护的编程语言，它是 JavaScript �
 
 https://uinotes.com/pin
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050627492.webp)
+![](https://img.fwhyy.com/2023/202309050627492.webp)
 
 一个 APP UI 截图资源的网站，可以按照公司和行业进行筛选。多看看一些优秀的设计方案，对产品经理激发灵感很有帮助。
 
@@ -65,7 +65,7 @@ https://uinotes.com/pin
 
 https://killedby.tech
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050628220.webp)
+![](https://img.fwhyy.com/2023/202309050628220.webp)
 
 记录一些大公司：谷歌、苹果和微软等已经关停或未来会关停的产品和服务，可以按时间轴去进行查看。
 
@@ -73,7 +73,7 @@ https://killedby.tech
 
 https://dingtalk.com/qidian/home
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050628581.webp)
+![](https://img.fwhyy.com/2023/202309050628581.webp)
 
 天眼查、企查查的竞品，刚上线不久，趁现在还是免费，可以赶紧查起来。
 
@@ -81,7 +81,7 @@ https://dingtalk.com/qidian/home
 
 https://www.gptdemo.net/cn/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050628696.webp)
+![](https://img.fwhyy.com/2023/202309050628696.webp)
 
 一个帮助我们了解现在各种 AI 工具动态的网站，网站提供了非常全面的 AI 工具分类以及标签供你选择，包括功能介绍、免费与否和用户评论。
 
@@ -91,7 +91,7 @@ https://www.gptdemo.net/cn/
 
 https://allainews.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050629183.webp)
+![](https://img.fwhyy.com/2023/202309050629183.webp)
 
 如果你对人工智能、机器学习、深度学习、NLP 等有兴趣，那么这个网站可以帮你更好了解相关的信息和发展情况。
 
@@ -101,7 +101,7 @@ https://allainews.com/
 
 https://github.com/tw93/Pake
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050629532.webp)
+![](https://img.fwhyy.com/2023/202309050629532.webp)
 
 YouTube Music 没有 Mac 版，最近发现 Pake 的 Github 主页上已经提供了 YouTube Music 客户的下载。
 
@@ -111,7 +111,7 @@ Pake 是一个可以将网页应用打包为客户端的开源项目，我在 Ma
 
 https://simone.computer/#/webdesktops
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050631549.webp)
+![](https://img.fwhyy.com/2023/202309050631549.webp)
 
 可以在这个网站中体验 160 多个桌面操作系统，上图是 Windows 98 的系统界面。开发者非常热衷于复古计算机，并且非常喜欢 90 年代和 2000 年代初的仿拟设计用户界面。
 
@@ -121,17 +121,17 @@ https://simone.computer/#/webdesktops
 
 https://www.pdfgear.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050631082.webp)
+![](https://img.fwhyy.com/2023/202309050631082.webp)
 
 支持 Windows/macOS/ios，并且都是免费的。它支持数十种格式与 PDF 之间的转换，并且支持编辑、压缩、签名、文本提取、OCR文字识别等功能。
 
 亮点就是接入了 AI 聊天机器人，没有聊天限制，扫描版一样可以解析。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050631313.webp)
+![](https://img.fwhyy.com/2023/202309050631313.webp)
 
 ## Spacedrive
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202309050632164.webp)
+![](https://img.fwhyy.com/2023/202309050632164.webp)
 
 一直都觉得 Mac 上的访达不太好用，最近发现了 Spacedrive 这个工具，不过还需要排队。
 

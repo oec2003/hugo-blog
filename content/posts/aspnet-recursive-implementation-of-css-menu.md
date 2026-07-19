@@ -10,11 +10,11 @@ tags: [AspNet]
 
 1 首先创建数据表Menu，添加三个基本字段id pid menu
 
-![2010-12-30_112106](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292132358.gif)
+![2010-12-30_112106](https://img.fwhyy.com/2022/202201292132358.webp)
 
 表建好后，添加一些测试数据
 
-![2010-12-30_112140](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292132944.gif)
+![2010-12-30_112140](https://img.fwhyy.com/2022/202201292132944.webp)
 
 2 在项目中创建用户控件LeftMenu，菜单一般可以做成用户控件或是放在Masterpage中。LeftMenu中代码如下。
 
@@ -171,7 +171,7 @@ public partial class LeftMenu : System.Web.UI.UserControl
 
 4 创建aspx页面Menu 将用户控件拖到页面中，运行就可以看到效果。
 
-![2010-12-30_112219](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292132511.gif)
+![2010-12-30_112219](https://img.fwhyy.com/2022/202201292132511.webp)
 
 注：该例子需要有一个静态的css菜单作为模板，网络上很多的css菜单都可以来套用，当然css很强的朋友自己来设计会更好。
 

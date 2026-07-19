@@ -7,7 +7,7 @@ tags: [JQuery,AspNet]
 
 jQuery有不少弹出框的插件，boxy应该算的上是功能和效果都还不错的一款了。先来看一张效果图吧。
 
-![2010-11-20_134247](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290715574.png)
+![2010-11-20_134247](https://img.fwhyy.com/2022/202201290715574.webp)
 
 在Web开发中经常会使用到Alert和Confirm弹出框，在Asp.Net中的删除按钮上我们常常会加上删除的确认提示，以避免误删除数据，就像上面图片那样。我们一般会写出这样的代码。
 
@@ -43,7 +43,7 @@ $(document).ready(function() {
 
 Boxy的confirm方法有三个参数分别是确认信息内容，弹出框点击确定的回调函数，一些设置项比如标题。上面的代码中如果不加上return false，那么弹出框会闪现，然后删除按钮的后天事件还是执行了。加上return false，那么不管是点击确定还是取消都不会执行后台事件，这显然达不到我们的要求，看来只能打点击确定后的回调函数的主意了。可以在一个公用的js文件中将Boxy的confirm封装一下：
 
-![2010-11-20_140830](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290716976.png)
+![2010-11-20_140830](https://img.fwhyy.com/2022/202201290716976.webp)
 
 页面的调用代码如下：
 

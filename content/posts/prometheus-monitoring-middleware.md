@@ -9,7 +9,7 @@ tags: [监控, Prometheus]
 <!--more-->
 在《监控利器：普罗米修斯介绍和安装》中有一张图，表明了 Prometheus 的数据走向，如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081626495.webp)
+![](https://img.fwhyy.com/2023/202311081626495.webp)
 
 从图中可以看出，监控中间件的第一步就是安装中间件的 exporter，安装有两种方式：下载安装文件进行安装和使用 Docker 进行安装，下面示例中使用的是后者。
 
@@ -30,7 +30,7 @@ tags: [监控, Prometheus]
 
 2、修改配置后，重启 Web 容器，访问 http://ip:port/nginx_status  ,出现下图界面，说明配置生效：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627093.webp)
+![](https://img.fwhyy.com/2023/202311081627093.webp)
 
 3、执行下面的命令进行 nginx-exporter 容器的安装：
 
@@ -43,11 +43,11 @@ docker run -p 9113:9113 -d  --restart=always --name nginx-exporter nginx/nginx-p
 
 容器运行后，访问 9113 端口，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627166.webp)
+![](https://img.fwhyy.com/2023/202311081627166.webp)
 
 4、在 prometheus 的配置文件中进行绑定，执行`vi /usr/local/prometheus/prometheus.yml`，在文件的最下面添加  job 配置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627140.webp)
+![](https://img.fwhyy.com/2023/202311081627140.webp)
 
 ```
   - job_name: 'nginx'
@@ -57,15 +57,15 @@ docker run -p 9113:9113 -d  --restart=always --name nginx-exporter nginx/nginx-p
 
 5、执行命令 `systemctl restart prometheus` 重启生效，可以访问 http://10.211.55.3:9090/targets 查看状态，如果为 UP 说明 job 设置成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627264.webp)
+![](https://img.fwhyy.com/2023/202311081627264.webp)
 
 6、在 Grafana 中导入 12078 模板：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627752.webp)
+![](https://img.fwhyy.com/2023/202311081627752.webp)
 
 7、最终展示效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627150.webp)
+![](https://img.fwhyy.com/2023/202311081627150.webp)
 
 ## Redis
 
@@ -84,11 +84,11 @@ docker run -d --name redis_exporter -p 9121:9121   --network s2v9_test_s2_net  o
 
 2、容器运行成功后，浏览器访问界面如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627290.webp)
+![](https://img.fwhyy.com/2023/202311081627290.webp)
 
 3、在 prometheus 的配置文件中进行绑定，执行`vi /usr/local/prometheus/prometheus.yml`，在文件的最下面添加 job 配置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081627986.webp)
+![](https://img.fwhyy.com/2023/202311081627986.webp)
 
 ```
   - job_name: 'reids'
@@ -98,15 +98,15 @@ docker run -d --name redis_exporter -p 9121:9121   --network s2v9_test_s2_net  o
 
 4、执行命令 `systemctl restart prometheus` 重启生效，可以访问 http://10.211.55.3:9090/targets 查看状态，如果为 UP 说明 job 设置成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081628046.webp)
+![](https://img.fwhyy.com/2023/202311081628046.webp)
 
 5、在 Grafana 中导入 763 编号的模板：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081629990.webp)
+![](https://img.fwhyy.com/2023/202311081629990.webp)
 
 6、最终展示效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081629359.webp)
+![](https://img.fwhyy.com/2023/202311081629359.webp)
 
 ## RabbitMQ
 
@@ -124,11 +124,11 @@ docker run -d -p 9419:9419 --name rabbitmq-exporter --network s2v9_test_s2_net -
 
 2、容器运行成功后，浏览器访问界面如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081629715.webp)
+![](https://img.fwhyy.com/2023/202311081629715.webp)
 
 3、在 prometheus 的配置文件中进行绑定，执行`vi /usr/local/prometheus/prometheus.yml`，在文件的最下面添加 job 配置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630361.webp)
+![](https://img.fwhyy.com/2023/202311081630361.webp)
 
 ```
   - job_name: 'rabbitmq'
@@ -138,15 +138,15 @@ docker run -d -p 9419:9419 --name rabbitmq-exporter --network s2v9_test_s2_net -
 
 4、执行命令 `systemctl restart prometheus` 重启生效，可以访问 http://10.211.55.3:9090/targets 查看状态，如果为 UP 说明 job 设置成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630040.webp)
+![](https://img.fwhyy.com/2023/202311081630040.webp)
 
 5、在 Grafana 中导入 2121 编号的模板：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630941.webp)
+![](https://img.fwhyy.com/2023/202311081630941.webp)
 
 6、最终展示效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630412.webp)
+![](https://img.fwhyy.com/2023/202311081630412.webp)
 
 ## MySql
 
@@ -180,15 +180,15 @@ docker run -d -p 9104:9104 --network s2v9_test_s2_net --restart="always" -v /roo
 
 如果没有 .my.cnf 文件的映射，会出现下面错误：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630032.webp)
+![](https://img.fwhyy.com/2023/202311081630032.webp)
 
 4、容器运行成功后，浏览器访问界面如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630915.webp)
+![](https://img.fwhyy.com/2023/202311081630915.webp)
 
 5、在 prometheus 的配置文件中进行绑定，执行`vi /usr/local/prometheus/prometheus.yml`，在文件的最下面添加 job 配置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630009.webp)
+![](https://img.fwhyy.com/2023/202311081630009.webp)
 
 ```
   - job_name: 'mysql'
@@ -198,12 +198,12 @@ docker run -d -p 9104:9104 --network s2v9_test_s2_net --restart="always" -v /roo
 
 6、执行命令 `systemctl restart prometheus` 重启生效，可以访问 http://10.211.55.3:9090/targets 查看状态，如果为 UP 说明 job 设置成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630285.webp)
+![](https://img.fwhyy.com/2023/202311081630285.webp)
 
 7、在 Grafana 中导入 7362 编号的模板：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081630518.webp)
+![](https://img.fwhyy.com/2023/202311081630518.webp)
 
 8、最终展示效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202311081631867.webp)
+![](https://img.fwhyy.com/2023/202311081631867.webp)

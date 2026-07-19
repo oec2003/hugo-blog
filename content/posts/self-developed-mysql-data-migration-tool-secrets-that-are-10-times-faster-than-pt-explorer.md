@@ -187,7 +187,7 @@ docker network ls
 
 4、修改配置文件  docker-compose.yml
 
-![[Pasted image 20260119203818.png]]
+![](https://img.fwhyy.com/2026/20260119203818.webp)
 
 上图红框部分修改为第三步获取的名称。
 

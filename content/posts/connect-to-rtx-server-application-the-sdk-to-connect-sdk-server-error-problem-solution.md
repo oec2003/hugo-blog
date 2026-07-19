@@ -13,11 +13,11 @@ tags: [RTX, 错误解决]
 
 在本机安装好腾讯通的客户端和服务器，运行实例程序，可以正常跑起来，将服务器安装在虚机中，就会报“(0xFFFFBA9E): 应用SDK:连接SDK服务器错误”的错误，原因是服务器端对IP地址有限制，修改配置文件，重启腾讯通的所有服务即可，具体方法如下：
 
-![3cefded1gw1eccx0b95c2j20fl0d9myt](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290800352.jpg)
+![3cefded1gw1eccx0b95c2j20fl0d9myt](https://img.fwhyy.com/2022/202201290800352.webp)
 
 将示例部署到IIS中，运行后出现如下错误：
 
-![3cefded1gw1eccx0aqp3hj20mq06i41k](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290800607.jpg)
+![3cefded1gw1eccx0aqp3hj20mq06i41k](https://img.fwhyy.com/2022/202201290800607.webp)
 
 ## 网上查到的一些解决方法
 
@@ -30,7 +30,7 @@ tags: [RTX, 错误解决]
 * 选择高级设置；
 * 常规选项卡上将“启用32位应用程序”修改为true。
 
-![3cefded1gw1eccxc5i01nj20cf0f1q5i](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290801459.jpg)
+![3cefded1gw1eccxc5i01nj20cf0f1q5i](https://img.fwhyy.com/2022/202201290801459.webp)
 
 ## 测试环境
 

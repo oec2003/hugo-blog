@@ -94,7 +94,7 @@ class SomeRel
 
 查看IL代码可以看到默认的排列顺序
 
-![2010-12-30_100156](http://fwhyy.com/img/post/2010-12-30_100156.gif)
+![2010-12-30_100156](https://img.fwhyy.com/2010/2010-12-30_100156.webp)
 
 现在给类和结构加上属性，首引用加命名空间 using System.Runtime.InteropServices;
 
@@ -116,7 +116,7 @@ class SomeRel
 
 再查看IL可以看到顺序已经发生了变化。
 
-![2010-12-30_100312](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290757963.gif)
+![2010-12-30_100312](https://img.fwhyy.com/2022/202201290757963.webp)
 
 C#编译器总是会默认给结构这样的值类型选择Sequential，是因为值类型会经常和非托管代码进行交互，字段必须保持和开发人员定义的一致。我们在编码过程中如果判断所创建的值类型不会与非托管代码进行交互，就可以像上面那样给创建的值类型添加[StructLayout(LayoutKind.Auto)] ，让其进行自动排列，以提高性能。
 

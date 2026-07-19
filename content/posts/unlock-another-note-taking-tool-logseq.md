@@ -29,11 +29,11 @@ Logseq 跟 Obsidian 一样，也是本地存储，现在对本地存储越来越
 
 打开 Logseq 默认就在日志界面，每天第一次打开会自动创建一个当天日期的页面，所有的日志页面都汇聚在左边的日志菜单中，可以往下滚动查看之前的内容，这点比 Obsidian 要方便很多。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141441974.png)
+![](https://img.fwhyy.com/2022/202208141441974.webp)
 
 在一个事项的后面输入斜杠，就会出现弹框提示，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141441021.png)
+![](https://img.fwhyy.com/2022/202208141441021.webp)
 
 - LATER：重要不紧急的事情可以打上这个标记；
 - NOW：当天需要处理的事项，只会显示在当天；
@@ -42,7 +42,7 @@ Logseq 跟 Obsidian 一样，也是本地存储，现在对本地存储越来越
 
 除了上面四个我常用的标记外，输入斜杠选择 Date picker ，可以选择一个日期，等到了这个日期后，会出现这个日期日志的 Linked Reference 中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141442507.png)
+![](https://img.fwhyy.com/2022/202208141442507.webp)
 
 通过这样几个任务的标记，就能很方便在当天日志中记录各种类型的日志了，比如：
 
@@ -53,7 +53,7 @@ Logseq 跟 Obsidian 一样，也是本地存储，现在对本地存储越来越
 
 我新创建了一个空白页面叫「我的事项」，使用 Query 分别查出进行中、待处理、已完成的事项，当然你也可以根据自己的需要进行组合查询：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141442321.png)
+![](https://img.fwhyy.com/2022/202208141442321.webp)
 
 - 进行中：query (todo doing)
 - 待处理：query (todo later)
@@ -65,19 +65,19 @@ Query 查询出来的结果也是按照时间的顺序排列，可以在待处�
 
 例如，最近在进行招聘，每天会收到人事筛选的简历，我记录到每天的日志中，当我给招聘加上双中括号，Logseq 就是自动创建一个「招聘」的页面，并将内容关联起来。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141442773.png)
+![](https://img.fwhyy.com/2022/202208141442773.webp)
 
 点击上图中的「招聘」，就会进入到招聘页面，内容按照时间顺序，以块的形式组织：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141442342.png)
+![](https://img.fwhyy.com/2022/202208141442342.webp)
 
 在 Logseq 中还有一个功能特别喜欢，那就是 PDF 预览，可以直接将 PDF 文档拖入编辑区域，点击文档名称，在左侧会打开 PDF 的预览界面：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141442409.png)
+![](https://img.fwhyy.com/2022/202208141442409.webp)
 
 选择 PDF 文档中的文本可以进行颜色的标记，也能复制文本的引用到右侧的笔记内容中，如上图，会带上页码和相关内容。点击引用的内容，会直接定位到具体的位置：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202208141442404.png)
+![](https://img.fwhyy.com/2022/202208141442404.webp)
 
 如果你之前使用过幕布或 Workflowy ，会觉得 Logseq 非常熟悉，因为 Logseq 也是大纲类的展示，这种展现形式写正式的文章不太适合，但针对我目前使用的一些场景就非常实用和方便了。
 

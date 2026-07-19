@@ -15,7 +15,7 @@ MongoDB 有三种方式来实现高可用：
 
 本文中选择 MongoDB 的副本集的方式来进行演示，副本集相对简单，也能达到高可用的目的，架构图如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191205418.webp)
+![](https://img.fwhyy.com/2023/202306191205418.webp)
 
 为了方便，在一台服务器上使用多个容器的方式来进行部署，真实场景下只需要把三个容器分别部署到三台服务器上即可，具体步骤如下：
 
@@ -68,7 +68,7 @@ services:
 
 5、在 mongodb 目录下执行  `docker-compose up -d` 进行容器的构建，成功后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191205155.webp)
+![](https://img.fwhyy.com/2023/202306191205155.webp)
 
 6、随便进入一个 MongoDB 容器，下面命令为进入容器名 mongo1 的容器内部。
 
@@ -91,13 +91,13 @@ rs.initiate({_id: "rs0", members: [
 
 8、继续在 MongoDB 的命令行模式执行 `rs.status()` ，这个命令可以查看副本集的状态信息，包括成员、主节点和副本集配置。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191205756.webp)
+![](https://img.fwhyy.com/2023/202306191205756.webp)
 
 * Mongo1 被指定为了主（Primary），其余两个容器为副本（Secondary）
 
 9、在 Navicat 中配置连接副本集，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191205272.webp)
+![](https://img.fwhyy.com/2023/202306191205272.webp)
 
 10、到这里，MongoDB 在 Docker 中部署副本集就已经完成，接下来可以通过一些场景测试下是否能故障自动转移，我验证的场景如下：
 

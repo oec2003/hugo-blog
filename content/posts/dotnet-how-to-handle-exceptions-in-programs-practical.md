@@ -19,7 +19,7 @@ tags: [dotNET Core]
 
 在 Rider 中创建示例项目 ExceptionDemo ,该项目为 dotNET Core 3.1 的 WebAPI 项目，为了演示方便，不同层级以目录的方式放在了一个项目中，创建好的项目目录结构如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292133932.jpg)
+![](https://img.fwhyy.com/2022/202201292133932.webp)
 
 * Controllers
     * UserController：操作用户的控制器
@@ -238,7 +238,7 @@ public class User
 
 使用 Postman 进行调用，当 Name 或 Code 为空时，结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292133875.jpg)
+![](https://img.fwhyy.com/2022/202201292133875.webp)
 
 默认的返回结果格式和上面定义的统一的格式有些区别，大家可以思考下，怎样使用过滤器的方式将参数验证的返回信息进行统一输出。
 
@@ -306,10 +306,10 @@ public string GetFullName(int id)
 * 捕获的异常 e 作为 UserFullNameGenException 异常的 InnerException 传入，这样如果层级比较多，通过 InnerException 就可以追溯到最底层的原因。
 
 当输入参数为用户不存在的时候调用结果如下：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292135318.jpg)
+![](https://img.fwhyy.com/2022/202201292135318.webp)
 
 当输入参数为用户的部门不存在时调用结果如下：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292135834.jpg)
+![](https://img.fwhyy.com/2022/202201292135834.webp)
 
 * 通过二次捕获提示的错误信息是跟当前业务有关的，可以更容易定位问题，更底一层的原因可以在 InnerException 中获取；
 * 两次异常是不同原因造成的，但对于这个业务来说就是获取 FullName 失败，返回的错误码也是一致的 500100 ；

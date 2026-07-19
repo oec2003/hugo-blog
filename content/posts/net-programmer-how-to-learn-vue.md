@@ -51,11 +51,11 @@ vue create hello-world
 
 Vue 创建应用时分为默认模式和手动模式，这里我们选择默认模式
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280632585.jpg)
+![](https://img.fwhyy.com/2022/202201280632585.webp)
 
 创建完成后，项目的目录结构如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280632685.jpg)
+![](https://img.fwhyy.com/2022/202201280632685.webp)
 
 * public：public中的静态资源会复制到最终打包的dist目录中
 * src：编写代码主要要操作的目录
@@ -235,7 +235,7 @@ export default router;
 
 5、此时访问 http://localhost:8080/login 可以看到下面界面
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280632305.jpg)
+![](https://img.fwhyy.com/2022/202201280632305.webp)
 
 ### 添加 home.vue 组件
 
@@ -293,11 +293,11 @@ export default {
 
 2、修改 login 组件的 login() 方法，添加登录路由跳转的逻辑
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280632590.jpg)
+![](https://img.fwhyy.com/2022/202201280632590.webp)
 
 3、修改 router.js ，添加登录后跳转的路由配置
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280633499.jpg)
+![](https://img.fwhyy.com/2022/202201280633499.webp)
 
 运行后，点击登录按钮就可以跳转到 home 组件了。
 
@@ -318,7 +318,7 @@ this.$router.push({
 
 2、home 组件添加变量接收参数值
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280633926.jpg)
+![](https://img.fwhyy.com/2022/202201280633926.webp)
 
 ### 组件通讯-父组件传递到子组件
 
@@ -326,7 +326,7 @@ this.$router.push({
 
 1、在 top-bar 组件中定义 props
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280633444.jpg)
+![](https://img.fwhyy.com/2022/202201280633444.webp)
 
 2、修改 home 组件进行传值
 
@@ -340,11 +340,11 @@ this.$router.push({
 
 1、top-bar 组件中添加按钮和相关事件
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280633951.jpg)
+![](https://img.fwhyy.com/2022/202201280633951.webp)
 
 2、在 home 组件中进行事件接收
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280633426.jpg)
+![](https://img.fwhyy.com/2022/202201280633426.webp)
 
 ### 接口调用
 
@@ -368,7 +368,7 @@ npm run build
 
 发布结果如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280634794.jpg)
+![](https://img.fwhyy.com/2022/202201280634794.webp)
 
 ### 部署到Docker
 

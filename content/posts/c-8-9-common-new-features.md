@@ -24,7 +24,7 @@ public interface IUser
 }
 ```
 
-![iShot2022-02-02 06.23.24](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020623854.jpg)
+![iShot2022-02-02 06.23.24](https://img.fwhyy.com/2022/202202020623854.webp)
 
 那么在 C# 8 中，可以正常使用上面的代码，也就是说可以对接口中的方法提供默认实现。
 
@@ -32,7 +32,7 @@ public interface IUser
 
 C# 中不支持多重继承，主要的原因是会导致菱形问题：
 
-![iShot2022-02-02 06.23.50](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020624100.jpg)
+![iShot2022-02-02 06.23.50](https://img.fwhyy.com/2022/202202020624100.webp)
 
 - 类 A  是一个抽象类，定义有一个 方法 Test；
 - 类 B 和 类 C 继承自抽象类 A，并有各自的实现；
@@ -66,7 +66,7 @@ static void Main(string[] args)
 
 上面的代码是无法通过编译的，因为接口的默认方法不能被继承，所以类 D 中没有 Test 方法可以调用，如下图：
 
-![iShot2022-02-02 06.24.16](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020624802.jpg)
+![iShot2022-02-02 06.24.16](https://img.fwhyy.com/2022/202202020624802.webp)
 
 所以，必须通过接口类型来进行相关方法的调用：
 
@@ -257,7 +257,7 @@ user.Name = "oec2004";
 
 上面代码中给 Name 属性赋值会出现编译错误：
 
-![iShot2022-02-02 06.24.41](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020624612.jpg)
+![iShot2022-02-02 06.24.41](https://img.fwhyy.com/2022/202202020624612.webp)
 
 ### record
 

@@ -12,7 +12,7 @@ topic: travel
 
 整个行程如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252113784.png)
+![](https://img.fwhyy.com/2022/202209252113784.webp)
 
 ## 旅行前准备
 
@@ -30,7 +30,7 @@ topic: travel
 
 7、功能性饮料（红牛）很有必要，全程是我一个人在开车，每天一到两罐，没觉得困过。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252113916.png)
+![](https://img.fwhyy.com/2022/202209252113916.webp)
 
 ## 关于防疫政策
 
@@ -50,7 +50,7 @@ topic: travel
 
 8、整体来说，对核酸的要求不高，为了避免不必要的麻烦，我们一直保持 48 小时内的核酸。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252113248.jpeg)
+![](https://img.fwhyy.com/2022/202209252113248.webp)
 
 ## 住宿
 
@@ -60,7 +60,7 @@ topic: travel
 
 印象最深的是在波密住的民宿，价格 400 多，独栋的小木屋，女儿特别喜欢。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114732.png)
+![](https://img.fwhyy.com/2022/202209252114732.webp)
 
 ## 堵车
 
@@ -72,7 +72,7 @@ topic: travel
 
 3、有不守规矩的车辆逆行，导致行驶缓慢。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114743.png)
+![](https://img.fwhyy.com/2022/202209252114743.webp)
 
 ## 行程
 
@@ -80,17 +80,17 @@ topic: travel
 
 原计划要去打卡泸定的铁索桥的，但下高速排了很长的队，绕了一圈又上了高速，就这样全程高速到了康定，在康定就一个感觉，人太多了，而且的士是拼车的形式，遇到的很多空的士都只有一个或两个空座，我们一家三口很难打到车，最终从康定广场到住的酒店等车花了一个多小时。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114611.png)
+![](https://img.fwhyy.com/2022/202209252114611.webp)
 
 ### 第六天（康定-雅江）
 
 从康定出发就没有高速了，本来应该直接走 318 的，但因折多山修路，便绕行 434 省道，翻越了 4400 米的雅拉山口，还去了塔公草原和墨石公园，从墨石公园返回路上，还玩了水，这是女儿最喜欢的活动了。  
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252116922.png)
+![](https://img.fwhyy.com/2022/202209252116922.webp)
 
 至于高反，一家人表现都挺好，除了走快了有点气短，并无其他不适。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114171.png)
+![](https://img.fwhyy.com/2022/202209252114171.webp)
 
 ### 第七天（雅江-巴塘）
 
@@ -99,11 +99,11 @@ topic: travel
 途经了天路十八弯、剪子弯山和 4700 米的卡子拉山，终于在下午一点多到了天空之城理塘。  
 理塘做核酸收费 3.5，排队人不是很多，做完核酸，女儿有点不舒服，背着走了几百米，比跑个五公里还累，世界高城名不虚传。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114981.png)
+![](https://img.fwhyy.com/2022/202209252114981.webp)
 
 从理塘到巴塘路上，女儿因吸了氧，在草原上又活蹦乱跳了。 
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114492.png)
+![](https://img.fwhyy.com/2022/202209252114492.webp)
 
 晚上入住巴塘世纪主题酒店，老板人特别好，主动帮忙报备藏易通，很轻松就搞定了，这也为第二天过金沙江检查站节约了不少时间。
 
@@ -117,7 +117,7 @@ topic: travel
 
 接下来就是昌都检查站，主要检查藏易通和做落地核酸。这个检查站比较正规，车上随行人员下车单独排队，因为要做核酸，小孩也需要下车排队，司机开车过检查口时提供身份证和打开了藏易通的手机，很快就检查完了，随后就一路通畅到了如美。 
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252114717.png)
+![](https://img.fwhyy.com/2022/202209252114717.webp)
 
 ### 第九天（如美-八宿）
 
@@ -127,13 +127,13 @@ topic: travel
 
 翻过东达山后，在路上又找了个玩水的地方，女儿自然是很喜欢了，一起在水里来来回回走了好多趟，准备的自热饭终于在这里用上了。 
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115163.png)
+![](https://img.fwhyy.com/2022/202209252115163.webp)
 
 业拉山下来后因为修路，堵了一个多小时，奇怪的是，没有发现怒江 72 拐的观景台，直到看见怒江大桥才意识到已经拐下来了。
 
 这一天的路程虽然没想象的那么难走，但也不轻松，早上 8 点就出发了，晚上 7 点多才到酒店。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115744.png)
+![](https://img.fwhyy.com/2022/202209252115744.webp)
 
 ### 第十天（八宿-波密）
 
@@ -143,23 +143,23 @@ topic: travel
 
 这个季节的然乌湖毫无特色，也就没有停留，过了然乌湖，进入波密境内后，汽车穿梭在大山的脚下，雪山就在眼前，路两边的树木也变多了，开着车窗、吹着风、听着音乐，非常舒服。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115655.png)
+![](https://img.fwhyy.com/2022/202209252115655.webp)
 
 ### 第十一天（波密-林芝）
 
 原本以为今天会很轻松，10点才出发，没想到是最堵的一天，下午 3 点多才到鲁朗，吃了传说中的石锅鸡。  
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115174.png)
+![](https://img.fwhyy.com/2022/202209252115174.webp)
 
 吃完石锅鸡，堵堵停停用了快两个小时才到色季拉山，很遗憾，没能看到南迦巴瓦峰的全貌。  
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115572.png)
+![](https://img.fwhyy.com/2022/202209252115572.webp)
 
 ### 第十二天（林芝-拉萨）
 
 花了五个多小时走全程高速终于到拉萨了，在酒店安顿好后开车去了布达拉宫，之前看过太多的介绍和照片，见到的时候并没有特别的震撼，但也觉得非常雄伟壮观。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115284.png)
+![](https://img.fwhyy.com/2022/202209252115284.webp)
 
 布达拉宫离八廓街 1.5 公里，20 块钱感受了下拉萨的人力三轮车，在八廓街的一家餐厅吃了糌粑，喝了甜茶。
 
@@ -167,7 +167,7 @@ topic: travel
 
 羊湖的官方观景台需要 60 块钱，我们往前走了一段，有一个收费 5 元的观景台，也很不错，从观景台出来，继续往下走，可以车停在路边，人走到湖边，近距离感受羊湖。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252115868.png)
+![](https://img.fwhyy.com/2022/202209252115868.webp)
 
 
 ## 最后
@@ -176,7 +176,7 @@ topic: travel
 
 之所有选择火车到西宁，是因为没有时间开车从青藏线出来，在开火车上可以看看青藏线上不一样的风景。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202209252116293.png)
+![](https://img.fwhyy.com/2022/202209252116293.webp)
 
 十几天的旅程还是很辛苦的，需要有好的心态，而且我我们的运气还不错，没有受到疫情的影响；大部分时间都是好的天气；也没有遇到大堵车的时候，还有什么不满足的呢？
 

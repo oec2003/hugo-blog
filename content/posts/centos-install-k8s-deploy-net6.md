@@ -47,7 +47,7 @@ swapoff -a
 
 修改 /etc/fstab 文件，将下图红框部分注释：
 
-![iShot2022-02-18 10.53.46](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070539190.jpg)
+![iShot2022-02-18 10.53.46](https://img.fwhyy.com/2022/202203070539190.webp)
 
 ## 安装
 
@@ -153,7 +153,7 @@ kubeadm init
 
 初始化成功，会出现下图的日志：
 
-![iShot2022-02-18 17.53.09](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202192143761.jpg)
+![iShot2022-02-18 17.53.09](https://img.fwhyy.com/2022/202202192143761.webp)
 
 如果中途有报错，进行了其他的设置后，需要执行 `kubeadm reset` 后再执行 `kubeadm init` 。
 
@@ -322,7 +322,7 @@ k8s-netcore-demo   NodePort   10.106.23.177   <none>        80:32230/TCP   8h
 
 13、访问 http://10.211.55.10:32230 ,正常出现下图则部署成功：
 
-![iShot2022-02-19 07.18.54](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202203070539920.jpg)
+![iShot2022-02-19 07.18.54](https://img.fwhyy.com/2022/202203070539920.webp)
 
 ## 总结
 

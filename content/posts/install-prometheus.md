@@ -35,7 +35,7 @@ Prometheus 作为云原生应用监控的首选方案，其生态圈非常繁荣
 
 ## 数据流走向
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312036981.webp)
+![](https://img.fwhyy.com/2023/202310312036981.webp)
 
 * 操作系统和中间件几乎不用做任何配置，目前用到的就发现 nginx 需要配置 nginx_status 模块。
 * 不同的中间件用不同的 exporter，exporter 会和中间件之间进行连接，所以运行 exporter 的时候都需要指定中间件的地址和端口。
@@ -76,7 +76,7 @@ Prometheus 作为云原生应用监控的首选方案，其生态圈非常繁荣
 
 https://prometheus.io/download/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312038344.webp)
+![](https://img.fwhyy.com/2023/202310312038344.webp)
 
 2、在服务器上执行下面命令进行安装：
 
@@ -121,18 +121,18 @@ systemctl start prometheus.service
 
 5、启动后，可以使用 `systemctl status prometheus.service` 命令查看状态，出现下图界面，表示启动成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312038082.webp)
+![](https://img.fwhyy.com/2023/202310312038082.webp)
 
 6、在浏览器访问地址：http://10.211.55.3:9090/targets?search= ，出现下图界面，说明 prometheus 已经安装成功了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312038563.webp)
+![](https://img.fwhyy.com/2023/202310312038563.webp)
 
 ### 安装 Grafana
 
 1、在  Grafana 官网下载页面下载相关的安装包，地址如下：
 https://grafana.com/grafana/download
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312038046.webp)
+![](https://img.fwhyy.com/2023/202310312038046.webp)
 
 2、在服务器上执行下面命令进行包的下载和安装
 
@@ -153,11 +153,11 @@ systemctl start grafana-server
 
 4、启动后，可以使用 `systemctl status grafana-server` 命令查看状态，出现下图界面，表示启动成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312129150.webp)
+![](https://img.fwhyy.com/2023/202310312129150.webp)
 
 6、在浏览器访问地址：http://10.211.55.14:3000/，出现下图界面，说明 Grafana 已经安装成功了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039370.webp)
+![](https://img.fwhyy.com/2023/202310312039370.webp)
 
 ### 安装 node_exporter
 
@@ -202,13 +202,13 @@ systemctl start node_exporter.service
 
 4、访问地址：http://10.211.55.14:9100 ，出现下图界面，说明安装成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039415.webp)
+![](https://img.fwhyy.com/2023/202310312039415.webp)
 
 ## 配置
 
 1、修改 Prometheus 的配置文件，添加 node_exporter 的绑定，执行命令 `vi vi /usr/local/prometheus/prometheus.yml ` ：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039622.webp)
+![](https://img.fwhyy.com/2023/202310312039622.webp)
 
 ```shell
   - job_name: 'centos-1'
@@ -223,27 +223,27 @@ systemctl start node_exporter.service
 
 3、在 Grafana 中添加数据源，登录 Grafana 后，在 Data Sources 模块中添加数据源：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039666.webp)
+![](https://img.fwhyy.com/2023/202310312039666.webp)
 
 4、选择 Prometheus 作为数据源并进行配置，将 Prometheus 的地址 http://10.211.55.3:9090 ，填写在 server url 中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039974.webp)
+![](https://img.fwhyy.com/2023/202310312039974.webp)
 
 5、想要在 Grafana 中进行数据的展示，需要导入 dashborards  模板，这个地址中有各类模版可供选择：https://grafana.com/grafana/dashboards/ 。在 Grafana 的 Dashboards 模块中进行导入：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039992.webp)
+![](https://img.fwhyy.com/2023/202310312039992.webp)
 
 6、输入编号：11074，这是可以展示服务器监控信息的 dashborard 模板：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312039911.webp)
+![](https://img.fwhyy.com/2023/202310312039911.webp)
 
 7、Load 后，进行导入：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312040107.webp)
+![](https://img.fwhyy.com/2023/202310312040107.webp)
 
 8、该 dashborard 模板最终展示的数据效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310312040846.webp)
+![](https://img.fwhyy.com/2023/202310312040846.webp)
 
 
 

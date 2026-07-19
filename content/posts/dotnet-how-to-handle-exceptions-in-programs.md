@@ -25,7 +25,7 @@ tags: [dotNET Core]
 
 ## dotNET 经典错误
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300636905.jpg)
+![](https://img.fwhyy.com/2022/202201300636905.webp)
 
 上面这张图，经历过 dotNET Framework 时代的程序员应该都不陌生，这就是经典的「黄页」和经典的 「未将对象引用设置到对象的实例」错误。
 

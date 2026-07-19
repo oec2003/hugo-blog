@@ -43,7 +43,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 3 将ConstTest设为起始页，运行，可以看到结果如下
 
-![2010-12-29_181713](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290816263.gif)
+![2010-12-29_181713](https://img.fwhyy.com/2022/202201290816263.webp)
 
 4 现在将Oec2003ClassLibrary 项目中的Class1的代码改写如下，然后从新编译该项目。
 
@@ -60,11 +60,11 @@ namespace Oec2003ClassLibrary
 
 5 刷新刚才的页面 ，可以看到结果如下
 
-![2010-12-29_181748](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290816174.gif)
+![2010-12-29_181748](https://img.fwhyy.com/2022/202201290816174.webp)
 
 6 从新运行ConstTest页面可以看到如下结果
 
-![2010-12-29_181824](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290816233.gif)
+![2010-12-29_181824](https://img.fwhyy.com/2022/202201290816233.webp)
 
 从上面的例子可以看出，在应用程序不从新编译的情况下，常量的值永远不会发生改变。如果应用程序想要获得常量的新值，就必须重新编译，所以在运行时一个应用程序集想获得另一个应用程序集中的值，则不能使用常量，可以使用只读字段（readonly）。
 
@@ -151,7 +151,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 结果如下
 
-![2010-12-29_182011](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290817341.gif)
+![2010-12-29_182011](https://img.fwhyy.com/2022/202201290817341.webp)
 
 3 修改PageLoad的代码，使用反射修改只读字段的值然后输出。
 
@@ -173,7 +173,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 结果如下
 
-![2010-12-29_182116](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290817145.gif)
+![2010-12-29_182116](https://img.fwhyy.com/2022/202201290817145.webp)
 
 呵呵，可以看出不管是值类型只读字段还是引用类型只读字段都可以通过反射顺利修改。
 

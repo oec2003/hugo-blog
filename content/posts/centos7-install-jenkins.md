@@ -50,7 +50,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum install jenkins
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290813109.jpg)
+![](https://img.fwhyy.com/2022/202201290813109.webp)
 
 ## 设置 Jenkins 权限
 
@@ -97,7 +97,7 @@ rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.
 yum -y install dotnet-sdk-2.1
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290814665.jpg)
+![](https://img.fwhyy.com/2022/202201290814665.webp)
 
 5、安装docker
 
@@ -121,7 +121,7 @@ chkconfig docker on
 
 在 CentOS 中创建相关的目录和文件，创建完后的目录结构如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290814320.jpg)
+![](https://img.fwhyy.com/2022/202201290814320.webp)
 
 * build 目录：用来存放构建相关的目录和文件
 	* conf.d
@@ -242,27 +242,27 @@ ENTRYPOINT ["dotnet", "myapi.dll"]
 
 配置 git 目录，可以先执行命令 `whereis git` 找到 git 的目录，然后进行设置，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290814181.jpg)
+![](https://img.fwhyy.com/2022/202201290814181.webp)
 
 ### Vue 项目的配置
 
 1、设置运行目录
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290815398.jpg)
+![](https://img.fwhyy.com/2022/202201290815398.webp)
 
 2、构建的命令设置
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290815012.jpg)
+![](https://img.fwhyy.com/2022/202201290815012.webp)
 
 ### WebAPI 项目的配置
 
 1、设置运行目录
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290815974.jpg)
+![](https://img.fwhyy.com/2022/202201290815974.webp)
 
 2、构建的命令设置
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290816363.jpg)
+![](https://img.fwhyy.com/2022/202201290816363.webp)
 
 
 

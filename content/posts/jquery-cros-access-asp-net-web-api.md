@@ -60,7 +60,7 @@ origins： 访问API的客户端的地址，比如http://localhost:8001 ，如�
 
 第二种方法相对比较简单，只是修改下配置文件即可。
 
-![3cefded1gw1ev2lixluhwj20jr08tq5a](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300719856.jpg)
+![3cefded1gw1ev2lixluhwj20jr08tq5a](https://img.fwhyy.com/2022/202201300719856.webp)
 
 配置文件代码如下：
 

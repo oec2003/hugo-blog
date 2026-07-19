@@ -15,7 +15,7 @@ tags: [C#,设计模式]
 
 中介者模式的结构图：
 
-![2010-12-29_114801](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290617750.png)
+![2010-12-29_114801](https://img.fwhyy.com/2022/202201290617750.webp)
 
 代码实现：
 

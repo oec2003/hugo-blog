@@ -9,11 +9,11 @@ tags: [AspNet, DotNet4, URL重写]
 
 1 在项目中的Default.aspx页面中加入一个Hyperlink控件，在设计视图中右击该控件，选择属性，在属性窗口中选择Expresstions，如下图：
 
-![2010-07-27_172142](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300729640.png)
+![2010-07-27_172142](https://img.fwhyy.com/2022/202201300729640.webp)
 
 2 点击右边的三个小点点，在弹出的对话框中进行如下设置：
 
-![2010-07-27_172422](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300729586.png)
+![2010-07-27_172422](https://img.fwhyy.com/2022/202201300729586.webp)
 
 设置RouteName为productdetail，就是让该链接导向test.aspx页面，因为在Global.asax中设置名为productdetail的路由对应的物理文件时test.aspx。RouteValus就是配置参数项，此处的category和name也是在Global.asax中配置的。
 
@@ -27,5 +27,5 @@ tags: [AspNet, DotNet4, URL重写]
 
 4 设置Default.aspx为起始页，按F5运行，点击链接Test Page链接，会跳转到test.aspx页面，如下图：
 
-![2010-07-27_173712](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300729625.png)
+![2010-07-27_173712](https://img.fwhyy.com/2022/202201300729625.webp)
 

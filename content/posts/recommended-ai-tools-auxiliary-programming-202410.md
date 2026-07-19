@@ -39,17 +39,17 @@ MarsCode、Comate、通义灵码这三个工具都是以插件的形式安装在
 
 1、在函数的上方有各种 AI 工具按钮，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291708760.webp)
+![](https://img.fwhyy.com/2024/202410291708760.webp)
 
 可以看出，代码解释、函数注释、生成单测是三个工具都有，MarsCode 没有优化建议，而 Comate 多了一个行间注释。
 
 2、都有一个对话框窗口，使用斜杠唤起相关的指令，我对比了下， Comate 的最丰富。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291707866.webp)
+![](https://img.fwhyy.com/2024/202410291707866.webp)
 
 3、在进行代码解释的时候，通义灵码还贴心生成了流程图，对于复杂的业务逻辑，有图的帮助可以更容易理解。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291707945.webp)
+![](https://img.fwhyy.com/2024/202410291707945.webp)
 
 综合下来，我更喜欢的是 Comate，功能丰富、UI 漂亮、中文支持友好。不过另外两个也会同时安装，有些时候，如果一个工具给出的答案不是很满意，可以分别都试试，对比着看，就能得到比较满意的答案。
 
@@ -59,7 +59,7 @@ Cursor 是在 VSCode 的基础上开发出来的一款 AI 开发工具。除了�
 
 1、有多种 AI 模型可以使用，但效果最好的还是 Claude 3.5 Sonnet。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291708944.webp)
+![](https://img.fwhyy.com/2024/202410291708944.webp)
 
 2、有 Chat 和 Composer 两种模式，在 Composer 模式中，通过自然语言描述需求，Cursor 可以创建相关的代码文件，后续的各种修改你只需要在对话框中打字就好，代码全是自动修改。如果在编辑器中没有发现 Composer 窗口，可以可以先用 cmd + i 打开小弹窗，然后固定在右边。
 
@@ -69,10 +69,10 @@ Cursor 是在 VSCode 的基础上开发出来的一款 AI 开发工具。除了�
 
 另外，我发现还可以使用 Cursor 来学习解决问题的思路，比如遇到编译或运行报错，将错误信息发给 Cursor，Cursor 会给出排查的思路：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291708389.webp)
+![](https://img.fwhyy.com/2024/202410291708389.webp)
 
 ## 构建发布一条龙：Bolt.new
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291708867.webp)
+![](https://img.fwhyy.com/2024/202410291708867.webp)
 
 Bolt.new 是一个革命性的 AI 全栈 Web 编程工具，它结合了人工智能（AI）和 WebContainers 技术，为开发者提供了一个全新的开发体验。与传统的 AI 编程辅助工具相比，Bolt.new 具有以下几个显著的亮点：
 
@@ -82,7 +82,7 @@ Bolt.new 是一个革命性的 AI 全栈 Web 编程工具，它结合了人工�
 
 3、**灵活的项目管理和发布**：在 Bolt.new 中可以快速将生产的项目代码在 StackBlitz 中打开继续编辑。也可以很方便一键发布，从开发到生产的过程更加顺畅。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202410291714448.webp)
+![](https://img.fwhyy.com/2024/202410291714448.webp)
 
 ## 结语
 

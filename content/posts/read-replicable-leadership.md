@@ -43,7 +43,7 @@ topic: readbook
 
 不管是生活还是工作中，沟通永远是排第一位的。我在面试时也非常注重面试者的沟通能力。书中提到了一个“沟通视窗”的概念，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280645033.jpg)
+![](https://img.fwhyy.com/2022/202201280645033.webp)
 
 在这里我想说说隐私象限和盲点象限：
 

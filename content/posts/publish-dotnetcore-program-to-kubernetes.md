@@ -43,7 +43,7 @@ dotnet run
 
 运行正常的话，访问`http://localhost:5000`会出现下图界面
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301608586.jpg)
+![](https://img.fwhyy.com/2022/202201301608586.webp)
 
 ## 搭建私有仓库
 
@@ -59,7 +59,7 @@ docker run -d -p 8888:5000 --restart=always registry
 ```
 dotnet publish
 ```
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301608232.jpg)
+![](https://img.fwhyy.com/2022/202201301608232.webp)
 
 2、在`publish`目录中创建`Dockfile`文件，文件内容如下：
 
@@ -85,7 +85,7 @@ docker push localhost:8888/k8s-netcore-demo
 ```
 
 默认情况下，你执行`docker push`时会出现下面错误
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301609307.jpg)
+![](https://img.fwhyy.com/2022/202201301609307.webp)
 
 在`Mac`中的`Docker`中做如下设置即可解决
 
@@ -93,11 +93,11 @@ docker push localhost:8888/k8s-netcore-demo
 
 设置好重启`Docker`之后，再次执行`docker push`，可以正常将镜像推送到私有仓库中。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301610179.jpg)
+![](https://img.fwhyy.com/2022/202201301610179.webp)
 
 推送完成后，浏览器中访问`http://localhost:8888/v2/_catalog`，如果如下图所示，说明推送成功了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301610522.jpg)
+![](https://img.fwhyy.com/2022/202201301610522.webp)
 
 ## 发布镜像到Kubernetes
 
@@ -168,18 +168,18 @@ kubectl create -f deploy.yaml --validate
 ```
 kubectl get deploy -n k8s-netcore
 ```
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301610056.jpg)
+![](https://img.fwhyy.com/2022/202201301610056.webp)
 
 5、查看资源情况
 
 ```
 kubectl get svc -n k8s-netcore
 ```
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301611237.jpg)
+![](https://img.fwhyy.com/2022/202201301611237.webp)
 
 上图中可以看出，暴露出来的端口为`32527`，浏览器中访问`http://localhost:32527`，如下图
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301611820.jpg)
+![](https://img.fwhyy.com/2022/202201301611820.webp)
 
 6、启动代理，在`Dashboard`中查看运行情况
 
@@ -187,7 +187,7 @@ kubectl get svc -n k8s-netcore
 kubectl proxy
 ```
 怎样访问`Dashboard`，可以查看《[Mac中搭建Kubernetes](http://fwhyy.com/2019/05/building-kubernetes-in-mac/)》中相关介绍。
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301612649.jpg)
+![](https://img.fwhyy.com/2022/202201301612649.webp)
 
 
 ## 本文中用到的命令

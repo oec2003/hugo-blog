@@ -20,7 +20,7 @@ uname -a
 hostnamectl
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409302331534.webp)
+![](https://img.fwhyy.com/2024/202409302331534.webp)
 
 ## 需要安装的组件
 
@@ -36,7 +36,7 @@ hostnamectl
 
 https://github.com/docker/compose/releases
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409302331260.webp)
+![](https://img.fwhyy.com/2024/202409302331260.webp)
 
 将安装包放到服务器 /root 目录，然后执行下面命令进行安装：
 
@@ -96,7 +96,7 @@ Redis、MySql、RabbitMQ 在 docker-compose.yml 文件中的配置如下：
 
 奇怪的是，这些中间件的镜像中都有提供 arm 的版本，拿 Redis 来说，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409302332493.webp)
+![](https://img.fwhyy.com/2024/202409302332493.webp)
 
 可能直接使用 `docker pull redis:6.2.14` 拉取到的镜像是兼容版本，因为看镜像大小，直接拉取的又 146MB ，特定版本只有几十MB 。
 
@@ -108,11 +108,11 @@ Redis、MySql、RabbitMQ 在 docker-compose.yml 文件中的配置如下：
 
 1、访问 https://hub.docker.com/_/nginx/tags?page=&page_size=&ordering=&name=1.25.4 ,进入到 Nginx 的 1.25.4 版本的页面。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409302332631.webp)
+![](https://img.fwhyy.com/2024/202409302332631.webp)
 
 2、点击前面的链接进入详细页面。
 
-![](../../attachmenent/image-20240412172214604.png)
+![](https://img.fwhyy.com/image-20240412172214604.webp)
 
 3、复制 index digest ,拼接到 docker pull 的后面，最终的拉取镜像的命令如下：
 
@@ -122,7 +122,7 @@ docker pull nginx:1.25.4@sha256:b72dad1d013c5e4c4fb817f884aa163287bf147482562f12
 
 4、拉取下来的镜像是没有 tag 的。
 
-![](../../attachmenent/image-20240412172718249.png)
+![](https://img.fwhyy.com/image-20240412172718249.webp)
 
 可以使用 docker tag 命令进行 tag 设置或直接使用镜像 ID ，前端构建的 Dockerfile 文件内容如下：
 
@@ -173,7 +173,7 @@ docker pull mongo:4.2.24@sha256:699d652ed67423d689258bad7b316cf005dfbb82b334118e
 
  https://hub.docker.com/_/microsoft-dotnet-aspnet/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202409302332511.webp)
+![](https://img.fwhyy.com/2024/202409302332511.webp)
 
 通过上图可以发现，.NET 6 和 .NET 7 都有支持 Debian 11 的版本，但 .NET 8 只有 Debian 12。银河麒麟 V10 的内核是 Debian 11 ,而你恰巧又用的是  .NET 8 ，那暂时还没有办法使用 Docker 的方式部署，只能直接在服务器上安装 .NET 8 环境。
 

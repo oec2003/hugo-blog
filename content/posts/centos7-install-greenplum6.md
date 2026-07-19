@@ -20,7 +20,7 @@ Mysql 在面对大数据量的时候，还是表现有些吃力，所以产品�
 
 1、执行命令 `vi /etc/selinux/config` 修改配置文件来禁用 SELinux ，如下图：
 
-![iShot2022-02-02 06.11.08](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020611012.jpg)
+![iShot2022-02-02 06.11.08](https://img.fwhyy.com/2022/202202020611012.webp)
 
 修改配置文件后，需要重启服务器生效。
 
@@ -93,7 +93,7 @@ echo deadline > /sys/block/sr0/queue/scheduler
 
 6、修改配置文件 `/etc/systemd/logind.conf` ，将 `RemoveIPC` 设置为 `no` ，如下图：
 
-![iShot2022-02-02 06.11.47](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020612364.jpg)
+![iShot2022-02-02 06.11.47](https://img.fwhyy.com/2022/202202020612364.webp)
 
 修改完后，执行命令 `service systemd-logind restart` 重启服务。
 
@@ -107,7 +107,7 @@ passwd gpadmin # 修改gpadmin账户的密码
 
 8、修改配置文件 `/etc/sudoers` ，允许 `gpadmin` 用户无密码使用 `sudo` 命令，添加内容如下图：
 
-![iShot2022-02-02 06.12.15](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020612597.jpg)
+![iShot2022-02-02 06.12.15](https://img.fwhyy.com/2022/202202020612597.webp)
 
 ```
 gpadmin ALL=(ALL) NOPASSWD:ALL
@@ -117,13 +117,13 @@ gpadmin ALL=(ALL) NOPASSWD:ALL
 
 从 https://github.com/greenplum-db/gpdb/releases 下载对应的 rpm 文件， 如下图：
 
-![iShot2022-02-02 06.12.44](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020612417.jpg)
+![iShot2022-02-02 06.12.44](https://img.fwhyy.com/2022/202202020612417.webp)
 
 在目录 `/usr/local` 目录中创建 `greenplum` 目录，将下载好的 rpm 文件复制到该目录中。
 
 执行 `rpm -ivh /usr/local/greenplum/open-source-greenplum-db-6.15.0-rhel7-x86_64.rpm` 进行 Greenplum 6 的安装。执行命令时可能会出现下面的错误提示：
 
-![iShot2022-02-02 06.13.20](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020613422.jpg)
+![iShot2022-02-02 06.13.20](https://img.fwhyy.com/2022/202202020613422.webp)
 
 原因是有些依赖项没有被安装，依次执行下面的命令进行依赖项的安装：
 
@@ -148,7 +148,7 @@ yum install -y ibevent
 
 执行 `vi /etc/hosts` 进行 hosts 文件的修改，如下图：
 
-![iShot2022-02-02 06.13.49](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020614118.jpg)
+![iShot2022-02-02 06.13.49](https://img.fwhyy.com/2022/202202020614118.webp)
 
 11、设置 gpadmin 账户的 ssh 免密登录
 
@@ -216,13 +216,13 @@ gpinitsystem -c /home/gpadmin/gpconfigs/gpinitsystem_config -h all_hosts
 
 执行过程中会出现交互，输入 y 继续即可，正常如下图：
 
-![iShot2022-02-02 06.14.21](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020614917.jpg)
+![iShot2022-02-02 06.14.21](https://img.fwhyy.com/2022/202202020614917.webp)
 
 16、设置远程连接配置
 
 执行命令 `vi /home/gpadmin/master/gpseg-1/postgresql.conf` 修改配置，将 #listen_addresses = '*' 前面的 # 取消，如下图：
 
-![iShot2022-02-02 06.14.49](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020615210.jpg)
+![iShot2022-02-02 06.14.49](https://img.fwhyy.com/2022/202202020615210.webp)
 
 执行命令 `vi /home/gpadmin/master/gpseg-1/pg_hba.conf` 修改配置，在文件最后追加下面内容：
 
@@ -240,7 +240,7 @@ alter user gpadmin with password '123456'； # 修改gpadmin 账户的密码为 
 
 使用 Navicat 进行连接测试：
 
-![iShot2022-02-02 06.15.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020615173.jpg)
+![iShot2022-02-02 06.15.14](https://img.fwhyy.com/2022/202202020615173.webp)
 
 ## dotNET Core 示例
 
@@ -248,7 +248,7 @@ alter user gpadmin with password '123456'； # 修改gpadmin 账户的密码为 
 
 2、安装 NuGet 包 NpgSql 。
 
-![iShot2022-02-02 06.16.03](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020616943.jpg)
+![iShot2022-02-02 06.16.03](https://img.fwhyy.com/2022/202202020616943.webp)
 
 3、使用 Navicat 连接上数据库，执行下面的 SQL 脚本进行表和数据的创建：
 

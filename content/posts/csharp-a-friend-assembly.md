@@ -11,7 +11,7 @@ C#中的访问修饰符Internal可以说是介于Public和Private之间，可以
 
 1 在一个解决方案中创建两个类库项目TestA和TestB，分别在两个类库项目中创建类A和类B。
 
-![2010-11-14_175103](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290807599.png)
+![2010-11-14_175103](https://img.fwhyy.com/2022/202201290807599.webp)
 
 2 在项目TestA中添加对项目TestB的引用。
 
@@ -53,9 +53,9 @@ namespace TestB
 
 6 InternalIsVisibleTo特性也可以添加到AssemblyInfo.cs中。
 
-![2010-11-14_181114](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290808640.png)
+![2010-11-14_181114](https://img.fwhyy.com/2022/202201290808640.webp)
 
 7 现在在项目TestA的类A中就可以访问TestB项目的类B了。
 
-![2010-11-14_181324](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290808258.png)
+![2010-11-14_181324](https://img.fwhyy.com/2022/202201290808258.webp)
 

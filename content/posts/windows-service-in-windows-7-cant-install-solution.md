@@ -7,7 +7,7 @@ tags: [C#, Win7, 错误解决]
 
 用C#写的Windows服务在Win7中安装时出现如下错误：
 
-![2011-05-24_102447](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290648137.png)
+![2011-05-24_102447](https://img.fwhyy.com/2022/202201290648137.webp)
 
 解决方法：
 
@@ -26,5 +26,5 @@ net start ShineFlow.FlowServer
 
 3 成功安装服务，如下：
 
-![2011-05-24_102806](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290649864.png)
+![2011-05-24_102806](https://img.fwhyy.com/2022/202201290649864.webp)
 

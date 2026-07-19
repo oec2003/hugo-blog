@@ -168,7 +168,7 @@ public void GetService([FromServices]ISingletonService singleton1,
 
 3、连续调用两次该接口，输入如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300632605.jpg)
+![](https://img.fwhyy.com/2022/202201300632605.webp)
 
 测试示例中每个不同生命周期的对象都通过 FromServices 的方式注入了两次，分析结果如下：
 

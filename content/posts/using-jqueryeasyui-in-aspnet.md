@@ -25,7 +25,7 @@ tags: [AspNet, JQuery, JQueryEasyUI]
 
 下载后解压的文件目录如下图：
 
-![2012-11-22_212942](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290653234.jpg)
+![2012-11-22_212942](https://img.fwhyy.com/2022/202201290653234.webp)
 
 * demo：JQueryEasyUI的一些示例页面，在项目使用可以将该目录删除
 
@@ -100,7 +100,7 @@ $("#IsKfCl").combobox("getValue");
 
 通常在Grid列表控件的上方会添加一些按钮如：新增、编辑、删除等，如下面效果：
 
-![2012-11-25_144045_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290653327.jpg)
+![2012-11-25_144045_thumb](https://img.fwhyy.com/2022/202201290653327.webp)
 
 在jQueryEasyUI中可以使用ToolBar来实现，ToolBar可以在DataGrid初始化时定义，如下：
 

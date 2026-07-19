@@ -13,7 +13,7 @@ AspNet为我们提供了很多的控件，尽管如此，很多时候我们还�
 
 2 在新添加的选项卡区域中右键->选择项。选择HelloWorld.dll文件后确定，会看到控件已经添加到工具箱中，如下图：
 
-![2010-12-28_235751](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290824855.png)
+![2010-12-28_235751](https://img.fwhyy.com/2022/202201290824855.webp)
 
 3 使用自定义控件和使用普通的AspNet控件一样，直接拖到页面中即可。将该控件拖入到页面中后，源视图中会添加如下代码：
 
@@ -89,7 +89,7 @@ public class HelloWorld:Control
 
 运行后的效果：
 
-![2010-12-28_235833](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290825971.png)
+![2010-12-28_235833](https://img.fwhyy.com/2022/202201290825971.webp)
 
 效果虽然出来了，但是代码中是使用直接输出html代码和内嵌样式的方式，这样做当然是不好的，不是很好扑捉错误并且生成到客户端的html代码格式也不好。这个问题我们可以通过HtmlTextWriterAttribute、HtmlTextWriterTag、HtmlTextWriterStyle这三个枚举来解决。看下面代码：
 

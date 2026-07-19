@@ -18,11 +18,11 @@ tags: [dotNET,nodejs]
 
 1、在 VS 中创建 WebAPI 示例项目 nodejs-demo 项目，目标框架选择 .NET 5.0。
 
-![iShot2022-02-02 08.12.23](/Users/fengwei/Documents/my/typora-img/dotnet5-exec-node-js/iShot2022-02-02 08.12.23.jpg)
+![iShot2022-02-02 08.12.23](https://img.fwhyy.com/2022/20220202081223.webp)
 
 2、在项目中引入 NuGet 包：Microsoft.AspNetCore.NodeServices ,这里我使用的是 5.0 的预览版本。
 
-![iShot2022-02-02 08.13.07](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020813752.jpg)
+![iShot2022-02-02 08.13.07](https://img.fwhyy.com/2022/202202020813752.webp)
 
 3、修改 Startup 类，在 ConfigureServices 方法中添加下面代码：
 
@@ -52,7 +52,7 @@ public async Task<IActionResult> Get([FromServices] INodeServices nodeServices)
 
 6、如果正常运行，结果如下：
 
-![iShot2022-02-02 08.13.29](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202020813556.jpg)
+![iShot2022-02-02 08.13.29](https://img.fwhyy.com/2022/202202020813556.webp)
 
 ## 部署到 CentOS 中
 

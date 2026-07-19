@@ -12,7 +12,7 @@ tags: [Angular4, 跨域]
 
 在项目中使用NuGet安装`Microsoft.AspNetCore.Cors.2.0.0`包，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290819790.jpg)
+![](https://img.fwhyy.com/2022/202201290819790.webp)
 
 在项目根目录下的`Startup.cs`文件中添加如下代码：
 
@@ -65,7 +65,7 @@ public string Get(int id)
 
 修改根目录下的`package.json`文件的配置，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290819638.jpg)
+![](https://img.fwhyy.com/2022/202201290819638.webp)
 
 在`ng server`后面添加`--proxy-config`配置，指向刚刚添加的`proxy.conf.json`文件。
 
@@ -102,7 +102,7 @@ export class LeftNavComponent implements OnInit {
 ```
 在终端中执行命令`npm start`来启动应用，可以看到执行的命令中已经带了代理参数，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290820171.jpg)
+![](https://img.fwhyy.com/2022/202201290820171.webp)
 
 在浏览器中输入`http://localhost:4200`，看看是不是已经解决了跨域问题了。
 

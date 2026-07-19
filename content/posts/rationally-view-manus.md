@@ -20,7 +20,7 @@ https://www.bilibili.com/video/BV1zZ9RYcEpL
 
 5、目前 Manus 的火爆程度可谓是一码难求。在中文圈内引起轩然大波（火的非常突然），有说产品很牛的，也有说是炒作的。邀请码在海鲜市场上也炒到很高的价格。我也在官网申请排队了，这个是排队地址：https://manus.im/invitation/waitlist 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503071243175.webp)
+![](https://img.fwhyy.com/2025/202503071243175.webp)
 
 6、目前有一些大佬拿到了验证码，进行体验后的评价基本都是认可的。非常期待能快点排上队，或者公测的开放。现在也可以在这个链接中看看案例的回放。
 
@@ -28,11 +28,11 @@ https://manus.im/usecases
 
 下面这位体验者的感受我觉得是比较客观的。Manus 肯定不是能解决所有问题的神，但至少将大模型和普通用户又拉进了一点。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503071243134.webp)
+![](https://img.fwhyy.com/2025/202503071243134.webp)
 
 7、Manus 团队昨天发布的声明，爆火也是他们意料之外。我觉得如果多给他们一点时间和善意，没准就能出来一个好用的工具。就像肖弘在访谈中说的那样，最想做到就是给世界带来一个好用的工具。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503071258156.webp)
+![](https://img.fwhyy.com/2025/202503071258156.webp)
 
 8、Manus 把各种能力整合到了一起，比如 DeepResearch、Operator、Claude Computer Use 。给他一个任务后，首先是分解，创建 TodoList 清单，然后按照清单中的任务去执行，执行完成后会修改清单中的状态。这完全是一个类人的思维和操作。
 

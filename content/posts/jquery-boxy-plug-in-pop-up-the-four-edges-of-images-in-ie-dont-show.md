@@ -7,25 +7,25 @@ tags: [boxy, JQuery]
 
 jQuery boxy插件很好用，但也会出现一些问题，比如弹出框的边角在IE中不能显示。本博文将来解决这个问题。将boxy插件引用到项目中后会有一个boxy.css文件和jquery.boxy.js文件。在boxy.css文件中有给弹出框设置四个角图片的样式，如下图：
 
-![2010-12-08_232652](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300719946.png)
+![2010-12-08_232652](https://img.fwhyy.com/2022/202201300719946.webp)
 
 不做任何修改在Chrome浏览器下没有问题，如下：
 
-![2010-12-08_234216](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300719056.png)
+![2010-12-08_234216](https://img.fwhyy.com/2022/202201300719056.webp)
 
 在网上查了一些资料，说将css文件中的图片路径给位全路径可以解决问题，如下：
 
-![2010-12-08_234934](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300719018.png)
+![2010-12-08_234934](https://img.fwhyy.com/2022/202201300719018.webp)
 
 发现这样修改后并没有作用，运行后效果仍然如下：
 
-![2010-12-08_235049](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300720107.png)
+![2010-12-08_235049](https://img.fwhyy.com/2022/202201300720107.webp)
 
 有效的解决方法
 
 将上面css截图的下半部分注释掉，如下图：
 
-![2010-12-08_235357](http://fwhyy.com/img/post/2010-12-08_235357.png)
+![2010-12-08_235357](https://img.fwhyy.com/2010/2010-12-08_235357.webp)
 
 然后在jquery.boxy.js文件中的Boxy函数中添加一段脚本，下面贴出修改后的Boxy函数代码：
 

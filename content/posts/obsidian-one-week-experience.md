@@ -15,21 +15,21 @@ tags: [工具,效率]
 
 1、语言设置，在「设置->关于」中进行语言的切换：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260916713.png)
+![](https://img.fwhyy.com/2022/202206260916713.webp)
 
 2、删除文件设置，在「设置->文件与链接」中进行配置，我设置为移至软件回收站，这样删除的文件会在 Obsidian 的库目录下的一个隐藏目录中，如果发现误删还能找回来。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260916965.png)
+![](https://img.fwhyy.com/2022/202206260916965.webp)
 
 3、新建笔记目录设置，在「设置->文件与链接」中进行配置，设置后，新创建的文件就在设置的目录中。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260916183.png)
+![](https://img.fwhyy.com/2022/202206260916183.webp)
 
 4、图片目录设置，在「设置->文件与链接」中进行配置，设置后，在文章中粘贴的图片就会存储到设置的目录中。
 
 不同的文章中粘贴的图片都会在这一个目录中，要是能像 Typora 根据文章名称生成子目录就更好了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260916804.png)
+![](https://img.fwhyy.com/2022/202206260916804.webp)
 
 ## 主题
 
@@ -37,7 +37,7 @@ tags: [工具,效率]
 
 在「设置->外观->主题」界面点击「管理」按钮，在弹出的界面中选择使用喜欢的主题即可。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260917689.png)
+![](https://img.fwhyy.com/2022/202206260917689.webp)
 
 如果点击「管理」按钮，界面不能正常出来，可以尝试换下网络。
 
@@ -47,7 +47,7 @@ tags: [工具,效率]
 
 在「设置->第三方插件」中进行插件的安装，点击「社区插件」后面的「浏览」按钮打开插件列表界面进行安装即可。安装插件前，需要先将安全模式的开关关闭。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260917926.png)
+![](https://img.fwhyy.com/2022/202206260917926.webp)
 
 如果有些插件在线安装失败，可以在 https://ob.pory.app/ 这个站点进行下载，进行手动安装，将下载的包解压后复制到目录：`库/.obsidian/plugins` 即可。
 
@@ -57,7 +57,7 @@ tags: [工具,效率]
 
 上面提到安装主题之后，需要配合 System Settings 插件才能使用，例如，如果安装的是 Blue Topaz 主题，设置界面如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260919971.png)
+![](https://img.fwhyy.com/2022/202206260919971.webp)
 
 基本上这里的设置就够用了，真满足不了，还能自定义 CSS ，这里就不详细说了。
 
@@ -70,15 +70,15 @@ tags: [工具,效率]
 
 在 Obsidian 中默认就有日记的功能，在核心插件中开启就可以使用了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260923195.png)
+![](https://img.fwhyy.com/2022/202206260923195.webp)
 
 通过 Calendar 组件，就能在右侧的面板中展示日历了，并且在 Calendar 组件设置中可以开启周显示：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260923280.png)
+![](https://img.fwhyy.com/2022/202206260923280.webp)
 
 右侧面板中显示如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260919306.png)
+![](https://img.fwhyy.com/2022/202206260919306.webp)
 
 设置好当天日记的快捷键，不管现在是在写那篇文章，一个快捷键就能立即回到当天的日记当中，非常方便。
 
@@ -86,7 +86,7 @@ tags: [工具,效率]
 
 我的日记和周记模板如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260919427.png)
+![](https://img.fwhyy.com/2022/202206260919427.webp)
 
 **3、rollover daily todos**
 
@@ -104,17 +104,17 @@ tags: [工具,效率]
 
 例如我设置 3 分钟同步一次：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260918141.png)
+![](https://img.fwhyy.com/2022/202206260918141.webp)
 
 自动同步后的效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260917673.png)
+![](https://img.fwhyy.com/2022/202206260917673.webp)
 
 使用这个插件不仅仅是有备份的作用，还可以追踪历史版本。
 
 最后说一个使用过程中发现的小技巧，在使用 iCloud 进行 PC 和移动端同步的过程中，经常发现 PC 端新增了内容后，移动端没能及时同步。这时只需要打开 Finder ，就可以看到 iCloud 云盘右边有一个小圆圈在转动，只要这个圆圈转完，移动端便会立即更新。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202206260918139.png)
+![](https://img.fwhyy.com/2022/202206260918139.webp)
 
 卢曼说过：不写作，就无法思考，所以工具只是辅助，多写，多思考才能不断提升。
 

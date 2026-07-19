@@ -46,7 +46,7 @@ mysql/mysql-server
 
 使用`SQLyog`进行测试，用户名和密码使用上面环境变量中添加的用户`fengwei`和密码`pwd123`，出现下图的错误
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260826693.jpg)
+![](https://img.fwhyy.com/2022/202201260826693.webp)
 
 执行命令进入到容器中的`MySql`中，执行下面的`Sql`语句
 
@@ -56,7 +56,7 @@ ALTER USER 'fengwei'@'%' IDENTIFIED WITH mysql_native_password BY 'password123';
 
 再用`SQLyog`测试，连接成功
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260826414.jpg)
+![](https://img.fwhyy.com/2022/202201260826414.webp)
 
 上面连接不成功的问题也可以添加镜像参数`--default-authentication-plugin=mysql_native_password`来解决，完整命令如下
 
@@ -131,7 +131,7 @@ mysql/mysql-server
 
 如果没有添加`--privileged=true`参数，容器创建后不能正常启动，查看日志发现有权限的错误
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260827601.jpg)
+![](https://img.fwhyy.com/2022/202201260827601.webp)
 
 容器正常创建启动后，可以用客户端工具进行连接测试。
 

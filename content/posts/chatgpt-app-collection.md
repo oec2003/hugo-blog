@@ -9,7 +9,7 @@ tags: [工具,ChatGPT,分享]
 <!--more-->
 ## 1、Poe
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117617.webp)
+![](https://img.fwhyy.com/2023/202306191117617.webp)
 
 地址：https://poe.com
 
@@ -19,7 +19,7 @@ Poe 内置了 Sage、Claude、Dragonfly、和 ChatGPT 。其中，Sage 是基于
 
 ## 2、Aski
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117989.webp)
+![](https://img.fwhyy.com/2023/202306191117989.webp)
 
 地址：https://aski.ai/
 
@@ -29,7 +29,7 @@ Aski 是一款基于 OpenAI 的 GPT-3 自然语言处理模型的中文 AI 问�
 
 ## 3、风声雨声
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117755.webp)
+![](https://img.fwhyy.com/2023/202306191117755.webp)
 
 地址：https://fsys.app/translate
 
@@ -37,11 +37,11 @@ Aski 是一款基于 OpenAI 的 GPT-3 自然语言处理模型的中文 AI 问�
 
 我尝试了下 Working Backwards 这本书，上传完成后根据字数有一个价格的估算，这本书的估算为 6.36 元，不算太贵。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191118148.webp)
+![](https://img.fwhyy.com/2023/202306191118148.webp)
 
 ## 4、ChatHub
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117959.webp)
+![](https://img.fwhyy.com/2023/202306191117959.webp)
 
 这是 Chrome 浏览器的一个插件。
 
@@ -49,7 +49,7 @@ Aski 是一款基于 OpenAI 的 GPT-3 自然语言处理模型的中文 AI 问�
 
 ## 5、OpenGpt：一个AI应用合集
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117960.webp)
+![](https://img.fwhyy.com/2023/202306191117960.webp)
 
 地址：https://open-gpt.app/
 
@@ -59,7 +59,7 @@ Aski 是一款基于 OpenAI 的 GPT-3 自然语言处理模型的中文 AI 问�
 
 ## 6、you.com 的 chat 模块
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117951.webp)
+![](https://img.fwhyy.com/2023/202306191117951.webp)
 
 地址：https://you.com
 
@@ -69,29 +69,29 @@ you.com 是一个搜索引擎，Chat 是这款搜索引擎中的一个模块。�
 
 地址：https://www.chatpdf.com/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117552.webp)
+![](https://img.fwhyy.com/2023/202306191117552.webp)
 
 可以分析 PDF 文件的内容，提取内容，通过问答的方式对 PDF 内容进行学习，不过免费版有一些限制：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117482.webp)
+![](https://img.fwhyy.com/2023/202306191117482.webp)
 
 所以我将《凤凰架构》这本书摘录了不到 50 页，上传后效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117786.webp)
+![](https://img.fwhyy.com/2023/202306191117786.webp)
 
 ## 8、pandagpt
 
 地址：https://www.pandagpt.io/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117261.webp)
+![](https://img.fwhyy.com/2023/202306191117261.webp)
 
 这个和 ChatPDF 有点类似，也是可以帮助我们来阅读 PDF 文件，免费版我将 《凤凰架构》整本书都上传成功了。同样，也是通过问答的方式进行使用：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117188.webp)
+![](https://img.fwhyy.com/2023/202306191117188.webp)
 
 ## 9、周报生成器
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306191117832.webp)
+![](https://img.fwhyy.com/2023/202306191117832.webp)
 
 地址：https://weeklyreport.avemaria.fun/zh
 

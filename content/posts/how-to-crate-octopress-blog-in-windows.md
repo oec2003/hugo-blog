@@ -109,7 +109,7 @@ rake preview
 
 预览效果如下：
 
-![27113147-1ad59a8165304434a89f6573bbc1cdb8](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300659290.png)
+![27113147-1ad59a8165304434a89f6573bbc1cdb8](https://img.fwhyy.com/2022/202201300659290.webp)
 
 ## 解决中文问题
 
@@ -136,13 +136,13 @@ C:\Ruby193\lib\ruby\gems\1.9.1\gems\jekyll-0.12.0\lib\jekyll\convertible.rb
 
 使用下面命令可以在Octopress中添加文章
 
-![27113202-1205db84b8574b35b872a518d77a6c03](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300700883.png)
+![27113202-1205db84b8574b35b872a518d77a6c03](https://img.fwhyy.com/2022/202201300700883.webp)
 
 注意，rake new_post['my first octopress blog']中的my first octopress blog 并不是博客标题，而是和生成的文件名以及url地址有关，该名称不支持中文。博客标题可以在生成的markdown文件中修改。生成的markdown文件在octopress/source/_posts目录中。
 
 编辑markdown文件，将标题可以修改为中文标题，还可以设置分类等信息以及编写正文部分
 
-![27113213-106d9af8489a4dcf9a1acb031ffdfd41](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300700367.png)
+![27113213-106d9af8489a4dcf9a1acb031ffdfd41](https://img.fwhyy.com/2022/202201300700367.webp)
 
 每次执行了添加博客的命令，或是修改了现有博客的内容后，都要执行下面命令进行重新生成
 

@@ -91,7 +91,7 @@ RocketMQ Topic 直接存储消息，每个 Topic 包含多个消息队列。消�
 
 当进行集群模式部署时，RocketMQ 的下载包中有各种集群模式的示例配置文件，这对新手非常友好。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501011909246.webp)
+![](https://img.fwhyy.com/2025/202501011909246.webp)
 
 下面是部署 RocketMQ 的 docker-comopose 文件的内容：
 

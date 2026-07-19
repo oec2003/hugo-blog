@@ -14,7 +14,7 @@ stream是一款功能很强大的上传组件，支持Html5和Flash两种方式�
 
 ## 项目结构图如下：
 
-![项目结构图](/Users/fengwei/Documents/my/typora-img/stream-aspnet/3cefded1gw1ev09rbskuoj20880eeab8.jpg)
+![项目结构图](https://img.fwhyy.com/3cefded1gw1ev09rbskuoj20880eeab8.webp)
 
 * common： 一些公共的帮助类和实体类
 * css： stream的css文件和图片
@@ -31,5 +31,5 @@ stream是一款功能很强大的上传组件，支持Html5和Flash两种方式�
 
 ## 运行效果
 
-![运行效果](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302000823.jpg)
+![运行效果](https://img.fwhyy.com/2022/202201302000823.webp)
 

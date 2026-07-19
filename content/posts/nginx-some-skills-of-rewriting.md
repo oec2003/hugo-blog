@@ -38,7 +38,7 @@ return 指令的语法由两个或三个部分组成：
 * location 节点
 * if 块中
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300736363.jpg)
+![](https://img.fwhyy.com/2022/202201300736363.webp)
 
 * 在 server 节点中的 return 的优先级要高于 location 节点的 return，不管 return 指令写在 location 节点的上方还是下方
 * 在 return 指令中使用 code，经常会用到 301 或 302 ，区别如下：
@@ -71,7 +71,7 @@ return 指令的语法四个部分组成：
 * location 节点
 * if 块中
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300736593.jpg)
+![](https://img.fwhyy.com/2022/202201300736593.webp)
 
 * rewrite 指令的适用范围和 return 指令的是一致的，优先级也相同
 * 当 rewrite 指令和 return 指令同时存在时，如果 rewrite 最后的 flag 不是 break，会继续执行 rewrite 之后的 return 指令
@@ -93,7 +93,7 @@ if(condition){
 * server 节点
 * location 节点
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300737754.jpg)
+![](https://img.fwhyy.com/2022/202201300737754.webp)
 
 ### if 判断的一些规则
 
@@ -168,5 +168,5 @@ server {
 
 配置如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300737305.jpg)
+![](https://img.fwhyy.com/2022/202201300737305.webp)
 

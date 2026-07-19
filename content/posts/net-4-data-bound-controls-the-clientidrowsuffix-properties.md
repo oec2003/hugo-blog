@@ -52,20 +52,20 @@ public class User
 
 AutoID
 
-![2010-07-30_112500](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300731399.png)
+![2010-07-30_112500](https://img.fwhyy.com/2022/202201300731399.webp)
 
 Inherit
 
-![2010-07-30_112644](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300731940.png)
+![2010-07-30_112644](https://img.fwhyy.com/2022/202201300731940.webp)
 
 Predictable
 
-![2010-07-30_112747_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300731460.png)
+![2010-07-30_112747_thumb](https://img.fwhyy.com/2022/202201300731460.webp)
 
 
 Static
 
-![2010-07-30_112954](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300732906.png)
+![2010-07-30_112954](https://img.fwhyy.com/2022/202201300732906.webp)
 
 ## 总结
 

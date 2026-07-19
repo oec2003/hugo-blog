@@ -11,7 +11,7 @@ tags: [Office Web App, Web API]
 
 <!--more-->
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290836644.jpg)
+![](https://img.fwhyy.com/2022/202201290836644.webp)
 
 思路如下：
 
@@ -41,5 +41,5 @@ position: absolute;
 
 4、效果如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290837381.jpg)
+![](https://img.fwhyy.com/2022/202201290837381.webp)
 

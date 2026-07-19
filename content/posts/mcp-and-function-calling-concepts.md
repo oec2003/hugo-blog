@@ -26,7 +26,7 @@ Function Calling 是特定大模型（如 OpenAI 的 GPT-4、Qwen2 等）提供�
 
 通常我们说大模型调用 API，但这种说法并不完全准确，执行过程如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503311644218.webp)
+![](https://img.fwhyy.com/2025/202503311644218.webp)
 
 0、Agent 程序是我们开发的 AI 程序，在程序中会预先向大模型注册外部函数接口（建议不超过 20 个）。
 
@@ -64,7 +64,7 @@ MCP（Model Context Protocol，模型上下文协议）是 Anthropic 公司在 2
 
 现在 OpenAI 也支持了 MCP 。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503311645324.webp)
+![](https://img.fwhyy.com/2025/202503311645324.webp)
 
 ### 特点
 
@@ -92,7 +92,7 @@ MCP 采用客户端-服务器（Client-Server）架构，包括以下组件：
 
 4、资源与工具：包括本地或远程的数据资源（如文件、数据库）及可被模型调用的功能（工具），支持 AI 模型实时获取外部信息并执行任务。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503311645167.webp)
+![](https://img.fwhyy.com/2025/202503311645167.webp)
 
 ### 调用步骤
 
@@ -104,7 +104,7 @@ MCP 采用客户端-服务器（Client-Server）架构，包括以下组件：
 
 4、MCP Server 收到请求后，解析请求内容，执行相应操作（如搜索网络信息、记录笔记等），然后将处理结果封装成响应消息，发送回客户端。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202503311645976.webp)
+![](https://img.fwhyy.com/2025/202503311645976.webp)
 
 ## MCP 与 Function Calling 的关系和区别
 

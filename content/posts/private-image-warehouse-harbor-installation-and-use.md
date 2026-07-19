@@ -34,7 +34,7 @@ wget https://github.com/goharbor/harbor/releases/download/v2.9.1/harbor-offline-
 
 如果无法通过 wget 进行下载，可以直接到 Github 网站：https://github.com/goharbor/harbor/releases/ 进行下载，然后拷贝到服务器中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211420800.webp)
+![](https://img.fwhyy.com/2024/202401211420800.webp)
 
 3、执行下面命令进行解压：
 
@@ -42,7 +42,7 @@ wget https://github.com/goharbor/harbor/releases/download/v2.9.1/harbor-offline-
 tar -xvf harbor-offline-installer-v2.9.1.tgz
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211652475.webp)
+![](https://img.fwhyy.com/2024/202401211652475.webp)
 
 4、执行下面命令新建目录，并将程序文件复制到目录中：
 
@@ -59,7 +59,7 @@ cp -ar harbor.yml.tmpl harbor.yml
 vi harbor.yml
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211652147.webp)
+![](https://img.fwhyy.com/2024/202401211652147.webp)
 
 * hostname：如果只是内网访问，设置为内网 IP，如果需要外网访问，就必须设置为外网域名或 IP
 * port：Web 访问的端口
@@ -70,7 +70,7 @@ vi harbor.yml
 ./prepare
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211652376.webp)
+![](https://img.fwhyy.com/2024/202401211652376.webp)
 
 7、执行下面命令进行安装：
 
@@ -78,15 +78,15 @@ vi harbor.yml
 ./install.sh
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211651644.webp)
+![](https://img.fwhyy.com/2024/202401211651644.webp)
 
 8、稍等一会，执行 `docker-compose ps` ,如果所有容器的状态都是 healthy ，说明正常：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211651253.webp)
+![](https://img.fwhyy.com/2024/202401211651253.webp)
 
 9、登录后界面如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211651958.webp)
+![](https://img.fwhyy.com/2024/202401211651958.webp)
 
 ## 问题
 
@@ -140,11 +140,11 @@ sudo systemctl restart docker
 
 解决这个问题需要修改 harbor.yml 配置，将 hostname 修改为外网的 IP 或域名（不需要加端口）：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211651628.webp)
+![](https://img.fwhyy.com/2024/202401211651628.webp)
 
 将 external_url 修改为外网访问的地址（需要加上端口）：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211651491.webp)
+![](https://img.fwhyy.com/2024/202401211651491.webp)
 
 修改完后需要重启 Harbor，执行下面命令进行重启：
 
@@ -218,15 +218,15 @@ Harbor 里功能比较多，常用的有项目、用户管理、项目定额。
 
 1、在用户管理中创建名称为 images_admin 的用户：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211651701.webp)
+![](https://img.fwhyy.com/2024/202401211651701.webp)
 
 2、在项目中创建名称为 fw 的项目，并添加 images_admin 为项目的维护人员：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211650424.webp)
+![](https://img.fwhyy.com/2024/202401211650424.webp)
 
 3、在项目定额中设置项目的配额大小为 2GB：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211650780.webp)
+![](https://img.fwhyy.com/2024/202401211650780.webp)
 
 4、先以一个 nginx 镜像为例，直接推送试试，命令如下：
 
@@ -258,5 +258,5 @@ docker push hub.fwhyy.com:1234/fw/nginx:latest
 
 登录后，就可以正常推送了，登录进入系统，可以看到在项目的镜像仓库中已经可以看到了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202401211650809.webp)
+![](https://img.fwhyy.com/2024/202401211650809.webp)
 

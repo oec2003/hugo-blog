@@ -13,7 +13,7 @@ tags: [dotNET Core]
 
 如果你还念旧，想使用之前的`App.config`或`Web.config`，可以导入`System.Configuration.ConfigurationManager`包，使用方式和之前一样。
 
-![-w788](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270825835.jpg)
+![-w788](https://img.fwhyy.com/2022/202201270825835.webp)
 
 ```
 using System.Configuration;
@@ -33,7 +33,7 @@ static void Main(string[] args)
 1、创建一个控制台的应用程序`NetCoreConfigDemo`；
 2、导入依赖包，可以按需导入，也可以直接导入`Microsoft.AspNetCore`的包，里面包含所有依赖的项；
 
-![-w1001](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270825585.jpg)
+![-w1001](https://img.fwhyy.com/2022/202201270825585.webp)
 
 3、添加`using Microsoft.Extensions.Configuration;`引用；
 4、代码如下：
@@ -59,7 +59,7 @@ namespace NetCoreConfigDemo
 
 5、运行时指定`name`参数，在命令行中可以正常打印出来
 
-![-w676](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270827596.jpg)
+![-w676](https://img.fwhyy.com/2022/202201270827596.webp)
 
 上面例子中的参数`name`是在启动程序是指定的，如果想要程序有一个默认的参数值，可以在程序中初始化一个字典类`Dictionary`，代码如下：
 
@@ -100,7 +100,7 @@ namespace NetCoreConfigDemo
 
 2、设置`App.json`的属性
 
-![-w347](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270827196.jpg)
+![-w347](https://img.fwhyy.com/2022/202201270827196.webp)
 
 3、编写代码读取`App.json`文件内容
 
@@ -163,7 +163,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 
 4、运行程序可以看到配置文件内容可以正常打印在控制台中
 
-![-w647](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270827213.jpg)
+![-w647](https://img.fwhyy.com/2022/202201270827213.webp)
 
 ## 使用IOptions<T>来做强类型配置
 
@@ -247,7 +247,7 @@ namespace NetCoreConfigWebDemo.Controllers
 
 运行效果如下图：
 
-![-w482](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270827430.jpg)
+![-w482](https://img.fwhyy.com/2022/202201270827430.webp)
 
 ## 配置文件热更新
 
@@ -366,13 +366,13 @@ namespace NetCoreRedisConfigDemo
 
 运行结果如下：
 
-![-w579](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270828057.jpg)
+![-w579](https://img.fwhyy.com/2022/202201270828057.webp)
 
 ## 环境变量
 
 在`Web`项目中，我们可以使用环境变量来区分开发环境、测试环境和生产环境，默认情况下会有一个开发环境的环境变量的配置
 
-![-w753](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270828257.jpg)
+![-w753](https://img.fwhyy.com/2022/202201270828257.webp)
 
 在`Web`项目的`Statup`类的Configure方法中有对环境变量的判断，可以根据不同的环境来处理不同的业务逻辑。
 
@@ -431,7 +431,7 @@ ENTRYPOINT ["dotnet", "NetCoreEnvironmentDemo.dll"]
 6、使用命令`docker run -d -p 81:80 -e "name=oec2003" -e "age=18" --name envtest envtest:latest`创建容器;
 7、使用`docker logs 容器id`查看容器日志
 
-![-w905](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201270828409.jpg)
+![-w905](https://img.fwhyy.com/2022/202201270828409.webp)
 
 
 ##  总结

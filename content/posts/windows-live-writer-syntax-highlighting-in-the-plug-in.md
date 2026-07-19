@@ -10,16 +10,16 @@ tags: [语法高亮, 软件推荐]
 
 从IDE中复制了代码后点击下图中红色标记处就可以将代码复制到Live Writer中
 
-![2010-12-29_160715](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290641313.gif)
+![2010-12-29_160715](https://img.fwhyy.com/2022/202201290641313.webp)
 
 ## highlight4writer
 该插件安装后可以在一个弹出的对话框中选择c c# xml sql 等十几种语言，可以点击此处下载，下载后同样是将解压的文件复制到Plugins目录下，然后打开Live Writer可以看到如下图所示
 
-![2010-12-29_160911](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290641270.gif)
+![2010-12-29_160911](https://img.fwhyy.com/2022/202201290641270.webp)
 
 点击就会弹出输入代码的对话框，如下图
 
-![2010-12-29_160950](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290641466.gif)
+![2010-12-29_160950](https://img.fwhyy.com/2022/202201290641466.webp)
 
 就我个人感觉而言，使用第一种比较好些，因为第二种会产生很多的html代码，而第一种的html相对简洁，并且代码在一个class为Code的div中，可以自己设置css来改变代码部分的样式。
 

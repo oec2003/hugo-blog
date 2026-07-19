@@ -14,7 +14,7 @@ alert(str.replace(",","','"));
 
 上面的代码本意是将用逗号隔开的GUID的逗号替换成’,’，但实际结果只将第一个逗号替换了。
 
-![2012-04-16_230940](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302116081.jpg)
+![2012-04-16_230940](https://img.fwhyy.com/2022/202201302116081.webp)
 
 解决这个问题只需将replace的第一个参数使用正则的方式即可，代码如下:
 
@@ -26,5 +26,5 @@ alert(str.replace(reg,"','"));
 
 结果如下：
 
-![2012-04-16_231320](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302116958.jpg)
+![2012-04-16_231320](https://img.fwhyy.com/2022/202201302116958.webp)
 

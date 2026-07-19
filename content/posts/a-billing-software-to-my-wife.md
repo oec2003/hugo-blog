@@ -10,33 +10,33 @@ tags:  [记账本]
 
 ## 登录界面
 
-![2010-12-31_094931](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292055970.gif)
+![2010-12-31_094931](https://img.fwhyy.com/2022/202201292055970.webp)
 
 ## 登录成功后的主界面
 
-![2010-12-31_095027](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292055241.gif)
+![2010-12-31_095027](https://img.fwhyy.com/2022/202201292055241.webp)
 
 ## 分类管理
 
-![2010-12-31_095401](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292055993.gif)
+![2010-12-31_095401](https://img.fwhyy.com/2022/202201292055993.webp)
 
 ## 添加账目
 
-![2010-12-31_095559](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292055418.gif)
+![2010-12-31_095559](https://img.fwhyy.com/2022/202201292055418.webp)
 
 ## 添加分类
 
-![2010-12-31_095833](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292055309.gif)
+![2010-12-31_095833](https://img.fwhyy.com/2022/202201292055309.webp)
 
 ## 切换主题
 
-![2010-12-31_095921](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292056916.gif)
+![2010-12-31_095921](https://img.fwhyy.com/2022/202201292056916.webp)
 
 ## MSN风格主题
 
-![2010-12-31_100002](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292056129.gif)
+![2010-12-31_100002](https://img.fwhyy.com/2022/202201292056129.webp)
 
 ## Vista风格主题
 
-![2010-12-31_100047](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292056435.gif)
+![2010-12-31_100047](https://img.fwhyy.com/2022/202201292056435.webp)
 

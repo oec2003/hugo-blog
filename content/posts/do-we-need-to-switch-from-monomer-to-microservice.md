@@ -4,6 +4,9 @@ date: 2022-03-07T08:26:00+08:00
 categories: [技术]
 tags: [微服务,架构]
 topic: arch
+series_chapter: 第三章 微服务设计
+series_section: ""
+series_order: 300
 ---
 
 微服务或许你没有真正实践过，但一定听说过，虽然已经到了 2022 年，这个词依然很热，可以通过搜索 google 指数看得到。

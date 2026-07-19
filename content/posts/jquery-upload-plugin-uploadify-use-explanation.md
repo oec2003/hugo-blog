@@ -21,7 +21,7 @@ Uploadify是jQuery的一个上传插件，实现的效果非常不错，带进�
 
 3 在项目图:
 
-![2010-12-29_120720](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300722377.png)
+![2010-12-29_120720](https://img.fwhyy.com/2022/202201300722377.webp)
 
 4 Default.aspx的html页的代码修改如下：
 
@@ -101,7 +101,7 @@ public void ProcessRequest(HttpContext context)
 
 6 运行后效果如下图：
 
-![2010-12-29_120813](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300722966.png)
+![2010-12-29_120813](https://img.fwhyy.com/2022/202201300722966.webp)
 
 7 选择了两个文件后，点击上传，就可以看到UploadFile文件夹中会增加这两个文件。
 
@@ -130,7 +130,7 @@ auto ： 设置为true当选择文件后就直接上传了，为false需要点�
 
 fileDesc ： 这个属性值必须设置fileExt属性后才有效，用来设置选择文件对话框中的提示文本，如设置fileDesc为“请选择rar doc pdf文件”，打开文件选择框效果如下图：
 
-![2010-12-29_120847](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300722940.png)
+![2010-12-29_120847](https://img.fwhyy.com/2022/202201300722940.webp)
 
 fileExt ： 设置可以选择的文件的类型，格式如：’*.doc;*.pdf;*.rar’ 。
 
@@ -154,7 +154,7 @@ wmode ： 设置该项为transparent 可以使浏览按钮的flash背景文件�
 
 cancelImg ：选择文件到文件队列中后的每一个文件上的关闭按钮图标，如下图：
 
-![2010-12-29_120923](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300723549.png)
+![2010-12-29_120923](https://img.fwhyy.com/2022/202201300723549.webp)
 
 上面介绍的key值的value都为字符串或是布尔类型，比较简单，接下来要介绍的key值的value为一个函数，可以在选择文件、出错或其他一些操作的时候返回一些信息给用户。
 
@@ -197,7 +197,7 @@ $(document).ready(function()
 
 当选择一个文件后弹出的消息如下图：
 
-![2010-12-29_121000](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300723978.png)
+![2010-12-29_121000](https://img.fwhyy.com/2022/202201300723978.webp)
 
 onSelectOnce ：在单文件或多文件上传时，选择文件时触发。该函数有两个参数event，data，data对象有以下几个属性：
 

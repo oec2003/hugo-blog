@@ -105,10 +105,10 @@ static void Main(string[] args)
 ```
 
 执行结果如下：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290759107.jpg)
+![](https://img.fwhyy.com/2022/202201290759107.webp)
 
 当把上面代码中的 WaitAll 换成 WaitAny ,可以看出当 task1 执行完成后等待就结束了，调用结果如下：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290759870.jpg)
+![](https://img.fwhyy.com/2022/202201290759870.webp)
 
 ## async 和 await
 
@@ -145,7 +145,7 @@ class Program
 *  在方法的内部使用 await 关键字，只要是返回 Task 对象的方法就可以使用 await，如果没有 await，那么有 async 标识符的方法就相当于是一个同步方法。
 
 上面的代码中在 Task.Delay(3000); 前面添加了 await 关键字，会发现最后的执行结果为：
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290759689.jpg)
+![](https://img.fwhyy.com/2022/202201290759689.webp)
 
 说明添加 await 关键字之后会进行等待，就让会等待，就变成和同步一样了吗？答案当然不是：
 
@@ -182,7 +182,7 @@ class Program
 
 运行结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290759181.jpg)
+![](https://img.fwhyy.com/2022/202201290759181.webp)
 
 * Test1Async 和 Test2Async 中都延迟了 3 秒，但最终也只花了 3 秒；
 * 使用异步方法的 Result 属性或者调用 Wait() 方法，会进行阻塞。

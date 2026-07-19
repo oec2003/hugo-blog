@@ -78,7 +78,7 @@ npm install @types/sharp --save-dev
 
 1、使用脚手架创建的代码只有一个 index.ts 文件，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272138599.webp)
+![](https://img.fwhyy.com/2023/202308272138599.webp)
 
 2、在根目录中执行`npm install` 安装依赖。
 
@@ -132,53 +132,53 @@ export = (ctx: PicGo) => {
 
 4、执行命令 `npm run build` 进行打包，打包后会生成 dist 目录，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272138899.webp)
+![](https://img.fwhyy.com/2023/202308272138899.webp)
 
 ## 安装
 
 1、在 PicGo 的插件设置中，导入本地插件：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272139541.webp)
+![](https://img.fwhyy.com/2023/202308272139541.webp)
 
 2、目录选择 dist 目录所在的目录：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272139700.webp)
+![](https://img.fwhyy.com/2023/202308272139700.webp)
 
 3、安装成功后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272139512.webp)
+![](https://img.fwhyy.com/2023/202308272139512.webp)
 
 4、这时可以截图粘贴到 Typora 中，点击右键上传图片：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272139551.webp)
+![](https://img.fwhyy.com/2023/202308272139551.webp)
 
 上传成功后，会发现已经变成了 webp 格式：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272139762.webp)
+![](https://img.fwhyy.com/2023/202308272139762.webp)
 
 ## 更新插件
 
 1、如果插件的代码有修改，可以在 package.json 文件中升级一个版本，重新打包：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272141636.webp)
+![](https://img.fwhyy.com/2023/202308272141636.webp)
 
 2、卸载插件，不卸载进行本地插件导入，会提示成功，但实际没有成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272143098.webp)
+![](https://img.fwhyy.com/2023/202308272143098.webp)
 
 3、重新本地导入插件。
 
 4、导入成功后，需要更新插件：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272139721.webp)
+![](https://img.fwhyy.com/2023/202308272139721.webp)
 
 5、更新成功后，需要重启才能生效：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272140389.webp)
+![](https://img.fwhyy.com/2023/202308272140389.webp)
 
 6、重启后，如果看到版本变为 1.0.1 表示更新成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272140314.webp)
+![](https://img.fwhyy.com/2023/202308272140314.webp)
 
 ## 调试
 
@@ -196,7 +196,7 @@ ctx.log.info('ctx.input.path'+imgPath)
 
 在 picgo.log 中就会输出日志：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202308272140648.webp)
+![](https://img.fwhyy.com/2023/202308272140648.webp)
 
 通过这个日志文件的内容，可以进行错误的排查。
 

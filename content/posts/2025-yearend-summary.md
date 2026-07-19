@@ -80,11 +80,11 @@ AI 时代，持续学习显得尤为重要，持续关注、持续实践。
 
 五一和布丁一家自驾九江，回程时去了东林大佛，人比想象的要多很多，天气又很热，为了增加乐趣，我和女儿跑着上到了最高处，浑身湿透。
 
-![64bbbae8d8ff16b68860f8e9cdebe61f](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202602170215371.webp)
+![64bbbae8d8ff16b68860f8e9cdebe61f](https://img.fwhyy.com/2026/202602170215371.webp)
 
 十一还是选择了特种兵式的自驾，先后去了蚌埠、淮安、扬州、阜阳。女儿最喜欢的还是淮安的西游记公园。
 
-![e3c1ab07f7d0996ee27ee4ce6ee6f37f](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202602170216884.webp)
+![e3c1ab07f7d0996ee27ee4ce6ee6f37f](https://img.fwhyy.com/2026/202602170216884.webp)
 
 旅行对我来说就是用跑步去丈量每一座新的城市。
 
@@ -104,11 +104,11 @@ AI 时代，持续学习显得尤为重要，持续关注、持续实践。
 
 女儿的兴趣班还保留着画画和跳舞，平时或周末有时间的时候，女儿会选择画画，画的作品偶尔也会拍照发到小红书。
 
-![46f3b8bbf9969b632812cb8dd1d605a5](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202602170216688.webp)
+![46f3b8bbf9969b632812cb8dd1d605a5](https://img.fwhyy.com/2026/202602170216688.webp)
 
 今天是大年三十，下午找了纸和笔，给每个人都画了一幅画，我说你帮我画一个强风吹拂里的阿走吧，下面是女儿给我画的藏原走，也算是新年礼物吧。
 
-![0fe4bf6098ef86fe68176ba1bbaa7aaf](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202602170216686.webp)
+![0fe4bf6098ef86fe68176ba1bbaa7aaf](https://img.fwhyy.com/2026/202602170216686.webp)
 
 有个兴趣不容易，希望可以坚持。
 

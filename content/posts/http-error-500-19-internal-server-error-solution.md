@@ -7,7 +7,7 @@ tags: [WebService, 部署, 错误解决]
 
 刚在本机部署了一个WebService测试，浏览的时候出现了“HTTP 错误 500.19 – Internal Server Error ”错误，如下图：
 
-![2010-04-15_134600](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300701743.png)
+![2010-04-15_134600](https://img.fwhyy.com/2022/202201300701743.webp)
 
 经过检查发现是由于先安装vs2008后安装iis的缘故，只需重新注册下AspNet就可以了，具体步骤如下
 

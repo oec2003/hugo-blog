@@ -33,7 +33,7 @@ ps aux | grep supervisord
 
 1、修改 inet_http_server  节点，该节点配置好后，可以有图形化界面来对进程进行维护。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290620382.png)
+![](https://img.fwhyy.com/2022/202201290620382.webp)
 
 - 去掉每行前面的分号，分号表示注释；
 - port：服务器的 ip 和访问的端口；
@@ -48,7 +48,7 @@ supervisord -c /etc/supervisord.conf
 
 启动后访问的界面如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290620396.png)
+![](https://img.fwhyy.com/2022/202201290620396.webp)
 
 2、修改配置文件最后的 [include] 节点，默认情况下为 ini 文件，修改为 conf
 
@@ -88,14 +88,14 @@ user=root
 
 在 Supervisor 中，也可以通过配置的方式将一个程序以多进程的方式启动，比如需要部署 MQ 的消费者时就非常有用，具体配置如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290620275.png)
+![](https://img.fwhyy.com/2022/202201290620275.webp)
 
 - process_name：定义进程的名称
 - numprocs：启动的进程的数量
 
 启动后的效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290620749.png)
+![](https://img.fwhyy.com/2022/202201290620749.webp)
 
 ## 常用命令
 

@@ -9,11 +9,11 @@ Window Live Writer是我一直以来写博客的工具，但是他的默认保�
 
 我百度网盘的目录是D:\百度网盘，在命令行中输入如下命令可以实现Live Witer默认目录到百度网盘目录的链接：
 
-![2012-05-13_221120](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302121952.jpg)
+![2012-05-13_221120](https://img.fwhyy.com/2022/202201302121952.webp)
 
 **注意：在D:\百度网盘 目录中不要先创建了“My Weblog posts”目录，如果先创建了该目录在执行命令式会出现如下错误：**
 
-![2012-05-13_222209](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302121630.jpg)
+![2012-05-13_222209](https://img.fwhyy.com/2022/202201302121630.webp)
 
 有关mklink的使用方法可以在命令行下输入mklink\？，也可以点击[这里](http://wenku.baidu.com/view/56453dcfda38376baf1fae2c.html)。
 

@@ -11,7 +11,7 @@ tags: [Octopress,博客]
 
 首先来看下Octopress的文件目录吧，因为很多的设置就是从这里开始的。
 
-![3cefded1gw1e52yyb8jz7j207f0e5mxp](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301600903.jpg)
+![3cefded1gw1e52yyb8jz7j207f0e5mxp](https://img.fwhyy.com/2022/202201301600903.webp)
 
 刚clone下来的Octopress源码没有最后的三个文件，当执行了rake install后会产生最后的三个目录。
 
@@ -121,7 +121,7 @@ keywords: Octopress
 
 显示效果如下：
 
-![3cefded1gw1e55gvpiz1rj20gn070t9g](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301600472.jpg)
+![3cefded1gw1e55gvpiz1rj20gn070t9g](https://img.fwhyy.com/2022/202201301600472.webp)
 
 ## 添加侧边栏文章分类
 
@@ -175,7 +175,7 @@ Liquid::Template.register_tag('category_list', Jekyll::CategoryListTag)
 ```
 default_asides: [asides/category_list.html, asides/recent_posts.html]
 ```
-![3cefded1gw1e55i22u11bj208f08lmxj -1-](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301600366.jpg)
+![3cefded1gw1e55i22u11bj208f08lmxj -1-](https://img.fwhyy.com/2022/202201301600366.webp)
 
 如果想将最新文章的Recent Posts修改为中文，修改source\_includes\asides\recent_posts.html即可。
 
@@ -187,7 +187,7 @@ Octopress自身不支持评论功能，不过我们可以使用第三方的评�
 
 首先需要在Disqus注册一个账号，登录后点击Dashboard，然后添加站点信息
 
-![3cefded1gw1e55j3dgu4zj20g008vt97](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301600313.jpg)
+![3cefded1gw1e55j3dgu4zj20g008vt97](https://img.fwhyy.com/2022/202201301600313.webp)
 
 然后在_config.yml文件中进行下面设置
 
@@ -251,7 +251,7 @@ text-decoration: underline;
 
 修改文件source\_layouts\post.html
 
-![3cefded1gw1e56mhiqymaj20e306zaap](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301601495.jpg)
+![3cefded1gw1e56mhiqymaj20e306zaap](https://img.fwhyy.com/2022/202201301601495.webp)
 
 在_config.yml添加配置项用来控制是否显示页面的版权信息
 
@@ -263,7 +263,7 @@ post_license: true
 
 最终展示效果：
 
-![3cefded1gw1e56nxa3e7mj20mp04vq3](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301601604.jpg)
+![3cefded1gw1e56nxa3e7mj20mp04vq3](https://img.fwhyy.com/2022/202201301601604.webp)
 
 ## 使文章以摘要形式展示
 

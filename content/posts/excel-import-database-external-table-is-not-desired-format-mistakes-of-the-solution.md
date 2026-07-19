@@ -7,7 +7,7 @@ tags: [AspNet, Excel, 错误解决]
 
 下图为出错的界面
 
-![20110308001](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300645078.jpg)
+![20110308001](https://img.fwhyy.com/2022/202201300645078.webp)
 
 出错的原因是因为Excel的格式不是标准的Excel格式，像我出现这个错误的原因就是使用的Excel是用程序导出的Excel。
 

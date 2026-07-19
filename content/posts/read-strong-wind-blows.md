@@ -6,7 +6,7 @@ tags: [读书,小说,跑步]
 topic: readbook
 ---
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405221638731.webp)
+![](https://img.fwhyy.com/2024/202405221638731.webp)
 
 《强风吹拂》是日本作家三浦紫苑创作的长篇小说。该小说讲述了宽政大学宿舍「竹青庄」的十名舍友凑成杂牌长跑队，在队长清濑灰二的魔鬼训练下，从零开始向日本历史最悠久的长跑接力赛「箱根驿传」挺进的故事。
 
@@ -16,7 +16,7 @@ topic: readbook
 
 ## 箱根驿传介绍
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405221649965.webp)
+![](https://img.fwhyy.com/2024/202405221649965.webp)
 
 先说说箱根驿传这个比赛，在看这个作品之前，我是不知道箱根驿传的，看了这部作品后，在去年元旦还追着看过箱根驿传的直播比赛，十分热血。
 
@@ -38,7 +38,7 @@ topic: readbook
 
 ## 优秀项目经理灰二
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405221650119.webp)
+![](https://img.fwhyy.com/2024/202405221650119.webp)
 
 清濑灰二绝对是一名优秀的项目经理。
 
@@ -76,7 +76,7 @@ topic: readbook
 
 ## 超凡毅力的神童
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405221651113.webp)
+![](https://img.fwhyy.com/2024/202405221651113.webp)
 
 我对神童的感觉就是人非常好，小时候在山区长大，每天走 10 公里的山路往返家和学校。跑 5 区的绝佳人选。
 
@@ -98,7 +98,7 @@ topic: readbook
 
 对我自己来说，跑步或者一件想要去做的小事，能持续坚持下去就是强。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405221651583.webp)
+![](https://img.fwhyy.com/2024/202405221651583.webp)
 
 #### 最后
 

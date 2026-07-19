@@ -36,7 +36,7 @@ brew install pipx
 pipx ensurepath
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images@master/img/202501061750427.webp)
+![](https://img.fwhyy.com/2025/202501061750427.webp)
 
 接着使用 pipx 安装 poetry，命令如下：
 
@@ -44,7 +44,7 @@ pipx ensurepath
 pipx 安装 poetry 
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061805738.webp)
+![](https://img.fwhyy.com/2025/202501061805738.webp)
 
 安装完成后，可以通过以下命令验证 poetry 是否安装成功：
 
@@ -54,7 +54,7 @@ poetry --version
 
 出现下图所示，说明安装成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061805772.webp)
+![](https://img.fwhyy.com/2025/202501061805772.webp)
 
 ### 3 、使用 poetry
 
@@ -73,7 +73,7 @@ poetry init
 
 使用 poetry 创建的项目目录如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061805758.webp)
+![](https://img.fwhyy.com/2025/202501061805758.webp)
 
 在 pyproject.toml 文件中进行包版本的管理。这时如果我要给项目添加相关的依赖包，有两种方式：
 
@@ -85,7 +85,7 @@ poetry add six:1.16.0
 
 使用命令安装完成后，pyproject.toml 文件中会自动添加 six = "1.16.0" ，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061805053.webp)
+![](https://img.fwhyy.com/2025/202501061805053.webp)
 
 另一种方式就是先修改配置，在 pyproject.toml 中添加 six = "1.16.0" 或其他的包，然后执行下面命令进行安装：
 
@@ -101,7 +101,7 @@ poetry config virtualenvs.in-project true
 
 经过上面的设置后，不管是使用 `poetry install` 还是使用 `poetry add ` 添加的包，会在项目根目录下的 .venv 目录中，便于管理：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061805840.webp)
+![](https://img.fwhyy.com/2025/202501061805840.webp)
 
 ### 4 、安装 flask
 
@@ -115,7 +115,7 @@ poetry add flask
 
 使用 poetry 初始化一个项目并添加 flask 后，项目的目录结构如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061805118.webp)
+![](https://img.fwhyy.com/2025/202501061805118.webp)
 
 可以看到到多了 `__init__.py` 和 `poetry.lock` 两个文件：
 
@@ -124,7 +124,7 @@ poetry add flask
 
 在上面的基础上，我们让 windsurf 来完成一个示例程序，在 windsurf 中输入：按照flask的最佳实践，创建 get 和 post 的接口示例，创建的目录结构如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061806816.webp)
+![](https://img.fwhyy.com/2025/202501061806816.webp)
 
 从上往下来看看每个文件的内容：
 
@@ -277,7 +277,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"message":"test"}' http://
 api_bp = Blueprint('api', __name__, url_prefix='/api')
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202501061806824.webp)
+![](https://img.fwhyy.com/2025/202501061806824.webp)
 
 了解了一个简单的 Flask 项目结构，也知道怎么去抽丝剥茧搞清楚不懂的问题。我们就可以去阅读 RAGFlow 的源码了。
 

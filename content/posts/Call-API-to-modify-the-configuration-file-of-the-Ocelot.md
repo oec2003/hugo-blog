@@ -38,7 +38,7 @@ Ocelot的路由设置是基于配置文件的，同样在Ocelot中使用Consul�
 
 项目创建完成后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260643728.jpg)
+![](https://img.fwhyy.com/2022/202201260643728.webp)
 
 ## IdentityService
 
@@ -177,11 +177,11 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 
 1、设置解决方案的属性，同时启动两个项目
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260643995.jpg)
+![](https://img.fwhyy.com/2022/202201260643995.webp)
 
 启动后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260644485.jpg)
+![](https://img.fwhyy.com/2022/202201260644485.webp)
 
 2、在Postman中调用 http://localhost:9500/connect/token，获取token，调用方式为Post，form-data传三个参数：
 
@@ -191,7 +191,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 
 调用成功后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260644850.jpg)
+![](https://img.fwhyy.com/2022/202201260644850.webp)
 
 3、在Postman中调用接口 http://localhost:10000/admin/configuration 获取Ocelot的配置，接口路径中的admin是在WebAPIGetway项目中的Startup类中定义的
 
@@ -208,7 +208,7 @@ Authorization:Bearer token
 
 请求成功如下图：
 
-![](http://fwhyy.com/img/post/15259951208891.jpg)
+![](https://img.fwhyy.com/15259951208891.webp)
 
 4、在Postman中通过接口 http://localhost:10000/admin/configuration 修改配置，修改和获取配置的接口地址一致，修改时请求为Post，同样在Headers中需要添加token，另外还需要设置Content-Type，格式如下：
 
@@ -219,7 +219,7 @@ Content-Type:application/json
 
 请求的body就是调整后的json数据，调用成功回返回200，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201260644131.jpg)
+![](https://img.fwhyy.com/2022/202201260644131.webp)
 
 5、在WebAPIGetway项目的运行目录中打开Ocelot的配置文件，验证是否修改成功。
 

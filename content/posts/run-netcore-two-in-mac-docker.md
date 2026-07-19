@@ -42,7 +42,7 @@ nginx -s stop #停止nginx
 
 安装成功后，在系统的顶栏中可以看到下图代表安装成功：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301929760.jpg)
+![](https://img.fwhyy.com/2022/202201301929760.webp)
 
 在终端中执行`docker --version` 查看下`Doker`的版本
 
@@ -67,7 +67,7 @@ docker run -itd -p 5000:5000 microsoft/dotnet
 
 因为`DotNetCore`的默认端口监听为`5000`，所以将容器的`5000`端口映射到宿主机到`5000`端口。启动成功后执行`docker ps -a` ，如一切顺利，可以看到如下图所示：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301929723.jpg)
+![](https://img.fwhyy.com/2022/202201301929723.webp)
 
 主要关注`STATUS`，状态为up表示是正常启动，否则通过`docker logs -f 容器id`来查看相关日志，通常可以看到容器没有启动成功的错误日志，然后`Google`之。
 
@@ -77,19 +77,19 @@ docker run -itd -p 5000:5000 microsoft/dotnet
 
 在VS中创建新项目，选择API项目：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301929197.jpg)
+![](https://img.fwhyy.com/2022/202201301929197.webp)
 
 我的`API`项目的名称为`S2AppAdmin`，在终端中进入到项目的目录中，执行`dotnet publish`，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301934345.jpg)
+![](https://img.fwhyy.com/2022/202201301934345.webp)
 
 在终端中进入到`publish`目录中，执行`dotnet S2AppAdmin.dll`，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301934798.jpg)
+![](https://img.fwhyy.com/2022/202201301934798.webp)
 
 可以看出已经监听了`5000`端，现在在浏览器中输入`http://localhost:5000/api/values/get`，可以看到`API`接口的返回值已经在界面显示了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301934756.jpg)
+![](https://img.fwhyy.com/2022/202201301934756.webp)
 
 ## 发布应用到Docker
 
@@ -103,7 +103,7 @@ docker attach 3be4cfc30126
 
 进入到`home`目录后，使用`mkdir s2app`命令创建`s2app`目录，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301935395.jpg)
+![](https://img.fwhyy.com/2022/202201301935395.webp)
 
 执行`exit`，退出容器回到宿主环境，进入到`S2AppAdmin`项目的目录中，执行下面命令将`publish`的文件复制到容器中
 
@@ -115,13 +115,13 @@ docker cp bin/Debug/netcoreapp2.0/publish/ hardcore_leavitt:/home/s2app/
 
 再次执行`docker attach 3be4cfc30126`进入容器，在`publish`目录中执行`dotnet S2AppAdmin.dll`，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301935972.jpg)
+![](https://img.fwhyy.com/2022/202201301935972.webp)
 
 这时在宿主环境中访问`http://localhost:5000/api/values/get`，发现无法访问，说明容器和宿主没有打通。
 
 在VS中打开`Program.cs`文件，添加`.UseUrls("http://*:5000")`，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301937790.jpg)
+![](https://img.fwhyy.com/2022/202201301937790.webp)
 
 在项目目录下执行下面命令：
 
@@ -174,7 +174,7 @@ brew list #查看已经安装的软件
 
 如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301938605.jpg)
+![](https://img.fwhyy.com/2022/202201301938605.webp)
 
 正常情况下，在浏览器中输入`http://localhost:8000/api/values/get`，可以看到`API`的输出结果。
 

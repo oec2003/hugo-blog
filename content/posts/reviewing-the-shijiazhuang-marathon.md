@@ -22,7 +22,7 @@ topic: run
 
 下面从训练、赛前准备、比赛来复盘下这次石家庄马拉松比赛。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202404081817865.webp)
+![](https://img.fwhyy.com/2024/202404081817865.webp)
 
 ## 训练
 
@@ -88,7 +88,7 @@ topic: run
 
 最后过终点的时候手表显示 3 小时 35 分多，跟最终的净成绩差不多。虽然有遗憾，没能破 330，不过这个成绩还是非常满意的。也是一个冬训努力的结果。和 7 年前相比，PB了 80 分钟呢。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202404081817861.webp)
+![](https://img.fwhyy.com/2024/202404081817861.webp)
 
 ## 比赛补给
 

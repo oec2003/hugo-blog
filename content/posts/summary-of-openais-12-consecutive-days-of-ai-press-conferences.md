@@ -49,7 +49,7 @@ Sora 视频产品：Sora 支持生成 1080p 高清视频，并提供多种视频
 
 ## 第四天
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202412210859501.webp)
+![](https://img.fwhyy.com/2024/202412210859501.webp)
 
 第四天，OpenAI 为 Canvas 推出了三项重大更新，这些更新使得 Canvas 更加强大，为用户提供了全新的使用体验。
 
@@ -180,5 +180,5 @@ Mac 一直没升级，用不上。
 
 https://openai.com/index/early-access-for-safety-testing/
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202412210859876.webp)
+![](https://img.fwhyy.com/2024/202412210859876.webp)
 

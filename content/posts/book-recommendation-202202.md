@@ -12,7 +12,7 @@ topic: readbook
 
 ## 暗时间
 
-![iShot2022-02-26 21.56.01](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050860.jpg)
+![iShot2022-02-26 21.56.01](https://img.fwhyy.com/2022/202202272050860.webp)
 
 这本书的作者是刘未鹏，一位 C++ 程序员，虽然我不懂 C++ ，但他在 CSDN 上的博客：“C++的罗浮宫” 也是如雷贯耳。
 
@@ -30,7 +30,7 @@ https://www.douban.com/doulist/127649/#/
 
 ## 软技能
 
-![iShot2022-02-26 21.42.47](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050992.jpg)
+![iShot2022-02-26 21.42.47](https://img.fwhyy.com/2022/202202272050992.webp)
 
 《软技能》是一本写给技术人员的非技术类书籍，即使你不写代码，读读这本书也可以受益不少。
 
@@ -50,7 +50,7 @@ https://www.douban.com/doulist/127649/#/
 
 ## 软技能2
 
-![iShot2022-02-26 21.57.37](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050872.jpg)
+![iShot2022-02-26 21.57.37](https://img.fwhyy.com/2022/202202272050872.webp)
 
 《软技能》更多地是关注编程之外的事情，对于一个技术人员的完整发展无疑是有些缺憾的，缺少职业房展的部分。
 
@@ -85,7 +85,7 @@ https://www.douban.com/doulist/149016910/#/
 
 ## 有效需求分析
 
-![iShot2022-02-27 08.50.14](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050996.jpg)
+![iShot2022-02-27 08.50.14](https://img.fwhyy.com/2022/202202272050996.webp)
 
 从书中的一些案例可以看出，作者擅长 ToB 软件的需求分析，如果您是从事的 ToB 软件的相关工作，那阅读本书时会有更多的共鸣。
 
@@ -97,7 +97,7 @@ https://www.douban.com/doulist/149016910/#/
 
 ## 软件研发效能提升之美
 
-![iShot2022-02-27 08.54.30](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050721.jpg)
+![iShot2022-02-27 08.54.30](https://img.fwhyy.com/2022/202202272050721.webp)
 
 这是一本比较新的书。
 
@@ -111,7 +111,7 @@ https://www.douban.com/doulist/149016910/#/
 
 ## 只是为了好玩
 
-![iShot2022-02-27 07.01.23](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050200.jpg)
+![iShot2022-02-27 07.01.23](https://img.fwhyy.com/2022/202202272050200.webp)
 
 之前看技术书籍比较多，这好像是看的第一本自传。
 
@@ -125,7 +125,7 @@ https://www.douban.com/doulist/149016910/#/
 
 ## 鞋狗
 
-![iShot2022-02-27 08.49.44](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050536.jpg)
+![iShot2022-02-27 08.49.44](https://img.fwhyy.com/2022/202202272050536.webp)
 
 鞋狗指的是一辈子精心于（研发、生产、制作）鞋的人，为鞋而狂，，把鞋当做自己的终极爱好，整天鞋不离手、嗜鞋如命的资深运动鞋发烧友。在程序员的世界中，可以等同于黑客。
 
@@ -139,7 +139,7 @@ https://www.douban.com/doulist/149016910/#/
 
 ## 极简项目管理
 
-![iShot2022-02-27 20.45.33](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202272050213.jpg)
+![iShot2022-02-27 20.45.33](https://img.fwhyy.com/2022/202202272050213.webp)
 
 这本书是周末领导推荐的，已经加入到 3 月的阅读清单。
 

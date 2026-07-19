@@ -4,6 +4,9 @@ date: 2023-10-24T08:27:49+08:00
 categories: [技术]
 tags: [经验总结,架构,六边形架构]
 topic: arch
+series_chapter: 第四章 架构实践
+series_section: ""
+series_order: 410
 ---
 
 指导我们写出漂亮代码有一种方式是学习设计模式，自从 Gof 四人组的《设计模式》出版后，各类设计模式的书层出不穷。熟读这类书籍，对面试肯定是有帮助的，但代码能力是否有大的长进就不一定了，如果没能理解背后的思想，去生搬硬套，只会起反作用。
@@ -22,7 +25,7 @@ topic: arch
 
 六边形架构（Hexagonal Architecture），也被称为端口与适配器架构（Ports and Adapters Architecture），是一种软件架构模式，旨在实现高内聚、低耦合和可测试性的应用程序设计。该架构由 Alistair Cockburn 发明，他是敏捷宣言的签署者之一。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310231840474.webp)
+![](https://img.fwhyy.com/2023/202310231840474.webp)
 
 从上图可以看出有内外两层六边形，深蓝色和浅蓝色。
 
@@ -114,9 +117,9 @@ topic: arch
 
 在 VS 中可以安装六边形架构的扩展，安装后在创建项目时就会多出六边形架构的项目类型可供选择。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310231840495.webp)
+![](https://img.fwhyy.com/2023/202310231840495.webp)
 
-![image-20231023183747985](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202310231840282.webp)
+![image-20231023183747985](https://img.fwhyy.com/2023/202310231840282.webp)
 
 2、几个 GitHub 上的示例项目和文章
 
@@ -125,6 +128,5 @@ https://github.com/alesimoes/hexagonal-clean-architecture
 https://github.com/ivanpaulovich/clean-architecture-manga
 
 https://blog.allegro.tech/2020/05/hexagonal-architecture-by-example.html
-
 
 

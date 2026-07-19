@@ -30,7 +30,7 @@ private string con_str = ConfigurationManager.ConnectionStrings["access_con"].Co
 
 上面代码中的data source 中间一定要有空格，不能写成了datasource ，否则在执行程序的时候就会报错，如下：
 
-![2010-12-30_124238](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290829515.gif)
+![2010-12-30_124238](https://img.fwhyy.com/2022/202201290829515.webp)
 
 只要稍微细心点，这种错误就能够避免。
 

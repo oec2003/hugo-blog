@@ -32,25 +32,25 @@ IHelloWorldService proxy =
 
 1 在宿主的配置文件中配置元数据呢交换节点，并在行为中设置serviceMetadata，如下图：
 
-![2010-07-16_163822](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290626408.png)
+![2010-07-16_163822](https://img.fwhyy.com/2022/202201290626408.webp)
 
 2 在客户端添加服务引用时必须启动宿主。
 
 3 配置文件设置好后，启动宿主，然后再客户项目上右击选择“Add Service Reference  ”，在地址框中输入正确地址，如下图：
 
-![2010-07-16_164810](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290627453.png)
+![2010-07-16_164810](https://img.fwhyy.com/2022/202201290627453.webp)
 
 Http://localhost:10000/mex：是配置文件中的基地址http://localhost:10000加上端点地址mex组合而成。
 
 oec2003：为服务契约中设置的属性Name的值，如下图：
 
-![2010-07-16_165418](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290627963.png)
+![2010-07-16_165418](https://img.fwhyy.com/2022/202201290627963.webp)
 
 HelloWorld：为自己定义的引用到客户端的名称。
 
 4 添加服务引用后客户端的项目列表显示如下：
 
-![2010-07-16_165914](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290627665.png)
+![2010-07-16_165914](https://img.fwhyy.com/2022/202201290627665.webp)
 
 5 在客户端添加如下代码：
 

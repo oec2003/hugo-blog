@@ -34,14 +34,14 @@ tags: [hexo,插件]
 
 在 `github` 中创建一个公开项目，例如，我创建了一个名为 `hexo-comments` 的公开项目，最后项目的访问地址为：`https://github.com/oec2003/hexo-comments`
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280646715.jpg)
+![](https://img.fwhyy.com/2022/202201280646715.webp)
 （图1)
 
 ## github 设置认证
 
 打开 `https://github.com/settings/applications/new` ,进行相关设置，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280646537.jpg)
+![](https://img.fwhyy.com/2022/202201280646537.webp)
 （图2)
 
 * Application name：随便取个名称
@@ -51,19 +51,19 @@ tags: [hexo,插件]
 
 配置好后，点击 `Register application` 按钮即可。配置好后如果想要修改配置内容，可以在 `github` 中点击「右上角图标」->「Settings」->「Developer settings」->「OAuth Apps」
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280646318.jpg)
+![](https://img.fwhyy.com/2022/202201280646318.webp)
 （图3)
 
 点击右侧的 `hexo-comments` 可以查看相关的 `id` 和秘钥，在后面的配置中会用到该信息
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280647249.jpg)
+![](https://img.fwhyy.com/2022/202201280647249.webp)
 （图4)
 
 ## 安装 Gitalk
 
 在现有的hexo项目中安装 `gitalk`，执行命令 `cnpm i --save gitalk` 如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280647661.jpg)
+![](https://img.fwhyy.com/2022/202201280647661.webp)
 （图5)
 
 ## hexo 主题设置
@@ -72,7 +72,7 @@ tags: [hexo,插件]
 
 1、在 `maupassant` 主题下的 `_config.yml` 文件中添加 `gitalk` 相关配置
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280647849.jpg)
+![](https://img.fwhyy.com/2022/202201280647849.webp)
 （图6)
 
 ```
@@ -106,7 +106,7 @@ if theme.gitalk.enable == true
       gitalk.render('container')
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280648802.jpg)
+![](https://img.fwhyy.com/2022/202201280648802.webp)
 (图7)
 
 ## 发布
@@ -120,7 +120,7 @@ hexo d
 
 效果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201280648315.jpg)
+![](https://img.fwhyy.com/2022/202201280648315.webp)
 
 希望微信公众号能早日开通评论。
 

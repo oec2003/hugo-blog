@@ -19,7 +19,7 @@ NicEdit是一个轻量级，跨平台的Inline Content Editor。NicEdit能够让
 
 NicEdit是我见过最轻量级的富文本编辑器，总共就一个JS文件和一张图片
 
-![2010-09-05_102850](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301603918.png)
+![2010-09-05_102850](https://img.fwhyy.com/2022/202201301603918.webp)
 
 使用也非常简单，只需在页面中添加简单的JS代码就可以将TextBox或是TextArea控件转换成富文本编辑器，代码如下
 
@@ -44,11 +44,11 @@ head>
 
 运行效果如下
 
-![2010-09-05_104825](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301603551.png)
+![2010-09-05_104825](https://img.fwhyy.com/2022/202201301603551.webp)
 
 官网中的版本为英文版，而且字体设置也只能设置英文字体，我对英文版本做了简单的汉化，并且增加了几种中文字体，如下图
 
-![2010-09-05_104528](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301604995.png)
+![2010-09-05_104528](https://img.fwhyy.com/2022/202201301604995.webp)
 
 [中文本下载](http://files.cnblogs.com/oec2003/NICEidtor.rar)
 
@@ -64,7 +64,7 @@ KindEditor是一套开源的HTML可视化编辑器，主要用于让用户在网
 
 KindEditor相比较NicEditor涉及的文件要多很多，不过大小也才几百K而已，下图为文件结构
 
-![2010-09-05_102941](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301604810.png)
+![2010-09-05_102941](https://img.fwhyy.com/2022/202201301604810.webp)
 
 使用代码
 
@@ -94,5 +94,5 @@ head>
 
 运行效果如下
 
-![2010-09-05_110505](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201301604578.png)
+![2010-09-05_110505](https://img.fwhyy.com/2022/202201301604578.webp)
 

@@ -78,7 +78,7 @@ tags: [AngularJS, WebAPI]
 
 如果是普通的js或jQuery跨域调用，服务端进行上面的设置基本就可以了，但在Angularjs中，还是无法成功调用，通常会报下面的错误:
 
-![wpid-14520930264098](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290822742.jpg)
+![wpid-14520930264098](https://img.fwhyy.com/2022/202201290822742.webp)
 
 ## Angularjs中的设置
 

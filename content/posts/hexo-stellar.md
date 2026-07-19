@@ -31,11 +31,11 @@ tags: [Hexo,stellar,博客]
 
 1、在仓库的 Settings 的 Pages 项中进行域名的设置，如下图：
 
-![image-20220207091653060](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202070917787.png)
+![image-20220207091653060](https://img.fwhyy.com/2022/202202070917787.webp)
 
 2、在仓库的根目录下创建 CNAME 文件，内容为域名，如下图：
 
-![iShot2022-02-07 09.35.48](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202070936920.jpg)
+![iShot2022-02-07 09.35.48](https://img.fwhyy.com/2022/202202070936920.webp)
 
 ## 修改 DNSPod
 
@@ -45,7 +45,7 @@ tags: [Hexo,stellar,博客]
 
 如下图：
 
-![iShot2022-02-07 10.07.03](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202071029958.jpg)
+![iShot2022-02-07 10.07.03](https://img.fwhyy.com/2022/202202071029958.webp)
 
 ## 图床
 
@@ -61,24 +61,24 @@ tags: [Hexo,stellar,博客]
 
 2、下载 PicGo 并进行配置：
 
-![iShot2022-02-07 10.28.53](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202071029982.jpg)
+![iShot2022-02-07 10.28.53](https://img.fwhyy.com/2022/202202071029982.webp)
 
 * 仓库名：在 GitHub 中创建的公有仓库的名称 hblog-images
 * 分支名：通常为 master
 * 设定 Token：登录 GitHub ，在 Settings /  Developer settings / Personal access tokens 中生成 Token，需要注意的是生成之后Token只会出现一次，及时保存
 
-![iShot2022-02-08 06.08.35](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202080608670.jpg)
+![iShot2022-02-08 06.08.35](https://img.fwhyy.com/2022/202202080608670.webp)
 
 * 指定存储路径：随便取个名字即可，比如上面配置的为 img/ ，表示图片会上传到仓库的 img 目录中
 * 自定义域名：这里就是设置 jsdelivr 的 CDN 地址，https://cdn.jsdelivr.net/gh/oec2003/hblog-images ，格式为：https://cdn.jsdelivr.net/gh/<GitHub账号>/<仓库名称>
 
 3、在 Typora 的偏好设置中进行图片的上传服务的设置，如下图：
 
-![iShot2022-02-08 06.19.52](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202080630781.jpg)
+![iShot2022-02-08 06.19.52](https://img.fwhyy.com/2022/202202080630781.webp)
 
 4、在 Typora 中选中一张图片点击右键，选中上传图片，成功后图片的地址会自动替换，如下图：
 
-![iShot2022-02-08 06.34.40](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202080634299.jpg)
+![iShot2022-02-08 06.34.40](https://img.fwhyy.com/2022/202202080634299.webp)
 
 ## 使用 GitHub Action
 
@@ -99,15 +99,15 @@ ssh-keygen -t rsa -C "oec2003@qq.com"
 
 2、在 GitHub Page 的仓库的 Settings > Deploy keys 中添加公钥
 
-![iShot2022-02-09 06.43.44](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202090644408.jpg)
+![iShot2022-02-09 06.43.44](https://img.fwhyy.com/2022/202202090644408.webp)
 
 3、在 Hexo 代码仓库中的 Settings > Secrets > Actions 中添加私钥
 
-![iShot2022-02-09 06.47.01](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202090647980.jpg)
+![iShot2022-02-09 06.47.01](https://img.fwhyy.com/2022/202202090647980.webp)
 
 4、在 Hexo 代码仓库的 Actions 页签添加 workflow，如下图：
 
-![iShot2022-02-09 13.19.03](/Users/fengwei/Documents/my/typora-img/一款好用的Hexo博客主题/iShot2022-02-09 13.19.03.jpg)
+![iShot2022-02-09 13.19.03](https://img.fwhyy.com/2022/20220209131903.webp)
 
 5、创建的 workflow 为一个 yml 文件，内容如下：
 
@@ -173,7 +173,7 @@ jobs:
 
 1、在网站根目录的 _config.yml 文件中找到 skip_render 节点，配置 CNAME ，如下图：
 
-![iShot2022-02-09 11.35.33](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202202091135684.jpg)
+![iShot2022-02-09 11.35.33](https://img.fwhyy.com/2022/202202091135684.webp)
 
 2、在 /source 目录中创建一个文件，命名为 CNAME ，里边的内容为你的域名。例如我的域名为： http://fwhyy.com , 该文件的内容为：fwhyy.com 。
 

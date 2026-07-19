@@ -27,11 +27,11 @@ Expression Encoder3
 
 根据个人的电脑系统选择下载的安装包进行安装，如下图：
 
-![2010-04-20_161454](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302145621.png)
+![2010-04-20_161454](https://img.fwhyy.com/2022/202201302145621.webp)
 
 安装WebDAV
 
-![2010-04-20_171133](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302145136.png)
+![2010-04-20_171133](https://img.fwhyy.com/2022/202201302145136.webp)
 
 安装Smooth Streaming
 
@@ -39,19 +39,19 @@ Expression Encoder3
 
 安装好WebDAV后，打开“Internet 信息服务（iis）管理器”，新建一个Web站点TestEncoder  ，指向D://TestEncoder目录。点击新建的站点在功能区会看到“WebDAV Authoring Rules ” 选项，如下图
 
-![2010-04-20_162328](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302145071.png)
+![2010-04-20_162328](https://img.fwhyy.com/2022/202201302145071.webp)
 
 双击[WebDAV Authoring Rules ]项，右边的操作界面如下：
 
-![2010-04-20_162540](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302145211.png)
+![2010-04-20_162540](https://img.fwhyy.com/2022/202201302145211.webp)
 
 首先点击Disable WebDAV 启用WebDAV，然后点击Add Authoring Rule… 添加规则，下图仅供参考，具体设置根据实际应用来
 
-![2010-04-20_162726](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302145721.png)
+![2010-04-20_162726](https://img.fwhyy.com/2022/202201302145721.webp)
 
 再点击WebDAV Settings进行设置，如下：
 
-![2010-04-20_162950](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302141853.png)
+![2010-04-20_162950](https://img.fwhyy.com/2022/202201302141853.webp)
 
 设置好了后点击“应用”就可以了。
 
@@ -59,7 +59,7 @@ Expression Encoder3
 
 a 点击站点TestEncoder，在中间功能板块中双击“身份验证”，然后启用“windows 身份验证”。
 
-![2010-04-20_170732](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302141337.png)
+![2010-04-20_170732](https://img.fwhyy.com/2022/202201302141337.webp)
 
 b 点击站点TestEncoder，在中间功能板块中双击“目录浏览”，然后启用目录浏览。
 
@@ -67,19 +67,19 @@ b 点击站点TestEncoder，在中间功能板块中双击“目录浏览”，�
 
 1  打开Expression Encoder3 ，新建一个JOb，名为为TestWebDAV，在媒体内容区域点击“导入”从本地选择一个媒体文件。
 
-![2010-04-20_164233](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302141614.png)
+![2010-04-20_164233](https://img.fwhyy.com/2022/202201302141614.webp)
 
 2  在“编码”面板中选择输出格式为“IIS Smooth Streaming ” 。
 
-![2010-04-20_165100](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302141082.png)
+![2010-04-20_165100](https://img.fwhyy.com/2022/202201302141082.webp)
 
 3  在“输出”面板中，任意选择一个模板，这个模板是Silvelight播放器的样式的模板，选择后再下方会有一个效果的预览视频。
 
-![2010-04-20_165319](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302141363.png)
+![2010-04-20_165319](https://img.fwhyy.com/2022/202201302141363.webp)
 
 4  在“输出”面板中展开“发布”节点，设置如下图：
 
-![2010-04-20_170127](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201302141560.png)
+![2010-04-20_170127](https://img.fwhyy.com/2022/202201302141560.webp)
 
 5  在“媒体内容”面板中点击“编码”，首先是对媒体文件进行编码，编码完成后就会直接发布到先前创建的站点TestEncoder  中。通过地址[http://192.168.1.160:8080/TestWenDAV/default.html](http://192.168.1.160:8080/TestWenDAV/default.html) 可以直接访问了。
 

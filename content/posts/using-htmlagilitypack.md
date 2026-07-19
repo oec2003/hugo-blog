@@ -15,11 +15,11 @@ HtmlAgilityPack是一个开源的解析HTML元素的类库，最大的特点是�
 
 1、在项目中添加对HtmlAgilityPack.dll的引用
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290704832.jpg)
+![](https://img.fwhyy.com/2022/202201290704832.webp)
 
 2、在Aspx页面中放几个文本框控件和一个按钮控件
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290704038.jpg)
+![](https://img.fwhyy.com/2022/202201290704038.webp)
 
 3、按钮的后台事件如下
 
@@ -46,7 +46,7 @@ protected void btnHtml_Click(object sender, EventArgs e)
 
 4、以博客园的登录界面为例，获取后的界面如下
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290705365.jpg)
+![](https://img.fwhyy.com/2022/202201290705365.webp)
 
 [示例下载](http://pan.baidu.com/share/link?shareid=71500880&uk=2902808695)
 

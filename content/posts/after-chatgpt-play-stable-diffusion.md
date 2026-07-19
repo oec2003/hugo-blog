@@ -29,11 +29,11 @@ tags: [ChatGPT,效率,工具]
 
 打开 [https://beta.dreamstudio.ai/](https://beta.dreamstudio.ai/) ，直接选择使用 Google 账号进行注册，你也可以选择自己的方式。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162058979.webp)
+![](https://img.fwhyy.com/2023/202306162058979.webp)
 
 相比较 ChatGPT ，dreamstudio 的注册要方便的多，注册成功后登录界面如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162058394.webp)
+![](https://img.fwhyy.com/2023/202306162058394.webp)
 
 dreamstudio 是收费的，成功注册后会赠送 100 个 credits ，每次生成图片，会消耗一些 
 credits，消耗的多少跟设置有关，默认设置会产生 4 张 512 * 512 的图，消耗 0.8 个 credits 。
@@ -52,7 +52,7 @@ credits，消耗的多少跟设置有关，默认设置会产生 4 张 512 * 512
 
 直接在浏览器输入：https://huggingface.co/spaces/camenduru/webui 便可使用，可以不用注册登录，缺点就是需要排队，相当于就是多人在同时使用这个服务，如果排队的人较多，生成的时间会比较长。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202306162058951.webp)
+![](https://img.fwhyy.com/2023/202306162058951.webp)
 
 ## 本地化部署
 

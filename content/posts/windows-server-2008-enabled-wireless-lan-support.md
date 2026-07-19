@@ -9,11 +9,11 @@ tags: [win2008]
 
 1 打开“服务器管理器”，如下
 
-![2010-12-30_232936](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290654272.gif)
+![2010-12-30_232936](https://img.fwhyy.com/2022/202201290654272.webp)
 
 2 选择“功能”，点击“添加功能”，在弹出的向导列表中勾选“无线 LAN 服务”进行安装。
 
-![2010-12-30_233139](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290654092.gif)
+![2010-12-30_233139](https://img.fwhyy.com/2022/202201290654092.webp)
 
 3 安装成功后，无线网就可以正常使用了。
 

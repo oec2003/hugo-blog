@@ -31,7 +31,7 @@ MySQL InnoDB Cluster是 MySQL 官方提供的高可用解决方案，它基于�
 
 ## 架构图
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150900083.webp)
+![](https://img.fwhyy.com/2025/202509150900083.webp)
 
 ## 开始部署
 
@@ -41,7 +41,7 @@ MySQL InnoDB Cluster是 MySQL 官方提供的高可用解决方案，它基于�
 
 1、在服务器上创建一个目录 mysql-innodb-cluster ，目录中按照下图进行目录和文件的创建。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150901491.webp)
+![](https://img.fwhyy.com/2025/202509150901491.webp)
 
 2、docker-compose.yml 文件内容如下：
 
@@ -255,7 +255,7 @@ docker run --rm -it --network=mysql-cluster-net mysql/mysql-server:8.0 mysqlsh
 
 执行成后会进入到 MySQL JS 的 shell 界面，如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150906284.webp)
+![](https://img.fwhyy.com/2025/202509150906284.webp)
 
 在 shell 模式下逐步执行下面的代码：
 
@@ -282,11 +282,11 @@ cluster.status();
 
 节点成功添加到集群中如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150906048.webp)
+![](https://img.fwhyy.com/2025/202509150906048.webp)
 
 最后查看集群状态：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150906467.webp)
+![](https://img.fwhyy.com/2025/202509150906467.webp)
 
 输出应显示三个实例都是 `ONLINE`，其中一个角色是 `PRIMARY`，另外两个是 `SECONDARY`。
 
@@ -300,11 +300,11 @@ docker-compose up -d mysql-router
 
 router 启动成功的日志如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150907912.webp)
+![](https://img.fwhyy.com/2025/202509150907912.webp)
 
 到这 MySQL InnoDB Cluster 已经部署完成，可以使用 Navicat 之类的工具进行连接进行测试：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202509150907280.webp)
+![](https://img.fwhyy.com/2025/202509150907280.webp)
 
 使用 Navicat 时需要注意，SSL 中的使用 SSL 必须勾选。
 

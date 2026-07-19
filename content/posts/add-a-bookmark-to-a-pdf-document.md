@@ -12,15 +12,15 @@ tags:  [PDF,书签]
 
 解压后将JS文件放到PDF安装目录的Javascripts目录中
 
-![2010-12-30_220415](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292104370.gif)
+![2010-12-30_220415](https://img.fwhyy.com/2022/202201292104370.webp)
 
 打开编辑-》首选项，选择左边的javascript，勾选右侧的“启用Acrobat Javascript  ”
 
-![2010-12-30_220451](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292104692.gif)
+![2010-12-30_220451](https://img.fwhyy.com/2022/202201292104692.webp)
 
 确定后，再打开视图菜单，会发现下面多了“设置本页为书签”等四项，这样我们可以给一些重要的页添加书签，然后使用“转到指定书签”方便的定位到相关页。
 
-![2010-12-30_220536](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201292104119.gif)
+![2010-12-30_220536](https://img.fwhyy.com/2022/202201292104119.webp)
 
 通过最近一段时间阅读电子书发现，英文版大多比中文版做的好，一般多会有目录，中文版，特别是扫面的中文版电子书大多都没目录，这时给电子书设置书签就显得尤为重要了。
 

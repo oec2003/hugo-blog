@@ -41,7 +41,7 @@ KubeSphere 能在 Kubernetes 基础上构建的更完整的云原生全栈解决
 1、节点必须能够通过 SSH 连接。
 2、节点上可以使用 sudo/cur1/openss1 命令。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281458084.webp)
+![](https://img.fwhyy.com/2024/202405281458084.webp)
 
 ### 安装  Docker
 
@@ -88,11 +88,11 @@ yum -y install socat conntrack ebtables ipset
 
 1、请确保 /etc/resolv.conf 中的 DNS 地址可用，否则，可能会导致集群中的 DNS 出现问题。使用命令：cat /etc/resolv.conf 查看：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281459221.webp)
+![](https://img.fwhyy.com/2024/202405281459221.webp)
 
 也可以使用命令  nslookup www.baidu.com 进行测试，出现下图说明正常：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281459706.webp)
+![](https://img.fwhyy.com/2024/202405281459706.webp)
 
 2、关闭防火墙。
 
@@ -105,11 +105,11 @@ systemctl disable firewalld
 
 3、检查 SELinux 是否关闭，输入命令 sestatus 进行查看：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281459949.webp)
+![](https://img.fwhyy.com/2024/202405281459949.webp)
 
 上图中是开启状态，编辑配置文件：vi /etc/selinux/config ：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281459501.webp)
+![](https://img.fwhyy.com/2024/202405281459501.webp)
 
 修改完成后，重启服务器生效。
 
@@ -129,7 +129,7 @@ curl -sfL https://get-kk.kubesphere.io | VERSION=v3.0.13 sh -
 
 成功后如下图，并在当前目录中有一个绿色的  kk  目录：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281459590.webp)
+![](https://img.fwhyy.com/2024/202405281459590.webp)
 
 如果  kk  目录的权限不够，需要使用下面命令进行授权：
 
@@ -141,7 +141,7 @@ chmod +x kk
 
 1、在  root 目录中输入 ./kk ，可以看到一些常用的命令和不同的安装方式说明：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281459038.webp)
+![](https://img.fwhyy.com/2024/202405281459038.webp)
 
 2、下面命令是同时安装  k8s  和 kubesphere，安装前会先进行环境的检查：
 
@@ -149,15 +149,15 @@ chmod +x kk
 ./kk create cluster --with-kubernetes v1.22.12 --with-kubesphere v3.4.0
 ```
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281500944.webp)
+![](https://img.fwhyy.com/2024/202405281500944.webp)
 
 安装中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281500256.webp)
+![](https://img.fwhyy.com/2024/202405281500256.webp)
 
 最后的安装  kubesphere  要等待很久：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281500263.webp)
+![](https://img.fwhyy.com/2024/202405281500263.webp)
 
 关键是等了很长的时间，也没有得到安装成功的提示，查询后得知可能是 CentOS 系统版本中的依赖跟 KubeKey 有冲突导致，我使用的是：CentOS Linux release 7.4.1708 (Core) ，**建议使用 CentOS 7.9 **。
 
@@ -169,19 +169,19 @@ chmod +x kk
 
 可以通过下面设置解决：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281500854.webp)
+![](https://img.fwhyy.com/2024/202405281500854.webp)
 
 4、CentOS 7.9 安装好后，按照上面的步骤重新安装了一遍，这一次安装成功，kubesphere 的访问地址和用户名密码都会在安装成功的提示中输出：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281500157.webp)
+![](https://img.fwhyy.com/2024/202405281500157.webp)
 
 5、登录后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281501179.webp)
+![](https://img.fwhyy.com/2024/202405281501179.webp)
 
 6、特别注意，虚拟机的配置至少 4 核、8gb 内存，我一开始只给了 2 核（默认），运行后，监控中的有些节点是不能正常启动的，当调整为 4 核后，就都正常了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281505331.webp)
+![](https://img.fwhyy.com/2024/202405281505331.webp)
 
 ## KubeSphere 使用
 
@@ -203,54 +203,54 @@ kubectl get nodes
 
 1、在工作负载中添加有状态副本集，填写基本信息：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281624747.webp)
+![](https://img.fwhyy.com/2024/202405281624747.webp)
 
 2、进行容器设置，首先选择容器，可以直接输入 mysql 进行搜索，然后选择需要安装的数据库版本：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281624575.webp)
+![](https://img.fwhyy.com/2024/202405281624575.webp)
 
 3、设置环境变量，时区、root 密码等：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281624605.webp)
+![](https://img.fwhyy.com/2024/202405281624605.webp)
 
 4、配置存储挂载：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281625187.webp)
+![](https://img.fwhyy.com/2024/202405281625187.webp)
 
 5、挂载配置文件：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281626873.webp)
+![](https://img.fwhyy.com/2024/202405281626873.webp)
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281626700.webp)
+![](https://img.fwhyy.com/2024/202405281626700.webp)
 
 6、使用前需要创建服务，当我们创建一个有状态的副本集后，默认创建了一个服务：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281626894.webp)
+![](https://img.fwhyy.com/2024/202405281626894.webp)
 
 默认是集群内部访问，在容器的控制台使用 DNS 名称，可以进行登录：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281626782.webp)
+![](https://img.fwhyy.com/2024/202405281626782.webp)
 
 7、如果需要外部访问，需要创建一个服务，选择指定工作负载：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281627474.webp)
+![](https://img.fwhyy.com/2024/202405281627474.webp)
 
 8、按照下图所示找到有状态副本集进行指定：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281628907.webp)
+![](https://img.fwhyy.com/2024/202405281628907.webp)
 
 9、配置服务名称和端口：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281629934.webp)
+![](https://img.fwhyy.com/2024/202405281629934.webp)
 
 10、设置访问模式：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281630531.webp)
+![](https://img.fwhyy.com/2024/202405281630531.webp)
 
 11、外部访问，注意服务创建后，会生成一个外部访问的端口
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281630064.webp)
+![](https://img.fwhyy.com/2024/202405281630064.webp)
 
 12、使用客户端工具连接：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202405281631262.webp)
+![](https://img.fwhyy.com/2024/202405281631262.webp)

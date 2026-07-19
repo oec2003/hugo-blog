@@ -9,7 +9,7 @@ URL重写有很多的好处，如有利于SEO、便于记忆、隐藏真实路�
 
 1 打开VS2010，创建一个AspNet项目命名为UrlRewriterDemo。
 
-![2010-07-27_100812](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300727900.png)
+![2010-07-27_100812](https://img.fwhyy.com/2022/202201300727900.webp)
 
 可以看到AspNet4中的项目结构有点类似AspNet MVC ，加了很多现成的东西，只需稍加修改就可以变成一个简单的个人站点。
 
@@ -51,7 +51,7 @@ void Application_Start(object sender, EventArgs e)
 
 5 将该项目设置为固定端口，比如10000，按F5运行项目，将URL地址修改为http://localhost:10000/products，此处的products为URL重写规则中配置的名称。运行结果如下：
 
-![2010-07-27_104717_thumb](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300727307.png)
+![2010-07-27_104717_thumb](https://img.fwhyy.com/2022/202201300727307.webp)
 
 6 我们在RegisterRoutes中配置了默认参数值category和name，如需要在页面中获取参数值，可以使用RouteData.Values，将test.aspx页面代码修改如下：
 
@@ -66,7 +66,7 @@ void Application_Start(object sender, EventArgs e)
 
 7 刷新页面可以看到在RegisterRoutes中配置的默认值会呈现在页面上：
 
-![2010-07-27_111408](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300728509.png)
+![2010-07-27_111408](https://img.fwhyy.com/2022/202201300728509.webp)
 
 8 将URL修改为http://localhost:10000/products/computer/thinkpad，再刷新页面可以看到页面中呈现的是URL中设置的分类名和产品名:
 

@@ -34,17 +34,17 @@ https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf
 
 浏览器访问这个地址：https://chat.deepseek.com/ ，手机号或者微信注册，登录后如下图：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071551961.webp)
+![](https://img.fwhyy.com/2025/202502071551961.webp)
 
 深度思考后面括号里写的是 R1，说明使用的是 R1 模型，深度思考和联网搜索可以同时勾选，比如我让评价射雕的电影，可以看到 DeepSeek 先搜索网页，再进行深度思考，思考过程也会显示在页面中：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071552247.webp)
+![](https://img.fwhyy.com/2025/202502071552247.webp)
 
 ### APP
 
 DeepSeek 最近推出了移动端，网页版的左下角有下载二维码。抛开最近的稳定性不谈，可以免费在电脑和手机上使用 R1 模型，已经非常良心了。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071552601.webp)
+![](https://img.fwhyy.com/2025/202502071552601.webp)
 
 ### 本机部署
 
@@ -52,25 +52,25 @@ DeepSeek 最近推出了移动端，网页版的左下角有下载二维码。�
 
 在 ollama 的网站上可以搜索到 DeepSeek R1 模型：https://ollama.com/search?q=DeepSeek
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071553848.webp)
+![](https://img.fwhyy.com/2025/202502071553848.webp)
 
 可以看到从 1.5b 到 671b 的都有。下面使用 `ollama run deepseek-r1:7b` 来运行 7b 的模型，使用 run 命令时如果本地没有这个模型会先自动进行下载。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071553258.webp)
+![](https://img.fwhyy.com/2025/202502071553258.webp)
 
 虽然 7b 的模型知识储备还有点弱，但 R1 的思考能力已经具备了：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071553750.webp)
+![](https://img.fwhyy.com/2025/202502071553750.webp)
 
 ### 调用 API
 
 1、在 DeepSeek 官网（https://www.deepseek.com/）点击右上角的「API 开放平台」：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071554630.webp)
+![](https://img.fwhyy.com/2025/202502071554630.webp)
 
 2、登录后在左侧菜单「API Keys」中创建一个新的 key：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071555454.webp)
+![](https://img.fwhyy.com/2025/202502071555454.webp)
 
 现在已经暂停了 API 服务的充值。
 
@@ -137,7 +137,7 @@ poetry run flask --app webapi run --debug
 
 5、在 postman 中调用的结果如下：
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071559285.webp)
+![](https://img.fwhyy.com/2025/202502071559285.webp)
 
 因为我没有充值，提示余额不足，说明调用 DeepSeek API 是成功的。
 
@@ -145,7 +145,7 @@ poetry run flask --app webapi run --debug
 
 R1 模型虽然强悍，但随着春节期间的火爆，使用人数的突增（攻击），现在变得不太稳定，经常会出现“服务器繁忙，请稍后再试。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071600050.webp)
+![](https://img.fwhyy.com/2025/202502071600050.webp)
 
 这种频繁的稍后重试体验非常不好，我们也可以采取一些其他措施：
 
@@ -157,7 +157,7 @@ R1 模型虽然强悍，但随着春节期间的火爆，使用人数的突增�
 
 4、使用 chatbox 调用硅基流动的 R1 API 接口，硅基流动自己部署的 R1 模型，这个方案现在应该知道的人比较多，刚看到 R1 模型的介绍里添加了：2025 年 2 月 6 日起，未实名用户每日最多请求此模型 100 次。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202502071559589.webp)
+![](https://img.fwhyy.com/2025/202502071559589.webp)
 
 5、在 Windsurf 中使用 DeepSeek 的 R1 模型。
 

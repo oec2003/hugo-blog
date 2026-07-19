@@ -26,7 +26,7 @@ AutoComplete控件就是在用户在文本框输入前几个字母或是汉字�
 打开vs2005创建一个AjaxControlToolKit网站。
 在网站的App_Data文件夹下添加文本文件TextFile.txt,并在其中添加数据，如下
 
-![2010-12-30_191105](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201290818209.gif)
+![2010-12-30_191105](https://img.fwhyy.com/2022/202201290818209.webp)
 
 在网站的根目录下添加一个Web服务，命名为oec2003_AutoComplete，系统自动将Web服务两个部分，设计部分oec2003_AutoComplete.asmx和代码部分oec2003_AutoComplete.cs，其中oec2003_AutoComplete.cs文件自动放入到App_Code目录下。打开oec2003_AutoComplete.cs文件，添加获取数据的方法GetCompleteList,代码如下：
 

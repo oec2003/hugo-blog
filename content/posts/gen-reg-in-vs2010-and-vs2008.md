@@ -16,5 +16,5 @@ Console.ReadLine();
 
 上面代码的本意是在注册表中创建`HKEY_LOCAL_MACHINE\SOFTWARE\FW\UserInfo` 节点，在32位机器中没有什么问题，可以正常的生产节点，但在64位机器上，不同的VS版本，使用不同的编译模式，会产生不一样的结果。
 
-![](https://cdn.jsdelivr.net/gh/oec2003/hblog-images/img/202201300649603.jpg)
+![](https://img.fwhyy.com/2022/202201300649603.webp)
 
