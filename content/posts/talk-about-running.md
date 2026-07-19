@@ -3,7 +3,10 @@ title: 谈谈跑步
 date: 2021-06-01T08:05:00+08:00
 categories: [跑步]
 tags: [跑步]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 开始与坚持
+series_order: 130
 ---
 
 跑步是非常简单的一项运动，没有场地限制，也没有装备限制，只需要迈开双腿就可以，而且还可以减肥、解压，本文就和大家聊聊跑步。

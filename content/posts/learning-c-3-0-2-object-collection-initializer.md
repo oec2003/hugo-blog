@@ -3,6 +3,10 @@ title: C#3.0学习(2)—对象集合初始化器
 date: 2008-02-25
 categories: [技术]
 tags: [C#,DotNet3.0]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: C# 3.0
+series_order: 140
 ---
 
 创建一个对象时可以包含一个对象初始化器或集合初始化器，用于初始化所创建对象的成员或新创建的集合的元素。使用初始化器可以让我们的代码变得更简洁。
@@ -143,4 +147,3 @@ var oec2003infos= new List<Oec2003Info>
     }
 };
 ```
-

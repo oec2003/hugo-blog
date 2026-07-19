@@ -3,6 +3,10 @@ title: .NET8 正式发布， C#12  新变化
 date: 2023-11-17T16:38:50+08:00
 categories: [技术]
 tags: [DotNet,dotNet8,C#]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: 现代 C#
+series_order: 190
 ---
 
 在  .NET Conf  2023  大会上，.NET 8 正式发布了，.NET 8 是一个长期支持（LTS）版本，这意味着可以获得三年的支持和补丁。我们也计划将框架从 .NET Core3.1 升级到 8 ，关于如何升级等升级完成后再来分享。
@@ -321,7 +325,6 @@ internal class UserB : IUser
 }
 
 ```
-
 
 
 

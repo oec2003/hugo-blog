@@ -3,9 +3,40 @@ menu_id: about
 title: 关于
 ---
 
-## 公众号
+## 找到我
 
-![不止dotNET 公众号](https://img.fwhyy.com/2023/202306161650627.webp)
+<p class="about-social-intro">写代码，也记录跑步、旅行和生活。你可以在这些地方找到我。</p>
+
+<div class="about-social-grid">
+  <a class="about-social-card" href="https://github.com/oec2003" target="_blank" rel="noopener noreferrer">
+    <span class="about-social-platform">GitHub</span>
+    <strong>@oec2003</strong>
+    <span class="about-social-description">代码、开源项目与技术实验</span>
+    <span class="about-social-action">访问主页</span>
+  </a>
+  <a class="about-social-card" href="https://x.com/oec2003" target="_blank" rel="noopener noreferrer">
+    <span class="about-social-platform">Twitter / X</span>
+    <strong>@oec2003</strong>
+    <span class="about-social-description">随手记录与公开交流</span>
+    <span class="about-social-action">访问主页</span>
+  </a>
+  <div class="about-social-card about-social-card-code about-social-card-xiaohongshu">
+    <div class="about-social-card-copy">
+      <span class="about-social-platform">小红书</span>
+      <strong>@oec2003</strong>
+      <span class="about-social-description">跑步、旅行与生活片段</span>
+    </div>
+    <img class="about-social-code about-social-xiaohongshu" src="/images/about/xiaohongshu-oec2003.jpg" alt="小红书账号 oec2003 分享码" loading="lazy" decoding="async">
+  </div>
+  <div class="about-social-card about-social-card-code about-social-card-wechat">
+    <div class="about-social-card-copy">
+      <span class="about-social-platform">微信公众号</span>
+      <strong>不止dotNET</strong>
+      <span class="about-social-description">长按或使用微信扫码关注</span>
+    </div>
+    <img class="about-social-code about-social-wechat" src="/images/about/wechat-buzhi-dotnet.jpg" alt="不止dotNET 公众号二维码" loading="lazy" decoding="async">
+  </div>
+</div>
 
 
 ## 爱好
@@ -28,9 +59,6 @@ title: 关于
   <div class="timeline-item"><time>2010 年 12 月</time><p>申请域名fwhyy.com</p></div>
   <div class="timeline-item"><time>2006 年 12 月</time><p>开始在博客园写第一篇博客</p></div>
 </div>
-
-
-
 
 
 

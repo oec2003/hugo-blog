@@ -2,6 +2,10 @@
 title: 设计模式笔记(22)—状态模式（行为型）
 date: 2010-01-28
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 220
 tags: [C#,设计模式]
 ---
 
@@ -165,4 +169,3 @@ class Program
 * 如果State对象没有实例变量，那么各个上下文可以共享同一个State对象，从而节省对象开销。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

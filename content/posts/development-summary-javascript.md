@@ -3,6 +3,10 @@ title: 开发总结—Javascript篇
 date: 2008-05-25
 categories: [技术]
 tags: [javascript,小技巧]
+topic: programming-language
+series_chapter: 第五章 JavaScript
+series_section: 语法与常用技巧
+series_order: 510
 ---
 
 本文是我在平时工作中所遇到的javascript方面的一些知识总结，主要针对在asp.net中使用脚本。
@@ -251,6 +255,5 @@ function IsURL(url)
 ```
 
 不断更新中……
-
 
 

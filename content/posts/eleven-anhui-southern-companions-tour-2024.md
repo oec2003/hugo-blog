@@ -3,7 +3,10 @@ title: 十一皖南结伴行（2024）
 date: 2024-10-09T21:35:00+08:00
 categories: [旅行]
 tags: [旅行,十一]
-topic: travel
+topic: on-the-road
+series_chapter: 第二章 旅行
+series_section: ""
+series_order: 540
 ---
 按照惯例，十一会自驾出行，和以往不同的是，这次有小伙伴一起。以前的老同事一家也加入了我们，他们有一个女儿，比我女儿小一岁，这让女儿多了一个玩伴，使整个旅途充满了更多的乐趣。
 

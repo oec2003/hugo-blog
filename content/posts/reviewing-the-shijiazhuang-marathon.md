@@ -3,7 +3,10 @@ title: 复盘石家庄全马（PB 80 分钟）
 date: 2024-04-09T08:24:34+08:00
 categories: [跑步]
 tags: [跑步, 石家庄全马,马拉松,PB]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 马拉松与复盘
+series_order: 220
 ---
 
 马拉松是极限运动，尤其是全马。
@@ -111,4 +114,3 @@ topic: run
 3、赛前长距离很重要，除了能了解到在 30 公里后的身体状况，还能提升自信心。
 
 4、心态很重要，适当降低预期，会带来意想不到的效果。
-

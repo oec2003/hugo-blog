@@ -3,7 +3,10 @@ title: 2014 年终总结
 date: 2015-02-19
 categories: [思考]
 tags: [总结,年终总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 960
 ---
 
 本文已是今年写的第三篇总结了，为了得[池大大](http://macshuo.com/)的一本书写了第一篇总结，还好结果还算不错，《[第一本Docker书](http://book.douban.com/subject/26285268/)》已在邮寄的途中；第二篇是公司要求写的个人总结。本篇还是以生活和工作两方面来写下2014年的点点滴滴。
@@ -49,4 +52,3 @@ topic: year-summary
 4、2015年冠上了产品部经理的头衔，15年要带领团队好好做产品；
 
 5、团队建设。
-

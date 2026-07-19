@@ -2,6 +2,10 @@
 title: 设计模式笔记(6)—原型模式（创建型）
 date: 2009-11-24
 categories: [技术]
+topic: design-pattern
+series_chapter: 第二章 创建型模式
+series_section: ""
+series_order: 60
 tags: [C#,设计模式]
 ---
 
@@ -139,4 +143,3 @@ public class App
 * Prototype模式中的克隆方法可以利用Net中的Object类的MemberwiseClone方法或是序列化来实现深拷贝。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

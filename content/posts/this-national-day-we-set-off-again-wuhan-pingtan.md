@@ -3,7 +3,10 @@ title: 这个国庆，又出发了（武汉-平潭）
 date: 2023-10-09T09:40:37+08:00
 categories: [旅行]
 tags: [自驾,旅行,平潭,景德镇]
-topic: travel
+topic: on-the-road
+series_chapter: 第二章 旅行
+series_section: ""
+series_order: 530
 ---
 
 国庆长假结束了。在这个长假里，三个人一台车又出发了。

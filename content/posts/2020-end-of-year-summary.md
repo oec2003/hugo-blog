@@ -3,7 +3,10 @@ title: 2020 年终总结
 date: 2021-02-12T08:30:00+08:00
 categories: [思考]
 tags: [年终总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 990
 ---
 
 2020 年是很特殊的一年，也是过得最快的一年。

@@ -1,4 +1,5 @@
 {{- $current := .current -}}
+{{- $reader := .reader | default false -}}
 {{- $pages := .pages.ByParam "series_order" -}}
 {{- $chapterStore := newScratch -}}
 {{- $chapterKeys := slice -}}
@@ -25,7 +26,7 @@
         {{- range $pageIndex, $seriesPage := . }}
           {{- $active := and $current (eq $seriesPage.RelPermalink $current.RelPermalink) }}
           <li>
-            <a{{ if $active }} class="active" aria-current="page"{{ end }} href="{{ $seriesPage.RelPermalink }}">
+            <a{{ if $active }} class="active" aria-current="page"{{ end }} href="{{ $seriesPage.RelPermalink }}{{ if $reader }}?from=topic{{ end }}">
               <span class="series-index">{{ add $chapterIndex 1 }}.{{ add $pageIndex 1 }}</span>
               <span>{{ $seriesPage.Title }}</span>
             </a>
@@ -57,7 +58,7 @@
               {{- range $pageIndex, $seriesPage := $pagesInSection }}
               {{- $active := and $current (eq $seriesPage.RelPermalink $current.RelPermalink) }}
               <li>
-                <a{{ if $active }} class="active" aria-current="page"{{ end }} href="{{ $seriesPage.RelPermalink }}">
+                <a{{ if $active }} class="active" aria-current="page"{{ end }} href="{{ $seriesPage.RelPermalink }}{{ if $reader }}?from=topic{{ end }}">
                   <span class="series-index">{{ add $chapterIndex 1 }}.{{ $sectionNumber }}.{{ add $pageIndex 1 }}</span>
                   <span>{{ $seriesPage.Title }}</span>
                 </a>

@@ -3,6 +3,10 @@ title: 从环境搭建到项目运行：Python 和 Flask 快速上手指南
 date: 2025-01-07T20:27:00+08:00
 categories: [技术]
 tags: [Python,Flask]
+topic: programming-language
+series_chapter: 第六章 Python
+series_section: ""
+series_order: 610
 ---
 最近在研究 RAG，免不了会使用到 Python，本文简单介绍下 Python 从环境的搭建到运行一个简单的 Web 项目。
 

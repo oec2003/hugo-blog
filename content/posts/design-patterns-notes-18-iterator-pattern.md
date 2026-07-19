@@ -2,6 +2,10 @@
 title: 设计模式笔记(18)—迭代器模式（行为型）
 date: 2010-01-24
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 180
 tags:  [C#,设计模式]
 ---
 
@@ -194,4 +198,3 @@ while (i.MoveNext())
 * 迭代器的健壮性考虑：遍历的同时更改迭代器所在的集合结构，会导致问题。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

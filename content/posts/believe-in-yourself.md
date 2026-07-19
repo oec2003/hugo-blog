@@ -3,6 +3,10 @@ title: 要相信自己
 date: 2010-04-22
 categories: [成长]
 tags: [心情日记]
+topic: on-the-road
+series_chapter: 第三章 成长与思考
+series_section: 坚持与自律
+series_order: 620
 ---
 
 尽管现在是处在一个陌生的城市
@@ -24,4 +28,3 @@ tags: [心情日记]
 
 一起加油
 我们的未来会很精彩
-

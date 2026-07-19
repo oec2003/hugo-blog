@@ -3,6 +3,10 @@ title: 书籍推荐：《More Effective C#》
 date: 2019-06-24T06:31:53+08:00
 categories: [读书]
 tags: [C#,读书,书籍推荐]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 延伸阅读
+series_order: 370
 ---
 
 很多年前看过Bill Wagner的《Effective C#》第一版，涵盖了C#2.0相关语言特性的最佳实践，教我们怎样更优雅地去编写C#代码，当时觉得受益匪浅。最近拿到了《More Effective C#》第二版，目前看了大概三分之二，让我对C#的的应用有了更深入的了解，书虽没看完，但还是要推荐一下。
@@ -81,4 +85,3 @@ Task<string> LoadMessageAsync()
 * 好处是，如果LoadMessage方法的参数有问题，可以提前抛出异常，而不是等待异步方法执行时
 
 本文是我阅读到现在的一个最直观的感受，书中的内容我在理解、消化并进行实践后会继续分享出来。总之，好书是需要反复阅读的，直到看到某一小节的名称便能说出它的来龙去脉，才是真正的掌握。
-

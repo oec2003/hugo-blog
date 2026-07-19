@@ -2,6 +2,10 @@
 title: 设计模式笔记(15)—命令模式（行为型）
 date: 2009-12-30
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 150
 tags: [C#,设计模式]
 ---
 
@@ -230,4 +234,3 @@ class Program
 * Command模式与C#中的Delegate有些类似。但两者定义行为接口的规范有所区别：Command以面向对象中的“接口-实现”来定义行为接口规范，更严格，更符合抽象原则；Delegate以函数签名来定义行为接口规范，更灵活，但抽象能力比较弱。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

@@ -2,6 +2,10 @@
 title: 设计模式笔记(4)—生成器模式（创建型）
 date: 2009-11-21
 categories: [技术]
+topic: design-pattern
+series_chapter: 第二章 创建型模式
+series_section: ""
+series_order: 40
 tags: [C#,设计模式]
 ---
 
@@ -121,4 +125,3 @@ public class App
 Builder模式主要用户“分步骤构建一个复杂的对象”。在这其中“分步骤”是一个稳定的算法，而复杂对象的各个部分经常变化。变化点在哪里，封装哪里—Builder模式主要在于应对“复杂对象各个部分”的频繁需求变动。其缺点在于难以应对“分步骤构建算法”的需求变动。Abstract Factory模式解决“系列对象”的需求变化，Builder模式解决“对象部分”的需求变化。Builder模式通常和Composite模式组合使用。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

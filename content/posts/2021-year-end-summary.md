@@ -3,7 +3,10 @@ title: 2021 年终总结
 date: 2022-02-01T21:14:11+08:00
 categories: [思考]
 tags: [年终总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 1000
 ---
 
 年龄越大，会觉得时间过得越快，2021 年已经结束。

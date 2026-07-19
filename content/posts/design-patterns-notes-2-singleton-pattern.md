@@ -2,6 +2,10 @@
 title: 设计模式笔记(2)—单件模式（创建型）
 date: 2009-11-19
 categories: [技术]
+topic: design-pattern
+series_chapter: 第二章 创建型模式
+series_section: ""
+series_order: 20
 tags: [C#,设计模式]
 ---
 
@@ -240,4 +244,3 @@ Singleton模式的几个要点：
 * Singleton模式只考虑到对象创建的管理，没有考虑到对象销毁的管理，对支持垃圾回收的平台来讲，没有必要对销毁进行特殊的管理。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

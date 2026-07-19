@@ -3,6 +3,10 @@ title: Go 学习：那些不一样的知识点（下）
 date: 2022-10-01T08:21:16+08:00
 categories: [技术]
 tags: [golang]
+topic: programming-language
+series_chapter: 第四章 Go 语言
+series_section: 入门与语法
+series_order: 430
 ---
 
 在上一篇《Go 学习：那些不一样的知识点（上）》中已经提到了 10 个 Go 语言中有特点的地方，本文继续介绍一些 Go 语言中语法或使用方式比较独特的知识点。

@@ -2,6 +2,10 @@
 title: 设计模式笔记(20)—职责链模式（行为型）
 date: 2010-01-27
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 200
 tags: [C#,设计模式]
 ---
 
@@ -154,4 +158,3 @@ class Program
 * 如果请求传递到职责链的末尾仍得不到处理，应该有一个合理的缺省机制。这也是每一个接受对象的责任，而不是发出请求的对象的责任
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

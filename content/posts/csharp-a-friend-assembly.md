@@ -3,6 +3,10 @@ title: C#:友元程序集
 date: 2010-11-15
 categories: [技术]
 tags: [C#,友元程序集]
+topic: programming-language
+series_chapter: "第二章 C# 核心机制"
+series_section: 泛型与程序集
+series_order: 280
 ---
 
 C#中的访问修饰符Internal可以说是介于Public和Private之间，可以使类型在同程序集中可以被互相访问。但有时会有这样的需求，我们希望一个程序集中的类型可以被外部的某些程序集可以访问，这时当然不能设置成Public，否则可以被所有的外部程序集访问。要达到上述要求我们可以使用友元程序集。
@@ -58,4 +62,3 @@ namespace TestB
 7 现在在项目TestA的类A中就可以访问TestB项目的类B了。
 
 ![2010-11-14_181324](https://img.fwhyy.com/2022/202201290808258.webp)
-

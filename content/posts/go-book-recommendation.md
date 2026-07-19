@@ -3,7 +3,10 @@ title: 系统学习还是得看书，Go 书籍推荐
 date: 2022-10-08T08:21:16+08:00
 categories: [技术]
 tags: [golang]
-topic: golang
+topic: programming-language
+series_chapter: 第四章 Go 语言
+series_section: 延伸阅读
+series_order: 450
 ---
 
 想要更系统地学习编程语言，看书是比较有效的途径之一。最近又学习了下 Go 语言，为什么是又，因为 2013 年买过许式伟大佬翻译的一本 Go 语言书籍，但没有系统学下去，现在想想原因可能是这本书过于严肃，没那么有趣，还有就是当时对编程语言的理解也没那么深。

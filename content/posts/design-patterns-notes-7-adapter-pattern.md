@@ -2,6 +2,10 @@
 title: 设计模式笔记(7)—适配器模式（结构型）
 date: 2009-11-26
 categories: [技术]
+topic: design-pattern
+series_chapter: 第三章 结构型模式
+series_section: ""
+series_order: 70
 tags: [C#,设计模式]
 ---
 
@@ -194,4 +198,3 @@ public class App
 * Adapter模式本身要求我们尽可能地使用“面向接口的编程”风格，这样才能在后期方便适配。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

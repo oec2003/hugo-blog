@@ -3,6 +3,10 @@ title: C#/Net代码精简优化技巧（3）
 date: 2010-11-10
 categories: [技术]
 tags: [C#, 小技巧]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 代码精简与优化
+series_order: 360
 ---
 
 前面两篇中已经介绍了10个小技巧，本篇是本次系列的最后一篇，将再介绍5个。这些小技巧看着并不起眼，有些您可能知道，但在平时的开发中可能由于惯性并没有去使用。所以建议大家掌握并去使用这些小技巧，他们将使我们的代码变得更简洁和易于维护。
@@ -224,4 +228,3 @@ new Cache<int>(item => DateTime.Now - item.LastAccess > TimeSpan.FromSeconds(30)
 [C#/Net代码精简优化技巧（1）](http://blog.fwhyy.com/2010/10/csharp-net-code-concise-optimization-techniques-1/)
 [C#/Net代码精简优化技巧（2）](http://blog.fwhyy.com/2010/10/csharp-net-code-concise-optimization-techniques-2/)
 C#/Net代码精简优化技巧（3）
-

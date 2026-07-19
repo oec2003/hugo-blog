@@ -3,6 +3,10 @@ title: 带你了解C#每个版本新特性
 date: 2019-06-16T14:19:33+08:00
 categories: [技术]
 tags: [C#]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: 版本与新特性
+series_order: 120
 ---
 
 上学时学习C#和.NET，当时网上的资源不像现在这样丰富，所以去电脑城买了张盗版的VS2005的光盘，安装时才发现是VS2003，当时有一种被坑的感觉，但也正是如此，让我有了一个完整的.NET的学习生涯。
@@ -807,4 +811,3 @@ static async Task Main()
 本文所涉及到的实例代码后面也会上传到Github上。
 
 希望本文对您有所帮助。
-

@@ -2,6 +2,10 @@
 title: 设计模式笔记(16)—解释器模式（行为型）
 date: 2010-01-19
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 160
 tags: [C#,设计模式]
 ---
 
@@ -235,4 +239,3 @@ class Program
 * Interpreter模式比较适合简单的文法表示，对于复杂的文法表示，Interperter模式会产生比较大的类层次结构，需要求助于语法分析生成器这样的标准工具。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

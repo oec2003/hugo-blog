@@ -2,6 +2,10 @@
 title: 设计模式笔记(23)—策略者模式（行为型）
 date: 2010-01-31
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 230
 tags: [C#,设计模式]
 ---
 
@@ -144,4 +148,3 @@ class Program
 * 与State类似，如果Strategy对象没有实例变量，那么各个上下文可以共享同一个Strategy对象，从而节省对象开销。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

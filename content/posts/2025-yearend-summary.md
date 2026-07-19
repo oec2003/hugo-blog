@@ -3,6 +3,10 @@ title: 2025 年终总结
 date: 2026-02-17T02:16:00+08:00
 categories: [思考]
 tags: [总结,思考]
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 1040
 ---
 岁月匆匆，华章日新，今年春节比较晚，现在 26 年都已经过了快 2 个月了。还是来对 2025 年做下总结吧。
 

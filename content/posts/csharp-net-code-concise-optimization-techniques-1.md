@@ -3,6 +3,10 @@ title: C#/Net代码精简优化技巧（1）
 date: 2010-10-21
 categories: [技术]
 tags: [C#, 小技巧]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 代码精简与优化
+series_order: 340
 ---
 
 在我们写代码的时候可以使用一些小的技巧来使代码变得更加简洁，易于维护和高效。下面介绍几种在C#/Net中非常有用的一些编程技巧。
@@ -196,4 +200,3 @@ PerformRemoteWork(TimeSpan.FromMilliseconds(50));
 C#/Net代码精简优化技巧（1）
 [C#/Net代码精简优化技巧（2）](http://blog.fwhyy.com/2010/10/csharp-net-code-concise-optimization-techniques-2/)
 [C#/Net代码精简优化技巧（3）](http://blog.fwhyy.com/2010/10/csharp-net-code-concise-optimization-techniques-1/)
-

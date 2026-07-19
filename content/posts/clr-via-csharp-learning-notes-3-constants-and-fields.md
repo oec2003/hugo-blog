@@ -3,6 +3,10 @@ title: CLR Via C# 学习笔记（3） 常量和字段（const readonly）
 date: 2009-06-22
 categories: [技术]
 tags: [CLR via C#, DotNet]
+topic: programming-language
+series_chapter: "第二章 C# 核心机制"
+series_section: CLR、类型与成员
+series_order: 230
 ---
 
 > 《CLR Via C#》这本书以前就粗略看过两遍，但一直都没能深入理解，而且很多内容也忘记了，现在准备重新看一遍，并将看过的部分写出来，因为写的过程也是一个加深理解的过程。本系列算是学习的一个记录吧，也可以方便以后自己查阅，如果对大家还有些帮助的话，我就很高兴了。书我是选择性的看的，所以顺序和书中的顺序可能不一样。
@@ -187,4 +191,3 @@ CLR Via C# 学习笔记（3） 常量和字段
 [CLR Via C# 学习笔记（4） 方法 构造函数](http://blog.fwhyy.com/2009/07/clr-via-csharp-learning-notes-5-methods-the-constructor/)
 [CLR Via C# 学习笔记（5） 静态构造函数的性能](http://blog.fwhyy.com/2009/07/clr-via-csharp-learning-notes-5-the-performance-of-the-static-constructor/)
 [CLR Via C# 学习笔记（6） 方法参数相关（out ref params）](http://blog.fwhyy.com/2009/07/clr-via-csharp-learning-notes-6-the-method-parameters-related/)
-

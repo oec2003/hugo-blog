@@ -2,6 +2,10 @@
 title: 设计模式笔记(25)—总结
 date: 2010-02-03
 categories: [技术]
+topic: design-pattern
+series_chapter: 第五章 总结
+series_section: ""
+series_order: 250
 tags: [C#,设计模式]
 ---
 
@@ -50,4 +54,3 @@ tags: [C#,设计模式]
 设计模式虽然很多，但万变不离其宗，不管怎么变都脱离不了5大设计原则（SRP OCP LSP DIP ISP），掌握了这五大设计原则，勤思考多实践，那么在项目中遇到变化时就可以灵活运行设计模式了。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

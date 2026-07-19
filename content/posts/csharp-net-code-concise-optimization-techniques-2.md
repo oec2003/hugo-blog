@@ -3,6 +3,10 @@ title: C#/Net代码精简优化技巧（2）
 date: 2010-10-26
 categories: [技术]
 tags: [C#, 小技巧]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 代码精简与优化
+series_order: 350
 ---
 
 在[C#/Net代码精简优化技巧（1）](http://blog.fwhyy.com/2010/10/csharp-net-code-concise-optimization-techniques-1/)中已经介绍了5个小技巧，本篇将再介绍5个。
@@ -405,4 +409,3 @@ public class NotBeforeFieldInit
 [C#/Net代码精简优化技巧（1）](http://blog.fwhyy.com/2010/10/csharp-net-code-concise-optimization-techniques-1/)
 C#/Net代码精简优化技巧（2）
 [C#/Net代码精简优化技巧（3）](http://blog.fwhyy.com/2010/11/csharp-net-code-concise-optimization-techniques-c/)
-

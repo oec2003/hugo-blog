@@ -2,6 +2,10 @@
 title: 设计模式笔记(5)—工厂方法模式（创建型）
 date: 2009-11-22
 categories: [技术]
+topic: design-pattern
+series_chapter: 第二章 创建型模式
+series_section: ""
+series_order: 50
 tags: [C#,设计模式]
 ---
 
@@ -330,4 +334,3 @@ public class App
 * Factory Method模式解决“单个对象”的变化，Abstract Factory模式解决了“系列对象”的需求变化，Builder模式解决了“对象部分”的需求变化。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

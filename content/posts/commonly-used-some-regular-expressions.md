@@ -3,6 +3,10 @@ title: 常用的一些正则表达式
 date: 2007-05-08
 categories: [技术]
 tags: [javascript,正则]
+topic: programming-language
+series_chapter: 第五章 JavaScript
+series_section: 语法与常用技巧
+series_order: 520
 ---
 
 正则表达式用于字符串处理、表单验证等场合，实用高效。但用到时总是不太把握，以致往往要查证一番。现将一些常用的表达式收集于此，以备不时之需。
@@ -97,4 +101,3 @@ tags: [javascript,正则]
 ^\w+$ //匹配由数字、26个英文字母或者下划线组成的字符串
 
 评注：最基本也是最常用的一些表达式
-

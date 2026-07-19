@@ -2,6 +2,10 @@
 title: 设计模式笔记(14)—模板方法模式（行为型）
 date: 2009-12-14
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 140
 tags: [C#,设计模式]
 ---
 
@@ -115,4 +119,3 @@ public class App
 * 在具体实现方面，被Template Method调用的虚方法可以具有实现，也可以没有任何实现（抽象方法、纯虚方法），但一般推荐将它们设置为protected方法。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

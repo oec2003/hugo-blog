@@ -3,6 +3,10 @@ title: JS中的Replace方法
 date: 2012-04-16
 categories: [技术]
 tags: [javascript]
+topic: programming-language
+series_chapter: 第五章 JavaScript
+series_section: 语法与常用技巧
+series_order: 540
 ---
 
 最近查一个bug，原因是JS中的Replace方法造成的，当将一个字符串中有处需要替换时，一般会用到JS中的Replace方法，Replace方法的第一个参数如果是传的字符串，只会替换第一处。代码如下：
@@ -27,4 +31,3 @@ alert(str.replace(reg,"','"));
 结果如下：
 
 ![2012-04-16_231320](https://img.fwhyy.com/2022/202201302116958.webp)
-

@@ -23,6 +23,7 @@
     <header class="article-header">
       {{ if $isSeries }}
       {{ $progressPercent := div (mul (add $seriesPosition 1) 100) (len $seriesPages) }}
+      <div class="series-reader-header series-reader-only">
       <div class="series-reading-progress">
         <span>阅读进度 {{ $progressPercent }}%</span>
         <progress value="{{ add $seriesPosition 1 }}" max="{{ len $seriesPages }}">{{ $progressPercent }}%</progress>
@@ -31,17 +32,24 @@
         <a href="{{ printf "/topic/%s/" .Params.topic | relURL }}">{{ $topicData.title }}</a>
         {{ range $seriesPath }}<span>/</span><span>{{ . }}</span>{{ end }}
       </div>
+      </div>
       {{ end }}
-      {{ if not $isSeries }}<div class="article-kicker">ARTICLE</div>{{ end }}
+      <div class="article-kicker standard-article-only">ARTICLE</div>
       <h1 class="p-name">{{ .Title }}</h1>
       <div class="post-meta article-meta">
         <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
         {{ with .GetTerms "categories" }}{{ range first 1 . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}
         <span>约 {{ .ReadingTime }} 分钟阅读</span>
       </div>
+      {{ if $isSeries }}
+      <a class="article-series-entry standard-article-only" href="{{ printf "/topic/%s/" .Params.topic | relURL }}">
+        <span>收录于「{{ $topicData.title }}」专栏</span>
+        <strong>查看专栏目录 <span aria-hidden="true">→</span></strong>
+      </a>
+      {{ end }}
     </header>
     {{ if $isSeries }}
-    <details class="article-inline-toc">
+    <details class="article-inline-toc series-reader-only">
       <summary>本文目录</summary>
       <div>{{ .TableOfContents }}</div>
     </details>
@@ -69,16 +77,15 @@
     {{ $nextSeriesPage := false }}
     {{ if gt $seriesPosition 0 }}{{ $previousSeriesPage = index $seriesPages (sub $seriesPosition 1) }}{{ end }}
     {{ if lt (add $seriesPosition 1) (len $seriesPages) }}{{ $nextSeriesPage = index $seriesPages (add $seriesPosition 1) }}{{ end }}
-    <nav class="post-neighbors series-neighbors" aria-label="专栏相邻文章">
-      {{ with $previousSeriesPage }}<a href="{{ .RelPermalink }}"><small>专栏上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
-      {{ with $nextSeriesPage }}<a class="next" href="{{ .RelPermalink }}"><small>专栏下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+    <nav class="post-neighbors series-neighbors series-reader-only" aria-label="专栏相邻文章">
+      {{ with $previousSeriesPage }}<a href="{{ .RelPermalink }}?from=topic"><small>专栏上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+      {{ with $nextSeriesPage }}<a class="next" href="{{ .RelPermalink }}?from=topic"><small>专栏下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
     </nav>
-  {{ else }}
-    <nav class="post-neighbors" aria-label="相邻文章">
+  {{ end }}
+    <nav class="post-neighbors standard-article-only" aria-label="相邻文章">
       {{ with .PrevInSection }}<a href="{{ .RelPermalink }}"><small>上一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
       {{ with .NextInSection }}<a class="next" href="{{ .RelPermalink }}"><small>下一篇</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
     </nav>
-  {{ end }}
   {{ if ne .Params.comments false }}
   <section class="comments-card" data-comments-repo="{{ site.Params.beaudarRepo }}" data-comments-theme="github-light">
     <h2>评论</h2>

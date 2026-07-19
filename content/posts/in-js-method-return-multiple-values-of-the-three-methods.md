@@ -3,6 +3,10 @@ title: 在JS方法中返回多个值的三种方法
 date: 2009-12-11
 categories: [技术]
 tags: [javascript]
+topic: programming-language
+series_chapter: 第五章 JavaScript
+series_section: 语法与常用技巧
+series_order: 530
 ---
 
 在使用JS编程中，有时需要在一个方法返回两个个或两个以上的数据，用下面的几种方法都可以实现：
@@ -86,4 +90,3 @@ function getInfo()
 </body>
 </html>
 ```
-

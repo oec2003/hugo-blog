@@ -3,7 +3,10 @@ title: "ITRA 积分看不到怎么办？"
 date: 2024-07-26T16:30:00+08:00
 categories: ["跑步"]
 tags: ["ITRA","越野跑","跑步"]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 越野跑
+series_order: 330
 ---
 跑过越野跑比赛的应该都知道 ITRA，我就是去年首野的时候注册的账号。
 

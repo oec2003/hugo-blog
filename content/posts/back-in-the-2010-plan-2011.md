@@ -3,6 +3,10 @@ title: 回顾2010 计划2011
 date: 2011-01-05
 categories: [思考]
 tags: [总结]
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 920
 ---
 
 2010年对于我来说是不平凡的一年。
@@ -43,4 +47,3 @@ tags: [总结]
 * 所买的书争取看完，关键是要吃透
 
 写于2011年1月5日 北京天通苑
-

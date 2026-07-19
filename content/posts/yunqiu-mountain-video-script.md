@@ -3,7 +3,10 @@ title: "云丘山视频脚本"
 date: 2025-04-27T21:00:35+08:00
 categories: ["跑步"]
 tags: ["云丘山","越野跑","跑步"]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 越野跑
+series_order: 340
 ---
 出发啦，坐地铁去机场
 

@@ -3,7 +3,10 @@ title: 我的人生首野-大岩山萧绍古道 30 公里
 date: 2023-12-06T16:29:16+08:00
 categories: [跑步]
 tags: [越野跑,跑步]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 越野跑
+series_order: 320
 ---
 
 安全跑完人生第一个越野跑后，得出一个结论：越野跑和马拉松绝对是两种不同的运动。

@@ -1,0 +1,4 @@
+name: 设计模式
+title: 设计模式
+description: 以 GoF 设计模式为主线，从创建型、结构型到行为型，系统整理模式的定义、动机、结构与 C# 实现。
+order_by: series_order

@@ -3,7 +3,10 @@ title: 利用 Github Actions 同步佳明国内到国际
 date: 2024-01-15T17:25:11+08:00
 categories: [技术]
 tags: [Github, Actions, Garmin, Garmin Connect,跑步]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 跑步工具
+series_order: 410
 ---
 
 2019 年就开始在使用佳明的 245 ，最近才知道佳明分为国内区和国际区，而且两个区的账号是独立的，数据不互通。而 runalyze 、Strava 等跑步分析工具又只能和国际区进行连接同步。
@@ -128,4 +131,3 @@ https://gitlab.com/gooin/dailysync
 ```
 00 7 * * *
 ```
-

@@ -2,6 +2,10 @@
 title: 设计模式笔记(21)—备忘录模式（行为型）
 date: 2010-01-27
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 210
 tags: [C#,设计模式]
 ---
 
@@ -88,4 +92,3 @@ class Program
 * 在实现Memento模式时，要考虑拷贝对象状态的效率问题，如果对象开销比较大，可以采用某种增量式改变来改进Memento模式。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

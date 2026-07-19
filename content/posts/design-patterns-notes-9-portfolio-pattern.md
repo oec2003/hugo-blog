@@ -2,6 +2,10 @@
 title: 设计模式笔记(9)—组合模式（结构型）
 date: 2009-12-02
 categories: [技术]
+topic: design-pattern
+series_chapter: 第三章 结构型模式
+series_section: ""
+series_order: 90
 tags: [C#,设计模式]
 ---
 
@@ -230,4 +234,3 @@ public class Composite : Component
 * Composite模式在具体实现中，可以让父对象中的子对象反向追溯； 如果父对象有频繁的遍历需求，可使用缓存技巧来改善效率。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

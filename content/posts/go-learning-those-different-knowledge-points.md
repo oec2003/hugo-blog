@@ -3,6 +3,10 @@ title: Go 学习：那些不一样的知识点（上）
 date: 2022-09-26T08:20:20+08:00
 categories: [技术]
 tags: [golang]
+topic: programming-language
+series_chapter: 第四章 Go 语言
+series_section: 入门与语法
+series_order: 420
 ---
 
 在学习 Go 语言的过程中，会涉及到语法、数据结构、和一些 Go 特有的东西，其中有不少现在还印象深刻，本文就说说 Go 语言中那些不一样的地方。

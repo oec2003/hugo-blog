@@ -3,6 +3,10 @@ title: 2023 关键词：做减法
 date: 2023-01-22T07:25:50+08:00
 categories: [思考]
 tags: [总结]
+topic: on-the-road
+series_chapter: 第三章 成长与思考
+series_section: 认知与选择
+series_order: 810
 ---
 
 今天是 2023 年 1 月 21 日，农历癸卯年正月初一，新的一年开始了，祝大家：兔年大吉、大展宏兔、兔然暴富。

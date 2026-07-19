@@ -3,6 +3,10 @@ title: .Net泛型编程简介
 date: 2007-05-22
 categories: [技术]
 tags: [C#,DotNet,泛型]
+topic: programming-language
+series_chapter: "第二章 C# 核心机制"
+series_section: 泛型与程序集
+series_order: 270
 ---
 
 .NET泛型编程已经离我们不远了，在微软最近随SQL Server Yukon Beta1发行的.NET Framework 1.2中就已经有了泛型的影子。虽然现在它还是问题多多，但是相信随着新版.NET Framework的正式发行（正式发行时的版本号会是2.0），这些问题会得到解决。因此我们也该为.NET泛型编程做些准备了。
@@ -21,4 +25,3 @@ tags: [C#,DotNet,泛型]
 在非泛型编程中，将简单类型作为Object传递时会引起Boxing和Unboxing操作，这两个过程都是具有很大开销的。使用泛型编程就不必进行Boxing和Unboxing操作了。
 
 .NET泛型具有很好的二进制重用性。这一点得益于.NET将泛型内建在CLR之中。C++泛型和评估中Java泛型所依靠的是它们各自的编译器所提供的特性，编译器在编译泛型代码时将确切的类型展开，这就难免会出现代码膨胀的问题。而.NET的泛型代码是在运行时由JIT即时编译的，这样CLR就可以为不同类型重用大部分的即时编译代码了。
-

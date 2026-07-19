@@ -2,6 +2,10 @@
 title: 设计模式笔记(17)—中介者模式（行为型）
 date: 2010-01-20
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 170
 tags: [C#,设计模式]
 ---
 
@@ -122,4 +126,3 @@ class Program
 * Façade模式是解耦系统外到系统内（单向）的对象关联关系；Mediator模式是解耦系统内各个对象之间（双向）的关联关系。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

@@ -3,6 +3,10 @@ title: 关于多线程的一个例子（UI实时显示）
 date: 2009-12-20
 categories: [技术]
 tags: [C#,多线程]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 异步与多线程
+series_order: 330
 ---
 
 在开发Window应用程序的时候，经常需要在界面上显示出已经执行到什么步骤了，拿一个简单例子来说，创建一个Winform程序，在窗体上访一个Button和一个Label，点击Button时做100次循环，在Label上实时显示当前循环的次数。一种简单的做法就是使用Application.DoEvents，代码如下：
@@ -146,4 +150,3 @@ private void btnTest_Click(object sender, EventArgs e)
 ```
 
 平时做Windows应用程序很少，对多线程理解也不是特别深入，有什么不对的地方往大家指正。
-

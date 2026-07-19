@@ -3,6 +3,10 @@ title: C#3.0学习(3)—匿名类型
 date: 2008-03-09
 categories: [技术]
 tags: [C#,DotNet3.0]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: C# 3.0
+series_order: 150
 ---
 
 匿名类型是在初始化的时候根据初始化列表自动产生类型的一种机制，利用对象初始化器来创建匿名对象的对象。如:
@@ -54,4 +58,3 @@ var oec=new {Name="oec2003", Age=100}
 string name=oec.Name;
 int age=oec.Age
 ```
-

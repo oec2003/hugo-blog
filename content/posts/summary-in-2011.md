@@ -3,7 +3,10 @@ title: 2011 年终总结
 date: 2012-01-14
 categories: [思考]
 tags: [总结,年终总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 930
 ---
 
 ## 2011年记事：
@@ -52,4 +55,3 @@ topic: year-summary
 结婚是在10月3号，所以去了不少同学，为了热闹还请了我们市里面的婚庆公司来策划。对于我们那小地方来说也算是不错的了。有关结婚的详细情况，请看-结婚小记，婚后我和老婆去的三亚度的蜜月，这可能是很多新人在国内蜜月的首选，我们也没能免俗。[蜜月1–我的蜜月之旅](http://blog.fwhyy.com/2011/11/the-honeymoon-1/)
 
 这就是我的2011，经历了很多事情，一年下来忙碌而充实着，人也成熟了很多，期待更精彩的2012。
-

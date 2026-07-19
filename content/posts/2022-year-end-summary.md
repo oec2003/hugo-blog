@@ -3,7 +3,10 @@ title: 2022 年终总结
 date: 2023-01-03 9:00:23
 categories: [思考]
 tags: [总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 1010
 ---
 
 往年的年终总结都是在春节期间写，但元旦确实是更好的一个分界线，所以便决定今年开始在元旦左右来写年终总结了。
@@ -158,4 +161,3 @@ topic: year-summary
 团队管理，我还是希望使用敏捷，真正的敏捷。
 
 最后，祝大家在 2023 年都能身体健康。
-

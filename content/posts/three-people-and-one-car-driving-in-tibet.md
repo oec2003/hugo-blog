@@ -3,7 +3,10 @@ title: 三个人一台车自驾西藏
 date: 2022-07-26T08:20:20+08:00
 categories: [旅行]
 tags: [旅行,自驾,西藏]
-topic: travel
+topic: on-the-road
+series_chapter: 第二章 旅行
+series_section: ""
+series_order: 520
 ---
 
 一直都有去西藏的想法，去年换了坦克 300，自驾 318 便提上了日程。7 月小孩放暑假，同时领导也批准了我较长时间的请假。于是三个人，一台车，7 月 9 号开始了自驾之旅。

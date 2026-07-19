@@ -15,6 +15,11 @@
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
+  <script>
+    if (new URLSearchParams(window.location.search).get("from") === "topic") {
+      document.documentElement.classList.add("series-reader-requested");
+    }
+  </script>
   {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>
@@ -26,11 +31,11 @@
   {{ $seriesPages := where $topicPosts "Params.series_order" "gt" 0 }}
   {{ if gt (len $seriesPages) 0 }}{{ $hasTopicReader = true }}{{ end }}
 {{ end }}
-<body class="{{ if .IsHome }}is-home{{ else }}kind-{{ .Kind }}{{ end }}{{ if $hasSeries }} has-series-page{{ end }}{{ if $hasTopicReader }} has-topic-reader{{ end }}">
+<body class="{{ if .IsHome }}is-home{{ else }}kind-{{ .Kind }}{{ end }}{{ if $hasSeries }} series-capable{{ end }}{{ if $hasTopicReader }} has-topic-reader{{ end }}">
   <a class="skip-link" href="#main-content">跳到正文</a>
   <div class="site-shell">
     {{ partial "site-header.html" . }}
-    <div class="site-content{{ if and .IsPage (eq .Section "posts") }} has-toc{{ end }}{{ if $hasSeries }} has-series{{ end }}">
+    <div class="site-content{{ if and .IsPage (eq .Section "posts") }} has-toc{{ end }}{{ if $hasSeries }} has-series-capable{{ end }}">
       {{ if $hasSeries }}{{ partial "series-sidebar.html" . }}{{ end }}
       <div class="site-main">
         <main id="main-content">

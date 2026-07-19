@@ -2,6 +2,10 @@
 title: 设计模式笔记(24)—访问者模式（行为型）
 date: 2010-02-02
 categories: [技术]
+topic: design-pattern
+series_chapter: 第四章 行为型模式
+series_section: ""
+series_order: 240
 tags: [C#,设计模式]
 ---
 
@@ -127,4 +131,3 @@ class Program
 * Visitor模式的最大缺点在于扩展类层次结构（增添新的Element子类），会导致Visitor类的改变。因此Vistor模式适用于“Element类层次结构稳定，而其中的操作却经常面临频繁改动”。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

@@ -3,7 +3,10 @@ title: 2024 年终总结
 date: 2025-01-31T16:30:00+08:00
 categories: [思考]
 tags: [总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 1030
 ---
 律转鸿钧，新元肇启。2024 已然过去，这一年有很多的变化，特别是 AI 的发展迅猛，变化是好事，意味着有会带来更多的机遇，关键是我们需要时刻做好准备才能抓住。
 

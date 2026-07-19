@@ -3,6 +3,10 @@ title: dotNET 7 尝鲜（VS 和 C# 11)
 date: 2022-11-10T18:39:37+08:00
 categories: [技术]
 tags: [DotNet,dotNet7,C#]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: 现代 C#
+series_order: 170
 ---
 
 2022 年 11 月 8 日，.NET 7 正式发布了，从 11 月 8 号 到 10 号，线上的 .NET Conf 2022 会议正在举行，可以通过 https://www.dotnetconf.net/ 了解相关情况。

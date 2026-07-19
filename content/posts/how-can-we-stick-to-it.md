@@ -3,6 +3,10 @@ title: 坚持很难？是不是没找对方法
 date: 2018-07-10T23:17:40+08:00
 categories: [思考]
 tags: [经验总结]
+topic: on-the-road
+series_chapter: 第三章 成长与思考
+series_section: 坚持与自律
+series_order: 630
 ---
 
 最近听到了很多关于坚持的话题。
@@ -49,4 +53,3 @@ tags: [经验总结]
 ## 总结
 
 在坚持的路上每个人都是孤独的，希望我们都能够享受这份孤独。
-

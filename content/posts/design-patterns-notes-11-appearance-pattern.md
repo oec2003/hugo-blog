@@ -2,6 +2,10 @@
 title: 设计模式笔记(11)—外观模式（结构型）
 date: 2009-12-07
 categories: [技术]
+topic: design-pattern
+series_chapter: 第三章 结构型模式
+series_section: ""
+series_order: 110
 tags: [C#,设计模式]
 ---
 
@@ -118,4 +122,3 @@ Facade模式的几个要点
 * 注意区分Façade模式、Adapter模式、Bridge模式与Decorator模式。Façade模式注重简化接口，Adapter模式注重转换接口，Bridge模式注重分离接口（抽象）与其实现，Decorator模式注重稳定接口的前提下为对象扩展功能。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

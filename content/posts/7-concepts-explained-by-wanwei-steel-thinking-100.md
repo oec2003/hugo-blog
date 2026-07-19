@@ -3,6 +3,10 @@ title: 万维钢思维100讲的7个概念
 date: 2026-05-10T12:35:00+08:00
 categories: [思考]
 tags: [思考,概念,思维模型]
+topic: on-the-road
+series_chapter: 第三章 成长与思考
+series_section: 认知与选择
+series_order: 830
 ---
 看万维钢《现代思维工具 100 讲》的开篇，发现提到了几个概念。这些概念横跨了决策、心理、物理、统计多个领域，却能解释绝大多数复杂问题的本质。
 

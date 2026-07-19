@@ -3,6 +3,10 @@ title: C#：异步编程中的 async 和 await
 date: 2020-11-16T09:59:19+08:00
 categories: [技术]
 tags: [C#,async,await,异步]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 异步与多线程
+series_order: 310
 ---
 
 async 和 await 在 C# 5.0 就已经引入了，用来处理异步编程，但之前用的相对较少，现在在 dotNet Core 时代，已经使用的非常普遍，很多的开源组件中提供了大量的后缀为 Async （异步）的方法。本文就简单讲讲 async 和 await。

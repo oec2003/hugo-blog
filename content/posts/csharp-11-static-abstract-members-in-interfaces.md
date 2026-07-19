@@ -3,6 +3,10 @@ title: C# 11：接口中的静态抽象成员
 date: 2022-11-14 8:46:42
 categories: [技术]
 tags: [C#,C#11]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: 现代 C#
+series_order: 180
 ---
 
 接口我们都很了解了，在编写代码的时，如果有一定的抽象思维，就会将不同对象的相同行为抽象出来，放到接口中，我们最熟悉的就是在接口中写一堆方法的定义。

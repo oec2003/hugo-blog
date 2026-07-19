@@ -2,6 +2,10 @@
 title: 设计模式笔记(1)—开篇（文章索引）
 date: 2009-11-18
 categories: [技术]
+topic: design-pattern
+series_chapter: 第一章 导读
+series_section: ""
+series_order: 10
 tags: [C#,设计模式]
 ---
 
@@ -81,4 +85,3 @@ tags: [C#,设计模式]
 [Strategy 策略模式](http://blog.fwhyy.com/2010/01/design-patterns-notes-23-strategy-pattern/)
 [Visitor 访问者模式](http://blog.fwhyy.com/2010/02/design-patterns-notes-24-visitor-pattern/)
 [总结](http://blog.fwhyy.com/2010/02/design-patterns-notes-25-summary/)
-

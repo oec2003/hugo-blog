@@ -94,6 +94,9 @@
   const articleImages = [...document.querySelectorAll(".h-entry .article-content img")];
 
   if (lightbox && articleImages.length) {
+    // Keep the modal outside transformed series layouts so position: fixed
+    // always uses the viewport as its containing block.
+    document.body.append(lightbox);
     const preview = lightbox.querySelector(".image-lightbox-image");
     const caption = lightbox.querySelector(".image-lightbox-caption");
     const counter = lightbox.querySelector(".image-lightbox-count");
@@ -228,7 +231,8 @@
   });
 
   const seriesSidebar = document.querySelector(".series-sidebar");
-  if (seriesSidebar) {
+  const seriesReaderActive = document.documentElement.classList.contains("series-reader-requested");
+  if (seriesSidebar && seriesReaderActive) {
     const compactSeriesLayout = window.matchMedia("(max-width: 1199px)");
     const seriesScrollKey = `series-scroll:${seriesSidebar.dataset.seriesKey || "default"}`;
     const readSeriesScroll = () => {
@@ -257,7 +261,9 @@
     window.addEventListener("pagehide", saveSeriesScroll);
   }
 
-  const tocLinks = [...document.querySelectorAll(".has-series .toc-card a[href^='#']")];
+  const tocLinks = seriesReaderActive
+    ? [...document.querySelectorAll(".series-capable .toc-card a[href^='#']")]
+    : [];
   if (tocLinks.length) {
     const headings = tocLinks.map((link) => {
       const id = decodeURIComponent(link.hash.slice(1));

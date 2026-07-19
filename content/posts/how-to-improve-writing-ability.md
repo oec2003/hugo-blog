@@ -3,6 +3,10 @@ title: 如何提升写作能力？
 date: 2022-05-05T08:06:18+08:00
 categories: [成长]
 tags: [写作,思考]
+topic: on-the-road
+series_chapter: 第三章 成长与思考
+series_section: 写作与表达
+series_order: 720
 ---
 
 尽管我在公众号已经发了 130 多篇原创文章，而且在写公众号之前，还写了十来年的博客，可我依然觉得我不会写作。

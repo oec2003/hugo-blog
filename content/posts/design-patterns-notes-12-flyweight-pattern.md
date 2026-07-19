@@ -2,6 +2,10 @@
 title: 设计模式笔记(12)—享元模式（结构型）
 date: 2009-12-09
 categories: [技术]
+topic: design-pattern
+series_chapter: 第三章 结构型模式
+series_section: ""
+series_order: 120
 tags: [C#,设计模式]
 ---
 
@@ -231,4 +235,3 @@ public class App
 * 对象的数量太大从而导致对象内存开销加大——什么样的数量才算大—这需要我们仔细的根据具体应用情况进行评估，而不能凭空臆断。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

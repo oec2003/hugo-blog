@@ -3,7 +3,10 @@ title: 2013 年终总结
 date: 2014-02-22
 categories: [思考]
 tags: [年终总结,总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 950
 ---
 
 从毕业后几乎每年都会写一篇总结，而且习惯子农历的新年前写，在我的思想观念里，农历的新年才算过年。今年也不例外，不过由于一些原因推迟到年后了。还是从工作和生活两方面来总结下即将过去的2013年。记得[去年的总结](http://blog.fwhyy.com/2013/01/2012-year-summary/)最后写的对2013年的展望是这样的：
@@ -36,4 +39,3 @@ topic: year-summary
 * 5月宝宝能顺利出生；
 * 工作上能跟进一步；
 * 持续学习，不局限于编程。
-

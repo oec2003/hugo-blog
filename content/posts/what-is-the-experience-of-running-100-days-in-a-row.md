@@ -3,7 +3,10 @@ title: 连续跑步100天是什么体验？
 date: 2021-12-20T08:05:00+08:00
 categories: [跑步]
 tags: [跑步,坚持]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 开始与坚持
+series_order: 140
 ---
 
 随着今年夏天的结束，我的体重又回到了 170，对于身高 175 的我来说，170 的体重看上去就是一个胖子。

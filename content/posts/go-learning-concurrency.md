@@ -3,6 +3,10 @@ title: Go 学习：并发编程
 date: 2022-10-17T08:21:16+08:00
 categories: [技术]
 tags: [golang]
+topic: programming-language
+series_chapter: 第四章 Go 语言
+series_section: 并发与进阶
+series_order: 440
 ---
 
 Go 语言在创建之初，CPU 多核发展的正猛，Go 语言的创始人果断将面向多核、原生就支持并发作为了 Go 语言的设计目标之一，所以所在 Go 语言中使用并发有得天独厚的优势。

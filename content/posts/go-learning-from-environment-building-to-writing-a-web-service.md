@@ -3,6 +3,10 @@ title: Go 学习：从环境搭建到写一个 Web 服务
 date: 2022-09-19T08:20:20+08:00
 categories: [技术]
 tags: [golang]
+topic: programming-language
+series_chapter: 第四章 Go 语言
+series_section: 入门与语法
+series_order: 410
 ---
 
 最近学习了 Go 语言，做下记录。

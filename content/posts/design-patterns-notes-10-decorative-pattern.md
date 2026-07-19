@@ -2,6 +2,10 @@
 title: 设计模式笔记(10)—装饰模式（结构型）
 date: 2009-12-04
 categories: [技术]
+topic: design-pattern
+series_chapter: 第三章 结构型模式
+series_section: ""
+series_order: 100
 tags: [C#,设计模式]
 ---
 
@@ -145,4 +149,3 @@ public class App
 * Decorator模式并非解决“多子类衍生的多继承”问题，Decorator模式应用的要点在于解决“主体类在多个方向上的扩展功能”——是为“装饰”的含义。
 
 [返回开篇（索引）](http://blog.fwhyy.com/2009/11/design-patterns-notes-1-index/)
-

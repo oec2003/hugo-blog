@@ -3,6 +3,10 @@ title: C#：8.0 & 9.0 常用新特性
 date: 2021-04-19T08:05:00+08:00
 categories: [技术]
 tags: [C#,新特性]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: 现代 C#
+series_order: 160
 ---
 
 在《[带你了解C#每个版本新特性](http://mp.weixin.qq.com/s?__biz=MzU0NjgzNzQyMw==&mid=2247483852&idx=1&sn=8a7fd3a21e0c174bb237d59d802131a9&chksm=fb56c70ccc214e1aaf4037521134d2f3a5cfe54dac1f0dd06b52cb53794379946ebfa7a25890&scene=21#wechat_redirect)》 一文中介绍了，C# 1.0 到 7.0 的不同特性，本文接着介绍在 8.0 和 9.0 中的一些常用新特性。

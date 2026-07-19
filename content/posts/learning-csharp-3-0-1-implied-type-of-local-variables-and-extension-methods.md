@@ -3,6 +3,10 @@ title: C#3.0学习(1)—隐含类型局部变量和扩展方法
 date: 2008-02-22
 categories: [技术]
 tags: [C#,DotNet3.0]
+topic: programming-language
+series_chapter: "第一章 C# 语言演进"
+series_section: C# 3.0
+series_order: 130
 ---
 
 ## 隐含类型局部变量
@@ -63,4 +67,3 @@ protected void Button2_Click(object sender, EventArgs e)
 ```
 
 是不是很神奇，在string类型中就多了一个刚才添加的IsValidEmail方法，可以直接调用，用来实现邮件地址的验证。
-

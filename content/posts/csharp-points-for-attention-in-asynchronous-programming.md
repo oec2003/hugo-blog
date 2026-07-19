@@ -3,6 +3,10 @@ title: C# ：异步编程的注意点
 date: 2020-12-01T09:29:36+08:00
 categories: [技术]
 tags: [C#,async,await,异步]
+topic: programming-language
+series_chapter: "第三章 C# 并发与代码实践"
+series_section: 异步与多线程
+series_order: 320
 ---
 
 在上一篇《C#：异步编程中的 async 和 await》 中简单介绍了在 C# 中的异步编程以及 async 和 await 编程模型，本文介绍下异步编程的注意事项，主要有以下几个方面。

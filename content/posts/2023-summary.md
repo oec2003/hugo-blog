@@ -3,7 +3,10 @@ title: 2023 年终总结
 date: 2024-02-26T10:01:59+08:00
 categories: [思考]
 tags: [年终总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 1020
 ---
 
 23 年的总结虽迟但到。

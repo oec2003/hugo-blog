@@ -3,7 +3,10 @@ title: 半马连续两周 PB 后的复盘
 date: 2023-11-23T16:41:28+08:00
 categories: [跑步]
 tags: [马拉松]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 马拉松与复盘
+series_order: 210
 ---
 
 最近，连续跑了两个半马比赛，都 PB 了，个人最好成绩也定格在了 11 月 12 日的南昌马拉松半马，成绩为 142 。
@@ -80,6 +83,5 @@ https://www.douban.com/doulist/157036945/
 ## 最后
 
 跑步的目的是为了健康，可不能本末倒置了，遇到伤病，该停就停，该歇就歇。在保证健康的前提下再来追求成绩，当然，也可以完全不用追求成绩，跑起来就好。
-
 
 

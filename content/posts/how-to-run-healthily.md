@@ -3,7 +3,10 @@ title: 如何健康地跑步？
 date: 2022-10-12T16:35:35+08:00
 categories: [跑步]
 tags: [跑步,马拉松]
-topic: run
+topic: on-the-road
+series_chapter: 第一章 跑步
+series_section: 开始与坚持
+series_order: 150
 ---
 
 最近某司高管跑步 28 公里后猝死，被各大媒体报道，每次这种悲剧发生，而且还跟跑步扯上关系，总是让人心痛。

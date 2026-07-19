@@ -3,7 +3,10 @@ title:  2012 年终总结
 date:  2013-01-16
 categories: [思考]
 tags:  [总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 940
 ---
 
 在我的[2011年总结](http://blog.fwhyy.com/2012/01/summary-in-2011/)是以年度记事作为开头，2012虽然特别，但对我来说还算是比较平淡的一年，并没有很多事情发生，所以2012年的总结就以工作和生活两个方面来说。
@@ -35,4 +38,3 @@ topic: year-summary
 * 工资有所突破；
 * 职位有所突破；
 * 深入研究几种技术，性能优化为主。
-

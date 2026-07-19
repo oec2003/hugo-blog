@@ -3,6 +3,10 @@ title: 给Javascript代码“预留退路”
 date: 2011-06-16
 categories: [技术]
 tags: [javascript]
+topic: programming-language
+series_chapter: 第五章 JavaScript
+series_section: 语法与常用技巧
+series_order: 550
 ---
 
 所谓给Javascript代码“预留退路”意思就是当用户将浏览器的Javascript功能禁用的时候，页面中使用了Javascript的地方要能够以变通的方式得以运行，而不能让用户看到出错或是点击某按钮而毫无反应，这也是用户体验很重要的一部分。
@@ -42,4 +46,3 @@ tags: [javascript]
 ```
 
 改进后的方法在禁用Javascript后，也会打开href中的链接地址，只是打开方式有所不同，相比上面两种已经好多了。
-

@@ -10,7 +10,7 @@
     <p class="series-description">{{ $data.description }}</p>
     <p class="series-count">共 {{ len $pages }} 篇文章</p>
     <nav class="series-tree-nav" aria-label="{{ $data.title }}专栏目录">
-      {{ partial "series-tree.html" (dict "pages" $pages "current" .) }}
+      {{ partial "series-tree.html" (dict "pages" $pages "current" . "reader" true) }}
     </nav>
     <a class="series-all-link" href="{{ printf "/topic/%s/" $key | relURL }}">查看全部章节</a>
   </div>

@@ -3,7 +3,10 @@ title: 2019 年终总结
 date: 2020-01-25T14:21:57+08:00
 categories: [思考]
 tags: [总结]
-topic: year-summary
+topic: on-the-road
+series_chapter: 第四章 年度总结
+series_section: ""
+series_order: 980
 ---
 
 老板每次跟我们开会总会说起写总结的重要性，很庆幸我一直都有这个习惯。依然是要在大年初一到来之前写完这个总结。
@@ -88,4 +91,3 @@ topic: year-summary
 现在武汉冠状病毒正在高发期，希望朋友们都能健健康康挺过这次难关。就像我们老板说的，除了生死，都是小事，好好保护好自己和家人的身体。
 
 祝大家鼠年快乐、身体健康、百毒不侵。
-

@@ -15,10 +15,10 @@
     <div class="topic-catalog">
       <div class="topic-catalog-header">
         <div><p class="eyebrow">READING PATH</p><h2 id="topic-catalog-title">专栏目录</h2></div>
-        {{ with index $seriesPages 0 }}<a class="topic-start-link" href="{{ .RelPermalink }}">开始阅读</a>{{ end }}
+        {{ with index $seriesPages 0 }}<a class="topic-start-link" href="{{ .RelPermalink }}?from=topic">开始阅读</a>{{ end }}
       </div>
       <nav aria-label="{{ .Title }}专栏目录">
-        {{ partial "series-tree.html" (dict "pages" $seriesPages "current" false) }}
+        {{ partial "series-tree.html" (dict "pages" $seriesPages "current" false "reader" true) }}
       </nav>
     </div>
   </section>
