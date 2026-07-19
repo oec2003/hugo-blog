@@ -4,6 +4,9 @@ date: 2022-01-17T08:05:00+08:00
 categories: [读书]
 tags: [读书笔记,学习方法]
 topic: readbook
+series_chapter: 第一章 阅读、学习与知识管理
+series_section: 阅读方法
+series_order: 110
 ---
 
 关于学习的文章之前写过两篇：

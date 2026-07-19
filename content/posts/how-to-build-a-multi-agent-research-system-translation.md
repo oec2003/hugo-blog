@@ -3,6 +3,10 @@ title: 如何构建多智能体研究系统（翻译）
 date: 2025-06-20T15:26:00+08:00
 categories: [技术]
 tags: [AI,智能体]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 智能体系统
+series_order: 350
 ---
 我们的研究功能使用多个Claude智能体来更有效地探索复杂主题。我们分享了构建这个系统时遇到的工程挑战和学到的经验教训。
 

@@ -3,6 +3,10 @@ title: "AI 时代，低代码该如何演进？"
 date: 2025-11-04T14:49:45+08:00
 categories: ["思考"]
 tags: ["AI","低代码","思考"]
+topic: ai
+series_chapter: 第四章 产品实践与时代思考
+series_section: 产品与业务
+series_order: 430
 ---
 在数字化转型的浪潮中，低代码平台与人工智能（AI）的结合正成为企业软件发展的关键趋势。
 

@@ -3,6 +3,10 @@ title: 尝鲜 ChatGPT
 date: 2022-12-06 8:48:59
 categories: [技术]
 tags: [ChatGPT,AI]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 初识大模型
+series_order: 110
 ---
 
 ## 什么是 ChatGPT ？

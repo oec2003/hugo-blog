@@ -3,6 +3,10 @@ title: 12个问题深入理解DeepSeek（含开源周内容）
 date: 2025-03-04T09:21:00+08:00
 categories: [技术]
 tags: [AI,DeepSeek]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 模型演进与行业观察
+series_order: 170
 ---
 ## 一、DeepSeek 创始人是谁？
 

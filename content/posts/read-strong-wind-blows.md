@@ -4,6 +4,9 @@ date: 2024-05-23T08:42:19+08:00
 categories: [读书]
 tags: [读书,小说,跑步]
 topic: readbook
+series_chapter: 第四章 认知、成长与人生
+series_section: 文学与人生
+series_order: 550
 ---
 
 ![](https://img.fwhyy.com/2024/202405221638731.webp)

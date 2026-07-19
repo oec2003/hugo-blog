@@ -3,6 +3,10 @@ title: 从养一只“小龙虾”开始，理解 OpenClaw 的本质
 date: 2026-03-11T00:00:00+08:00
 categories: [技术]
 tags: [OpenClaw,Agent,技术观察]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 智能体系统
+series_order: 380
 ---
 和去年的 DeepSeek 一样，今年龙虾（OpenClaw）火爆全网了。最近也养了一只。介绍怎么安装之前先了解下龙虾到底是什么。
 

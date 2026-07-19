@@ -4,6 +4,9 @@ date: 2022-10-24T08:41:03+08:00
 categories: [读书]
 tags: [读书,方法]
 topic: readbook
+series_chapter: 第一章 阅读、学习与知识管理
+series_section: 阅读方法
+series_order: 130
 ---
 
 关于阅读的方法，有一本著名的书《如何阅读一本书》，从阅读的层次、书籍的分类、不同类型书籍的阅读方法讲的非常清楚了。

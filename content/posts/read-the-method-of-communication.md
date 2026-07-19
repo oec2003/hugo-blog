@@ -4,6 +4,9 @@ date:  2021-09-27T08:05:00+08:00
 categories: [读书]
 tags: [读书笔记]
 topic: readbook
+series_chapter: 第三章 管理、商业与组织
+series_section: 管理与协作
+series_order: 430
 ---
 
 众所周知，沟通在工作和生活中是一项非常重要的技能，但很多人却用不好这项技能，最近中秋假期，看完了得到 CEO 脱不花写的《沟通的方法》，觉得很有收获。

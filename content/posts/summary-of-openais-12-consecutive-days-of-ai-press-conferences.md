@@ -3,6 +3,10 @@ title: OpenAI 连续 12 天 AI 发布会汇总
 date: 2024-12-21T16:25:00+08:00
 categories: [技术]
 tags: [AI,总结]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 模型演进与行业观察
+series_order: 150
 ---
 随着凌晨第十二天的 o3 模型的发布，OpenAI 连续 12 天的 AI 发布会结束了。下面回顾下这十二天都发布了些啥。
 
@@ -181,4 +185,3 @@ Mac 一直没升级，用不上。
 https://openai.com/index/early-access-for-safety-testing/
 
 ![](https://img.fwhyy.com/2024/202412210859876.webp)
-

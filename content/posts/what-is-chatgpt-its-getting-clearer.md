@@ -3,6 +3,10 @@ title: ChatGPT 是什么？越来越清晰了
 date: 2023-02-21T08:09:55+08:00
 categories: [技术]
 tags: [ChatGPT,AI]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 初识大模型
+series_order: 120
 ---
 
 两个月前，ChatGPT 刚出来不久，我便注册试用了，在《尝鲜 ChatGPT》中介绍了注册的过程和简单使用的示例。

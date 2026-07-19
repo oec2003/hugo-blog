@@ -4,6 +4,9 @@ date:  2021-08-23T08:05:00+08:00
 categories: [读书]
 tags: [读书笔记]
 topic: readbook
+series_chapter: 第二章 软件工程、架构与产品
+series_section: 架构与产品
+series_order: 300
 ---
 
 因为标题中「福利」进来的朋友直接拉到文章的最底部。

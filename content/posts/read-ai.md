@@ -4,6 +4,9 @@ date: 2023-04-03T11:38:15+08:00
 categories: [读书]
 tags: [读书,读书笔记,AI]
 topic: readbook
+series_chapter: 第二章 软件工程、架构与产品
+series_section: 架构与产品
+series_order: 320
 ---
 
 1、最近 ChatGPT 越来越热，都已经到了马斯克等千人签署公开信，呼吁暂停开发更强大的AI系统，担心人工智能开发危及「文明控制权」，而我这个 AI 小白决定要系统性的学习下 AI 相关知识了。

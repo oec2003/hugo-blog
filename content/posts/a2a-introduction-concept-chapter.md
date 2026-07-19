@@ -3,6 +3,10 @@ title: A2A 介绍：概念篇
 date: 2025-06-16T17:38:00+08:00
 categories: [技术]
 tags: [A2A,AI]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 协议与连接
+series_order: 340
 ---
 在之前的文章中介绍过 MCP：《MCP 和 Function Calling：概念》和《MCP 和 Function Calling：示例》。
 

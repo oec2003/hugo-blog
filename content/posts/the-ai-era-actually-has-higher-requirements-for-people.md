@@ -3,6 +3,10 @@ title: AI 时代其实对人的要求更高了
 date: 2026-02-02T10:00:00+08:00
 categories: [技术]
 tags: [AI,效率,管理思维]
+topic: ai
+series_chapter: 第四章 产品实践与时代思考
+series_section: 人与 AI
+series_order: 450
 ---
 最近项目里发生了一件特别有意思的事，非常值得复盘。
 

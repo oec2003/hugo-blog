@@ -4,6 +4,9 @@ date: 2021-05-06T08:05:00+08:00
 categories: [读书]
 tags: [读书笔记]
 topic: readbook
+series_chapter: 第二章 软件工程、架构与产品
+series_section: 架构与产品
+series_order: 280
 ---
 
 五一假期读了程浩的《精益商业思维》，程浩是迅雷的联合创始人之一，现在是职业投资人， 全篇从创业者的角度，也从投资人的角度解析了创业的方法论。

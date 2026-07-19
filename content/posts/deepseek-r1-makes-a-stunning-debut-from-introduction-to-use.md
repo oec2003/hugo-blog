@@ -3,6 +3,10 @@ title: DeepSeek R1震撼登场：从介绍到使用
 date: 2025-02-08T16:31:00+08:00
 categories: [技术]
 tags: [AI,DeepSeek]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 模型演进与行业观察
+series_order: 160
 ---
 春节期间，DeepSeek 掀起了一股热潮，成为了科技领域的热门话题。身边很多非圈内人士茶余饭后也在讨论 DeepSeek，足以见得其火爆程度。
 
@@ -160,4 +164,3 @@ R1 模型虽然强悍，但随着春节期间的火爆，使用人数的突增�
 ![](https://img.fwhyy.com/2025/202502071559589.webp)
 
 5、在 Windsurf 中使用 DeepSeek 的 R1 模型。
-

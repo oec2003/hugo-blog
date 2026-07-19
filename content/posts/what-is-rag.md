@@ -3,6 +3,10 @@ title: 什么是 RAG？
 date: 2024-09-10T08:32:52+08:00
 categories: [技术]
 tags: [RAG,AI,机器学习]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 知识增强
+series_order: 310
 ---
 
 在人工智能技术飞速发展的今天，各种创新和应用层出不穷。其中，RAG（Retrieval-Augmented Generation，检索增强生成）作为一种新兴的技术方法，正逐渐成为 AI 2.0 时代的杀手级应用。

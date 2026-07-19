@@ -3,6 +3,10 @@ title: 理性看待 Manus
 date: 2025-03-07T13:02:00+08:00
 categories: [技术]
 tags: [AI,Mannus]
+topic: ai
+series_chapter: 第四章 产品实践与时代思考
+series_section: 产品与业务
+series_order: 440
 ---
 1、3 月 3 号听张小珺 Jùn｜商业访谈录的《对 Manus 创始人肖弘的 3 小时访谈：世界不是线性外推，做博弈中的重要变量》时就知道了 Manus，当时没啥感觉。没想到才过来几天就爆火了。
 

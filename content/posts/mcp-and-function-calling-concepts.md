@@ -3,6 +3,10 @@ title: MCP 和 Function Calling：概念
 date: 2025-03-31T16:45:00+08:00
 categories: [技术]
 tags: [MCP,AI]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 协议与连接
+series_order: 320
 ---
 随着人工智能的快速发展，大型语言模型（LLMs）逐渐深入到我们生活与工作的各个方面。然而，尽管模型强大，但其能力仍存在局限性，比如在实时信息获取和复杂任务执行方面仍有不足。
 

@@ -4,6 +4,9 @@ date: 2025-10-21T18:08:48+08:00
 categories: ["读书"]
 tags: ["读书","管理","软件工程"]
 topic: readbook
+series_chapter: 第二章 软件工程、架构与产品
+series_section: 编程与软件工程
+series_order: 260
 ---
 最近有点忙，更新得不太规律。其实也是这个号的初衷，写我自己想写的，没有想写的，就继续沉淀沉淀。
 

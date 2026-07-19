@@ -4,6 +4,9 @@ date: 2022-04-30T08:09:51+08:00
 categories: [读书]
 tags: [读书,推荐]
 topic: readbook
+series_chapter: 第五章 书单与阅读记录
+series_section: 月度书单
+series_order: 640
 ---
 
 最近，疫情不太稳定，五一小长假也没有出行的计划，宅在家跑跑步，看看书也挺好。

@@ -4,6 +4,9 @@ date: 2023-04-26T11:56:13+08:00
 categories: [读书]
 tags: [读书,架构]
 topic: readbook
+series_chapter: 第二章 软件工程、架构与产品
+series_section: 架构与产品
+series_order: 310
 ---
 
 之前看到过一种言论，说相比互联网产品，做 ToB 产品没有那么大的业务量，也没有那么多的用户量，所以非功能性的需求没那么重要，重要的还是业务。

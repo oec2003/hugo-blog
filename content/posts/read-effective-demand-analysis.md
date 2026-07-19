@@ -4,6 +4,9 @@ date: 2021-03-22T08:05:00+08:00
 categories: [读书]
 tags: [读书笔记]
 topic: readbook
+series_chapter: 第二章 软件工程、架构与产品
+series_section: 架构与产品
+series_order: 270
 ---
 
 最近在一个技术群里看到张逸大佬强力推荐一本关于需求分析的书《有效需求分析》，于是在 Kindle 上下单了，读完后有一种相见恨晚的感觉。

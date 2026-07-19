@@ -3,6 +3,10 @@ title: 在Windsurf中使用李继刚提示词
 date: 2025-03-15T16:01:00+08:00
 categories: [技术]
 tags: [AI,提示词,Windsurf]
+topic: ai
+series_chapter: 第二章 生成式 AI 工具与创作
+series_section: 创作与编程
+series_order: 260
 ---
 尽管现在有各种各样的推理模型，但提示词依然很重要，甚至可以玩出很多创意，我觉得提示词是一门艺术。
 

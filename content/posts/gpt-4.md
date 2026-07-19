@@ -3,6 +3,10 @@ title: GPT-4 有什么不一样？
 date: 2023-03-15T11:19:15+08:00
 categories: [技术]
 tags: [ChatGPT,AI]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 初识大模型
+series_order: 130
 ---
 
 一觉醒来，GPT-4 发布了。
@@ -66,4 +70,3 @@ GPT-4 的最后训练时间为 2021 年 9 月，感觉和 GPT-3.5 差不多，�
 2、poe.com 已经集成了 GPT-4 ，不过有使用限制，用一次之后要等若干个小时：
 
 ![](https://img.fwhyy.com/2023/202306191128641.webp)
-

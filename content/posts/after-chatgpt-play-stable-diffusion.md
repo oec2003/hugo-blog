@@ -3,6 +3,10 @@ title: ChatGPT 之后，再玩玩 Stable-Diffusion
 date: 2022-12-26 8:53:38
 categories: [成长]
 tags: [ChatGPT,效率,工具]
+topic: ai
+series_chapter: 第二章 生成式 AI 工具与创作
+series_section: 创作与编程
+series_order: 240
 ---
 
 前些天体验的 ChatGPT 主要用来进行文本方面的处理，那么图形有没有这样的 AI 工具

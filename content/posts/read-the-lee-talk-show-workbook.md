@@ -4,6 +4,9 @@ date: 2023-01-11T09:35:00+08:00
 categories: [读书]
 tags: [读书,读书笔记]
 topic: readbook
+series_chapter: 第四章 认知、成长与人生
+series_section: 思维与成长
+series_order: 540
 ---
 
 这本书是 2023 年读完的第二本书，第一本是阿加莎的《无人生还》，2023 年的读书效率挺高，希望能延续下去。

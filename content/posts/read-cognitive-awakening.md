@@ -4,6 +4,9 @@ date: 2022-07-04T08:20:20+08:00
 categories: [读书]
 tags: [认知,读书]
 topic: readbook
+series_chapter: 第四章 认知、成长与人生
+series_section: 思维与成长
+series_order: 520
 ---
 
 最近发的几篇文章是跟个人成长和工具相关，突然想起几个月前读的《认知觉醒》，这本书从内在和外在两个大的维度让我们在个人精进的道路上可以少走弯路。

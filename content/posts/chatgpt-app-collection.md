@@ -3,6 +3,10 @@ title: ChatGPT 应用合集
 date: 2023-03-13T10:26:54+08:00
 categories: [技术]
 tags: [工具,ChatGPT,分享]
+topic: ai
+series_chapter: 第二章 生成式 AI 工具与创作
+series_section: 搜索与通用助手
+series_order: 220
 ---
 
 最近用了一些 ChatGPT 的周边产品，挑几个感觉不错的分享下。

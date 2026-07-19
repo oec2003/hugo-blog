@@ -3,6 +3,10 @@ title: Agent Skills 全景指南：从概念机制到实战开发
 date: 2026-01-23T09:01:00+08:00
 categories: [技术]
 tags: [Skills,Agent,AI]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 智能体系统
+series_order: 370
 ---
 最近，Agent Skills 彻底火了。
 

@@ -3,6 +3,10 @@ title: 由 ChatGPT 带来的对低代码产品的思考
 date: 2023-04-13T11:42:00+08:00
 categories: [技术]
 tags: [ChatGPT,低代码,思考]
+topic: ai
+series_chapter: 第四章 产品实践与时代思考
+series_section: 产品与业务
+series_order: 410
 ---
 
 在之前的文章中多次提到我们在开发一款低代码平台，主要面向 ToB 企业，帮助企业完善信息化建设，给企业的数字化转型贡献一份力量。

@@ -3,6 +3,10 @@ title: MCP 和 Function Calling：示例
 date: 2025-04-16T18:48:00+08:00
 categories: [技术]
 tags: [MCP,AI]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 协议与连接
+series_order: 330
 ---
 在上一篇《MCP 和 Function Calling：概念》中简单介绍了 MCP 和 Function Calling 的基础概念和执行逻辑。
 

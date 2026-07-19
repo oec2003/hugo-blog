@@ -3,6 +3,10 @@ title: OpenAI o1 ，我试用一周多所了解到的
 date: 2024-09-25T08:44:38+08:00
 categories: [成长]
 tags: [工具,AI,OpenAI]
+topic: ai
+series_chapter: 第一章 大模型入门与演进
+series_section: 模型演进与行业观察
+series_order: 140
 ---
 
 1、OpenAI 在 9 月 13 日发布了 o1 的预览版。

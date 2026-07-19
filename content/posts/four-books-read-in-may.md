@@ -4,6 +4,9 @@ date: 2023-05-29T14:21:44+08:00
 categories: [读书]
 tags: [读书]
 topic: readbook
+series_chapter: 第五章 书单与阅读记录
+series_section: 月度书单
+series_order: 650
 ---
 
 我读书很慢，读书慢不是因为读的很认真仔细，而是读书太少，也就是阅读量不够，量不够，质就难以发生变化，跑步如此，读书也是。

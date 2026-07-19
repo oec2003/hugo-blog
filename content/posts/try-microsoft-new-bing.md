@@ -3,6 +3,10 @@ title: 使用微软的 New Bing
 date: 2023-03-06T08:13:47+08:00
 categories: [技术]
 tags: [工具,AI]
+topic: ai
+series_chapter: 第二章 生成式 AI 工具与创作
+series_section: 搜索与通用助手
+series_order: 210
 ---
 
 ChatGPT 现在大家都已经非常熟悉了了，走到哪都能听到讨论的声音，是基于 GPT3.5 的一个语言模型。微软在 2 月推出的新必应（New Bing）是一个基于 GPT4（猜测）模型的搜索和聊天工具，它可以提供更准确和实时的搜索结果，并且集成了Edge 浏览器的数据资源。

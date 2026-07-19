@@ -3,6 +3,10 @@ title: 如何构建多智能体系统？
 date: 2025-06-25T15:51:00+08:00
 categories: [技术]
 tags: [AI,智能体]
+topic: ai
+series_chapter: 第三章 智能体、RAG 与开放协议
+series_section: 智能体系统
+series_order: 360
 ---
 6 月 13 日，Anthropic 发布了一篇《How we built our multi-agent research system》的实战经验文章，文章分享了 Anthropic 在构建多个 Claude 智能体来更有效地探索复杂主题的系统过程中，遇到的工程挑战和获得的经验教训。
 
@@ -59,4 +63,3 @@ https://www.anthropic.com/engineering/built-multi-agent-research-system
 3、即使输入完全相同，智能体也可能采取完全不同的路径。也就是说输出是不确定的，尽管可以让大模型进行自评估来提升结果的质量，但对于容错率很低的场景，怎么能保证前 100 次都是对的，第 101 次就不会出现错误呢？
 
 4、都说 AI 的发展会淘汰掉部分程序员，但从这篇文章表达的思想来看，具备架构思维和能力的程序员一定在未来有一席之地。需要关注整体流程、关注错误处理机制（风险）、关注对结果的评估等。
-

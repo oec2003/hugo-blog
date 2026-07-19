@@ -4,6 +4,9 @@ date: 2020-05-18T11:53:11+08:00
 categories: [读书]
 tags: [读书笔记]
 topic: readbook
+series_chapter: 第三章 管理、商业与组织
+series_section: 企业与行业
+series_order: 460
 ---
 
 最近读了耐克创始人菲尔·奈特 Phil Knight 的自传，读后感比较零散，所以使用刘韧体来写写了。
