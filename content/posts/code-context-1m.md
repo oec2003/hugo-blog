@@ -1,6 +1,6 @@
 ---
-title: "Code 设置上下文为 1M"
-date: 2026-08-17T16:13:00+08:00
+title: "Codex 设置上下文为 1M"
+date: 2026-08-17T08:13:00.000Z
 categories: ["技术"]
 tags: ["AI","Codex"]
 ---
