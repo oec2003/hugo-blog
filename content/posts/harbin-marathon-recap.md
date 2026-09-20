@@ -1,7 +1,7 @@
 ---
 title: "哈尔滨马拉松复盘"
-date: 2026-09-20T22:22:00+08:00
-categories: ["产品"]
+date: 2026-09-20T14:22:00.000Z
+categories: ["跑步"]
 tags: ["跑步","马拉松"]
 topic: on-the-road
 series_chapter: "第一章 跑步"
