@@ -1,6 +1,6 @@
 ---
 title: "ToB  AI Agent 平台应该怎么做？"
-date: 2026-11-10T14:16:00+08:00
+date: 2026-11-10T06:16:00.000Z
 categories: ["技术"]
 tags: ["AI","B端软件"]
 ---
